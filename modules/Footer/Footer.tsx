@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <div>
-      <FluidContainer flex justifyContent="around">
+      <FluidContainer flex justifyContent="between">
         <div className="flex items-center">
           <Image
             alt="SLE Logo"
