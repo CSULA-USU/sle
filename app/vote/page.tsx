@@ -12,8 +12,8 @@ export default function Vote() {
         imgAlt="SLE Vote Header 1"
         imgSrc="/vote/sle-eddie-header.png"
       >
-        <Button variant="black" text="Get Mobile"></Button>
-        <Button variant="grey" text="Get Website"></Button>
+        <Button variant="black" text="GET Mobile"></Button>
+        <Button variant="grey" text="GET Website"></Button>
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
