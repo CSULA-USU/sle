@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bitter, Montserrat } from "next/font/google";
+import { Nav, Footer } from "../modules";
 import "./globals.css";
 
 const bitter = Bitter({
@@ -30,7 +31,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bitter.variable} ${montserrat.variable}`}>
+        <Nav/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
