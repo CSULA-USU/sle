@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div>
+    <div className="bg-black">
       <FluidContainer flex justifyContent="between">
         <div className="flex items-center">
           <Image
@@ -44,11 +44,11 @@ export const Footer = () => {
       </FluidContainer>
       <FluidContainer flex justifyContent="between" alignItems="center">
         <div className="flex gap-6">
-          <Typography variant="copy">
+          <Typography variant="copy" color="white">
             5154 State University Dr., Los Angeles, CA 90032
           </Typography>
-          <Typography variant="copy">|</Typography>
-          <Typography variant="copy">(323) 343 - 2465</Typography>
+          <Typography variant="copy" color="white">|</Typography>
+          <Typography variant="copy" color="white">(323) 343 - 2465</Typography>
         </div>
 
         <div className='flex gap-6 items-center'>
