@@ -1,3 +1,3 @@
 export * from './FluidContainer';
-export * from './HeaderAndImage';
+export * from './HeroHeader';
 export * from './Typography';

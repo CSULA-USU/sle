@@ -8,23 +8,32 @@ interface TypographyProps {
     | "subheader"
     | "navHeader"
     | "footerHeader"
+    | "buttonText"
     | "copy"
-    | "footerLink";
+    | "footerLink"
+    | "footerCopy";
   className?: string;
+  color?: "black" | "white";
   children: React.ReactNode;
 }
 
 const variants = {
-  pageHeader: "text-6xl font-sans font-bold",
-  sectionHeader: "text-5xl font-sans",
+  pageHeader: "text-6xl font-sans font-bold text-white",
+  sectionHeader: "text-5xl font-sans py-4",
   cardHeader: "text-3xl font-sans font-bold",
-  subheader: "text-3xl font-sans font-bold text-white",
-  navHeader: "text-2xl font-sans font-bold pl-40",
-  footerHeader: "text-lg font-sans font-bold py-1 px-1",
-  copy: "text-base font-bitter",
+  subheader: "text-3xl font-sans font-bold pb-4",
+  navHeader: "text-2xl font-sans font-bold text-white",
+  footerHeader: "text-lg font-sans font-bold py-1 px-1 text-white",
+  buttonText: "text-lg font-sans font-bold py-1 px-1",
+  copy: "text-base font-sans",
   footerLink: "text-base font-serif text-yellow-400 py-1 px-1",
+  footerCopy: "text-base font-serif text-white",
 };
 
-export const Typography = ({ children, variant = "copy" }: TypographyProps) => {
-  return <div className={`${variants[variant]}`}>{children}</div>;
+export const Typography = ({
+  children,
+  variant = "copy",
+  color,
+}: TypographyProps) => {
+  return <div className={`${variants[variant]} text-${color}`}>{children}</div>;
 };
