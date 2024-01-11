@@ -43,7 +43,7 @@ export const Footer = () => {
         <hr></hr>
       </FluidContainer>
       <FluidContainer flex justifyContent="between" alignItems="center">
-        <div className="flex gap-6">
+        <div className="flex gap-6 font-serif">
           <Typography variant="copy">
             5154 State University Dr., Los Angeles, CA 90032
           </Typography>

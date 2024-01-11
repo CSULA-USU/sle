@@ -15,14 +15,14 @@ interface TypographyProps {
 }
 
 const variants = {
-  pageHeader: "text-6xl font-Montserrat font-bold",
-  sectionHeader: "text-5xl font-Montserrat",
-  cardHeader: "text-3xl font-Montserrat font-bold",
-  subheader: "text-3xl font-Montserrat font-bold text-white",
-  navHeader: "text-2xl font-Montserrat font-bold",
-  footerHeader: "text-lg font-Montserrat font-bold py-1 px-1",
-  copy: "text-base font-Montserrat",
-  footerLink: "text-base font-Bitter text-yellow-400 py-1 px-1",
+  pageHeader: "text-6xl font-sans font-bold",
+  sectionHeader: "text-5xl font-sans",
+  cardHeader: "text-3xl font-sans font-bold",
+  subheader: "text-3xl font-sans font-bold text-white",
+  navHeader: "text-2xl font-sans font-bold",
+  footerHeader: "text-lg font-sans font-bold py-1 px-1",
+  copy: "text-base font-bitter",
+  footerLink: "text-base font-serif text-yellow-400 py-1 px-1",
 };
 
 export const Typography = ({ children, variant = "copy" }: TypographyProps) => {

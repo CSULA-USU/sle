@@ -1,6 +1,5 @@
 import { FluidContainer } from "@/components/FluidContainer";
 import { Page } from "@/modules/Page";
-import {HeaderAndImage} from '@/components/HeaderAndImage';
 import { Typography } from "@/components/Typography";
 export default function Vote() {
   return (
