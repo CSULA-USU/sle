@@ -44,11 +44,11 @@ export const Footer = () => {
       </FluidContainer>
       <FluidContainer flex justifyContent="between" alignItems="center">
         <div className="flex gap-6">
-          <Typography variant="copy" color="white">
+          <Typography variant="footerCopy">
             5154 State University Dr., Los Angeles, CA 90032
           </Typography>
-          <Typography variant="copy" color="white">|</Typography>
-          <Typography variant="copy" color="white">(323) 343 - 2465</Typography>
+          <Typography variant="footerCopy">|</Typography>
+          <Typography variant="footerCopy">(323) 343 - 2465</Typography>
         </div>
 
         <div className='flex gap-6 items-center'>

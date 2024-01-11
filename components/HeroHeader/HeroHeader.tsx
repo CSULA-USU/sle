@@ -21,9 +21,13 @@ export const HeroHeader = ({
       <FluidContainer flex alignItems="end">
         {title ? (
           <>
-            <FluidContainer flexDirection="col">
+            <FluidContainer
+              flexDirection="col"
+              justifyContent="center"
+              alignItems="center"
+            >
               <Typography variant="pageHeader">{title}</Typography>
-              <div>{children}</div>
+              <div className="whitespace-nowrap">{children}</div>
             </FluidContainer>
             <Image
               alt={imgAlt || ""}

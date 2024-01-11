@@ -8,6 +8,7 @@ export const Nav = ({ children }: any) => {
         flex
         alignItems="center"
         justifyContent="between"
+        color="black"
       >
         <Image
           alt="SLE Logo"

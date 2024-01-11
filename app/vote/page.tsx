@@ -12,8 +12,8 @@ export default function Vote() {
         imgAlt="SLE Vote Header 1"
         imgSrc="/vote/sle-eddie-header.png"
       >
-        <Button variant="black" text="GET Mobile"></Button>
-        <Button variant="grey" text="GET Website"></Button>
+          <Button variant="black" text="GET Mobile"></Button>
+          <Button variant="grey" text="GET Website"></Button>
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
@@ -78,7 +78,7 @@ export default function Vote() {
             layout="responsive"
           ></Image>
         </FluidContainer>
-        <FluidContainer>{" "} </FluidContainer>
+        <FluidContainer> </FluidContainer>
         <Typography variant="sectionHeader">Voting on GET Website</Typography>
         <hr className="w-full h-px border-2 border-yellow-400"></hr>
         <FluidContainer flex>
