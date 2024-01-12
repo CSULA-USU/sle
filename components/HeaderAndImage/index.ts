@@ -1,1 +1,1 @@
-export * from './HeaderAndImage';
+export * from "./HeaderAndImage";
