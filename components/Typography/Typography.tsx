@@ -19,7 +19,7 @@ const variants = {
   sectionHeader: "text-5xl font-sans",
   cardHeader: "text-3xl font-sans font-bold",
   subheader: "text-3xl font-sans font-bold text-white",
-  navHeader: "text-2xl font-sans font-bold",
+  navHeader: "text-2xl font-sans font-bold pl-40",
   footerHeader: "text-lg font-sans font-bold py-1 px-1",
   copy: "text-base font-bitter",
   footerLink: "text-base font-serif text-yellow-400 py-1 px-1",
