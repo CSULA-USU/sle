@@ -19,7 +19,7 @@ export default function Home() {
           Shape Your University Experience
         </Typography>
         <Divider />
-        <div className="flex">
+        <div className="flex items-center">
           <div className="mr-20 flex-col">
             <Typography variant="sectionHeader" color="white">
               Choose to lead
@@ -45,7 +45,7 @@ export default function Home() {
           ></Image>
         </div>
         <Divider/>
-        <div className="flex">
+        <div className="flex items-center">
           <div className="mr-20 flex-col items-stretch">
             <Typography variant="sectionHeader" color="white">
               Your vote matters

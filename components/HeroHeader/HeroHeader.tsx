@@ -31,9 +31,10 @@ export const HeroHeader = ({
             <Image
               alt={imgAlt || ""}
               src={imgSrc}
-              width={100}
-              height={100}
+              width={700}
+              height={700}
               layout="responsive"
+              objectFit="contain"
             ></Image>
           </>
         ) : (
@@ -44,7 +45,7 @@ export const HeroHeader = ({
               width={1}
               height={1}
               layout="responsive"
-              objectFit="fill"
+              objectFit="contain"
             ></Image>
           </>
         )}
