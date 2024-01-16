@@ -1,6 +1,5 @@
 import { FluidContainer } from "../FluidContainer";
 import { Typography } from "../Typography";
-import { Button } from "../Button";
 import Image from "next/image";
 
 interface HeroHeaderProps {
@@ -42,6 +41,8 @@ export const HeroHeader = ({
             <Image
               alt={imgAlt || ""}
               src={imgSrc}
+              width={1}
+              height={1}
               layout="responsive"
               objectFit="fill"
             ></Image>
