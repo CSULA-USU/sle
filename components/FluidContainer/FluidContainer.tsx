@@ -45,7 +45,7 @@ export const FluidContainer = ({
     .join(" ");
 
   return (
-    <div className="w-full flex justify-center items-center">
+    <div className="flex justify-center items-center">
       <div className={dynamicProps}>{children}</div>
     </div>
   );

@@ -1,8 +1,8 @@
-import { Divider, FluidContainer, Typography } from "@/components";
+import { Divider, HeroHeader, FluidContainer, Typography } from "@/components";
 import Image from "next/image";
 export const Nav = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black w-full">
       <FluidContainer
         flex
         alignItems="center"
