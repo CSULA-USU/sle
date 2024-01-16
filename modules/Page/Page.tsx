@@ -8,9 +8,9 @@ interface PageProps {
 export const Page = ({ children, backgroundColor }: PageProps) => {
   const dynamicProps = [
     "min-h-full",
+    "w-full",
     "flex",
     "flex-col",
-    "justify-center",
     "my-0",
     "mx-auto",
     backgroundColor && `bg-${backgroundColor}`,
