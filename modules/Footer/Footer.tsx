@@ -51,7 +51,7 @@ export const Footer = () => {
           <Typography variant="footerCopy">(323) 343 - 2465</Typography>
         </div>
 
-        <div className='flex gap-6 items-center'>
+        <div className="flex gap-6 items-center">
           <Image
             alt="Cal State LA Logo"
             src="/csula-logo.png"
