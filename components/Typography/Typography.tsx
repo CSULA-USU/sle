@@ -22,7 +22,7 @@ const variants = {
   sectionHeader: "text-5xl font-sans py-4",
   cardHeader: "text-3xl font-sans font-bold",
   subheader: "text-3xl font-sans font-bold pb-4",
-  navHeader: "text-2xl font-sans font-bold text-white",
+  navHeader: "text-xl max-sm:text-xl font-sans font-bold text-white",
   footerHeader: "text-lg font-sans font-bold py-1 px-1",
   buttonText: "text-lg font-sans font-bold py-1 px-1",
   copy: "text-base font-sans",
