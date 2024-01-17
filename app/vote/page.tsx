@@ -11,15 +11,14 @@ export default function Vote() {
         imgAlt="SLE Vote Header 1"
         imgSrc="/vote/sle-eddie-header.png"
       >
-          <Button variant="black" text="GET Mobile"></Button>
-          <Button variant="grey" text="GET Website"></Button>
+        <Button variant="black" text="GET Mobile"></Button>
+        <Button variant="grey" text="GET Website"></Button>
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
         <hr className="w-full h-px border-2 border-yellow-400"></hr>
         <FluidContainer flex>
           <div>
-            <Typography variant="subheader">Voting on GET Mobile</Typography>
             <Typography variant="copy">
               In the GET main menu, tap Cal State LA voting. If you were
               enrolled in DUO authentication, follow the instructions to
@@ -40,9 +39,9 @@ export default function Vote() {
           <div>
             <Typography variant="subheader">Voting Summary</Typography>
             <Typography variant="copy">
-              Tap the position you would like to vote for, it will display the
+              Tap the position you would like to vote for. It will display the
               candidates for that position. For more information on the
-              candidates and their platforms, tap the link show below
+              candidates and their platforms, tap the link shown below.
             </Typography>
           </div>
 
@@ -141,6 +140,6 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
       </FluidContainer>
-      </>
+    </>
   );
 }
