@@ -29,7 +29,7 @@ export const Footer = () => {
             Site Links
           </Typography>
           <Typography variant="footerLink">ASI Student Government</Typography>
-          <Typography variant="footerLink">U-SU Board o Directors</Typography>
+          <Typography variant="footerLink">U-SU Board of Directors</Typography>
           <Typography variant="footerLink">How to Vote</Typography>
         </div>
         <div>

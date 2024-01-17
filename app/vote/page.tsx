@@ -20,7 +20,9 @@ export default function Vote() {
         <FluidContainer flex>
           <div>
             <Typography variant="copy">
-              In the GET main menu, process.
+              In the GET main menu, tap Cal State LA voting. If you were
+              enrolled in DUO authentication, follow the instructions to
+              complete DUO authentication process.
             </Typography>
           </div>
 
@@ -37,8 +39,9 @@ export default function Vote() {
           <div>
             <Typography variant="subheader">Voting Summary</Typography>
             <Typography variant="copy">
-              Tap the position you would like to vote for, it will display the
+              Tap the position you would like to vote for. It will display the
               candidates for that position. For more information on the
+              candidates and their platforms, tap the link shown below.
             </Typography>
           </div>
 
