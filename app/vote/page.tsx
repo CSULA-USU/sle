@@ -19,11 +19,8 @@ export default function Vote() {
         <hr className="w-full h-px border-2 border-yellow-400"></hr>
         <FluidContainer flex>
           <div>
-            <Typography variant="subheader">Voting on GET Mobile</Typography>
-            <Typography variant="copy">
-              In the GET main menu, tap Cal State LA voting. If you were
-              enrolled in DUO authentication, follow the instructions to
-              complete DUO authentication process.
+                                        <Typography variant="copy">
+              In the GET main menu, process.
             </Typography>
           </div>
 
