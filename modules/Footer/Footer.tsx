@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div>
+    <div className="bg-black">
       <FluidContainer flex justifyContent="between">
         <div className="flex items-center">
           <Image
@@ -16,7 +16,7 @@ export const Footer = () => {
         </div>
 
         <div>
-          <Typography variant="footerHeader">
+          <Typography variant="footerHeader" color="white">
             Election Code of Procedure
           </Typography>
           <Typography variant="footerLink">Elections Committee</Typography>
@@ -25,13 +25,13 @@ export const Footer = () => {
           <Typography variant="footerLink">Shared Governance</Typography>
         </div>
         <div>
-          <Typography variant="footerHeader">Site Links</Typography>
+          <Typography variant="footerHeader" color="white">Site Links</Typography>
           <Typography variant="footerLink">ASI Student Government</Typography>
           <Typography variant="footerLink">U-SU Board of Directors</Typography>
           <Typography variant="footerLink">How to Vote</Typography>
         </div>
         <div>
-          <Typography variant="footerHeader">Our Sites</Typography>
+          <Typography variant="footerHeader" color="white">Our Sites</Typography>
           <Typography variant="footerLink">
             Associated Students, Inc.
           </Typography>
@@ -43,12 +43,12 @@ export const Footer = () => {
         <hr></hr>
       </FluidContainer>
       <FluidContainer flex justifyContent="between" alignItems="center">
-        <div className="flex gap-6 font-serif">
-          <Typography variant="copy">
+        <div className="flex gap-6">
+          <Typography variant="footerCopy">
             5154 State University Dr., Los Angeles, CA 90032
           </Typography>
-          <Typography variant="copy">|</Typography>
-          <Typography variant="copy">(323) 343 - 2465</Typography>
+          <Typography variant="footerCopy">|</Typography>
+          <Typography variant="footerCopy">(323) 343 - 2465</Typography>
         </div>
 
         <div className="flex gap-6 items-center">
