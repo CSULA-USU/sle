@@ -1,5 +1,3 @@
-import React, { ReactNode } from "react";
-
 interface FluidContainerProps {
   flex?: boolean;
   flexWrap?: "nowrap" | "wrap" | "wrap-reverse";
@@ -20,6 +18,7 @@ interface FluidContainerProps {
 export const FluidContainer = ({
   children,
   flex,
+  flexWrap,
   flexDirection,
   justifyContent,
   alignItems,
@@ -36,6 +35,7 @@ export const FluidContainer = ({
     "max-sm:px-4",
     "gap-6",
     flex && "flex",
+    flexWrap && `flex-${flexWrap}`,
     flexDirection && `flex-${flexDirection}`,
     justifyContent && `justify-${justifyContent}`,
     alignItems && `items-${alignItems}`,
@@ -45,7 +45,7 @@ export const FluidContainer = ({
     .join(" ");
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center">
       <div className={dynamicProps}>{children}</div>
     </div>
   );
