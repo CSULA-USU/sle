@@ -25,13 +25,17 @@ export const Footer = () => {
           <Typography variant="footerLink">Shared Governance</Typography>
         </div>
         <div>
-          <Typography variant="footerHeader" color="white">Site Links</Typography>
+          <Typography variant="footerHeader" color="white">
+            Site Links
+          </Typography>
           <Typography variant="footerLink">ASI Student Government</Typography>
-          <Typography variant="footerLink">U-SU Board of Directors</Typography>
+          <Typography variant="footerLink">U-SU Board o Directors</Typography>
           <Typography variant="footerLink">How to Vote</Typography>
         </div>
         <div>
-          <Typography variant="footerHeader" color="white">Our Sites</Typography>
+          <Typography variant="footerHeader" color="white">
+            Our Sites
+          </Typography>
           <Typography variant="footerLink">
             Associated Students, Inc.
           </Typography>
