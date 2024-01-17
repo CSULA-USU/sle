@@ -16,7 +16,7 @@ export const Footer = () => {
         </div>
 
         <div>
-          <Typography variant="footerHeader">
+          <Typography variant="footerHeader" color="white">
             Election Code of Procedure
           </Typography>
           <Typography variant="footerLink">Elections Committee</Typography>
@@ -25,13 +25,13 @@ export const Footer = () => {
           <Typography variant="footerLink">Shared Governance</Typography>
         </div>
         <div>
-          <Typography variant="footerHeader">Site Links</Typography>
+          <Typography variant="footerHeader" color="white">Site Links</Typography>
           <Typography variant="footerLink">ASI Student Government</Typography>
           <Typography variant="footerLink">U-SU Board of Directors</Typography>
           <Typography variant="footerLink">How to Vote</Typography>
         </div>
         <div>
-          <Typography variant="footerHeader">Our Sites</Typography>
+          <Typography variant="footerHeader" color="white">Our Sites</Typography>
           <Typography variant="footerLink">
             Associated Students, Inc.
           </Typography>

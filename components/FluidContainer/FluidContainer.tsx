@@ -14,7 +14,7 @@ interface FluidContainerProps {
     | "stretch";
   alignItems?: "start" | "end" | "center" | "baseline" | "stretch";
   color?: 'black' | 'white';
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const FluidContainer = ({

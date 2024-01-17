@@ -1,5 +1,6 @@
 import {
   Button,
+  Card,
   Divider,
   FluidContainer,
   HeroHeader,
@@ -42,6 +43,13 @@ export default function ASI() {
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />
+        <Card title="Application Opens" date="Monday, January 1">
+          Are you interested in running for a position? Not sure where to start?
+          We encourage any interested student to pursue candidacy for elected
+          student positions on the ASI Board of Directors and Cal State LA
+          Academic Senate by filling the Candidate Elections Packet by the
+          required deadline.
+        </Card>
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
@@ -52,14 +60,16 @@ export default function ASI() {
           Basic Eligibility Requirements
         </Typography>
         <Divider margin="none" />
+        <div className="m-10" />
         <Typography variant="copy">
           Eligibility to hold ASI office or serve on a committee will be
           verified by the University Registrar.
         </Typography>
-        <Typography variant="footerHeader">
+        <div className="m-10" />
+        <Typography variant="footerHeader" color="black">
           General Applicant/Candidate Requirements
         </Typography>
-        <ul>
+        <ul className="list-disc ml-10">
           <li>
             <Typography variant="copy">
               Be considered in good standing with the University -must not be on
@@ -83,6 +93,69 @@ export default function ASI() {
             </Typography>
           </li>
         </ul>
+        <Typography variant="footerHeader" color="black">
+          Undergraduate Applicant Requirements
+        </Typography>
+        <ul className="list-disc ml-10">
+          <li>
+            <Typography variant="copy">
+              Earned at least six (6) semester units of academic credit per
+              semester at Cal State LA during the past 12 months, prior to
+              application (not including remedial courses)
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="copy">
+              Enrolled in at least six (6) units per semester while in office.
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="copy">
+              Maintain a 2.5 GPA each semester while in office.
+            </Typography>
+          </li>
+        </ul>
+        <Typography variant="footerHeader" color="black">
+          Graduate Applicant Requirements
+        </Typography>
+        <ul className="list-disc ml-10">
+          <li>
+            <Typography variant="copy">
+              Earned a total of twelve (12) units during your last year as an
+              undergraduate -if the applicant’s BA/BS was received from Cal
+              State LA within the past 3 years
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="copy">
+              Earned at least three (3) units per semester units of continuous
+              attendance
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="copy">
+              Enrolled in at least three (3) semester units during the term the
+              appointment/election occurs
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="copy">
+              Maintain a 3.0 GPA each semester while in office
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="copy">
+              Earned less than 50-semester units
+            </Typography>
+          </li>
+        </ul>
+        <div className="m-10" />
+        <Typography variant="copy">
+          If you have any questions regarding the process or requirements please
+          call the ASI Administrative Office, U-SU 203 at 323-343-4778 or email
+          us.
+        </Typography>
+        <div className="m-10" />
       </FluidContainer>
     </div>
   );
