@@ -8,6 +8,7 @@ export const Nav = () => {
         <Typography variant="navHeader">Vote</Typography>
         <Typography variant="navHeader">ASI</Typography>
         <Typography variant="navHeader">U-SU</Typography>
+        <Typography variant="navHeader">valheimrules</Typography>
       </div>
     </FluidContainer>
   );
