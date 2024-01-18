@@ -1,11 +1,11 @@
 import {
   Button,
-  Card,
   Divider,
   FluidContainer,
   HeroHeader,
   Typography,
 } from "@/components";
+import { Card } from "@/modules";
 import Image from "next/image";
 
 export default function ASI() {
