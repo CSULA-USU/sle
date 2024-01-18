@@ -1,6 +1,6 @@
 import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useBreakpoint } from "@/hooks";
 
 interface CTAProps {
   title: string;
@@ -17,19 +17,7 @@ export const CTA = ({
   imgSrc,
   children,
 }: CTAProps) => {
-  //   const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
-  //   const isMobile = 580;
-
-  //   useEffect(() => {
-  //     const handleResize = () => {
-  //       setWindowWidth(window.innerWidth);
-  //     };
-  //     window.addEventListener("resize", handleResize);
-  //     return () => {
-  //       window.removeEventListener("resize", handleResize);
-  //     };
-  //   }, []);
-
+  // const { isMobile } = useBreakpoint();
   return (
     <div className="flex h-[500px] items-center">
       <div className="w-11/12 mr-20 flex-col">
