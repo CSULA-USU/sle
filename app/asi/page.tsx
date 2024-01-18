@@ -1,12 +1,13 @@
 import {
   Button,
-  Card,
   Divider,
   FluidContainer,
   HeroHeader,
   Typography,
 } from "@/components";
+import { Card } from "@/modules";
 import Image from "next/image";
+import electionEvents from "./election-events.json";
 
 export default function ASI() {
   return (
@@ -43,13 +44,13 @@ export default function ASI() {
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />
-        <Card title="Application Opens" date="Monday, January 1">
-          Are you interested in running for a position? Not sure where to start?
-          We encourage any interested student to pursue candidacy for elected
-          student positions on the ASI Board of Directors and Cal State LA
-          Academic Senate by filling the Candidate Elections Packet by the
-          required deadline.
-        </Card>
+        <div className="flex flex-wrap">
+          {electionEvents.map((e, i) => (
+            <Card key={i} title={e.title} date={e.date} location={e.location}>
+              {e.description}
+            </Card>
+          ))}
+        </div>
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
