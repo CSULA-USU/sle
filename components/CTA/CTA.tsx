@@ -1,6 +1,5 @@
 import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
 import Image from "next/image";
-import { useBreakpoint } from "@/hooks";
 
 interface CTAProps {
   title: string;
@@ -17,10 +16,9 @@ export const CTA = ({
   imgSrc,
   children,
 }: CTAProps) => {
-  // const { isMobile } = useBreakpoint();
   return (
-    <div className="flex h-[500px] items-center">
-      <div className="w-11/12 mr-20 flex-col">
+    <div className="flex max-md:flex-col-reverse md:h-[500px] items-center">
+      <div className="w-11/12 mr-20 flex flex-col max-md:justify-center max-md:mr-0 max-md:mt-10 max-md:text-center">
         <Typography variant="sectionHeader" color="white">
           <NonBreakingSpan>{title}</NonBreakingSpan>
         </Typography>
@@ -34,8 +32,8 @@ export const CTA = ({
       <Image
         alt={imgAlt}
         src={imgSrc}
-        width={1}
-        height={1}
+        width={500}
+        height={500}
         layout="responsive"
       ></Image>
     </div>
