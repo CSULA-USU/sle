@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black border-t-neutral-800 border-t-[1px]">
       <FluidContainer flex justifyContent="between">
         <div className="flex items-center">
           <Image
@@ -43,7 +43,7 @@ export const Footer = () => {
           <Typography variant="footerLink">Cal State LA</Typography>
         </div>
       </FluidContainer>
-      <FluidContainer>
+      <FluidContainer padding="py-3 px-48">
         <hr></hr>
       </FluidContainer>
       <FluidContainer flex justifyContent="between" alignItems="center">
