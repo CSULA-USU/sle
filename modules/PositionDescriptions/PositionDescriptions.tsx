@@ -15,12 +15,10 @@ export const PositionDescriptions = () => {
 
   return (
     <div className="my-10">
-      <div className="cursor-pointer">
-        <button onClick={openModal}>openmodelo</button>
-        <Modal isOpen={modalOpen} onClose={closeModal}>
-          <Typography>insert chilrin here </Typography>
-        </Modal>
-      </div>
+      <button onClick={openModal}>openmodelo</button>
+      <Modal isOpen={modalOpen} onClose={closeModal}>
+        <Typography>insert chilrin here </Typography>
+      </Modal>
     </div>
   );
 };

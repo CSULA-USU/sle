@@ -1,12 +1,11 @@
 import {
   Button,
-  Card,
   Divider,
   FluidContainer,
   HeroHeader,
   Typography,
 } from "@/components";
-import { PositionDescriptions } from "@/modules";
+import { Card, PositionDescriptions } from "@/modules";
 import Image from "next/image";
 
 export default function USU() {
