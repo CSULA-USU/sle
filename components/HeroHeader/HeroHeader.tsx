@@ -1,5 +1,4 @@
-import { FluidContainer } from "../FluidContainer";
-import { Typography } from "../Typography";
+import { FluidContainer, Typography } from "@/components";
 import Image from "next/image";
 
 interface HeroHeaderProps {
@@ -26,12 +25,12 @@ export const HeroHeader = ({
                 <div className="whitespace-nowrap">{children}</div>
               </FluidContainer>
               <Image
-                alt={imgAlt || ""}
+                alt={imgAlt}
                 src={imgSrc}
-                width={700}
-                height={700}
+                width={600}
+                height={500}
                 layout="responsive"
-                objectFit="contain"
+                className="object-contain"
               ></Image>
             </>
           ) : (
@@ -42,7 +41,6 @@ export const HeroHeader = ({
                 width={1}
                 height={1}
                 layout="responsive"
-                objectFit="contain"
               ></Image>
             </>
           )}
