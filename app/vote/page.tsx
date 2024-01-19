@@ -6,7 +6,7 @@ import {
   HeroHeader,
   Typography,
 } from "@/components";
-import Image from "next/image";
+
 export default function Vote() {
   return (
     <>
