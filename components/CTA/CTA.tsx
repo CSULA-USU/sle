@@ -6,6 +6,7 @@ interface CTAProps {
   description: string;
   imgAlt: string;
   imgSrc: string;
+  theme?: "light" | "dark";
   children?: React.ReactNode;
 }
 
@@ -14,16 +15,23 @@ export const CTA = ({
   description,
   imgAlt,
   imgSrc,
+  theme,
   children,
 }: CTAProps) => {
   return (
-    <div className="flex max-md:flex-col-reverse md:h-[500px] items-center">
+    <div className="flex max-md:flex-col-reverse items-center">
       <div className="w-11/12 mr-20 flex flex-col max-md:justify-center max-md:mr-0 max-md:mt-10 max-md:text-center">
-        <Typography variant="sectionHeader" color="white">
+        <Typography
+          variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
+          color={`${theme === "light" ? "black" : "white"}`}
+        >
           <NonBreakingSpan>{title}</NonBreakingSpan>
         </Typography>
-        <FluidContainer padding="px-0 py-5">
-          <Typography variant="copy" color="white">
+        <FluidContainer padding="px-0 py-5 max-md:p-0">
+          <Typography
+            variant="copy"
+            color={`${theme === "light" ? "black" : "white"}`}
+          >
             {description}
           </Typography>
         </FluidContainer>
@@ -32,8 +40,8 @@ export const CTA = ({
       <Image
         alt={imgAlt}
         src={imgSrc}
-        width={500}
-        height={500}
+        width={400}
+        height={400}
         layout="responsive"
       ></Image>
     </div>

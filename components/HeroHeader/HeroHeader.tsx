@@ -17,38 +17,36 @@ export const HeroHeader = ({
 }: HeroHeaderProps) => {
   return (
     <div className="bg-black">
-      <FluidContainer flex alignItems="end">
-        {title ? (
-          <>
-            <FluidContainer
-              flexDirection="col"
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Typography variant="pageHeader">{title}</Typography>
-              <div className="whitespace-nowrap">{children}</div>
-            </FluidContainer>
-            <Image
-              alt={imgAlt || ""}
-              src={imgSrc}
-              width={700}
-              height={700}
-              layout="responsive"
-              objectFit="contain"
-            ></Image>
-          </>
-        ) : (
-          <>
-            <Image
-              alt={imgAlt || ""}
-              src={imgSrc}
-              width={1}
-              height={1}
-              layout="responsive"
-              objectFit="contain"
-            ></Image>
-          </>
-        )}
+      <FluidContainer alignItems="end">
+        <div className="flex max-md:flex-col-reverse max-md:text-center">
+          {title ? (
+            <>
+              <FluidContainer flex flexDirection="col" justifyContent="center">
+                <Typography variant="pageHeader">{title}</Typography>
+                <div className="whitespace-nowrap">{children}</div>
+              </FluidContainer>
+              <Image
+                alt={imgAlt || ""}
+                src={imgSrc}
+                width={700}
+                height={700}
+                layout="responsive"
+                objectFit="contain"
+              ></Image>
+            </>
+          ) : (
+            <>
+              <Image
+                alt={imgAlt || ""}
+                src={imgSrc}
+                width={1}
+                height={1}
+                layout="responsive"
+                objectFit="contain"
+              ></Image>
+            </>
+          )}
+        </div>
       </FluidContainer>
     </div>
   );
