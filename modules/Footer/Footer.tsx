@@ -1,12 +1,11 @@
-import { FluidContainer } from "@/components/FluidContainer";
-import { Typography } from "@/components/Typography";
+import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
 import Image from "next/image";
 
 export const Footer = () => {
   return (
     <div className="bg-black border-t-neutral-800 border-t-[1px]">
       <FluidContainer flex justifyContent="between">
-        <div className="flex items-center">
+        <div className="flex items-center max-md:bg-yellow-500">
           <Image
             alt="SLE Logo"
             src="/sle-logo.png"
@@ -14,34 +13,53 @@ export const Footer = () => {
             height={250}
           ></Image>
         </div>
-
-        <div>
-          <Typography variant="footerHeader" color="white">
-            Election Code of Procedure
-          </Typography>
-          <Typography variant="footerLink">Elections Committee</Typography>
-          <Typography variant="footerLink">ASI Bylaws</Typography>
-          <Typography variant="footerLink">ASI Board of Directors</Typography>
-          <Typography variant="footerLink">Shared Governance</Typography>
-        </div>
-        <div>
-          <Typography variant="footerHeader" color="white">
-            Site Links
-          </Typography>
-          <Typography variant="footerLink">ASI Student Government</Typography>
-          <Typography variant="footerLink">U-SU Board of Directors</Typography>
-          <Typography variant="footerLink">How to Vote</Typography>
-        </div>
-        <div>
-          <Typography variant="footerHeader" color="white">
-            Our Sites
-          </Typography>
-          <Typography variant="footerLink">
-            Associated Students, Inc.
-          </Typography>
-          <Typography variant="footerLink">University-Student Union</Typography>
-          <Typography variant="footerLink">Cal State LA</Typography>
-        </div>
+        <>
+          <div>
+            <Typography variant="footerHeader" color="white">
+              <NonBreakingSpan>Election Code of Procedure</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>Elections Committee</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>ASI Bylaws</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>ASI Board of Directors</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>Shared Governance</NonBreakingSpan>
+            </Typography>
+          </div>
+          <div>
+            <Typography variant="footerHeader" color="white">
+              <NonBreakingSpan>Site Links</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>ASI Student Government</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>U-SU Board of Directors</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>How to Vote</NonBreakingSpan>
+            </Typography>
+          </div>
+          <div>
+            <Typography variant="footerHeader" color="white">
+              <NonBreakingSpan>Our Sites</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>Associated Students, Inc.</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>University-Student Union</NonBreakingSpan>
+            </Typography>
+            <Typography variant="footerLink">
+              <NonBreakingSpan>Cal State LA</NonBreakingSpan>
+            </Typography>
+          </div>
+        </>
       </FluidContainer>
       <FluidContainer padding="py-3 px-48">
         <hr></hr>
