@@ -20,7 +20,7 @@ export default function Vote() {
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <CTA
           title="Voting on GET Mobile"
           description=" In the GET main menu, tap Cal State LA voting. If you were
@@ -30,7 +30,7 @@ export default function Vote() {
           imgSrc="/vote/get-ss-1.png"
           theme="light"
         ></CTA>
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <CTA
           title="Voting Summary"
           description="Tap the position you would like to vote for. It will display the
@@ -40,7 +40,7 @@ export default function Vote() {
           imgSrc="/vote/get-ss-2.png"
           theme="light"
         ></CTA>
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <CTA
           title="Electing a Candidate"
           description="Once you have selected your candidate, the status will change from
@@ -58,7 +58,7 @@ export default function Vote() {
 
         <Typography variant="sectionHeader">Voting on GET Website</Typography>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Login</Typography>
@@ -73,7 +73,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Network Credentials</Typography>
@@ -95,7 +95,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">
@@ -114,7 +114,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Voting Options</Typography>
@@ -131,7 +131,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Summary Page</Typography>
@@ -152,7 +152,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Office Vote</Typography>
@@ -174,7 +174,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Elect Candidate</Typography>
@@ -191,7 +191,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Voting Status</Typography>
@@ -217,7 +217,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">
@@ -241,7 +241,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Board of Directors</Typography>
@@ -258,7 +258,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">Too Many Votes</Typography>
@@ -276,7 +276,7 @@ export default function Vote() {
           ></Image>
         </FluidContainer>
 
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <FluidContainer flex>
           <div>
             <Typography variant="subheader">No Votes</Typography>
