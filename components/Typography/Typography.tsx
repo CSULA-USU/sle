@@ -19,8 +19,8 @@ interface TypographyProps {
 }
 
 const variants = {
-  pageHeader: "text-6xl font-sans font-bold text-white",
-  sectionHeader: "text-5xl font-sans leading-loose",
+  pageHeader: "text-6xl max-xl:text-5xl font-sans font-bold text-white",
+  sectionHeader: "text-5xl max-xl:text-4xl font-sans leading-loose",
   cardHeader: "text-3xl font-sans font-bold",
   subheader: "text-3xl font-sans font-bold leading-loose",
   navHeader: "text-xl max-sm:text-xl font-sans font-bold text-white",

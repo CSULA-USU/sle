@@ -10,10 +10,12 @@ export const Button = ({ variant, text }: ButtonProps) => {
   return (
     <button
       className={`rounded border ${
-        variant === "black" ? "border-white text-white" : "border-black bg-gray-300"
-      } py-2 px-4 mr-10 mt-4`}
+        variant === "black"
+          ? "border-white text-white"
+          : "border-black bg-gray-300"
+      } py-2 px-4 m-2`}
     >
-      <Typography variant='buttonText'>{text}</Typography>
+      <Typography variant="buttonText">{text}</Typography>
     </button>
   );
 };
