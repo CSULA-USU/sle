@@ -19,8 +19,8 @@ export const CTA = ({
   children,
 }: CTAProps) => {
   return (
-    <div className="flex max-md:flex-col-reverse items-center">
-      <div className="w-11/12 mr-20 flex flex-col max-md:justify-center max-md:mr-0 max-md:mt-10 max-md:text-center">
+    <div className="flex max-md:flex-col items-center">
+      <div className="w-11/12 mr-20 flex flex-col max-md:justify-center max-md:mr-0 max-md:mb-6 max-md:text-center">
         <Typography
           variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
           color={`${theme === "light" ? "black" : "white"}`}
@@ -37,13 +37,15 @@ export const CTA = ({
         </FluidContainer>
         <div>{children}</div>
       </div>
-      <Image
-        alt={imgAlt}
-        src={imgSrc}
-        width={400}
-        height={400}
-        layout="responsive"
-      ></Image>
+      <div>
+        <Image
+          alt={imgAlt}
+          src={imgSrc}
+          width={1000}
+          height={700}
+          className="object-contain"
+        ></Image>
+      </div>
     </div>
   );
 };

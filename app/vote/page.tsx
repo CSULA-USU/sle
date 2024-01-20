@@ -6,7 +6,7 @@ import {
   HeroHeader,
   Typography,
 } from "@/components";
-import Image from "next/image";
+
 export default function Vote() {
   return (
     <>
@@ -59,239 +59,120 @@ export default function Vote() {
         <Typography variant="sectionHeader">Voting on GET Website</Typography>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Login</Typography>
-            <Typography variant="copy">Log in to calstatela.edu</Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 1"
-            src="/vote/web-1.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Login"
+          description="Log in to calstatela.edu."
+          imgAlt="GET Website Screenshot Step 1"
+          imgSrc="/vote/web-1.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Network Credentials</Typography>
-            <Typography variant="copy">Click on MyCalStateLA.</Typography>
-            <Typography variant="copy">
-              Enter your network credentials.
-            </Typography>
-            <Typography variant="copy">
-              (If you were enrolled in DUO authentication, follow the
-              instructions to complete the DUO authentication process.)
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 2"
-            src="/vote/web-2.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Network Credentials"
+          description="Click on MyCalStateLA. Enter your network credentials. (If you were enrolled in DUO authentication, follow the
+            instructions to complete the DUO authentication process.)"
+          imgAlt="GET Website Screenshot Step 2"
+          imgSrc="/vote/web-2.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">
-              CalState LA Elections Menu
-            </Typography>
-            <Typography variant="copy">
-              Click on the CalState LA Elections menu item.
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 3"
-            src="/vote/web-3.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="CalState LA Elections Menu"
+          description="Click on the CalState LA Elections menu item."
+          imgAlt="GET Website Screenshot Step 3"
+          imgSrc="/vote/web-3.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Voting Options</Typography>
-            <Typography variant="copy">
-              This brings up Voting Options.
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 4"
-            src="/vote/web-4.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Voting Options"
+          description="This brings up Voting Options."
+          imgAlt="GET Website Screenshot Step 4"
+          imgSrc="/vote/web-4.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Summary Page</Typography>
-            <Typography variant="copy">
-              Click on the CalStateLA Voting Summary page.
-            </Typography>
-            <Typography variant="copy">
-              For more information on the Candidates visit:
-              http://www.calstatela.edu/asi/elections
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 5"
-            src="/vote/web-5.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Summary Page"
+          description="Click on the CalStateLA Voting Summary page."
+          imgAlt="GET Website Screenshot Step 5"
+          imgSrc="/vote/web-5.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Office Vote</Typography>
-            <Typography variant="copy">
-              Once ready to vote, click on the office you would like to vote
-              for.
-            </Typography>
-            <Typography variant="copy">
-              This will take you to the screen below which displays the
-              candidates competing for the selected office.
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 6"
-            src="/vote/web-6.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Office Vote"
+          description="Once ready to vote, click on the office you would like to vote
+          for. This will take you to the screen which displays the
+          candidates competing for the selected office."
+          imgAlt="GET Website Screenshot Step 6"
+          imgSrc="/vote/web-6.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Elect Candidate</Typography>
-            <Typography variant="copy">
-              Next, click on the Elect button for the chosen candidate.
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 7"
-            src="/vote/web-7.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Elect Candidate"
+          description="Next, click on the Elect button for the chosen candidate."
+          imgAlt="GET Website Screenshot Step 7"
+          imgSrc="/vote/web-7.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Voting Status</Typography>
-            <Typography variant="copy">
-              Then, click on the Vote button. Voting status will change from Not
-              Voted to Voted.
-            </Typography>
-            <Typography variant="copy">
-              Repeat the process for all offices that have candidates up for
-              election.
-            </Typography>
-            <Typography variant="copy">
-              Once you have voted, you will not be able to change your
-              selection.
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 8"
-            src="/vote/web-8.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Voting Status"
+          description="Then, click on the Vote button. Voting status will change from Not
+          Voted to Voted. Repeat the process for all offices that have candidates up for
+          election. Once you have voted, you will not be able to change your
+          selection."
+          imgAlt="GET Website Screenshot Step 8"
+          imgSrc="/vote/web-8.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">
-              Choosing a Representative
-            </Typography>
-            <Typography variant="copy">
-              You can choose a representative for your respective college.
-            </Typography>
-            <Typography variant="copy">
-              Example: If you are student of the College of Natural and Social
-              Sciences then you will be able to vote for the representative from
-              your college.
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 9"
-            src="/vote/web-9.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Choosing a Representative"
+          description="You can choose a representative for your respective college. Example: If you are student of the College of Natural and Social
+          Sciences then you will be able to vote for the representative from
+          your college."
+          imgAlt="GET Website Screenshot Step 9"
+          imgSrc="/vote/web-9.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Board of Directors</Typography>
-            <Typography variant="copy">
-              You can select and vote for up to 8 candidates.
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 10"
-            src="/vote/web-10.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Board of Directors"
+          description="You can select and vote for up to 8 candidates."
+          imgAlt="GET Website Screenshot Step 10"
+          imgSrc="/vote/web-10.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">Too Many Votes</Typography>
-            <Typography variant="copy">
-              If you vote for more than eight candidates you will get the
-              following error:
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 11"
-            src="/vote/web-11.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="Too Many Votes"
+          description="If you vote for more than eight candidates you will get the following error."
+          imgAlt="GET Website Screenshot Step 11"
+          imgSrc="/vote/web-11.png"
+          theme="light"
+        ></CTA>
 
         <Divider margin="reg" />
-        <FluidContainer flex>
-          <div>
-            <Typography variant="subheader">No Votes</Typography>
-            <Typography variant="copy">
-              If you select no candidates you will get the following error:
-            </Typography>
-          </div>
-          <Image
-            alt="GET Website Screenshot Step 12"
-            src="/vote/web-12.png"
-            width={1}
-            height={1}
-            layout="responsive"
-          ></Image>
-        </FluidContainer>
+        <CTA
+          title="No Votes"
+          description="If you select no candidates you will get the following error."
+          imgAlt="GET Website Screenshot Step 12"
+          imgSrc="/vote/web-12.png"
+          theme="light"
+        ></CTA>
       </FluidContainer>
     </>
   );
