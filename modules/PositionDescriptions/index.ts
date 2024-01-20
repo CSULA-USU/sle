@@ -1,2 +1,2 @@
 export * from "./PositionDescriptions";
-export * from "./PositionSection";
+export * from "./PositionsSection";

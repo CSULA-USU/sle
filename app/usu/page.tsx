@@ -7,8 +7,42 @@ import {
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
 import Image from "next/image";
+import usuData from "@/data/usu-positions.json";
+
+// Assuming the structure of your JSON data is similar to this
+interface PositionData {
+  type: string;
+  text?: string;
+  list?: string[];
+}
+
+interface Position {
+  positionName: string;
+  positionData: PositionData[];
+}
+
+interface Section {
+  sectionName: string;
+  positions: Position[];
+}
+
+interface UsuData {
+  data: Section[];
+}
+
+// Import the JSON data and type it accordingly
+
+// Use the UsuData interface to type the imported data
+const typedUsuData: UsuData = usuData;
+
+// Now you can pass it as a prop with the expected type
+// Note: Make sure to handle the case where usuData.data might be undefined in your components.
+// You can do this with optional chaining (usuData?.data) or conditional rendering.
+// Example:
+// <PositionDescriptions data={usuData?.data} />
 
 export default function USU() {
+  console.log("usudata:", typedUsuData);
   return (
     <div>
       <HeroHeader
@@ -54,7 +88,7 @@ export default function USU() {
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider margin="none" />
-        <PositionDescriptions />
+        <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">
