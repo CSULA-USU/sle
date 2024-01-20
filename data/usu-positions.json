@@ -1,0 +1,131 @@
+{
+  "data": [
+    {
+      "sectionName": "section1",
+      "positions": [
+        {
+          "positionName": "position1",
+          "positionData": [
+            {
+              "type": "copy",
+              "text": "The University-Student Union at Cal State LA was established in 1975 and provides a unique setting for the encouragement of broad social, cultural, recreational, and informal educational programming for the university and its surroundings. Through its facilities and programs, the U-SU becomes the focal point of the campus where students, administrators, alumni, faculty, staff, and guests can meet to interact and explore vital issues concerning the greater community. "
+            },
+            { "type": "subheader", "text": "U-SU Mission Statement:" },
+            {
+              "type": "copy",
+              "text": "With open doors and minds, we provide space and opportunities enabling Golden Eagles to Soar."
+            },
+            {
+              "type": "subheader",
+              "text": "The U-SU is made up of the following departments:"
+            },
+            {
+              "type": "list",
+              "list": [
+                "Administration",
+                "Center for Student Involvement",
+                "Cross Cultural Centers",
+                "Graffix",
+                "Operations",
+                "Recreation"
+              ]
+            },
+            {
+              "type": "copy",
+              "text": "Visit the USU website for more information about the U-SU and the departments that are a part of it."
+            },
+            { "type": "subheader", "text": "The U-SU Board of Directors" },
+            {
+              "type": "copy",
+              "text": "The U-SU Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction of the U-SU and advocacy for students at Cal State LA.  "
+            },
+            {
+              "type": "space"
+            }
+          ]
+        },
+        {
+          "positionName": "position2",
+          "positionData": [
+            {
+              "type": "copy",
+              "text": "The University-Student Union at Cal State LA was established in 1975 and provides a unique setting for the encouragement of broad social, cultural, recreational, and informal educational programming for the university and its surroundings. Through its facilities and programs, the U-SU becomes the focal point of the campus where students, administrators, alumni, faculty, staff, and guests can meet to interact and explore vital issues concerning the greater community. "
+            },
+            { "type": "subheader", "text": "U-SU Mission Statement:" },
+            {
+              "type": "copy",
+              "text": "With open doors and minds, we provide space and opportunities enabling Golden Eagles to Soar."
+            },
+            {
+              "type": "subheader",
+              "text": "The U-SU is made up of the following departments:"
+            },
+            {
+              "type": "list",
+              "list": [
+                "Administration",
+                "Center for Student Involvement",
+                "Cross Cultural Centers",
+                "Graffix",
+                "Operations",
+                "Recreation"
+              ]
+            },
+            {
+              "type": "copy",
+              "text": "Visit the USU website for more information about the U-SU and the departments that are a part of it."
+            },
+            { "type": "subheader", "text": "The U-SU Board of Directors" },
+            {
+              "type": "copy",
+              "text": "The U-SU Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction of the U-SU and advocacy for students at Cal State LA.  "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "section2",
+      "positions": [
+        {
+          "positionName": "position1",
+          "positionData": [
+            {
+              "type": "copy",
+              "text": "The University-Student Union at Cal State LA was established in 1975 and provides a unique setting for the encouragement of broad social, cultural, recreational, and informal educational programming for the university and its surroundings. Through its facilities and programs, the U-SU becomes the focal point of the campus where students, administrators, alumni, faculty, staff, and guests can meet to interact and explore vital issues concerning the greater community. "
+            },
+            { "type": "subheader", "text": "U-SU Mission Statement:" },
+            {
+              "type": "copy",
+              "text": "With open doors and minds, we provide space and opportunities enabling Golden Eagles to Soar."
+            },
+            {
+              "type": "subheader",
+              "text": "The U-SU is made up of the following departments:"
+            },
+            {
+              "type": "list",
+              "list": [
+                "Administration",
+                "Center for Student Involvement",
+                "Cross Cultural Centers",
+                "Graffix",
+                "Operations",
+                "Recreation"
+              ]
+            },
+            {
+              "type": "copy",
+              "text": "Visit the USU website for more information about the U-SU and the departments that are a part of it."
+            },
+            { "type": "subheader", "text": "The U-SU Board of Directors" },
+            {
+              "type": "copy",
+              "text": "The U-SU Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction of the U-SU and advocacy for students at Cal State LA.  "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

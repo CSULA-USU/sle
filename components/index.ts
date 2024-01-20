@@ -4,4 +4,5 @@ export * from "./Divider";
 export * from "./FluidContainer";
 export * from "./HeroHeader";
 export * from "./NonBreakingSpan";
+export * from "./Modal";
 export * from "./Typography";
