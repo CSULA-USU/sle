@@ -133,19 +133,21 @@ export default function USU() {
         <ul className="list-disc ml-10">
           <li>
             <Typography variant="copy">
-              Earned at least six (6) semester units of academic credit per
-              semester at Cal State LA during the past 12 months, prior to
-              application (not including remedial courses)
+              Have been enrolled at Cal State LA and completed two quarters
+              prior to applying.
             </Typography>
           </li>
           <li>
             <Typography variant="copy">
-              Enrolled in at least six (6) units per semester while in office.
+              Have earned no fewer than 9 quarter units of academic credit
+              during that year prior to consideration.
             </Typography>
           </li>
           <li>
             <Typography variant="copy">
-              Maintain a 2.5 GPA each semester while in office.
+              Have earned a 2.0 or better grade point average during the 12
+              months immediately preceding the quarter in which the appointment
+              occurs.
             </Typography>
           </li>
         </ul>
