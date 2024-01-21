@@ -21,7 +21,7 @@ interface PositionDescriptionsProps {
 
 export const PositionDescriptions = ({ data }: PositionDescriptionsProps) => {
   return (
-    <div className="my-10">
+    <div>
       {data &&
         data.map((section, sectionIndex) => (
           <div key={sectionIndex}>
