@@ -1,0 +1,115 @@
+{
+  "data": [
+    {
+      "sectionName": "U-SU Board of Directors",
+      "positions": [
+        {
+          "positionName": "U-SU Board of Directors",
+          "positionData": [
+            {
+              "type": "copy",
+              "text": "The University-Student Union at Cal State LA was established in 1975 and provides a unique setting for the encouragement of broad social, cultural, recreational, and informal educational programming for the university and its surroundings. Through its facilities and programs, the U-SU becomes the focal point of the campus where students, administrators, alumni, faculty, staff, and guests can meet to interact and explore vital issues concerning the greater community. "
+            },
+            { "type": "subheader", "text": "U-SU Mission Statement:" },
+            {
+              "type": "copy",
+              "text": "With open doors and minds, we provide space and opportunities enabling Golden Eagles to Soar."
+            },
+            {
+              "type": "subheader",
+              "text": "The U-SU is made up of the following departments:"
+            },
+            {
+              "type": "list",
+              "list": [
+                "Administration",
+                "Center for Student Involvement",
+                "Cross Cultural Centers",
+                "Graffix",
+                "Operations",
+                "Recreation"
+              ]
+            },
+            {
+              "type": "copy",
+              "text": "Visit the USU website for more information about the U-SU and the departments that are a part of it."
+            },
+            { "type": "subheader", "text": "The U-SU Board of Directors" },
+            {
+              "type": "copy",
+              "text": "The U-SU Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction of the U-SU and advocacy for students at Cal State LA."
+            },
+            {
+              "type": "copy",
+              "text": "The Board of Directors (BOD) has 8 student leaders and 8 faculty staff members who help shape policy, structure, and advocate for the U-SU across campus. The BOD is responsible for all financial & legal responsibility of running a non-profit organization."
+            },
+            {
+              "type": "copy",
+              "text": "8 students are elected to the BOD annually; positions may be available dependent on graduation or other factors impacting currently serving board members. The term of appointment is July 2023 through June 2024."
+            },
+            {
+              "type": "copy",
+              "text": "BOD members meet once per month on Fridays from 2-3pm as a Board and members serve on committees of the BOD."
+            },
+            {
+              "type": "copy",
+              "text": "8 students are elected to the BOD annually; positions may be available dependent on graduation or other factors impacting currently serving board members. The term of appointment is July 2023 through June 2024."
+            },
+            {
+              "type": "subheader",
+              "text": "The BOD has the following standing committees:"
+            },
+            {
+              "type": "list",
+              "list": [
+                "Audit Committee",
+                "Fiscal Committee",
+                "Personnel Committee",
+                "Nominations Committee",
+                "The BOD may have special committees depending on the needs of the organization."
+              ]
+            },
+            {
+              "type": "copy",
+              "text": "At the first Board meeting of the year, the BOD will elect a chair and a vice chair from among the student board members. The Chair of the BOD will work in tandem with the U-SU Executive Director to create the agendas for each meeting and will run the meetings each month. The Vice chair steps in when the Chair is absent."
+            },
+            {
+              "type": "subheader",
+              "text": "Board Member Responsibilities:"
+            },
+            {
+              "type": "list",
+              "list": [
+                "Attend all BOD meetings and be prepared to participate",
+                "Represent students by actively seeking out their opinions on U-SU programs, services, and building use",
+                "Serve on BOD committees as assigned",
+                "Stay informed about BOD and committee matters",
+                "Serve as an ambassador to the U-SU, its programs, services, involvement, and employment opportunities",
+                "Assist the Board with carrying out its fiduciary responsibilities ",
+                "Maintain a 2.0 grade point average each semester of your term ",
+                "Assist with the recruitment of new board members during Student Leader Elections and if there are vacancies "
+              ]
+            },
+            {
+              "type": "subheader",
+              "text": "Benefits of Being a Board Member:"
+            },
+            {
+              "type": "list",
+              "list": [
+                "Leadership and Professional development opportunities",
+                "Build your academic and professional resume",
+                "Network with peers, faculty, and staff members who also serve on the BOD ",
+                "Influence the future of the U-SU, providing opinions on existing programs, services, and policies",
+                "Opportunity to attend the Association of College Unions International (ACUI) regional conference",
+                "Semesterly reimbursement for educational expenses ",
+                "$295 per semester for the BOD Chair",
+                "$250 per semester for all other student directors "
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
