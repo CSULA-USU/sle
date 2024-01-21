@@ -42,7 +42,6 @@ const typedUsuData: UsuData = usuData;
 // <PositionDescriptions data={usuData?.data} />
 
 export default function USU() {
-  console.log("usudata:", typedUsuData);
   return (
     <div>
       <HeroHeader

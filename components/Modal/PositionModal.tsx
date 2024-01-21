@@ -32,22 +32,34 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
         </button>
       </div>
       <Modal isOpen={modalOpen} onClose={closeModal}>
-        <div className="max-w-[1440px]">
-          <Typography variant="subheader">{title}</Typography>
+        <div className="max-w-screen-md mx-4">
+          <div className="underline">
+            <Typography variant="subheader">{title}</Typography>
+          </div>
           {data.map((item, index) => (
             <div key={index}>
-              {item.type === "copy" && <Typography>{item.text}</Typography>}
+              {item.type === "copy" && (
+                <div className="mb-2">
+                  <Typography>{item.text}</Typography>
+                </div>
+              )}
               {item.type === "subheader" && (
-                <Typography variant="subheader">{item.text}</Typography>
+                <div className="mb-2">
+                  <Typography variant="footerHeader" color="black">
+                    {item.text}
+                  </Typography>
+                </div>
               )}
               {item.type === "list" && (
-                <ul>
-                  {item.list &&
-                    item.list.map((listItem, listIndex) => (
-                      <li key={listIndex}>
-                        <Typography>{listItem}</Typography>
-                      </li>
-                    ))}
+                <ul className="list-disc px-4 mb-2">
+                  <div className="px-4">
+                    {item.list &&
+                      item.list.map((listItem, listIndex) => (
+                        <li key={listIndex}>
+                          <Typography>{listItem}</Typography>
+                        </li>
+                      ))}
+                  </div>
                 </ul>
               )}
               {item.type === "space" && <div className="mb-4" />}
