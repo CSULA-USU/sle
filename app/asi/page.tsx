@@ -33,7 +33,6 @@ export default function ASI() {
             assist with essential changes on campus.
           </Typography>
         </div>
-
         <Image
           alt="Students leading other students"
           src="/choose-to-lead.png"

@@ -11,7 +11,8 @@ interface FluidContainerProps {
     | "evenly"
     | "stretch";
   alignItems?: "start" | "end" | "center" | "baseline" | "stretch";
-  color?: 'black' | 'white';
+  color?: "black" | "white";
+  id?: string;
   padding?: string;
   children?: React.ReactNode;
 }
@@ -21,10 +22,11 @@ export const FluidContainer = ({
   flex,
   flexWrap,
   flexDirection,
+  id,
   justifyContent,
   alignItems,
   color,
-  padding
+  padding,
 }: FluidContainerProps) => {
   const dynamicProps = [
     "w-full max-w-[1440px] gap-6",
@@ -33,14 +35,22 @@ export const FluidContainer = ({
     flexDirection && `flex-${flexDirection}`,
     justifyContent && `justify-${justifyContent}`,
     alignItems && `items-${alignItems}`,
-    color && `bg-${color}`
+    color && `bg-${color}`,
   ]
     .filter(Boolean)
     .join(" ");
 
   return (
-    <div className="flex justify-center">
-      <div className={`${dynamicProps} ${padding ? `${padding}`: "py-9 px-16 max-xl:py-5 max-xl:px-9 max-sm:py-5 max-sm:px-4"}`}>{children}</div>
+    <div className="flex justify-center" id={id}>
+      <div
+        className={`${dynamicProps} ${
+          padding
+            ? `${padding}`
+            : "py-9 px-16 max-xl:py-5 max-xl:px-9 max-sm:py-5 max-sm:px-4"
+        }`}
+      >
+        {children}
+      </div>
     </div>
   );
 };
