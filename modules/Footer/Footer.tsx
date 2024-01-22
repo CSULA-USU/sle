@@ -20,24 +20,13 @@ export const Footer = () => {
               <NonBreakingSpan>Election Code of Procedure</NonBreakingSpan>
             </Typography>
             <div>
-              <Typography variant="footerLink">
-                <NonBreakingSpan>Elections Committee</NonBreakingSpan>
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="footerLink">
-                <NonBreakingSpan>ASI Bylaws</NonBreakingSpan>
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="footerLink">
-                <NonBreakingSpan>ASI Board of Directors</NonBreakingSpan>
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="footerLink">
-                <NonBreakingSpan>Shared Governance</NonBreakingSpan>
-              </Typography>
+              <a href="https://asicalstatela.org/administrative-governing-policies">
+                <Typography variant="footerLink">
+                  <NonBreakingSpan>
+                    Administrative Governing Policies
+                  </NonBreakingSpan>
+                </Typography>
+              </a>
             </div>
           </div>
           <div>
