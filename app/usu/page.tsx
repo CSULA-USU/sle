@@ -49,7 +49,11 @@ export default function USU() {
         imgSrc="/sle-apply.png"
         title="U-SU BOD Election"
       >
-        <Button variant="black" text="Application" />
+        <Button
+          variant="black"
+          text="Application"
+          href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+        />
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to lead</Typography>

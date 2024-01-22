@@ -19,7 +19,7 @@ export const CTA = ({
   children,
 }: CTAProps) => {
   return (
-    <div className="flex max-md:flex-col items-center">
+    <div className="flex my-4 max-md:flex-col items-center">
       <div className="w-11/12 mr-20 flex flex-col max-md:justify-center max-md:mr-0 max-md:mb-6 max-md:text-center">
         <Typography
           variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
