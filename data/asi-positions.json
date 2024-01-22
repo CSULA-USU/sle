@@ -115,6 +115,69 @@
               "text": "BOD members meet once per month on Fridays from 2-3pm as a Board and members serve on committees of the BOD."
             }
           ]
+        },
+        {
+          "positionName": "ASI Secretary Treasurer",
+          "positionData": []
+        },
+        {
+          "positionName": "ASI Vice president for Administration",
+          "positionData": []
+        },
+        {
+          "positionName": "ASI Vice President for Academic Governance",
+          "positionData": []
+        },
+        {
+          "positionName": "ASI Vice President for External Affairs & Advancement",
+          "positionData": []
+        },
+        {
+          "positionName": "ASI Vice President for Finance",
+          "positionData": []
+        }
+      ]
+    },
+    {
+      "sectionName": "College Representatives & Reps at Large",
+      "positions": [
+        {
+          "positionName": "College Representatives",
+          "positionData": []
+        },
+        {
+          "positionName": "Diversity and Inclusion & Civic Engagement Officers",
+          "positionData": []
+        }
+      ]
+    },
+    {
+      "sectionName": "ASI Commissioners",
+      "positions": [
+        {
+          "positionName": "Election and Outreach Commissioner and Officials",
+          "positionData": []
+        },
+        {
+          "positionName": "Environmental Affairs Commissioner",
+          "positionData": []
+        },
+        {
+          "positionName": "ASI Spirit Commissioner",
+          "positionData": []
+        },
+        {
+          "positionName": "Military Connected Representative",
+          "positionData": []
+        }
+      ]
+    },
+    {
+      "sectionName": "Senators",
+      "positions": [
+        {
+          "positionName": "Academic Senators",
+          "positionData": []
         }
       ]
     }

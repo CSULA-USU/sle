@@ -30,16 +30,7 @@ interface UsuData {
   data: Section[];
 }
 
-// Import the JSON data and type it accordingly
-
-// Use the UsuData interface to type the imported data
 const typedUsuData: UsuData = usuData;
-
-// Now you can pass it as a prop with the expected type
-// Note: Make sure to handle the case where usuData.data might be undefined in your components.
-// You can do this with optional chaining (usuData?.data) or conditional rendering.
-// Example:
-// <PositionDescriptions data={usuData?.data} />
 
 export default function USU() {
   return (
