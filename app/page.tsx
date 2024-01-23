@@ -29,8 +29,8 @@ export default function Home() {
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
         >
-          <Button variant="black" text="ASI Student Government" />
-          <Button variant="grey" text="U-SU Board of Directors" />
+          <Button variant="black" text="ASI Student Government" href="/asi" />
+          <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
         </CTA>
         <Divider />
         <CTA
@@ -41,7 +41,7 @@ export default function Home() {
           imgAlt="Students voting"
           imgSrc="/your-vote-matters.png"
         >
-          <Button variant="black" text="Voting Instructions" />
+          <Button variant="black" text="Voting Instructions" href="/vote" />
         </CTA>
       </FluidContainer>
     </div>
