@@ -5,9 +5,32 @@ import {
   HeroHeader,
   Typography,
 } from "@/components";
-import { Card } from "@/modules";
+import { Card, PositionDescriptions } from "@/modules";
 import Image from "next/image";
 import electionEvents from "./election-events.json";
+import asiData from "@/data/asi-positions.json";
+
+interface PositionData {
+  type: string;
+  text?: string;
+  list?: string[];
+}
+
+interface Position {
+  positionName: string;
+  positionData: PositionData[];
+}
+
+interface Section {
+  sectionName: string;
+  positions: Position[];
+}
+
+interface AsiData {
+  data: Section[];
+}
+
+const typedAsiData: AsiData = asiData;
 
 export default function ASI() {
   return (
@@ -17,7 +40,11 @@ export default function ASI() {
         imgSrc="/sle-apply.png"
         title="ASI General Election"
       >
-        <Button variant="black" text="Application" />
+        <Button
+          variant="black"
+          text="Application"
+          href="https://asicalstatela.org/electionapp"
+        />
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to lead</Typography>
@@ -33,7 +60,6 @@ export default function ASI() {
             assist with essential changes on campus.
           </Typography>
         </div>
-
         <Image
           alt="Students leading other students"
           src="/choose-to-lead.png"
@@ -55,6 +81,7 @@ export default function ASI() {
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider margin="none" />
+        <PositionDescriptions data={typedAsiData?.data} />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">

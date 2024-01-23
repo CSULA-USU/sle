@@ -39,8 +39,10 @@ export const Typography = ({
   lineHeight,
 }: TypographyProps) => {
   return (
-    <div className={`${variants[variant]} text-${color} leading-${lineHeight}`}>
+    <span
+      className={`${variants[variant]} text-${color} leading-${lineHeight}`}
+    >
       {children}
-    </div>
+    </span>
   );
 };
