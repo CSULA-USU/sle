@@ -22,7 +22,9 @@ export const HeroHeader = ({
             <>
               <FluidContainer flex flexDirection="col" justifyContent="center">
                 <Typography variant="pageHeader">{title}</Typography>
-                <div className="whitespace-nowrap">{children}</div>
+                <div className="flex gap-6 max-md:justify-center">
+                  {children}
+                </div>
               </FluidContainer>
               <Image
                 alt={imgAlt}
