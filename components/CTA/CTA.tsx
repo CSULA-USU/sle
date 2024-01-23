@@ -2,7 +2,7 @@ import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
 import Image from "next/image";
 
 interface CTAProps {
-  title: string;
+  title?: string;
   description: string;
   imgAlt: string;
   imgSrc: string;
