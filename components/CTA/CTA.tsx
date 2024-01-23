@@ -35,7 +35,9 @@ export const CTA = ({
             {description}
           </Typography>
         </FluidContainer>
-        <div>{children}</div>
+        <div className="flex flex-wrap gap-x-5 max-md:justify-center">
+          {children}
+        </div>
       </div>
       <div>
         <Image
