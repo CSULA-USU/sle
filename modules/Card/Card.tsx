@@ -8,7 +8,7 @@ interface CardProps {
 }
 export const Card = ({ title, date, location, children }: CardProps) => {
   return (
-    <div className="bg-black p-6 m-4 max-w-[400px] min-h-[512px]">
+    <div className="bg-black p-6 mr-8 my-4 max-w-[400px] min-h-[512px]">
       <div>
         <Typography variant="cardHeader">{title}</Typography>
       </div>
