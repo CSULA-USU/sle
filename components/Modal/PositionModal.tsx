@@ -26,7 +26,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
 
   return (
     <>
-      <div className="h-10 w-full bg-gray-200 flex align-middle my-1 px-4 cursor-pointer hover:bg-gray-300 transition-all">
+      <div className="p-1 w-full bg-gray-200 flex align-middle my-1 px-4 cursor-pointer hover:bg-gray-300 transition-all">
         <button onClick={openModal} className="w-full text-left ">
           <Typography>{title}</Typography>
         </button>
