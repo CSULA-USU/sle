@@ -18,7 +18,7 @@ export default function Home() {
         <Typography variant="pageHeader" color="white">
           Shape Your University Experience
         </Typography>
-        <Divider />
+        <Divider color="gold" />
         <CTA
           title="Choose to lead"
           description="Running for office is the perfect chance to help your voice be
@@ -32,7 +32,7 @@ export default function Home() {
           <Button variant="black" text="ASI Student Government" href="/asi" />
           <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
         </CTA>
-        <Divider />
+        <Divider color="gold" />
         <CTA
           title="Your vote matters"
           description="Choose leaders who understand your needs, resonate with your
