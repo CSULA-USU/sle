@@ -13,7 +13,7 @@ export default function Vote() {
       <HeroHeader
         title="How to Vote"
         imgAlt="SLE Vote Header 1"
-        imgSrc="/vote/sle-eddie-header.png"
+        imgSrc="/vote/sle-vote-hero.svg"
       >
         <Button variant="black" text="GET Mobile" href="#mobile" />
         <Button variant="grey" text="GET Website" href="#website" />
