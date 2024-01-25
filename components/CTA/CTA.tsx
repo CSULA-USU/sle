@@ -35,7 +35,7 @@ export const CTA = ({
           variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
           color={`${theme === "light" ? "black" : "white"}`}
         >
-          <>{title}</>
+          <NonBreakingSpan>{title}</NonBreakingSpan>
         </Typography>
         <FluidContainer padding="px-0 py-5 max-md:p-0">
           <Typography
