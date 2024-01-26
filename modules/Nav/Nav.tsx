@@ -1,4 +1,4 @@
-import { FluidContainer, Typography } from "@/components";
+import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 export const Nav = () => {
@@ -20,13 +20,19 @@ export const Nav = () => {
 
         <div className="flex items-center w-2/5 max-sm:w-3/5 justify-between">
           <Link href="/vote">
-            <Typography variant="navHeader">Vote</Typography>
+            <Typography variant="navHeader" className="hover:text-yellow-400">
+              Vote
+            </Typography>
           </Link>
           <Link href="/asi">
-            <Typography variant="navHeader">ASI</Typography>
+            <Typography variant="navHeader" className="hover:text-yellow-400">
+              ASI
+            </Typography>
           </Link>
           <Link href="/usu">
-            <Typography variant="navHeader">U-SU</Typography>
+            <Typography variant="navHeader" className="hover:text-yellow-400">
+              U-SU
+            </Typography>
           </Link>
         </div>
       </FluidContainer>

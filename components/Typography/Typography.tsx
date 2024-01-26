@@ -35,13 +35,14 @@ const variants = {
 export const Typography = ({
   children,
   variant = "copy",
+  className,
   color,
   lineHeight,
   fontWeight,
 }: TypographyProps) => {
   return (
     <span
-      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight}`}
+      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight} ${className}`}
     >
       {children}
     </span>

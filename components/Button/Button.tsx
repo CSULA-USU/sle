@@ -13,7 +13,7 @@ export const Button = ({ href, variant, text }: ButtonProps) => {
         <div className="my-4">
           <NonBreakingSpan>
             <span
-              className={`rounded border py-3 px-4 ${
+              className={`rounded border py-3 px-4 hover:opacity-70 ${
                 variant === "black"
                   ? "border-white text-white"
                   : "border-black bg-gray-300"
@@ -27,7 +27,7 @@ export const Button = ({ href, variant, text }: ButtonProps) => {
         </div>
       ) : (
         <button
-          className={`rounded border ${
+          className={`rounded border hover:opacity-70 ${
             variant === "black"
               ? "border-white text-white"
               : "border-black bg-gray-300"
