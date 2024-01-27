@@ -99,8 +99,17 @@ export default function Home() {
         text="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
         theme="gold"
       >
-        <Button variant="black" borderless text="ASI Application" />
-        <Button variant="grey" text="U-SU BOD Application" />
+        <Button
+          variant="black"
+          borderless
+          text="ASI Application"
+          href="https://asicalstatela.org/electionapp"
+        />
+        <Button
+          variant="grey"
+          text="U-SU BOD Application"
+          href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+        />
       </CTA>
       <FluidContainer>
         <InfoPanel

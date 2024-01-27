@@ -10,7 +10,7 @@ interface CTAProps {
 export const CTA = ({ theme, title, text, children }: CTAProps) => {
   return (
     <div
-      className={`flex flex-col bg-cover border-2 border-neutral-900 text-center p-8 gap-3 ${
+      className={`flex flex-col bg-cover text-center p-8 gap-3 ${
         theme === "black"
           ? "bg-black"
           : theme === "gold"
@@ -30,7 +30,7 @@ export const CTA = ({ theme, title, text, children }: CTAProps) => {
       >
         {text}
       </Typography>
-      <div className="flex gap-6 justify-center mt-4">{children}</div>
+      <div className="flex gap-6 justify-center mt-2">{children}</div>
     </div>
   );
 };
