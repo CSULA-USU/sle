@@ -1,63 +1,36 @@
-import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
-import Image from "next/image";
+import { Typography } from "@/components";
 
 interface CTAProps {
-  title?: string;
-  description: string;
-  imgAlt: string;
-  imgSrc: string;
-  theme?: "light" | "dark";
-  imageRight?: boolean;
+  theme?: "black" | "white" | "gold";
+  title: string;
+  text: string;
   children?: React.ReactNode;
 }
 
-export const CTA = ({
-  title,
-  description,
-  imgAlt,
-  imgSrc,
-  theme,
-  imageRight,
-  children,
-}: CTAProps) => {
+export const CTA = ({ theme, title, text, children }: CTAProps) => {
   return (
     <div
-      className={`flex my-4 max-md:flex-col items-center ${
-        imageRight === true ? "flex-row-reverse" : "flex-row"
+      className={`flex flex-col bg-cover border-2 border-neutral-900 text-center p-8 gap-3 ${
+        theme === "black"
+          ? "bg-black"
+          : theme === "gold"
+            ? "bg-yellow-400"
+            : "bg-white"
       }`}
     >
-      <div
-        className={`w-11/12 flex flex-col max-md:justify-center max-md:mx-0 max-md:mb-6 max-md:text-center ${
-          imageRight ? "ml-20" : " mr-20"
-        }`}
+      <Typography
+        variant="pageHeader"
+        color={`${theme === "black" ? "white" : "black"}`}
       >
-        <Typography
-          variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
-          color={`${theme === "light" ? "black" : "white"}`}
-        >
-          <>{title}</>
-        </Typography>
-        <FluidContainer padding="px-0 py-5 max-md:p-0">
-          <Typography
-            variant="copy"
-            color={`${theme === "light" ? "black" : "white"}`}
-          >
-            {description}
-          </Typography>
-        </FluidContainer>
-        <div className="flex flex-wrap gap-x-5 max-md:justify-center">
-          {children}
-        </div>
-      </div>
-      <div>
-        <Image
-          alt={imgAlt}
-          src={imgSrc}
-          width={1000}
-          height={700}
-          className="object-contain"
-        ></Image>
-      </div>
+        {title}
+      </Typography>
+      <Typography
+        variant="copy"
+        color={`${theme === "black" ? "white" : "black"}`}
+      >
+        {text}
+      </Typography>
+      <div className="flex gap-6 justify-center mt-4">{children}</div>
     </div>
   );
 };

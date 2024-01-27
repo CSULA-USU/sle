@@ -1,7 +1,8 @@
 import {
   Button,
-  Divider,
   CTA,
+  Divider,
+  InfoPanel,
   FluidContainer,
   HeroHeader,
   StatementCard,
@@ -54,7 +55,7 @@ export default function Home() {
             can bring to you and your peers!
           </Typography>
         </div>
-        <CTA
+        <InfoPanel
           imgAlt="Own it. Choose to lead"
           imgSrc="/Ownit.jpg"
           description="Welcome to the most exciting opportunity on campus! Your college
@@ -65,7 +66,7 @@ export default function Home() {
           that resonates across campus. You already have what it takes... Own
           it!"
           imageRight
-        ></CTA>
+        ></InfoPanel>
         <div className="gap-8 flex max-md:flex-col">
           <StatementCard
             title="Proven Excellence"
@@ -92,8 +93,17 @@ export default function Home() {
             <FaFire color="white" size={40} />
           </StatementCard>
         </div>
-        <Divider color="gold" />
-        <CTA
+      </FluidContainer>
+      <CTA
+        title="Elevate your Journey!"
+        text="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
+        theme="gold"
+      >
+        <Button variant="black" borderless text="ASI Application" />
+        <Button variant="grey" text="U-SU BOD Application" />
+      </CTA>
+      <FluidContainer>
+        <InfoPanel
           title="Choose to lead"
           description="Running for office is the perfect chance to help your voice be
                 heard. As a part of student government, students can network,
@@ -105,9 +115,9 @@ export default function Home() {
         >
           <Button variant="black" text="ASI Student Government" href="/asi" />
           <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
-        </CTA>
+        </InfoPanel>
         <Divider color="gold" />
-        <CTA
+        <InfoPanel
           title="Your vote matters"
           description="Choose leaders who understand your needs, resonate with your
                 values, and are dedicated to creating a campus that reflects
@@ -116,7 +126,7 @@ export default function Home() {
           imgSrc="/your-vote-matters.png"
         >
           <Button variant="black" text="Voting Instructions" href="/vote" />
-        </CTA>
+        </InfoPanel>
       </FluidContainer>
     </div>
   );

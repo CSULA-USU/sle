@@ -1,5 +1,6 @@
 export * from "./Button";
 export * from "./CTA";
+export * from "./InfoPanel";
 export * from "./Divider";
 export * from "./FluidContainer";
 export * from "./HeroHeader";

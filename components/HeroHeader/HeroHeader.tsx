@@ -21,7 +21,9 @@ export const HeroHeader = ({
           {title ? (
             <>
               <FluidContainer flex flexDirection="col" justifyContent="center">
-                <Typography variant="pageHeader">{title}</Typography>
+                <Typography variant="pageHeader" color="white">
+                  {title}
+                </Typography>
                 <div className="flex gap-6 max-md:justify-center">
                   {children}
                 </div>

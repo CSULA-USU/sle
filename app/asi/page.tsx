@@ -1,6 +1,6 @@
 import {
   Button,
-  CTA,
+  InfoPanel,
   Divider,
   FluidContainer,
   HeroHeader,
@@ -65,7 +65,7 @@ export default function ASI() {
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to lead</Typography>
         <Divider margin="none" />
-        <CTA
+        <InfoPanel
           description="Running for office is the perfect chance to help your voice be
             heard. As a part of student government, students can network, gain
             leadership experience, and be the voice for students. If elected,
@@ -74,7 +74,7 @@ export default function ASI() {
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
           theme="light"
-        ></CTA>
+        ></InfoPanel>
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
