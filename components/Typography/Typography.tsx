@@ -15,16 +15,16 @@ interface TypographyProps {
   className?: string;
   color?: "black" | "white";
   lineHeight?: "none" | "normal" | "loose";
+  fontWeight?: "thin" | "normal" | "bold";
   children: React.ReactNode;
 }
 
 const variants = {
-  pageHeader: "text-6xl max-xl:text-5xl font-sans font-bold text-white",
-  sectionHeader:
-    "text-5xl max-xl:text-4xl max-sm:text-3xl font-sans leading-loose",
-  cardHeader: "text-3xl font-sans font-bold text-white",
+  pageHeader: "text-5xl max-xl:text-4xl font-sans font-bold text-white",
+  sectionHeader: "text-4xl max-md:text-3xl font-sans leading-loose",
+  cardHeader: "text-2xl font-sans font-bold text-white",
   subheader: "text-3xl max-sm:text-2xl font-sans font-bold leading-loose",
-  navHeader: "text-xl max-sm:text-xl font-sans font-bold text-white",
+  navHeader: "text-xl font-sans font-bold text-white",
   footerHeader: "text-lg font-sans font-bold leading-loose",
   buttonText: "text-lg font-sans font-bold",
   copy: "text-base font-sans",
@@ -37,10 +37,11 @@ export const Typography = ({
   variant = "copy",
   color,
   lineHeight,
+  fontWeight,
 }: TypographyProps) => {
   return (
     <span
-      className={`${variants[variant]} text-${color} leading-${lineHeight}`}
+      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight}`}
     >
       {children}
     </span>

@@ -1,5 +1,4 @@
-import { FluidContainer } from "../FluidContainer";
-import { Typography } from "../Typography";
+import { NonBreakingSpan, Typography } from "@/components";
 
 interface ButtonProps {
   variant: "black" | "grey";
@@ -12,17 +11,19 @@ export const Button = ({ href, variant, text }: ButtonProps) => {
     <>
       {href ? (
         <div className="my-4">
-          <span
-            className={`rounded border py-2 px-4 ${
-              variant === "black"
-                ? "border-white text-white"
-                : "border-black bg-gray-300"
-            }`}
-          >
-            <a href={href}>
-              <Typography variant="buttonText">{text}</Typography>
-            </a>
-          </span>
+          <NonBreakingSpan>
+            <span
+              className={`rounded border py-3 px-4 ${
+                variant === "black"
+                  ? "border-white text-white"
+                  : "border-black bg-gray-300"
+              }`}
+            >
+              <a href={href}>
+                <Typography variant="buttonText">{text}</Typography>
+              </a>
+            </span>
+          </NonBreakingSpan>
         </div>
       ) : (
         <button
@@ -30,7 +31,7 @@ export const Button = ({ href, variant, text }: ButtonProps) => {
             variant === "black"
               ? "border-white text-white"
               : "border-black bg-gray-300"
-          } py-2 px-4 m-2`}
+          } py-2 px-4`}
         >
           <Typography variant="buttonText">{text}</Typography>
         </button>

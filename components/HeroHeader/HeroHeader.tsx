@@ -1,5 +1,4 @@
 import { FluidContainer, Typography } from "@/components";
-import Image from "next/image";
 
 interface HeroHeaderProps {
   imgAlt: string;
