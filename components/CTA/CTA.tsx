@@ -7,6 +7,7 @@ interface CTAProps {
   imgAlt: string;
   imgSrc: string;
   theme?: "light" | "dark";
+  imageRight?: boolean;
   children?: React.ReactNode;
 }
 
@@ -16,11 +17,20 @@ export const CTA = ({
   imgAlt,
   imgSrc,
   theme,
+  imageRight,
   children,
 }: CTAProps) => {
   return (
-    <div className="flex my-4 max-md:flex-col items-center">
-      <div className="w-11/12 mr-20 flex flex-col max-md:justify-center max-md:mr-0 max-md:mb-6 max-md:text-center">
+    <div
+      className={`flex my-4 max-md:flex-col items-center ${
+        imageRight === true ? "flex-row-reverse" : "flex-row"
+      }`}
+    >
+      <div
+        className={`w-11/12 flex flex-col max-md:justify-center max-md:mx-0 max-md:mb-6 max-md:text-center ${
+          imageRight ? "ml-20" : " mr-20"
+        }`}
+      >
         <Typography
           variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
           color={`${theme === "light" ? "black" : "white"}`}

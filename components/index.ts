@@ -5,4 +5,5 @@ export * from "./FluidContainer";
 export * from "./HeroHeader";
 export * from "./NonBreakingSpan";
 export * from "./Modal";
+export * from "./StatementCard";
 export * from "./Typography";

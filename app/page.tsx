@@ -4,8 +4,15 @@ import {
   CTA,
   FluidContainer,
   HeroHeader,
+  StatementCard,
   Typography,
 } from "@/components";
+import {
+  FaChartLine,
+  FaFire,
+  FaRegLightbulb,
+  FaRegStar,
+} from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -18,6 +25,57 @@ export default function Home() {
         <Typography variant="pageHeader" color="white">
           Shape Your University Experience
         </Typography>
+
+        <Divider color="gold" />
+        <div className="text-center">
+          <Typography variant="footerHeader" color="white">
+            Ready to elevate your college journey?
+          </Typography>
+        </div>
+        <div className="text-center">
+          <Typography variant="footerHeader" color="white">
+            Leap and apply now to uncover the amazing things your FULL potential
+            can bring to you and your peers!
+          </Typography>
+        </div>
+        <CTA
+          imgAlt="Own it. Choose to lead"
+          imgSrc="/Ownit.jpg"
+          description="Welcome to the most exciting opportunity on campus! Your college
+          adventure is already awesome, but we believe you’re ready to take it
+          to the next level with us at Associated Students, Inc., the
+          University-Student Union and Academic Senate! This is your chance to
+          gain invaluable skills and experience while making a positive impact
+          that resonates across campus. You already have what it takes... Own
+          it!"
+          imageRight
+        ></CTA>
+        <div className="gap-8 flex max-md:flex-col">
+          <StatementCard
+            title="Proven Excellence"
+            text="You’re in college and made it this far—undeniable proof. Your academic progress showcases your capabilities."
+          >
+            <FaRegStar color="white" size={40} />
+          </StatementCard>
+          <StatementCard
+            title="Proven Potential"
+            text="Your journey speaks volumes about your abilities."
+          >
+            <FaChartLine color="white" size={40} />
+          </StatementCard>
+          <StatementCard
+            title="Step into the Spotlight"
+            text="Embrace the next stage of your life. You are a LEADER."
+          >
+            <FaRegLightbulb color="white" size={40} />
+          </StatementCard>
+          <StatementCard
+            title="Ignite Change"
+            text="Be the force behind positive change within our campus community."
+          >
+            <FaFire color="white" size={40} />
+          </StatementCard>
+        </div>
         <Divider color="gold" />
         <CTA
           title="Choose to lead"
