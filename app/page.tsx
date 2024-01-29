@@ -13,13 +13,29 @@ import {
   FaRegLightbulb,
   FaRegStar,
 } from "react-icons/fa6";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="bg-black">
+      <Head>
+        <meta
+          name="author"
+          content="Associated Students, Inc. of Cal State LA"
+        />
+        <meta
+          name="keywords"
+          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, Vote, Recruitment, Shape Your University Experience, Choose to lead, Your vote matters"
+        />
+        <meta
+          name="description"
+          content="Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you’re ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. Apply and learn how to vote for the student leader elections now!"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <HeroHeader
         imgAlt="Student Leader Elections Home Page Header Image"
-        imgSrc="/sle-vote-header.png"
+        imgSrc="/sle-header.png"
       ></HeroHeader>
       <FluidContainer>
         <Typography variant="pageHeader" color="white">
