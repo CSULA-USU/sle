@@ -1,5 +1,4 @@
-import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
-import Image from "next/image";
+import { FluidContainer, Typography } from "@/components";
 import Link from "next/link";
 export const Nav = () => {
   return (

@@ -65,6 +65,7 @@ export default function ASI() {
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to Lead</Typography>
+        <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
         <InfoPanel
           description="Running for office is the perfect chance to help your voice be
