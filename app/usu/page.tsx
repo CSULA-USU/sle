@@ -1,5 +1,6 @@
 import {
   Button,
+  CTA,
   Divider,
   FluidContainer,
   HeroHeader,
@@ -7,6 +8,7 @@ import {
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
 import Image from "next/image";
+import electionEvents from "@/data/usu-election-events.json";
 import usuData from "@/data/usu-positions.json";
 
 // Assuming the structure of your JSON data is similar to this
@@ -47,37 +49,31 @@ export default function USU() {
         />
       </HeroHeader>
       <FluidContainer>
-        <Typography variant="sectionHeader">Choose to lead</Typography>
+        <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
       </FluidContainer>
-      <FluidContainer flex alignItems="center">
-        <div className="mr-20 flex-col">
-          <Typography variant="copy">
-            Running for office is the perfect chance to help your voice be
+      <FluidContainer flex alignItems="center" padding="pb-0 px-16">
+        <CTA
+          description="Running for office is the perfect chance to help your voice be
             heard. As a part of student government, students can network, gain
             leadership experience, and be the voice for students. If elected,
             you will be able to help the students of Cal State Los Angeles and
-            assist with essential changes on campus.
-          </Typography>
-        </div>
-
-        <Image
-          alt="Students leading other students"
-          src="/choose-to-lead.png"
-          width={600}
-          height={600}
-        ></Image>
+            assist with essential changes on campus."
+          imgAlt="Students leading other students"
+          imgSrc="/choose-to-lead.png"
+          theme="light"
+        />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />
-        <Card title="Application Opens" date="Monday, January 1">
-          Are you interested in running for a position? Not sure where to start?
-          We encourage any interested student to pursue candidacy for elected
-          student positions on the ASI Board of Directors and Cal State LA
-          Academic Senate by filling the Candidate Elections Packet by the
-          required deadline.
-        </Card>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
+          {electionEvents.map((e, i) => (
+            <Card key={i} title={e.title} date={e.date} location={e.location}>
+              {e.description}
+            </Card>
+          ))}
+        </div>
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>

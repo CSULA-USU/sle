@@ -6,14 +6,30 @@ import {
   HeroHeader,
   Typography,
 } from "@/components";
+import Head from "next/head";
 
 export default function Vote() {
   return (
     <>
+      <Head>
+        <meta
+          name="author"
+          content="Associated Students, Inc. of Cal State LA"
+        />
+        <meta
+          name="keywords"
+          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, How to Vote, GET Mobile, GET Website"
+        />
+        <meta
+          name="description"
+          content="Learn how to vote on GET Mobile and the GET Website for Cal State LA's Studnet Leader Elections."
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <HeroHeader
         title="How to Vote"
         imgAlt="SLE Vote Header 1"
-        imgSrc="/vote/sle-eddie-header.png"
+        imgSrc="/vote/sle-vote-hero.svg"
       >
         <Button variant="black" text="GET Mobile" href="#mobile" />
         <Button variant="grey" text="GET Website" href="#website" />

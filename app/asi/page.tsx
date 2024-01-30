@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
-import Image from "next/image";
+import Head from "next/head";
 import electionEvents from "./election-events.json";
 import asiData from "@/data/asi-positions.json";
 
@@ -36,6 +36,21 @@ const typedAsiData: AsiData = asiData;
 export default function ASI() {
   return (
     <div>
+      <Head>
+        <meta
+          name="author"
+          content="Associated Students, Inc. of Cal State LA"
+        />
+        <meta
+          name="keywords"
+          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, Application, Choose to lead, Election Events, Application Opens, Info Sessions, Application Deadline, ASI Mandatory Candidate Briefing, Candidate Campaign Week, Election Results, Position Descriptions, Executive Positions, ASI President, ASI Secretary Treasurer, ASI Vice President for Administration, ASI Vice PResident for Academic Governance, ASI Vice President for External Affairs & Advancement, ASI Vice President for Finance, College Representative & Reps at Large, College Representatives, Diversity and Inclusion & Civic Engagement Officers, ASI Commissioners, Election and Outreach Comissioner and Officials, Environment Affaris Commissioner, ASI Spriit Commissioner, Military Connected Representative, Senators, Academic Senators, Basic Eligibility Requirements"
+        />
+        <meta
+          name="description"
+          content="Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State Los Angeles and assist with essential changes on campus."
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <HeroHeader
         imgAlt="ASI General Election Header Image"
         imgSrc="/sle-apply.png"
@@ -48,7 +63,7 @@ export default function ASI() {
         />
       </HeroHeader>
       <FluidContainer>
-        <Typography variant="sectionHeader">Choose to lead</Typography>
+        <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
         <CTA
           description="Running for office is the perfect chance to help your voice be
@@ -59,12 +74,12 @@ export default function ASI() {
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
           theme="light"
-        ></CTA>
+        />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />
-        <div className="flex flex-wrap">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {electionEvents.map((e, i) => (
             <Card key={i} title={e.title} date={e.date} location={e.location}>
               {e.description}
