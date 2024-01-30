@@ -1,7 +1,8 @@
 import {
   Button,
-  Divider,
   CTA,
+  Divider,
+  InfoPanel,
   FluidContainer,
   HeroHeader,
   StatementCard,
@@ -104,7 +105,7 @@ export default function Home() {
           </div>
           <Divider color="gold" /> */}
 
-          <CTA
+          <InfoPanel
             title="Choose to Lead"
             description="Welcome to the most exciting opportunity on campus! Your college
             adventure is already awesome, but we believe you’re ready to take it
@@ -118,9 +119,9 @@ export default function Home() {
           >
             <Button variant="black" text="ASI Student Government" href="/asi" />
             <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
-          </CTA>
+          </InfoPanel>
           <Divider color="gold" />
-          <CTA
+          <InfoPanel
             title="Your vote matters"
             description="Choose leaders who understand your needs, resonate with your
                 values, and are dedicated to creating a campus that reflects
@@ -129,7 +130,7 @@ export default function Home() {
             imgSrc="/your-vote-matters.png"
           >
             <Button variant="black" text="Voting Instructions" href="/vote" />
-          </CTA>
+          </InfoPanel>
           <div className="gap-8 flex max-md:flex-col my-10">
             <StatementCard
               title="Proven Excellence"

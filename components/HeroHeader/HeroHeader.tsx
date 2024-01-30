@@ -20,7 +20,9 @@ export const HeroHeader = ({
           {title ? (
             <>
               <FluidContainer flex flexDirection="col" justifyContent="center">
-                <Typography variant="pageHeader">{title}</Typography>
+                <Typography variant="pageHeader" color="white">
+                  {title}
+                </Typography>
                 <div className="flex justify-between">{children}</div>
               </FluidContainer>
               <img

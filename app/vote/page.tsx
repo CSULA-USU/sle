@@ -1,6 +1,6 @@
 import {
   Button,
-  CTA,
+  InfoPanel,
   Divider,
   FluidContainer,
   HeroHeader,
@@ -38,7 +38,7 @@ export default function Vote() {
         <div id="mobile">
           <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
           <Divider margin="reg" />
-          <CTA
+          <InfoPanel
             title="Voting on GET Mobile"
             description=" In the GET main menu, tap Cal State LA voting. If you were
               enrolled in DUO authentication, follow the instructions to
@@ -46,8 +46,8 @@ export default function Vote() {
             imgAlt="GET Mobile Scrensshot Step 1"
             imgSrc="/vote/get-ss-1.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Voting Summary"
             description="Tap the position you would like to vote for. It will display the
           candidates for that position. For more information on the
@@ -55,8 +55,8 @@ export default function Vote() {
             imgAlt="GET Mobile Scrensshot Step 2"
             imgSrc="/vote/get-ss-2.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Electing a Candidate"
             description="Once you have selected your candidate, the status will change from
           Not Voted to Voted. Repeat this process for all offices that have
@@ -68,48 +68,48 @@ export default function Vote() {
             imgAlt="GET Mobile Scrensshot Step 3"
             imgSrc="/vote/get-ss-3.png"
             theme="light"
-          ></CTA>
+          ></InfoPanel>
         </div>
         <div id="website">
           <Typography variant="sectionHeader">Voting on GET Website</Typography>
           <Divider margin="reg" />
-          <CTA
+          <InfoPanel
             title="Login"
             description="Log in to calstatela.edu."
             imgAlt="GET Website Screenshot Step 1"
             imgSrc="/vote/web-1.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Network Credentials"
             description="Click on MyCalStateLA. Enter your network credentials. (If you were enrolled in DUO authentication, follow the
             instructions to complete the DUO authentication process.)"
             imgAlt="GET Website Screenshot Step 2"
             imgSrc="/vote/web-2.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="CalState LA Elections Menu"
             description="Click on the CalState LA Elections menu item."
             imgAlt="GET Website Screenshot Step 3"
             imgSrc="/vote/web-3.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Voting Options"
             description="This brings up Voting Options."
             imgAlt="GET Website Screenshot Step 4"
             imgSrc="/vote/web-4.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Summary Page"
             description="Click on the CalStateLA Voting Summary page."
             imgAlt="GET Website Screenshot Step 5"
             imgSrc="/vote/web-5.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Office Vote"
             description="Once ready to vote, click on the office you would like to vote
           for. This will take you to the screen which displays the
@@ -117,15 +117,15 @@ export default function Vote() {
             imgAlt="GET Website Screenshot Step 6"
             imgSrc="/vote/web-6.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Elect Candidate"
             description="Next, click on the Elect button for the chosen candidate."
             imgAlt="GET Website Screenshot Step 7"
             imgSrc="/vote/web-7.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Voting Status"
             description="Then, click on the Vote button. Voting status will change from Not
           Voted to Voted. Repeat the process for all offices that have candidates up for
@@ -134,8 +134,8 @@ export default function Vote() {
             imgAlt="GET Website Screenshot Step 8"
             imgSrc="/vote/web-8.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Choosing a Representative"
             description="You can choose a representative for your respective college. Example: If you are student of the College of Natural and Social
           Sciences then you will be able to vote for the representative from
@@ -143,28 +143,28 @@ export default function Vote() {
             imgAlt="GET Website Screenshot Step 9"
             imgSrc="/vote/web-9.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Board of Directors"
             description="You can select and vote for up to 8 candidates."
             imgAlt="GET Website Screenshot Step 10"
             imgSrc="/vote/web-10.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="Too Many Votes"
             description="If you vote for more than eight candidates you will get the following error."
             imgAlt="GET Website Screenshot Step 11"
             imgSrc="/vote/web-11.png"
             theme="light"
-          ></CTA>
-          <CTA
+          ></InfoPanel>
+          <InfoPanel
             title="No Votes"
             description="If you select no candidates you will get the following error."
             imgAlt="GET Website Screenshot Step 12"
             imgSrc="/vote/web-12.png"
             theme="light"
-          ></CTA>
+          ></InfoPanel>
         </div>
       </FluidContainer>
     </>
