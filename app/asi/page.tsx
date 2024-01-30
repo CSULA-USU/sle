@@ -59,7 +59,7 @@ export default function ASI() {
         <Button
           variant="black"
           text="Application"
-          href="https://asicalstatela.org/electionapp"
+          href="https://asicalstatela.org/election"
         />
       </HeroHeader>
       <FluidContainer>

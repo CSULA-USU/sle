@@ -38,7 +38,10 @@ export const HeroHeader = ({
               <img
                 alt={imgAlt || ""}
                 src={imgSrc}
-                style={{ height: "auto", width: "100%" }}
+                style={{
+                  height: "auto",
+                  width: "100%",
+                }}
               />
             </>
           )}
