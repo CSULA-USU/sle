@@ -58,14 +58,14 @@ export default function ASI() {
         title="ASI General Election"
       >
         <Button
-          variant="black"
+          variant="yellow"
           text="Application"
           href="https://asicalstatela.org/election"
         />
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to Lead</Typography>
-        <Divider margin="none" />
+        <Divider margin="lg" />
         <InfoPanel
           description="Running for office is the perfect chance to help your voice be
             heard. As a part of student government, students can network, gain
@@ -79,7 +79,7 @@ export default function ASI() {
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {electionEvents.map((e, i) => (
             <Card key={i} title={e.title} date={e.date} location={e.location}>
@@ -88,7 +88,7 @@ export default function ASI() {
           ))}
         </div>
       </FluidContainer>
-      <FluidContainer>
+      <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
           description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
@@ -110,20 +110,19 @@ export default function ASI() {
 
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
-        <Divider margin="none" />
+        <Divider margin="reg" />
         <PositionDescriptions data={typedAsiData?.data} />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">
           Basic Eligibility Requirements
         </Typography>
-        <Divider margin="none" />
-        <div className="m-10" />
+        <Divider margin="lg" />
         <Typography variant="copy">
           Eligibility to hold ASI office or serve on a committee will be
           verified by the University Registrar.
         </Typography>
-        <div className="m-10" />
+        <div className="m-7" />
         <Typography variant="footerHeader" color="black">
           General Applicant/Candidate Requirements
         </Typography>
@@ -213,7 +212,7 @@ export default function ASI() {
           call the ASI Administrative Office, U-SU 203 at 323-343-4778 or email
           us.
         </Typography>
-        <div className="m-10" />
+        <div className="m-7" />
       </FluidContainer>
     </div>
   );
