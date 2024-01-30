@@ -58,7 +58,7 @@ export default function ASI() {
         title="ASI General Election"
       >
         <Button
-          variant="black"
+          variant="yellow"
           text="Application"
           href="https://asicalstatela.org/election"
         />
