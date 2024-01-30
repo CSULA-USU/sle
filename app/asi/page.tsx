@@ -63,7 +63,7 @@ export default function ASI() {
         />
       </HeroHeader>
       <FluidContainer>
-        <Typography variant="sectionHeader">Choose to lead</Typography>
+        <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
         <CTA
           description="Running for office is the perfect chance to help your voice be
@@ -74,12 +74,12 @@ export default function ASI() {
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
           theme="light"
-        ></CTA>
+        />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />
-        <div className="flex flex-wrap">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {electionEvents.map((e, i) => (
             <Card key={i} title={e.title} date={e.date} location={e.location}>
               {e.description}
