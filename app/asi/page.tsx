@@ -65,7 +65,6 @@ export default function ASI() {
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to Lead</Typography>
-        <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
         <InfoPanel
           description="Running for office is the perfect chance to help your voice be
@@ -90,27 +89,30 @@ export default function ASI() {
         </div>
       </FluidContainer>
       <FluidContainer>
+        <CTA
+          title="Elevate your Journey!"
+          description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
+          theme="gold"
+        >
+          <Button
+            variant="black"
+            borderless
+            text="ASI Application"
+            href="https://asicalstatela.org/electionapp"
+          />
+          <Button
+            variant="grey"
+            text="U-SU BOD Application"
+            href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+          />
+        </CTA>
+      </FluidContainer>
+
+      <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider margin="none" />
         <PositionDescriptions data={typedAsiData?.data} />
       </FluidContainer>
-      <CTA
-        title="Elevate your Journey!"
-        description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
-        theme="gold"
-      >
-        <Button
-          variant="black"
-          borderless
-          text="ASI Application"
-          href="https://asicalstatela.org/electionapp"
-        />
-        <Button
-          variant="grey"
-          text="U-SU BOD Application"
-          href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
-        />
-      </CTA>
       <FluidContainer>
         <Typography variant="sectionHeader">
           Basic Eligibility Requirements
