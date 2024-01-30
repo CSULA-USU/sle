@@ -7,12 +7,11 @@ export const Footer = () => {
     <div className="bg-black border-t-neutral-800 border-t-[1px]">
       <FluidContainer flex flexWrap="wrap" justifyContent="between">
         <div className="flex max-lg:min-w-full max-lg:justify-center items-center">
-          <Image
+          <img
             alt="SLE Logo"
-            src="/sle-logo.png"
-            width={180}
-            height={250}
-          ></Image>
+            src="/logos/sle-logo.png"
+            style={{ height: "200px", width: "auto" }}
+          />
         </div>
         <>
           <div>
@@ -109,24 +108,30 @@ export const Footer = () => {
         </div>
 
         <div className="flex gap-6 items-center max-lg:min-w-full max-lg:justify-center">
-          <Image
+          <img
             alt="Cal State LA Logo"
-            src="/csula-logo.png"
-            width={30}
-            height={25}
-          ></Image>
-          <Image
+            src="/footer/calstatela-badge.svg"
+            style={{
+              width: "auto",
+              height: "48px",
+            }}
+          />
+          <img
             alt="ASI Logo"
-            src="/asi-logo.png"
-            width={50}
-            height={25}
-          ></Image>
-          <Image
+            src="/footer/asi-logo.png"
+            style={{
+              width: "auto",
+              height: "48px",
+            }}
+          />
+          <img
             alt="Cal State LA U-SU Logo"
-            src="/usu-logo.png"
-            width={100}
-            height={1}
-          ></Image>
+            src="/footer/usu-wordmark-white.png"
+            style={{
+              width: "auto",
+              height: "48px",
+            }}
+          />
         </div>
       </FluidContainer>
     </div>

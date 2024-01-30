@@ -31,9 +31,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bitter.variable} ${montserrat.variable}`}>
-        <Nav/>
-        {children}
-        <Footer/>
+        <Nav />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
