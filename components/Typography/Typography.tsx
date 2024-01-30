@@ -20,7 +20,7 @@ interface TypographyProps {
 }
 
 const variants = {
-  pageHeader: "text-5xl max-xl:text-4xl font-sans font-bold text-white",
+  pageHeader: "text-5xl max-xl:text-4xl font-sans font-bold",
   sectionHeader: "text-4xl max-md:text-3xl font-sans leading-loose",
   cardHeader: "text-2xl font-sans font-bold text-white",
   subheader: "text-3xl max-sm:text-2xl font-sans font-bold leading-loose",
@@ -35,13 +35,14 @@ const variants = {
 export const Typography = ({
   children,
   variant = "copy",
+  className,
   color,
   lineHeight,
   fontWeight,
 }: TypographyProps) => {
   return (
     <span
-      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight}`}
+      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight} ${className}`}
     >
       {children}
     </span>

@@ -3,21 +3,22 @@ import { NonBreakingSpan, Typography } from "@/components";
 interface ButtonProps {
   variant: "black" | "grey";
   text: string;
+  borderless?: boolean;
   href?: string;
 }
 
-export const Button = ({ href, variant, text }: ButtonProps) => {
+export const Button = ({ href, borderless, variant, text }: ButtonProps) => {
   return (
     <>
       {href ? (
         <div className="my-4">
           <NonBreakingSpan>
             <span
-              className={`rounded border py-3 px-4 ${
+              className={`rounded-md border py-3 px-4 hover:opacity-70 ${
                 variant === "black"
-                  ? "border-white text-white"
+                  ? "border-white text-white bg-black"
                   : "border-black bg-gray-300"
-              }`}
+              } ${borderless ? "border-none" : ""}`}
             >
               <a href={href}>
                 <Typography variant="buttonText">{text}</Typography>
@@ -27,11 +28,11 @@ export const Button = ({ href, variant, text }: ButtonProps) => {
         </div>
       ) : (
         <button
-          className={`rounded border ${
+          className={`rounded-md border hover:opacity-70 ${
             variant === "black"
-              ? "border-white text-white"
+              ? "border-white text-white bg-black"
               : "border-black bg-gray-300"
-          } py-2 px-4`}
+          } ${borderless ? "border-none" : ""} py-2 px-4`}
         >
           <Typography variant="buttonText">{text}</Typography>
         </button>

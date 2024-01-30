@@ -7,7 +7,6 @@ import {
   Typography,
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
-import Image from "next/image";
 import electionEvents from "@/data/usu-election-events.json";
 import usuData from "@/data/usu-positions.json";
 
@@ -52,18 +51,11 @@ export default function USU() {
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
       </FluidContainer>
-      <FluidContainer flex alignItems="center" padding="pb-0 px-16">
-        <CTA
-          description="Running for office is the perfect chance to help your voice be
-            heard. As a part of student government, students can network, gain
-            leadership experience, and be the voice for students. If elected,
-            you will be able to help the students of Cal State Los Angeles and
-            assist with essential changes on campus."
-          imgAlt="Students leading other students"
-          imgSrc="/choose-to-lead.png"
-          theme="light"
-        />
-      </FluidContainer>
+      <FluidContainer
+        flex
+        alignItems="center"
+        padding="pb-0 px-16"
+      ></FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />

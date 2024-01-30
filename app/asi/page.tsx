@@ -1,6 +1,7 @@
 import {
   Button,
   CTA,
+  InfoPanel,
   Divider,
   FluidContainer,
   HeroHeader,
@@ -65,7 +66,7 @@ export default function ASI() {
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
-        <CTA
+        <InfoPanel
           description="Running for office is the perfect chance to help your voice be
             heard. As a part of student government, students can network, gain
             leadership experience, and be the voice for students. If elected,
@@ -74,7 +75,7 @@ export default function ASI() {
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
           theme="light"
-        />
+        ></InfoPanel>
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
@@ -87,6 +88,26 @@ export default function ASI() {
           ))}
         </div>
       </FluidContainer>
+      <FluidContainer>
+        <CTA
+          title="Elevate your Journey!"
+          description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
+          theme="gold"
+        >
+          <Button
+            variant="black"
+            borderless
+            text="ASI Application"
+            href="https://asicalstatela.org/electionapp"
+          />
+          <Button
+            variant="grey"
+            text="U-SU BOD Application"
+            href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+          />
+        </CTA>
+      </FluidContainer>
+
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider margin="none" />
