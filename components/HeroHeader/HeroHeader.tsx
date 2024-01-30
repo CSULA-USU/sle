@@ -1,5 +1,4 @@
 import { FluidContainer, Typography } from "@/components";
-import Image from "next/image";
 
 interface HeroHeaderProps {
   imgAlt: string;
@@ -17,35 +16,32 @@ export const HeroHeader = ({
   return (
     <div className="bg-black">
       <FluidContainer alignItems="end">
-        <div className="flex max-md:flex-col-reverse max-md:text-center">
+        <div className="flex justify-between max-md:flex-col-reverse max-md:text-center">
           {title ? (
             <>
               <FluidContainer flex flexDirection="col" justifyContent="center">
                 <Typography variant="pageHeader" color="white">
                   {title}
                 </Typography>
-                <div className="flex gap-6 max-md:justify-center">
-                  {children}
-                </div>
+                <div className="flex justify-between">{children}</div>
               </FluidContainer>
-              <Image
+              <img
                 alt={imgAlt}
-                src={imgSrc}
-                width={600}
-                height={500}
-                layout="responsive"
+                src={`${imgSrc}`}
+                style={{
+                  height: "320px",
+                  width: "auto",
+                }}
                 className="object-contain"
-              ></Image>
+              />
             </>
           ) : (
             <>
-              <Image
+              <img
                 alt={imgAlt || ""}
                 src={imgSrc}
-                width={1}
-                height={1}
-                layout="responsive"
-              ></Image>
+                style={{ height: "auto", width: "100%" }}
+              />
             </>
           )}
         </div>

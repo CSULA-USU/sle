@@ -1,13 +1,13 @@
-import { Typography } from "@/components";
+import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
 
 interface CTAProps {
   theme?: "black" | "white" | "gold";
   title: string;
-  text: string;
+  description: string;
   children?: React.ReactNode;
 }
 
-export const CTA = ({ theme, title, text, children }: CTAProps) => {
+export const CTA = ({ theme, title, description, children }: CTAProps) => {
   return (
     <div
       className={`flex flex-col bg-cover text-center p-8 gap-3 ${
@@ -22,15 +22,15 @@ export const CTA = ({ theme, title, text, children }: CTAProps) => {
         variant="pageHeader"
         color={`${theme === "black" ? "white" : "black"}`}
       >
-        {title}
+        <NonBreakingSpan>{title}</NonBreakingSpan>
       </Typography>
       <Typography
         variant="copy"
         color={`${theme === "black" ? "white" : "black"}`}
       >
-        {text}
+        {description}
       </Typography>
-      <div className="flex gap-6 justify-center mt-2">{children}</div>
+      <div className="flex flex-wrap justify-center gap-4">{children}</div>
     </div>
   );
 };

@@ -64,7 +64,7 @@ export default function ASI() {
         />
       </HeroHeader>
       <FluidContainer>
-        <Typography variant="sectionHeader">Choose to lead</Typography>
+        <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
         <InfoPanel
           description="Running for office is the perfect chance to help your voice be
@@ -80,7 +80,7 @@ export default function ASI() {
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />
-        <div className="flex flex-wrap">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {electionEvents.map((e, i) => (
             <Card key={i} title={e.title} date={e.date} location={e.location}>
               {e.description}
@@ -95,7 +95,7 @@ export default function ASI() {
       </FluidContainer>
       <CTA
         title="Elevate your Journey!"
-        text="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
+        description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
         theme="gold"
       >
         <Button
