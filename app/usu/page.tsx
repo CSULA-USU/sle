@@ -4,9 +4,11 @@ import {
   Divider,
   FluidContainer,
   HeroHeader,
+  InfoPanel,
   Typography,
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
+import Head from "next/head";
 import electionEvents from "@/data/usu-election-events.json";
 import usuData from "@/data/usu-positions.json";
 
@@ -36,6 +38,21 @@ const typedUsuData: UsuData = usuData;
 export default function USU() {
   return (
     <div>
+      <Head>
+        <meta
+          name="author"
+          content="Associated Students, Inc. of Cal State LA"
+        />
+        <meta
+          name="keywords"
+          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, Application, Choose to lead, Election Events, Application Opens, Info Sessions, Application Deadline, ASI Mandatory Candidate Briefing, Candidate Campaign Week, Election Results, Position Descriptions, U-SU Board of Directors, Basic Eligibility Requirements"
+        />
+        <meta
+          name="description"
+          content="Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State Los Angeles and assist with essential changes on campus."
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <HeroHeader
         imgAlt="ASI General Election Header Image"
         imgSrc="/sle-apply.png"
@@ -50,12 +67,17 @@ export default function USU() {
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="none" />
+        <InfoPanel
+          description="Running for office is the perfect chance to help your voice be
+            heard. As a part of student government, students can network, gain
+            leadership experience, and be the voice for students. If elected,
+            you will be able to help the students of Cal State Los Angeles and
+            assist with essential changes on campus."
+          imgAlt="Students leading other students"
+          imgSrc="/choose-to-lead.png"
+          theme="light"
+        ></InfoPanel>
       </FluidContainer>
-      <FluidContainer
-        flex
-        alignItems="center"
-        padding="pb-0 px-16"
-      ></FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="none" />
@@ -67,6 +89,26 @@ export default function USU() {
           ))}
         </div>
       </FluidContainer>
+      <FluidContainer>
+        <CTA
+          title="Elevate your Journey!"
+          description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
+          theme="gold"
+        >
+          <Button
+            variant="black"
+            borderless
+            text="ASI Application"
+            href="https://asicalstatela.org/electionapp"
+          />
+          <Button
+            variant="grey"
+            text="U-SU BOD Application"
+            href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+          />
+        </CTA>
+      </FluidContainer>
+
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider margin="none" />
