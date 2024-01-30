@@ -39,7 +39,7 @@ export default function Home() {
           imgAlt="Student Leader Elections Home Page Header Image"
           imgSrc="/headers/header-2.jpeg"
         />
-        <FluidContainer padding="0px">
+        <FluidContainer>
           <div className="text-center">
             <div>
               <Typography variant="footerHeader" color="white">

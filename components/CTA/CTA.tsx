@@ -22,7 +22,7 @@ export const CTA = ({ theme, title, description, children }: CTAProps) => {
         variant="pageHeader"
         color={`${theme === "black" ? "white" : "black"}`}
       >
-        <NonBreakingSpan>{title}</NonBreakingSpan>
+        {title}
       </Typography>
       <Typography
         variant="copy"
@@ -30,7 +30,9 @@ export const CTA = ({ theme, title, description, children }: CTAProps) => {
       >
         {description}
       </Typography>
-      <div className="flex flex-wrap justify-center gap-4">{children}</div>
+      <div className="flex flex-wrap justify-center gap-4 max-sm:gap-1">
+        {children}
+      </div>
     </div>
   );
 };
