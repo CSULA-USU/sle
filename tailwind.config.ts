@@ -16,6 +16,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        gold: "#C6A159",
+      },
+
       fontFamily: {
         sans: ["var(--font-montserrat)"],
         serif: ["var(--font-bitter)"],

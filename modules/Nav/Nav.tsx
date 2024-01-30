@@ -21,13 +21,19 @@ export const Nav = () => {
 
         <div className="flex items-center w-2/5 max-sm:w-3/5 justify-between">
           <Link href="/asi">
-            <Typography variant="navHeader">ASI</Typography>
+            <Typography variant="navHeader" className="hover:text-yellow-400">
+              ASI
+            </Typography>
           </Link>
           <Link href="/usu">
-            <Typography variant="navHeader">U-SU</Typography>
+            <Typography variant="navHeader" className="hover:text-yellow-400">
+              U-SU
+            </Typography>
           </Link>
           <Link href="/vote">
-            <Typography variant="navHeader">Vote</Typography>
+            <Typography variant="navHeader" className="hover:text-yellow-400">
+              Vote
+            </Typography>
           </Link>
         </div>
       </FluidContainer>
