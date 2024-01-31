@@ -13,7 +13,7 @@ export const Nav = () => {
             alt="SLE Logo"
             src="/logos/own-it-logo.svg"
             style={{
-              height: "56px",
+              height: "48px",
               width: "auto",
             }}
           />

@@ -14,9 +14,9 @@ export const HeroHeader = ({
   children,
 }: HeroHeaderProps) => {
   return (
-    <div className="bg-black">
+    <div className="bg-black overflow-hidden">
       <FluidContainer alignItems="end">
-        <div className="flex justify-between max-md:flex-col-reverse max-md:text-center">
+        <div className="flex justify-between max-md:flex-col-reverse max-md:text-center w-full">
           {title ? (
             <>
               <FluidContainer flex flexDirection="col" justifyContent="center">
@@ -30,11 +30,7 @@ export const HeroHeader = ({
               <img
                 alt={imgAlt}
                 src={`${imgSrc}`}
-                style={{
-                  height: "320px",
-                  width: "auto",
-                }}
-                className="object-contain"
+                className="object-contain h-[350px] max-sm:h-[200px]"
               />
             </>
           ) : (
