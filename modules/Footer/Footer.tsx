@@ -6,11 +6,11 @@ export const Footer = () => {
   return (
     <div className="bg-black border-t-neutral-800 border-t-[1px]">
       <FluidContainer flex flexWrap="wrap" justifyContent="between">
-        <div className="flex max-lg:min-w-full max-lg:justify-center items-center">
+        <div className="flex w-full justify-center items-center lg:w-1/4">
           <img
             alt="SLE Logo"
             src="/logos/sle-logo.png"
-            style={{ height: "200px", width: "auto" }}
+            style={{ height: "150px", width: "auto" }}
           />
         </div>
         <>
@@ -82,8 +82,8 @@ export const Footer = () => {
           </div>
         </>
       </FluidContainer>
-      <FluidContainer padding="px-40 py-1">
-        <hr></hr>
+      <FluidContainer>
+        <hr />
       </FluidContainer>
       <FluidContainer
         flex
@@ -97,7 +97,7 @@ export const Footer = () => {
               5154 State University Dr., Los Angeles, CA 90032
             </Typography>
           </div>
-          <div>
+          <div className="max-sm:hidden">
             <Typography variant="footerCopy">|</Typography>
           </div>
           <div>
@@ -113,7 +113,7 @@ export const Footer = () => {
             src="/footer/calstatela-badge.svg"
             style={{
               width: "auto",
-              height: "48px",
+              height: "36px",
             }}
           />
           <img
@@ -121,7 +121,7 @@ export const Footer = () => {
             src="/footer/asi-logo.png"
             style={{
               width: "auto",
-              height: "48px",
+              height: "36px",
             }}
           />
           <img
@@ -129,7 +129,7 @@ export const Footer = () => {
             src="/footer/usu-wordmark-white.png"
             style={{
               width: "auto",
-              height: "48px",
+              height: "36px",
             }}
           />
         </div>

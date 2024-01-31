@@ -1,7 +1,5 @@
 import {
   Button,
-  CTA,
-  Divider,
   InfoPanel,
   FluidContainer,
   HeroHeader,
@@ -39,21 +37,19 @@ export default function Home() {
           imgAlt="Student Leader Elections Home Page Header Image"
           imgSrc="/headers/header-2.jpeg"
         />
-        <FluidContainer padding="0px">
+        <FluidContainer>
           <div className="text-center">
             <div>
               <Typography variant="footerHeader" color="white">
                 Ready to elevate your college journey?
               </Typography>
             </div>
-            <div>
-              <Typography variant="footerHeader" color="white">
-                Leap and apply now to uncover the amazing things your FULL
-                potential can bring to you and your peers!
-              </Typography>
-            </div>
+            <Typography variant="footerHeader" color="white">
+              Leap and apply now to uncover the amazing things your FULL
+              potential can bring to you and your peers!
+            </Typography>
           </div>
-          <Divider color="gold" />
+          <hr className={`w-full h-px border-2 border-yellow-400 my-10`} />
           <InfoPanel
             title="Choose to Lead"
             description="Welcome to the most exciting opportunity on campus! Your college
@@ -77,7 +73,7 @@ export default function Home() {
               href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
             />
           </InfoPanel>
-          <Divider color="gold" />
+          <hr className={`w-full h-px border-2 border-yellow-400 my-10`} />{" "}
           <InfoPanel
             title="Your Vote Matters"
             description="Choose leaders who understand your needs, resonate with your
