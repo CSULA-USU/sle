@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Bitter, Montserrat } from "next/font/google";
 import { Nav, Footer } from "../modules";
@@ -32,7 +33,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${bitter.variable} ${montserrat.variable}`}>
         <Nav />
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics />
+        </main>
         <Footer />
       </body>
     </html>
