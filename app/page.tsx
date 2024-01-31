@@ -63,7 +63,7 @@ export default function Home() {
             imgSrc="/choose-to-lead.png"
           >
             <Button
-              variant="black"
+              variant="yellow"
               text="ASI Student Government"
               href="https://asicalstatela.org/general-election/2024-25-student-leader-election-application-now-open"
             />
