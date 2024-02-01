@@ -31,7 +31,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
         onClick={onClose}
       />
       <div className="flex flex-col items-end gap-y-4">
-        <Link href="/asi">
+        <Link href="/asi" onClick={onClose}>
           <Typography
             variant="subheader"
             color="white"
@@ -42,7 +42,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             ASI
           </Typography>
         </Link>
-        <Link href="/usu">
+        <Link href="/usu" onClick={onClose}>
           <Typography
             variant="subheader"
             color="white"
@@ -53,7 +53,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             U-SU
           </Typography>
         </Link>
-        <Link href="/vote">
+        <Link href="/vote" onClick={onClose}>
           <Typography
             variant="subheader"
             color="white"
