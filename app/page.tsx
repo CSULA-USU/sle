@@ -33,11 +33,11 @@ export default function Home() {
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <HeroHeader
-          imgAlt="Student Leader Elections Home Page Header Image"
-          imgSrc="/headers/header-2.jpeg"
-        />
         <FluidContainer>
+          <HeroHeader
+            imgAlt="Student Leader Elections Home Page Header Image"
+            imgSrc="/headers/header-2.jpeg"
+          />
           <div className="text-center">
             <div>
               <Typography variant="footerHeader" color="white">
@@ -63,7 +63,7 @@ export default function Home() {
             imgSrc="/choose-to-lead.png"
           >
             <Button
-              variant="black"
+              variant="yellow"
               text="ASI Student Government"
               href="https://asicalstatela.org/general-election/2024-25-student-leader-election-application-now-open"
             />
