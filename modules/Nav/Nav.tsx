@@ -1,5 +1,7 @@
 import { FluidContainer, Typography } from "@/components";
 import Link from "next/link";
+import { FaBars } from "react-icons/fa6";
+
 export const Nav = () => {
   return (
     <div className="bg-black border-b-neutral-800 border-b-[1px]">
@@ -18,7 +20,7 @@ export const Nav = () => {
             }}
           />
         </Link>
-
+        <FaBars />
         <div className="flex items-center w-2/5 max-sm:w-3/5 justify-between">
           <Link href="/asi">
             <Typography variant="navHeader" className="hover:text-yellow-400">

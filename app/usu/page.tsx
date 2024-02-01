@@ -60,7 +60,6 @@ export default function USU() {
       >
         <Button
           variant="yellow"
-          borderless
           text="Application"
           href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
         />
