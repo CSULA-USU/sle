@@ -31,6 +31,17 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
         onClick={onClose}
       />
       <div className="flex flex-col items-end gap-y-4">
+        <Link href="/" onClick={onClose}>
+          <Typography
+            variant="subheader"
+            color="white"
+            className={`hover:text-yellow-400 ${
+              activeLink === "/" ? "border-b-4 border-yellow-400" : ""
+            }`}
+          >
+            Home
+          </Typography>
+        </Link>
         <Link href="/asi" onClick={onClose}>
           <Typography
             variant="subheader"
