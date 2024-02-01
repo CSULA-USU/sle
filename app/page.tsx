@@ -33,11 +33,11 @@ export default function Home() {
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <HeroHeader
-          imgAlt="Student Leader Elections Home Page Header Image"
-          imgSrc="/headers/header-2.jpeg"
-        />
         <FluidContainer>
+          <HeroHeader
+            imgAlt="Student Leader Elections Home Page Header Image"
+            imgSrc="/headers/header-2.jpeg"
+          />
           <div className="text-center">
             <div>
               <Typography variant="footerHeader" color="white">
