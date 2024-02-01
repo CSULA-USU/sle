@@ -9,14 +9,23 @@ import { MobileNav } from ".";
 export const Nav = () => {
   const [activeLink, setActiveLink] = useState("");
   const pathname = usePathname();
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const handleMobileNavToggle = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileNav = () => {
+    setMobileMenuOpen(false);
+  };
 
   useEffect(() => {
     setActiveLink(pathname.toString());
-  }, [pathname]);
+  }, [pathname, isMobileMenuOpen]);
 
   return (
     <>
-      <MobileNav />
+      {/* {open ? <MobileNav/> : ""} */}
       <div className="bg-black border-b-neutral-800 border-b-[1px]">
         <FluidContainer
           flex
@@ -37,11 +46,9 @@ export const Nav = () => {
             style={{ color: "white" }}
             size={40}
             className="sm:hidden hover:opacity-70"
-            onClick={() => {
-              alert("clicked");
-            }}
+            onClick={handleMobileNavToggle}
           />
-
+          <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
           <div className="sm:flex items-center w-2/5 max-sm:w-3/5 justify-between hidden">
             <Link href="/asi">
               <Typography

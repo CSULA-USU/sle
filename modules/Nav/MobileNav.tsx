@@ -6,27 +6,35 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 interface MobileNavProps {
-  className?: string;
+  isOpen: boolean;
+  onClose: () => void;
 }
 
-export const MobileNav = ({ className }: MobileNavProps) => {
+export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
   const [activeLink, setActiveLink] = useState("");
   const pathname = usePathname();
 
   useEffect(() => {
     setActiveLink(pathname.toString());
-  }, [pathname]);
+  }, [pathname, isOpen]);
 
   return (
     <div
-      className={`bg-neutral-300 h-1/3 w-full bg-opacity-80 absolute p-6 inset-y-0 right-0 rounded-lg ${className}`}
+      className={`bg-black h-full w-full bg-opacity-90 fixed p-6 inset-0 ${
+        isOpen ? "visible" : "invisible"
+      }`}
     >
-      <FaXmark size={35} className="mb-2" />
-      <div className="flex flex-col items-end h-2/3 justify-between">
+      <FaXmark
+        size={35}
+        color="white"
+        className="hover:opacity-70"
+        onClick={onClose}
+      />
+      <div className="flex flex-col items-end gap-y-4">
         <Link href="/asi">
           <Typography
             variant="subheader"
-            color="black"
+            color="white"
             className={`hover:text-yellow-400 ${
               activeLink === "/asi" ? "border-b-4 border-yellow-400" : ""
             }`}
@@ -37,7 +45,7 @@ export const MobileNav = ({ className }: MobileNavProps) => {
         <Link href="/usu">
           <Typography
             variant="subheader"
-            color="black"
+            color="white"
             className={`hover:text-yellow-400 ${
               activeLink === "/usu" ? "border-b-4 border-yellow-400" : ""
             }`}
@@ -48,7 +56,7 @@ export const MobileNav = ({ className }: MobileNavProps) => {
         <Link href="/vote">
           <Typography
             variant="subheader"
-            color="black"
+            color="white"
             className={`hover:text-yellow-400 ${
               activeLink === "/vote" ? "border-b-4 border-yellow-400" : ""
             }`}
