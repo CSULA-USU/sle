@@ -19,7 +19,7 @@ export const Button = ({ href, borderless, variant, text }: ButtonProps) => {
                   ? "border-white text-white bg-black"
                   : variant === "yellow"
                     ? "bg-yellow-400 border-none"
-                    : "border-black bg-gray-300"
+                    : "bg-gray-300 border-none"
               } ${borderless ? "border-none" : ""}`}
             >
               <a href={href}>
@@ -35,7 +35,7 @@ export const Button = ({ href, borderless, variant, text }: ButtonProps) => {
               ? "border-white text-white bg-black"
               : variant === "yellow"
                 ? "bg-yellow-400 border-none"
-                : "border-black bg-gray-300"
+                : "bg-gray-300 border-none"
           } ${borderless ? "border-none" : ""} py-2 px-4`}
         >
           <Typography variant="buttonText">{text}</Typography>
