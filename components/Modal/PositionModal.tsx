@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Typography, Modal } from "@/components";
+import { FaCirclePlus } from "react-icons/fa6";
 
 interface PositionDataProps {
   type: string;
@@ -27,12 +28,16 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
   return (
     <>
       <div className="p-1 w-full bg-gray-200 flex align-middle my-1 px-4 cursor-pointer hover:bg-gray-300 transition-all">
-        <button onClick={openModal} className="w-full text-left ">
+        <button
+          onClick={openModal}
+          className="w-full text-left flex items-center"
+        >
+          <FaCirclePlus className="mr-2 flex-shrink-0" />
           <Typography>{title}</Typography>
         </button>
       </div>
       <Modal isOpen={modalOpen} onClose={closeModal}>
-        <div className="max-w-screen-md mx-4">
+        <div className="max-w-screen-lg mx-4">
           <div className="underline">
             <Typography variant="subheader">{title}</Typography>
           </div>
