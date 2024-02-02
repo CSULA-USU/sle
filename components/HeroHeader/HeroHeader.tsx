@@ -23,7 +23,7 @@ export const HeroHeader = ({
                 <Typography variant="pageHeader" color="white">
                   {title}
                 </Typography>
-                <div className="flex justify-between gap-4 max-md:justify-center">
+                <div className="flex justify-between gap-4 max-md:justify-center max-sm:flex-col max-sm:gap-0">
                   {children}
                 </div>
               </FluidContainer>
@@ -35,14 +35,7 @@ export const HeroHeader = ({
             </>
           ) : (
             <>
-              <img
-                alt={imgAlt || ""}
-                src={imgSrc}
-                style={{
-                  height: "auto",
-                  width: "100%",
-                }}
-              />
+              <img alt={imgAlt || ""} src={imgSrc} className="object-contain" />
             </>
           )}
         </div>
