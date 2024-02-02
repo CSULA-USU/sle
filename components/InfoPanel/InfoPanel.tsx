@@ -26,7 +26,7 @@ export const InfoPanel = ({
       }`}
     >
       <div
-        className={`w-11/12 flex flex-col max-md:justify-center max-md:mx-0 max-md:mb-6 max-md:text-center ${
+        className={`w-11/12 flex flex-col max-md:mx-0 max-md:mb-6 max-md:text-center ${
           imageRight ? "ml-20" : " mr-20"
         }`}
       >
@@ -34,16 +34,14 @@ export const InfoPanel = ({
           variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
           color={`${theme === "light" ? "black" : "white"}`}
         >
-          <>{title}</>
+          {title}
         </Typography>
-        <FluidContainer padding="px-0 py-5 max-md:p-0">
-          <Typography
-            variant="copy"
-            color={`${theme === "light" ? "black" : "white"}`}
-          >
-            {description}
-          </Typography>
-        </FluidContainer>
+        <Typography
+          variant="copy"
+          color={`${theme === "light" ? "black" : "white"}`}
+        >
+          {description}
+        </Typography>
         <div className="flex flex-wrap gap-x-5 max-md:justify-center">
           {children}
         </div>
