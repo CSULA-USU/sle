@@ -25,12 +25,12 @@ export const Nav = () => {
 
   return (
     <>
-      {/* {open ? <MobileNav/> : ""} */}
       <div className="bg-black border-b-neutral-800 border-b-[1px]">
         <FluidContainer
           flex
           justifyContent="between"
           padding="py-5 px-20 max-md:px-10"
+          alignItems="center"
         >
           <Link href="/">
             <img

@@ -21,30 +21,44 @@ export const InfoPanel = ({
 }: InfoPanelProps) => {
   return (
     <div
-      className={`flex my-4 max-md:flex-col items-center ${
+      className={`flex mb-10 max-md:flex-col items-center ${
         imageRight === true ? "flex-row-reverse" : "flex-row"
       }`}
     >
       <div
-        className={`w-11/12 flex flex-col max-md:mx-0 max-md:mb-6 max-md:text-center ${
+        className={`w-11/12 flex flex-col max-md:mx-0 max-md:mb-6 max-md:text-center gap-4 ${
           imageRight ? "ml-20" : " mr-20"
         }`}
       >
-        <Typography
-          variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
-          color={`${theme === "light" ? "black" : "white"}`}
-        >
-          {title}
-        </Typography>
-        <Typography
-          variant="copy"
-          color={`${theme === "light" ? "black" : "white"}`}
-        >
-          {description}
-        </Typography>
-        <div className="flex flex-wrap gap-x-5 max-md:justify-center">
-          {children}
+        {title ? (
+          <>
+            <Typography
+              variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
+              color={`${theme === "light" ? "black" : "white"}`}
+            >
+              {title}
+            </Typography>
+          </>
+        ) : (
+          <></>
+        )}
+        <div className="text-left">
+          <Typography
+            variant="copy"
+            color={`${theme === "light" ? "black" : "white"}`}
+          >
+            {description}
+          </Typography>
         </div>
+        {children ? (
+          <>
+            <div className="flex flex-wrap gap-x-5 max-md:justify-center">
+              {children}
+            </div>
+          </>
+        ) : (
+          <></>
+        )}
       </div>
       <div>
         <img
