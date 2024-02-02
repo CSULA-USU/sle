@@ -11,6 +11,7 @@ interface FluidContainerProps {
     | "evenly"
     | "stretch";
   alignItems?: "start" | "end" | "center" | "baseline" | "stretch";
+  textAlign?: "left" | "center" | "right" | "justify" | "start" | "end";
   color?: "black" | "white";
   id?: string;
   padding?: string;
@@ -25,6 +26,7 @@ export const FluidContainer = ({
   id,
   justifyContent,
   alignItems,
+  textAlign,
   color,
   padding,
 }: FluidContainerProps) => {
@@ -35,6 +37,7 @@ export const FluidContainer = ({
     flexDirection && `flex-${flexDirection}`,
     justifyContent && `justify-${justifyContent}`,
     alignItems && `items-${alignItems}`,
+    textAlign && `text-${textAlign}`,
     color && `bg-${color}`,
   ]
     .filter(Boolean)
