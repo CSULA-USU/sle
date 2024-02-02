@@ -55,12 +55,11 @@ export default function USU() {
       </Head>
       <HeroHeader
         imgAlt="ASI General Election Header Image"
-        imgSrc="/sle-apply.png"
+        imgSrc="https://i.imgur.com/lLqBJNR.jpg"
         title="U-SU BOD Election"
       >
         <Button
           variant="yellow"
-          borderless
           text="Application"
           href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
         />
@@ -75,7 +74,7 @@ export default function USU() {
             you will be able to help the students of Cal State Los Angeles and
             assist with essential changes on campus."
           imgAlt="Students leading other students"
-          imgSrc="/choose-to-lead.png"
+          imgSrc="/usu-choose-to-lead.png"
           theme="light"
         ></InfoPanel>
       </FluidContainer>

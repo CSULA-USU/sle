@@ -1,5 +1,4 @@
 import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
-import Image from "next/image";
 
 interface InfoPanelProps {
   title?: string;
@@ -50,13 +49,13 @@ export const InfoPanel = ({
         </div>
       </div>
       <div>
-        <Image
+        <img
           alt={imgAlt}
           src={imgSrc}
           width={1000}
           height={700}
           className="object-contain"
-        ></Image>
+        ></img>
       </div>
     </div>
   );
