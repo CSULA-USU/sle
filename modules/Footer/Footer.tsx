@@ -108,30 +108,36 @@ export const Footer = () => {
         </div>
 
         <div className="flex gap-6 items-center max-lg:min-w-full max-lg:justify-center">
-          <img
-            alt="Cal State LA Logo"
-            src="/footer/calstatela-badge.svg"
-            style={{
-              width: "auto",
-              height: "36px",
-            }}
-          />
-          <img
-            alt="ASI Logo"
-            src="/footer/asi-logo.png"
-            style={{
-              width: "auto",
-              height: "36px",
-            }}
-          />
-          <img
-            alt="Cal State LA U-SU Logo"
-            src="/footer/usu-wordmark-white.png"
-            style={{
-              width: "auto",
-              height: "36px",
-            }}
-          />
+          <Link href="https://www.calstatela.edu/">
+            <img
+              alt="Cal State LA Logo"
+              src="/footer/calstatela-badge.svg"
+              style={{
+                width: "auto",
+                height: "36px",
+              }}
+            />
+          </Link>
+          <Link href="https://asicalstatela.org/">
+            <img
+              alt="ASI Logo"
+              src="/footer/asi-logo.png"
+              style={{
+                width: "auto",
+                height: "36px",
+              }}
+            />
+          </Link>
+          <Link href="https://www.calstatelausu.org/">
+            <img
+              alt="Cal State LA U-SU Logo"
+              src="/footer/usu-wordmark-white.png"
+              style={{
+                width: "auto",
+                height: "36px",
+              }}
+            />
+          </Link>
         </div>
       </FluidContainer>
     </div>
