@@ -26,6 +26,7 @@ export default function Vote() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <HeroHeader
         title="How to Vote"
         imgAlt="SLE Vote Header 1"
@@ -34,6 +35,7 @@ export default function Vote() {
         <Button variant="black" text="GET Mobile" href="#mobile" />
         <Button variant="grey" text="GET Website" href="#website" />
       </HeroHeader>
+
       <FluidContainer>
         <div id="mobile">
           <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
@@ -70,6 +72,7 @@ export default function Vote() {
             theme="light"
           ></InfoPanel>
         </div>
+
         <div id="website">
           <Typography variant="sectionHeader">Voting on GET Website</Typography>
           <Divider margin="reg" />

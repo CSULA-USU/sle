@@ -1,4 +1,4 @@
-import { FluidContainer, Typography } from "../../components";
+import { Typography } from "../../components";
 
 interface CardProps {
   title: string;
