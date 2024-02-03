@@ -1,4 +1,5 @@
 import {
+  BulletList,
   Button,
   CTA,
   InfoPanel,
@@ -9,8 +10,9 @@ import {
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
 import Head from "next/head";
-import electionEvents from "./election-events.json";
-import asiData from "@/data/asi-positions.json";
+import electionEvents from "@/data/asi/asi-election-events.json";
+import asiData from "@/data/asi/asi-positions.json";
+import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
 
 interface PositionData {
   type: string;
@@ -52,6 +54,7 @@ export default function ASI() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <HeroHeader
         imgAlt="ASI General Election Header Image"
         imgSrc="/sle-apply.png"
@@ -63,6 +66,7 @@ export default function ASI() {
           href="https://asicalstatela.org/election"
         />
       </HeroHeader>
+
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="lg" />
@@ -77,6 +81,7 @@ export default function ASI() {
           theme="light"
         ></InfoPanel>
       </FluidContainer>
+
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="reg" />
@@ -88,6 +93,7 @@ export default function ASI() {
           ))}
         </div>
       </FluidContainer>
+
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
@@ -110,109 +116,31 @@ export default function ASI() {
 
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
-        <Divider margin="reg" />
+        <Divider />
         <PositionDescriptions data={typedAsiData?.data} />
       </FluidContainer>
+
       <FluidContainer>
         <Typography variant="sectionHeader">
           Basic Eligibility Requirements
         </Typography>
         <Divider margin="lg" />
-        <Typography variant="copy">
-          Eligibility to hold ASI office or serve on a committee will be
-          verified by the University Registrar.
-        </Typography>
-        <div className="m-7" />
-        <Typography variant="footerHeader" color="black">
-          General Applicant/Candidate Requirements
-        </Typography>
-        <ul className="list-disc ml-10">
-          <li>
-            <Typography variant="copy">
-              Be considered in good standing with the University -must not be on
-              academic, disciplinary or administrative probation
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Been enrolled at Cal State LA for one (1) semester prior to
-              application
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Have a minimum 2.5 cumulative GPA during the last 12 months
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Be available for scheduled meetings
-            </Typography>
-          </li>
-        </ul>
-        <Typography variant="footerHeader" color="black">
-          Undergraduate Applicant Requirements
-        </Typography>
-        <ul className="list-disc ml-10">
-          <li>
-            <Typography variant="copy">
-              Earned at least six (6) semester units of academic credit per
-              semester at Cal State LA during the past 12 months, prior to
-              application (not including remedial courses)
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Enrolled in at least six (6) units per semester while in office.
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Maintain a 2.5 GPA each semester while in office.
-            </Typography>
-          </li>
-        </ul>
-        <Typography variant="footerHeader" color="black">
-          Graduate Applicant Requirements
-        </Typography>
-        <ul className="list-disc ml-10">
-          <li>
-            <Typography variant="copy">
-              Earned a total of twelve (12) units during your last year as an
-              undergraduate -if the applicant’s BA/BS was received from Cal
-              State LA within the past 3 years
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Earned at least three (3) units per semester units of continuous
-              attendance
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Enrolled in at least three (3) semester units during the term the
-              appointment/election occurs
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Maintain a 3.0 GPA each semester while in office
-            </Typography>
-          </li>
-          <li>
-            <Typography variant="copy">
-              Earned less than 50-semester units
-            </Typography>
-          </li>
-        </ul>
-        <div className="m-10" />
-        <Typography variant="copy">
-          If you have any questions regarding the process or requirements please
-          call the ASI Administrative Office, U-SU 203 at 323-343-4778 or email
-          us.
-        </Typography>
-        <div className="m-7" />
+        <div className="my-6">
+          <Typography variant="copy">
+            Eligibility to hold ASI office or serve on a committee will be
+            verified by the University Registrar.
+          </Typography>
+        </div>
+        {eligibilityReqs.map((e, i) => (
+          <BulletList key={i} title={e.title} description={e.description} />
+        ))}
+        <div className="my-6">
+          <Typography variant="copy">
+            If you have any questions regarding the process or requirements
+            please call the ASI Administrative Office, U-SU 203 at 323-343-4778
+            or email us.
+          </Typography>
+        </div>
       </FluidContainer>
     </div>
   );
