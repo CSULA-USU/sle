@@ -848,7 +848,7 @@
             },
             {
               "type": "copy",
-              "text": "Additional information about the work and make up of the Academic Senate is provided on the Senate website - [Senate Website](https://www.calstatela.edu/academicsenate)."
+              "text": "Additional information about the work and make up of the Academic Senate is provided on the Senate website¹."
             },
             { "type": "subheader", "text": "REQUIREMENTS" },
             {
@@ -920,6 +920,14 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "subheader",
+              "text": "RESOURCES"
+            },
+            {
+              "type": "link",
+              "list": ["https://www.calstatela.edu/academicsenate"]
             }
           ]
         }

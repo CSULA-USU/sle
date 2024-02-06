@@ -42,10 +42,7 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
   return (
     <>
       {isOpen && (
-        <div
-          className="fixed top-0 left-0 w-full h-full  bg-gray-800 bg-opacity-50 flex items-center justify-center "
-          onClick={onClose}
-        >
+        <div className="fixed top-0 left-0 w-full h-full  bg-gray-800 bg-opacity-50 flex items-center justify-center ">
           <div
             className="max-w-screen-xl max-h-[90vh] bg-white p-4 rounded shadow-lg overflow-y-scroll"
             data-ref={modalRef}
