@@ -64,7 +64,7 @@ export default function Vote() {
           Not Voted to Voted. Repeat this process for all offices that have
           candidates up for election. Once you have voted, you will not be
           able to change your selection. You will also be able to choose a
-          representative for your college. For example, If you are student
+          representative for your college. For example, if you are student
           of the College of Natural and Social Sciences, you will be able to
           vote for the representative from your respective college."
             imgAlt="GET Mobile Scrensshot Step 3"
@@ -92,8 +92,8 @@ export default function Vote() {
             theme="light"
           ></InfoPanel>
           <InfoPanel
-            title="CalState LA Elections Menu"
-            description="Click on the CalState LA Elections menu item."
+            title="Cal State LA Elections Menu"
+            description="Click on the Cal State LA Elections menu item."
             imgAlt="GET Website Screenshot Step 3"
             imgSrc="/vote/web-3.png"
             theme="light"
@@ -107,7 +107,7 @@ export default function Vote() {
           ></InfoPanel>
           <InfoPanel
             title="Summary Page"
-            description="Click on the CalStateLA Voting Summary page."
+            description="Click on the Cal State LA Voting Summary page."
             imgAlt="GET Website Screenshot Step 5"
             imgSrc="/vote/web-5.png"
             theme="light"
@@ -140,7 +140,7 @@ export default function Vote() {
           ></InfoPanel>
           <InfoPanel
             title="Choosing a Representative"
-            description="You can choose a representative for your respective college. Example: If you are student of the College of Natural and Social
+            description="You can choose a representative for your respective college. Example: If you are a student of the College of Natural and Social
           Sciences then you will be able to vote for the representative from
           your college."
             imgAlt="GET Website Screenshot Step 9"
@@ -156,7 +156,7 @@ export default function Vote() {
           ></InfoPanel>
           <InfoPanel
             title="Too Many Votes"
-            description="If you vote for more than eight candidates you will get the following error."
+            description="If you vote for more than eight candidates, you will get the following error."
             imgAlt="GET Website Screenshot Step 11"
             imgSrc="/vote/web-11.png"
             theme="light"
