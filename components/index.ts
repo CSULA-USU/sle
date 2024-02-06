@@ -1,3 +1,4 @@
+export * from "./BulletList";
 export * from "./Button";
 export * from "./CTA";
 export * from "./InfoPanel";

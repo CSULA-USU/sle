@@ -1,0 +1,29 @@
+[
+  {
+    "title": "General Applicant/Candidate Requirements",
+    "description": [
+      "Be considered in good standing with the University - must not be on academic, disciplinary, or administrative probation",
+      "Been enrolled at Cal State LA for one (1) semester prior to application",
+      "Have a minimum 2.5 cumulative GPA during the last 12 months",
+      "Be available for scheduled meetings"
+    ]
+  },
+  {
+    "title": "Undergraduate Applicant Requirements",
+    "description": [
+      "Earned at least six (6) semester units of academic credit per semester at Cal State LA during the past 12 months, prior to application (not including remedial courses)",
+      "Enrolled in at least six (6) units per semester while in office",
+      "Maintain a 2.5 GPA each semester while in office"
+    ]
+  },
+  {
+    "title": "Graduate Applicant Requirements",
+    "description": [
+      "Earned a total of twelve (12) units during your last year as an undergraduate -if the applicant’s BA/BS was received from Cal State LA within the past 3 years",
+      "Earned at least three (3) units per semester of continuous attendance",
+      "Enrolled in at least three (3) semester units during the term the appointment/election occurs",
+      "Maintain a 3.0 GPA each semester while in office",
+      "Earned less than 50 semester units"
+    ]
+  }
+]
