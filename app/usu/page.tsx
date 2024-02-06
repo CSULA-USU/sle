@@ -58,7 +58,7 @@ export default function USU() {
 
       <HeroHeader
         imgAlt="ASI General Election Header Image"
-        imgSrc="https://i.imgur.com/lLqBJNR.jpg"
+        imgSrc="/sle-apply.png"
         title="U-SU BOD Election"
       >
         <Button
