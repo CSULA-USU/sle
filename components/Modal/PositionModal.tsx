@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Typography, Modal } from "@/components";
 import { FaCirclePlus } from "react-icons/fa6";
+import Link from "next/link";
 
 interface PositionDataProps {
   type: string;
@@ -66,6 +67,22 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
                       ))}
                   </div>
                 </ul>
+              )}
+              {item.type === "link" && (
+                <div className="px-4">
+                  <Typography>
+                    <ol className="list-decimal">
+                      {item.list &&
+                        item.list.map((listItem, listIndex) => (
+                          <li key={listIndex}>
+                            <Link href={listItem} className="text-blue-600">
+                              {listItem}
+                            </Link>
+                          </li>
+                        ))}
+                    </ol>
+                  </Typography>
+                </div>
               )}
               {item.type === "space" && <div className="mb-4" />}
             </div>
