@@ -10,8 +10,8 @@ interface CardProps {
 export const Card = ({ title, time, date, location, children }: CardProps) => {
   return (
     <div className="bg-black p-6 my-4 min-h-[584px] max-md:min-w-full max-md:min-h-0">
-      <div className="mb-4 lg:h-1/4 flex flex-col">
-        <div className="h-3/4 flex items-center">
+      <div className="mb-4 lg:3/8 flex flex-col">
+        <div className="h-5/8 flex items-center">
           <Typography variant="cardHeader">{title}</Typography>
         </div>
         {date && (
