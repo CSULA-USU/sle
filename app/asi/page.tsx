@@ -50,7 +50,7 @@ export default function ASI() {
         />
         <meta
           name="description"
-          content="Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State Los Angeles and assist with essential changes on campus."
+          content="Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -74,7 +74,7 @@ export default function ASI() {
           description="Running for office is the perfect chance to help your voice be
             heard. As a part of student government, students can network, gain
             leadership experience, and be the voice for students. If elected,
-            you will be able to help the students of Cal State Los Angeles and
+            you will be able to help the students of Cal State LA and
             assist with essential changes on campus."
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
@@ -97,7 +97,7 @@ export default function ASI() {
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
-          description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
+          description="Ready to elevate your college journey? Apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
           theme="gold"
         >
           <Button

@@ -98,7 +98,7 @@ export default function USU() {
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
-          description="Ready to elevate your college journey? Leap and apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
+          description="Ready to elevate your college journey? Apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
           theme="gold"
         >
           <Button
