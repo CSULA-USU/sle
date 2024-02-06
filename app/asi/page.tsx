@@ -74,7 +74,7 @@ export default function ASI() {
           description="Running for office is the perfect chance to help your voice be
             heard. As a part of student government, students can network, gain
             leadership experience, and be the voice for students. If elected,
-            you will be able to help the students of Cal State Los Angeles and
+            you will be able to help the students of Cal State LA and
             assist with essential changes on campus."
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
