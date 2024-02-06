@@ -99,7 +99,7 @@ export default function Home() {
               <FaChartLine color="white" size={40} />
             </StatementCard>
             <StatementCard
-              title="Come into the Spotlight"
+              title="Get into the Spotlight"
               text="Embrace the next stage of your life. You are a LEADER."
             >
               <FaRegLightbulb color="white" size={40} />
