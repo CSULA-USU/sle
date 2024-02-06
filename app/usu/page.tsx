@@ -75,7 +75,7 @@ export default function USU() {
           description="Running for office is the perfect chance to help your voice be
             heard. As a part of student government, students can network, gain
             leadership experience, and be the voice for students. If elected,
-            you will be able to help the students of Cal State Los Angeles and
+            you will be able to help the students of Cal State LA and
             assist with essential changes on campus."
           imgAlt="Students leading other students"
           imgSrc="/usu-choose-to-lead.png"
@@ -114,13 +114,11 @@ export default function USU() {
           />
         </CTA>
       </FluidContainer>
-
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider margin="reg" />
         <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer>
-
       <FluidContainer>
         <Typography variant="sectionHeader">
           Basic Eligibility Requirements
