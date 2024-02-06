@@ -46,8 +46,8 @@ export default function Home() {
               </Typography>
             </div>
             <Typography variant="footerHeader" color="white">
-              Leap and apply now to uncover the amazing things your FULL
-              potential can bring to you and your peers!
+              Apply now to uncover the amazing things your FULL potential can
+              bring to you and your peers!
             </Typography>
           </FluidContainer>
           <Divider />
@@ -56,7 +56,7 @@ export default function Home() {
             description="Welcome to the most exciting opportunity on campus! Your college
             adventure is already awesome, but we believe you’re ready to take it
             to the next level with us at Associated Students, Inc., the
-            University-Student Union and Academic Senate! This is your chance to
+            University-Student Union, and Academic Senate! This is your chance to
             gain invaluable skills and experience while making a positive impact
             that resonates across campus. You already have what it takes... Own
             it!"
@@ -99,7 +99,7 @@ export default function Home() {
               <FaChartLine color="white" size={40} />
             </StatementCard>
             <StatementCard
-              title="Step into the Spotlight"
+              title="Come into the Spotlight"
               text="Embrace the next stage of your life. You are a LEADER."
             >
               <FaRegLightbulb color="white" size={40} />
