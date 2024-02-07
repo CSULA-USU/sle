@@ -94,12 +94,12 @@ export default function Home() {
             </StatementCard>
             <StatementCard
               title="Proven Potential"
-              text="Your journey speaks volumes about your abilities."
+              text="Your journey expresses volumes about your abilities."
             >
               <FaChartLine color="white" size={40} />
             </StatementCard>
             <StatementCard
-              title="Get into the Spotlight"
+              title="Come into the Spotlight"
               text="Embrace the next stage of your life. You are a LEADER."
             >
               <FaRegLightbulb color="white" size={40} />
