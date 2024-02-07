@@ -290,11 +290,13 @@
                 "Serve as the Chair of the Cabinet of Commissioners (COC) which consists of the Spirit, Environmental Affairs, Elections and Orientation, and Public Relations and Marketing Commissioners. Also included in the COC are the Housing and Residence Life Representative and the Veterans Affairs Representative. The COC coordinates, plans and is responsible for the activities of the administrative unit of ASI. In addition, the COC provides a number of social and educational programs for the Cal State LA community. For more information about the COC and their scheduled meeting times visit: https://asicalstatela.org/commissioners",
                 "Serves as the Chair of the ASI Personnel Committee, which acts on behalf of the Board regarding matters pertaining to the full-time employees of ASI. The Personnel Committee also makes recommendations to the Board regarding policies, funding for staff positions, and the overall staffing structure for the organization. For more information about the Personnel Committee and their scheduled meeting times visit: https://asicalstatela.org/committee/personnel-committee",
                 "Attends all ASI Board Meetings, serving as second in charge of ASI in the absence of the ASI President",
-                "Sits on four (4) additional ASI standing committees and one (1) university committee and must be available for:",
-                "Shared Governance Committee meetings",
-                "Executive Committee meetings",
-                "Strategic Planning Committee meetings",
-                "Finance Committee meetings"
+                [
+                  "Sits on four (4) additional ASI standing committees and one (1) university committee and must be available for:",
+                  "Shared Governance Committee meetings",
+                  "Executive Committee meetings",
+                  "Strategic Planning Committee meetings",
+                  "Finance Committee meetings"
+                ]
               ]
             },
             {
