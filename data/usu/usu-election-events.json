@@ -1,50 +1,93 @@
 [
   {
-    "title": "APPLICATION OPENS",
+    "title": "Applications Open",
     "date": "January 29",
-    "location": "N/A",
-    "description": "Are you interested in running for a position? Not sure where to start? We encourage any interested student to pursue candidacy for elected student positions on the ASI Board of Directors and Cal State LA Academic Senate by filling the Candidate Elections Packet by the required deadline."
+    "time": "",
+    "location": "",
+    "description": "Are you interested in running for a position? Not sure where to start? We encourage any interested student to pursue candidacy for elected student positions on the ASI Board of Directors and Cal State LA Academic Senate by filing the Candidate Elections Packet by the required deadline."
   },
   {
-    "title": "INFO SESSION I",
+    "title": "Leadership Info Session I",
     "date": "February 7",
-    "location": "TBA",
-    "description": "Need to know more? we got you! Join us for an Own it, info session and find out how you can Own it on 2024-2025. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State Los Angeles and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
+    "time": "10AM to 3PM",
+    "location": "U-SU Plaza",
+    "description": "Need to know more? We got you! Join us for an Own It info session and find out how you can Own It in 2024-2025. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
   },
   {
-    "title": "INFO SESSION II",
+    "title": "Leadership Info Session II",
     "date": "February 8",
-    "location": "TBA",
-    "description": "If you didnt stop by our previous info session you can stop by on this one. Join us for an Own it, info session and find out how you can Own it on 2024-2025. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State Los Angeles and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
+    "time": "1 to 5PM",
+    "location": "U-SU Plaza",
+    "description": "If you didn't stop by our previous info session, you can stop by on this one. Join us for an Own It info session and find out how you can Own It in 2024-2025. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
   },
   {
-    "title": "APPLICATIONS DEADLINE",
+    "title": "Mandatory Candidate Briefing",
+    "date": "March 20",
+    "time": "",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "Mandatory Candidate Briefing - Make Up",
+    "date": "March 25",
+    "time": "",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "Applications Due",
     "date": "February 9",
-    "location": "TBA",
-    "description": "Your Application is due by 5pm."
+    "time": "",
+    "location": "",
+    "description": ""
   },
   {
-    "title": "ASI MANDATORY CANDIDATE BRIEFING",
-    "date": "TBA",
-    "location": "TBA",
-    "description": "If you are interested in getting involved on campus and want to make a difference, running for office is the perfect chance to help get your voice heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State Los Angeles and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
+    "title": "Campaign Week",
+    "date": "April 8 to 12",
+    "time": "",
+    "location": "",
+    "description": "Choose to lead! This is the week where you can let the student body know who you are, what you would do, and overall, why you choose to lead."
   },
   {
-    "title": "CANDIDATE CAMPAIGN WEEK",
-    "date": "April 8 - 12",
-    "location": "TBA",
-    "description": "You Choose to lead! This is the week were you can let the student body know who you are, what would you do and overall why you choose to lead."
+    "title": "Candidate Meet & Greet",
+    "date": "April 10",
+    "time": "",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "Candidate Meet & Greet 2",
+    "date": "April 11",
+    "time": "",
+    "location": "",
+    "description": ""
   },
   {
     "title": "STUDENT LEADER ELECTION: VOTE",
-    "date": "April 12 - 16",
+    "date": "April 12 to 16",
+    "time": "",
     "location": "GET",
     "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. Get involved! Be heard! Win prizes!"
   },
   {
+    "title": "Taco Day",
+    "date": "April 15",
+    "time": "",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "In-N-Out",
+    "date": "April 16",
+    "time": "",
+    "location": "",
+    "description": ""
+  },
+  {
     "title": "ELECTION RESULTS ANNOUNCEMENT",
     "date": "April 23",
-    "location": "TBA",
+    "time": "",
+    "location": "U-SU Plaza",
     "description": "Return and see who won the student leader elections."
   }
 ]
