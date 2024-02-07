@@ -7,7 +7,7 @@ import Link from "next/link";
 interface PositionDataProps {
   type: string;
   text?: string;
-  list?: string[];
+  list?: (string | string[])[];
 }
 
 interface PositionModalProps {
@@ -57,16 +57,33 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
                 </div>
               )}
               {item.type === "list" && (
-                <ul className="list-disc px-4 mb-2">
-                  <div className="px-4">
+                <div className="px-4">
+                  <ul className="list-disc px-4 mb-2">
                     {item.list &&
                       item.list.map((listItem, listIndex) => (
-                        <li key={listIndex}>
-                          <Typography>{listItem}</Typography>
-                        </li>
+                        <div key={listIndex}>
+                          {Array.isArray(listItem) ? (
+                            <Typography>
+                              <li>
+                                {listItem[0]}
+                                <ol className="list-decimal px-4">
+                                  {(listItem as string[])
+                                    .slice(1)
+                                    .map((sublistItem, sublistIndex) => (
+                                      <li key={sublistIndex}>{sublistItem}</li>
+                                    ))}
+                                </ol>
+                              </li>
+                            </Typography>
+                          ) : (
+                            <li>
+                              <Typography>{listItem}</Typography>
+                            </li>
+                          )}
+                        </div>
                       ))}
-                  </div>
-                </ul>
+                  </ul>
+                </div>
               )}
               {item.type === "link" && (
                 <div className="px-4">
@@ -75,8 +92,13 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
                       {item.list &&
                         item.list.map((listItem, listIndex) => (
                           <li key={listIndex}>
-                            <Link href={listItem} className="text-blue-600">
-                              {listItem}
+                            <Link
+                              href={!Array.isArray(listItem) ? listItem : ""}
+                              className="text-blue-600"
+                            >
+                              {Array.isArray(listItem)
+                                ? listItem.join(", ")
+                                : listItem}
                             </Link>
                           </li>
                         ))}
