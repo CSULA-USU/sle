@@ -122,7 +122,7 @@ export default function USU() {
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
-        <Divider margin="reg" />
+        <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer>
       <FluidContainer>
