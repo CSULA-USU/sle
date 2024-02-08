@@ -88,7 +88,13 @@ export default function USU() {
         <Divider />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {electionEvents.map((e, i) => (
-            <Card key={i} title={e.title} date={e.date} location={e.location}>
+            <Card
+              key={i}
+              title={e.title}
+              date={e.date}
+              location={e.location}
+              time={e.time}
+            >
               {e.description}
             </Card>
           ))}
