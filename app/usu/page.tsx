@@ -135,9 +135,8 @@ export default function USU() {
         ))}
         <div className="my-6">
           <Typography variant="copy">
-            If you have any questions regarding the process or requirements
-            please call the Information and Event Services, U-SU Front Desk at
-            323-343-2465 or email us.
+            If you have any questions regarding the process or requirements,
+            please call the U-SU Administrative Front Desk at (323) 343-2450.
           </Typography>
         </div>
       </FluidContainer>
