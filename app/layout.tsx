@@ -1,5 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
-import ReactGA from "react-ga4";
+// import ReactGA from "react-ga4";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Bitter, Montserrat } from "next/font/google";
 import { Nav, Footer } from "../modules";
@@ -30,7 +31,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  ReactGA.initialize(`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`);
+  // ReactGA.initialize(`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`);
   return (
     <html lang="en">
       <body className={`${bitter.variable} ${montserrat.variable}`}>
@@ -41,6 +42,7 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
+      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
     </html>
   );
 }
