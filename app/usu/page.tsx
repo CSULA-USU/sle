@@ -88,7 +88,13 @@ export default function USU() {
         <Divider />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {electionEvents.map((e, i) => (
-            <Card key={i} title={e.title} date={e.date} location={e.location}>
+            <Card
+              key={i}
+              title={e.title}
+              date={e.date}
+              location={e.location}
+              time={e.time}
+            >
               {e.description}
             </Card>
           ))}
@@ -135,9 +141,8 @@ export default function USU() {
         ))}
         <div className="my-6">
           <Typography variant="copy">
-            If you have any questions regarding the process or requirements
-            please call the Information and Event Services, U-SU Front Desk at
-            323-343-2465 or email us.
+            If you have any questions regarding the process or requirements,
+            please call the U-SU Administrative Front Desk at (323) 343-2450.
           </Typography>
         </div>
       </FluidContainer>
