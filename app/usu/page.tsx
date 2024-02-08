@@ -82,7 +82,6 @@ export default function USU() {
           theme="light"
         ></InfoPanel>
       </FluidContainer>
-
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider />
@@ -100,7 +99,6 @@ export default function USU() {
           ))}
         </div>
       </FluidContainer>
-
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
