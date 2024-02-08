@@ -76,8 +76,8 @@
             {
               "type": "list",
               "list": [
-                "Serves as the Chair of the BOD. The purpose and function of the Board of Directors (BOD) shall be to act as a governing body for ASI, be a steward to the student funds, and serve as a learning laboratory for student leadership. For more information about the BOD visit: https://asicalstatela.org/committee/asi-board-directors",
-                "Serves as the Chair of the Executive Committee and coordinates the information, programs, projects, and problems to be considered by the ASI BOD. This body shall also provide general policy guidelines, and make specific policy decisions, in place of the entire BOD only when the BOD cannot be called together to act on an emergency matter. For more information about the Executive Committee visit: https://asicalstatela.org/committee/executive-committee",
+                "Serves as the Chair of the BOD. The purpose and function of the Board of Directors (BOD)¹ shall be to act as a governing body for ASI, be a steward to the student funds, and serve as a learning laboratory for student leadership.",
+                "Serves as the Chair of the Executive Committee² and coordinates the information, programs, projects, and problems to be considered by the ASI BOD. This body shall also provide general policy guidelines, and make specific policy decisions, in place of the entire BOD only when the BOD cannot be called together to act on an emergency matter.",
                 "Serves as a student member of the University Resource Allocation Advisory Committee",
                 "Attends the Student Fee Advisory Committee meetings",
                 "Serve as an advisory member on the U-SU Board and UAS Board",
@@ -113,6 +113,14 @@
             {
               "type": "copy",
               "text": "BOD members meet once per month on Fridays from 2 - 3 p.m. as a Board and members serve on committees of the BOD."
+            },
+            { "type": "subheader", "text": "Resources" },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/committee/asi-board-directors",
+                "https://asicalstatela.org/committee/executive-committee"
+              ]
             }
           ]
         },
@@ -181,9 +189,9 @@
             {
               "type": "list",
               "list": [
-                "Serves as the Chair of the Strategic Planning Committee (SPC), which assists the BOD in recommending goals for based the ASI strategic plan. For more information about the committee visit: https://asicalstatela.org/committee/asi-strategic-planning-committee",
-                "Serves as the recording secretary for the BOD meetings and takes roll call. For more information about the BOD visit: https://asicalstatela.org/committee/asi-board-directors",
-                "Serves on the Executive Committee and coordinates the information, programs, projects, and problems to be considered by the ASI BOD. For more information about the Executive Committee visit: https://asicalstatela.org/committee/executive-committee",
+                "Serves as the Chair of the Strategic Planning Committee (SPC)¹, which assists the BOD in recommending goals for based the ASI strategic plan.",
+                "Serves as the recording secretary for the BOD² meetings and takes roll call.",
+                "Serves on the Executive Committee³ and coordinates the information, programs, projects, and problems to be considered by the ASI BOD.",
                 "Sits on five (5) ASI standing committees and one (1) university committee and must be available for meetings of the ASI Shared Governance Committee, Personnel Committee, Strategic Planning Committee, and Finance Committee"
               ]
             },
@@ -215,6 +223,18 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "subheader",
+              "text": "Resources"
+            },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/committee/asi-strategic-planning-committee",
+                "https://asicalstatela.org/committee/asi-board-directors",
+                "https://asicalstatela.org/committee/executive-committee"
+              ]
             }
           ]
         },
@@ -287,14 +307,16 @@
             {
               "type": "list",
               "list": [
-                "Serve as the Chair of the Cabinet of Commissioners (COC) which consists of the Spirit, Environmental Affairs, Elections and Orientation, and Public Relations and Marketing Commissioners. Also included in the COC are the Housing and Residence Life Representative and the Veterans Affairs Representative. The COC coordinates, plans and is responsible for the activities of the administrative unit of ASI. In addition, the COC provides a number of social and educational programs for the Cal State LA community. For more information about the COC and their scheduled meeting times visit: https://asicalstatela.org/commissioners",
-                "Serves as the Chair of the ASI Personnel Committee, which acts on behalf of the Board regarding matters pertaining to the full-time employees of ASI. The Personnel Committee also makes recommendations to the Board regarding policies, funding for staff positions, and the overall staffing structure for the organization. For more information about the Personnel Committee and their scheduled meeting times visit: https://asicalstatela.org/committee/personnel-committee",
+                "Serve as the Chair of the Cabinet of Commissioners (COC)¹ which consists of the Spirit, Environmental Affairs, Elections and Orientation, and Public Relations and Marketing Commissioners. Also included in the COC are the Housing and Residence Life Representative and the Veterans Affairs Representative. The COC coordinates, plans and is responsible for the activities of the administrative unit of ASI. In addition, the COC provides a number of social and educational programs for the Cal State LA community.",
+                "Serves as the Chair of the ASI Personnel Committee², which acts on behalf of the Board regarding matters pertaining to the full-time employees of ASI. The Personnel Committee also makes recommendations to the Board regarding policies, funding for staff positions, and the overall staffing structure for the organization.",
                 "Attends all ASI Board Meetings, serving as second in charge of ASI in the absence of the ASI President",
-                "Sits on four (4) additional ASI standing committees and one (1) university committee and must be available for:",
-                "Shared Governance Committee meetings",
-                "Executive Committee meetings",
-                "Strategic Planning Committee meetings",
-                "Finance Committee meetings"
+                [
+                  "Sits on four (4) additional ASI standing committees and one (1) university committee and must be available for:",
+                  "Shared Governance Committee meetings",
+                  "Executive Committee meetings",
+                  "Strategic Planning Committee meetings",
+                  "Finance Committee meetings"
+                ]
               ]
             },
             {
@@ -325,6 +347,17 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "subheader",
+              "text": "Resources"
+            },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/commissioners",
+                "https://asicalstatela.org/committee/personnel-committee"
+              ]
             }
           ]
         },
@@ -390,9 +423,8 @@
               "type": "list",
               "list": [
                 "Attends all ASI Board Meetings",
-                "Serve as the Chair of the Cabinet of Senators (CAS), which coordinates, plans, and is responsible for the actions of the academic governance unit of ASI. The CAS meets with the Academic Senate (governed by faculty) to actively engage in the process of shared governance of the university. For more information about the CAS and their scheduled meeting times visit: https://asicalstatela.org/committee/cabinet- academic-senators-committee",
-                "Serve as Chair of the Shared Governance Council. The council reviews, researches and makes recommendations on academic and administrative policy affecting students. This body also develops formal responses to be published via resolutions, white papers, student impact statements, etc. Additionally, the council works with all appropriate areas to ensure that genuine Shared Governance is upheld between students, faculty, and administration. For more information about the Shared Governance Council visit: https://asicalstatela.org/committee/shared-governance-council",
-                "Cal State LA Academic Senate. The Academic Senate is served by its Executive Committee, which is elected annually by the Senate from its membership, and by six standing committees, the members of which are elected from various segments of the faculty to ensure representation. Student members are elected as full members of these committees. The Academic Senate is the representative body of the university-wide academic governance. It is composed of faculty members, academic administrators, and both undergraduate & post-baccalaureate students. The Senate develops and proposes policies for recommendation to the University President. When approved by the University President, these recommendations become University policy. For more information about the Academic Senate and their scheduled meeting times visit: http://www.calstatela.edu/academicsenate",
+                "Serve as the Chair of the Cabinet of Senators (CAS)¹, which coordinates, plans, and is responsible for the actions of the academic governance unit of ASI. The CAS meets with the Academic Senate (governed by faculty) to actively engage in the process of shared governance of the university. The council reviews, researches and makes recommendations on academic and administrative policy affecting students. This body also develops formal responses to be published via resolutions, white papers, student impact statements, etc. Additionally, the council works with all appropriate areas to ensure that genuine Shared Governance² is upheld between students, faculty, and administration.",
+                "Cal State LA Academic Senate³. The Academic Senate is served by its Executive Committee, which is elected annually by the Senate from its membership, and by six standing committees, the members of which are elected from various segments of the faculty to ensure representation. Student members are elected as full members of these committees. The Academic Senate is the representative body of the university-wide academic governance. It is composed of faculty members, academic administrators, and both undergraduate & post-baccalaureate students. The Senate develops and proposes policies for recommendation to the University President. When approved by the University President, these recommendations become University policy.",
                 "Sits on five (5) ASI standing committees and one (1) university committee and must be available for meetings of the ASI Shared Governance Committee, Personnel Committee, Executive Committee, Strategic Planning Committee, and Finance Committee Meetings",
                 "Meets with the Executive Committee of the Academic Senate if extended by the committee"
               ]
@@ -587,7 +619,7 @@
               "type": "list",
               "list": [
                 "Provides the BOD with an accurate accounting of balances, reserves and allowances at each meeting",
-                "Has a detailed understanding of all ASI Finance Policies & Procedures: https://asicalstatela.org/student-government/bylaws-operating-procedures/administrative-manual-governing-documents/finance",
+                "Has a detailed understanding of all ASI Finance Policies & Procedures¹.",
                 "Maintains an accurate list of funding received by the Finance Committee",
                 "In collaboration with the ASI Executive Director, provides the BOD with quarterly budget revisions as needed (3/9, 6/6, 9/3)",
                 "Serves as an authorized signer on ASI accounts and paperwork",
@@ -602,10 +634,10 @@
             {
               "type": "list",
               "list": [
-                "Serve as the Chair of the ASI Finance Committee. The Finance Committees acts on behalf of the BOD in all matters pertaining to income appropriation, and the safeguarding of Associated Students, Inc. funds. The Finance Committee makes recommendations to the Board of Directors regarding allocation of funds. The committee also prepares an annual budget which must be submitted to the Associated Students, Inc. BOD in sufficient time for review and approval. The Finance Committee also has the responsibility for recommending the most appropriate investments. More information about the Finance Committee can be found at: https://asicalstatela.org/committee/finance-committee",
-                "Supports the Vice Chair for Finance in Chairing and organizing the ASI Sub-Funding Committee that acts as a sub-committee of the ASI Finance Committee and is granted the authority to allocate ASI funds to student organizations, per the review of submitted proposals to this body. The sub-committee is the first step in a multi-level approval process in requests for appropriation of ASI funds to recognized clubs and organizations. More information about the Funding Committee can be found at: https://asicalstatela.org/committee/asi-funding-sub-committee",
-                "Alternative Funding & Referendum Ad Hoc Committee: The charge of this committee is to research, identify, and present viable recommendations and funding alternatives to the ASI Finance Committee for consideration. Approved initiatives shall be presented at the BOD for action. The alternatives can include but not be limited to fundraising, securing grants, sponsoring a referendum, etc. All alternative initiatives must be in compliance with ASI, Cal State LA, the CSU Education Code, and Title 5 requirements. More information about the Alternative Funding & Referendum Ad Hoc Committee can be found at: https://asicalstatela.org/committee/asi-alternative-funding-referendum-ad-hoc-committee",
-                "Scholarship & Awards Ad Hoc Committee - This committee is responsible for the administrative review of current and new awards and scholarships offered by ASI. The charge of this body is to review research, identify, and update procedures and criteria for the awarding of ASI scholarships and general awards on at least an annual basis. All new scholarships and awards must be presented to this Ad Hoc Committee for review, approval, and recommendation to the Finance Committee. More information about the Scholarship & Awards Ad Hoc Committee can be found at: https://asicalstatela.org/committee/asi-scholarship-awards-ad-hoc-committee",
+                "Serve as the Chair of the ASI Finance Committee². The Finance Committees acts on behalf of the BOD in all matters pertaining to income appropriation, and the safeguarding of Associated Students, Inc. funds. The Finance Committee makes recommendations to the Board of Directors regarding allocation of funds. The committee also prepares an annual budget which must be submitted to the Associated Students, Inc. BOD in sufficient time for review and approval. The Finance Committee also has the responsibility for recommending the most appropriate investments.",
+                "Supports the Vice Chair for Finance in Chairing and organizing the ASI Sub-Funding Committee³ that acts as a sub-committee of the ASI Finance Committee and is granted the authority to allocate ASI funds to student organizations, per the review of submitted proposals to this body. The sub-committee is the first step in a multi-level approval process in requests for appropriation of ASI funds to recognized clubs and organizations.",
+                "Alternative Funding & Referendum Ad Hoc Committee⁴: The charge of this committee is to research, identify, and present viable recommendations and funding alternatives to the ASI Finance Committee for consideration. Approved initiatives shall be presented at the BOD for action. The alternatives can include but not be limited to fundraising, securing grants, sponsoring a referendum, etc. All alternative initiatives must be in compliance with ASI, Cal State LA, the CSU Education Code, and Title 5 requirements.",
+                "Scholarship & Awards Ad Hoc Committee⁵ - This committee is responsible for the administrative review of current and new awards and scholarships offered by ASI. The charge of this body is to review research, identify, and update procedures and criteria for the awarding of ASI scholarships and general awards on at least an annual basis. All new scholarships and awards must be presented to this Ad Hoc Committee for review, approval, and recommendation to the Finance Committee.",
                 "Attends all ASI Board Meetings",
                 "Sits on an additional four (4) ASI standing committees and one (1) university committee and must be available for meetings of the Shared Governance Committee, Personnel Committee, Executive Committee, Strategic Planning Committee, Funding Sub-Committee, and Finance Committee"
               ]
@@ -632,6 +664,20 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "subheader",
+              "text": "Resources"
+            },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/student-government/bylaws-operating-procedures/administrative-manual-governing-documents/finance",
+                "https://asicalstatela.org/committee/finance-committee",
+                "https://asicalstatela.org/committee/asi-funding-sub-committee",
+                "https://asicalstatela.org/committee/asi-alternative-funding-referendum-ad-hoc-committee",
+                "https://asicalstatela.org/committee/asi-scholarship-awards-ad-hoc-committee"
+              ]
             }
           ]
         }
@@ -866,7 +912,7 @@
               "type": "list",
               "list": [
                 "One-on-one meetings with ASI Vice President for Academic Governance and advising meetings with ASI Executive Director (designee)",
-                "Minimum requirements for student leaders - (https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements)",
+                "Minimum requirements for student leaders²",
                 "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
                 "Submit a state of affairs report to the BOD in accordance with the Code of Procedures",
                 "ASI officer duties begin June 1 and requires attendance at meetings and training throughout the summer",
@@ -886,7 +932,7 @@
             {
               "type": "list",
               "list": [
-                "All voting members of the Academic Senate and of its standing committees and subcommittees, both faculty and students, are expected to attend meetings regularly in order to fulfill the commitments of membership. If any voting members are absent from three consecutive meetings, they shall be replaced unless they are on approved leave or off campus for university related business. (Senate Handbook)",
+                "All voting members of the Academic Senate and of its standing committees and subcommittees, both faculty and students, are expected to attend meetings regularly in order to fulfill the commitments of membership. If any voting members are absent from three consecutive meetings, they shall be replaced unless they are on approved leave or off campus for university related business. (Senate Handbook³)",
                 "Attend all Academic Senate meetings, which are held every other week for two hours",
                 "Submit a state of affairs report to the ASI BOD each semester that documents the accomplishments of the individual Senator",
                 "Actively seek the opinions, needs, and desires of their constituents (e.g. through college council meetings, interactive forums, other programs, surveys, and one-on-one conversations).",
@@ -895,8 +941,7 @@
                 "Present to CAS measures which might serve to resolve student-related problems encountered by their constituents.",
                 "Attend outreach events to publicize Senator programs and gather feedback from students on academic issues",
                 "Perform any other responsibilities that may be delegated by the Academic Senate.",
-                "A notation is made on the permanent record of every student member of an academic governance body for participation in academic governance, provided that the student so recognized has maintained a minimum of 70 percent attendance during each such appointment. Participation in academic governance is defined as membership in any recognized university, college, or department/division/school committee; college assembly; or the Academic Senate, its four standing committees, their subcommittees, or any ad hoc committee established by the Senate or the President.",
-                "Additional information on the Academic Senate may be found in the Senate Handbook - [Senate Handbook](https://www.calstatela.edu/academicsenate/handbook/ch2toc)"
+                "A notation is made on the permanent record of every student member of an academic governance body for participation in academic governance, provided that the student so recognized has maintained a minimum of 70 percent attendance during each such appointment. Participation in academic governance is defined as membership in any recognized university, college, or department/division/school committee; college assembly; or the Academic Senate, its four standing committees, their subcommittees, or any ad hoc committee established by the Senate or the President."
               ]
             },
             { "type": "subheader", "text": "COMMITTEE INVOLVEMENT" },
@@ -938,7 +983,11 @@
             },
             {
               "type": "link",
-              "list": ["https://www.calstatela.edu/academicsenate"]
+              "list": [
+                "https://www.calstatela.edu/academicsenate",
+                "https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements",
+                "https://www.calstatela.edu/academicsenate/handbook/ch2toc"
+              ]
             }
           ]
         }

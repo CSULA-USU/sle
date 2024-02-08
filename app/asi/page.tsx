@@ -17,7 +17,7 @@ import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
 interface PositionData {
   type: string;
   text?: string;
-  list?: string[];
+  list?: (string | string[])[];
 }
 
 interface Position {

@@ -3,7 +3,7 @@ import { PositionsSection } from "@/modules";
 interface PositionDataProps {
   type: string;
   text?: string;
-  list?: string[];
+  list?: (string | string[])[];
 }
 
 interface PositionProps {

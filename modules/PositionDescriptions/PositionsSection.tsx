@@ -3,7 +3,7 @@ import { PositionModal, Typography } from "@/components";
 interface PositionDataProps {
   type: string;
   text?: string;
-  list?: string[];
+  list?: (string | string[])[];
 }
 
 interface PositionProps {
