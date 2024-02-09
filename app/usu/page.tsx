@@ -64,7 +64,7 @@ export default function USU() {
         <Button
           variant="yellow"
           text="Application"
-          href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+          href="https://form.jotform.com/240387162166154"
         />
       </HeroHeader>
 
@@ -114,13 +114,13 @@ export default function USU() {
           <Button
             variant="grey"
             text="U-SU BOD Application"
-            href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+            href="https://form.jotform.com/240387162166154"
           />
         </CTA>
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
-        <Divider margin="reg" />
+        <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer>
       <FluidContainer>
