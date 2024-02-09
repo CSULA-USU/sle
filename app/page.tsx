@@ -71,7 +71,7 @@ export default function Home() {
             <Button
               variant="grey"
               text="U-SU Board of Directors"
-              href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+              href="https://form.jotform.com/240387162166154"
             />
           </InfoPanel>
           <Divider />
