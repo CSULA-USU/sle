@@ -25,12 +25,14 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
     };
 
     if (isOpen) {
+      document.body.classList.add("overflow-y-hidden");
       document.addEventListener("mousedown", handleClickOutside);
       document.addEventListener("keydown", handleKeyDown);
       modalRef.current?.focus();
     }
 
     return () => {
+      document.body.classList.remove("overflow-y-hidden");
       document.removeEventListener("mousedown", handleClickOutside);
       document.removeEventListener("keydown", handleKeyDown);
     };
