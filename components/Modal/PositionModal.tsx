@@ -35,9 +35,12 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
         <button
           onClick={openModal}
           className="w-full text-left flex items-center"
+          style={{
+            textOverflow: "ellipsis",
+          }}
         >
           <FaCirclePlus className="mr-2 flex-shrink-0" />
-          <Typography>{title}</Typography>
+          <p className="font-sans truncate">{title}</p>
         </button>
       </div>
       <Modal isOpen={modalOpen} onClose={closeModal}>
