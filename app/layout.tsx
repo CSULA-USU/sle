@@ -1,6 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
-// import ReactGA from "react-ga4";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Bitter, Montserrat } from "next/font/google";
@@ -32,7 +32,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // ReactGA.initialize(`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`);
   return (
     <html lang="en">
       <Head>
@@ -85,6 +84,7 @@ export default function RootLayout({
         <Footer />
       </body>
       <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+      <SpeedInsights />
     </html>
   );
 }
