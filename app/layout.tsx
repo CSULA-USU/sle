@@ -82,9 +82,9 @@ export default function RootLayout({
           <Analytics />
         </main>
         <Footer />
+        <SpeedInsights />
       </body>
       <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
-      <SpeedInsights />
     </html>
   );
 }
