@@ -1,6 +1,7 @@
 import React from "react";
 
 interface TypographyProps {
+  as?: "p" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "span";
   variant?:
     | "pageHeader"
     | "sectionHeader"
@@ -33,6 +34,7 @@ const variants = {
 };
 
 export const Typography = ({
+  as: TypographyElement = "span",
   children,
   variant = "copy",
   className,
@@ -41,10 +43,10 @@ export const Typography = ({
   fontWeight,
 }: TypographyProps) => {
   return (
-    <span
+    <TypographyElement
       className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight} ${className}`}
     >
       {children}
-    </span>
+    </TypographyElement>
   );
 };

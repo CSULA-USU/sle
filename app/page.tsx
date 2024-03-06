@@ -18,8 +18,19 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   creator:
     "University-Student Union and Associated Students, Inc. of Cal State LA",
-  keywords:
-    "CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, Vote, Recruitment, Shape Your University Experience, Choose to lead, Your vote matters",
+  keywords: [
+    "CSULA",
+    "Cal State LA",
+    "ASI",
+    "Associated Students, Inc.",
+    "Student Leader Elections",
+    "University Student Government",
+    "Vote",
+    "Recruitment",
+    "Shape Your University Experience",
+    "Choose to lead",
+    "Your vote matters",
+  ],
   description:
     "Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you’re ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. Apply and learn how to vote for the student leader elections now!",
 };
@@ -28,17 +39,19 @@ export default function Home() {
     <>
       <div className="bg-black">
         <FluidContainer>
-          <HeroHeader
-            imgAlt="Student Leader Elections Home Page Header Image"
-            imgSrc="/headers/header-2.jpeg"
-          />
+          <h1>
+            <HeroHeader
+              imgAlt="Student Leader Elections Home Page Header"
+              imgSrc="/headers/header-2.jpeg"
+            />
+          </h1>
           <FluidContainer textAlign="center">
             <div>
-              <Typography variant="footerHeader" color="white">
+              <Typography variant="footerHeader" color="white" as="h2">
                 Ready to elevate your college journey?
               </Typography>
             </div>
-            <Typography variant="footerHeader" color="white">
+            <Typography variant="footerHeader" color="white" as="h2">
               Apply now to uncover the amazing things your FULL potential can
               bring to you and your peers!
             </Typography>
@@ -59,7 +72,7 @@ export default function Home() {
             <Button
               variant="yellow"
               text="ASI Student Government"
-              href="https://asicalstatela.org/general-election/2024-25-student-leader-election-application-now-open"
+              href="https://asicalstatela.org/general-election"
             />
             <Button
               variant="grey"

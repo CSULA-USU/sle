@@ -9,6 +9,7 @@ import {
   Typography,
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
+import type { Metadata } from "next";
 import Head from "next/head";
 import electionEvents from "@/data/asi/asi-election-events.json";
 import asiData from "@/data/asi/asi-positions.json";
@@ -35,6 +36,22 @@ interface AsiData {
 }
 
 const typedAsiData: AsiData = asiData;
+
+export const metadata: Metadata = {
+  title: "ASI Student Government",
+  description:
+    "Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus.",
+  authors: [
+    {
+      name: "University-Student Union at Cal State LA",
+      url: "https://www.calstatelausu.org/",
+    },
+    {
+      name: "Associated Students, Inc. of Cal State LA",
+      url: "https://asicalstatela.org/",
+    },
+  ],
+};
 
 export default function ASI() {
   return (
@@ -110,7 +127,7 @@ export default function ASI() {
             variant="black"
             borderless
             text="ASI Application"
-            href="https://asicalstatela.org/electionapp"
+            href="https://asicalstatela.org/general-election"
           />
           <Button
             variant="grey"
