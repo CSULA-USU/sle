@@ -90,7 +90,7 @@ export const Footer = () => {
         justifyContent="between"
         alignItems="center"
       >
-        <div className="flex justify-between gap-6 max-lg:min-w-full">
+        <div className="flex justify-between gap-6 max-lg:min-w-full max-lg:flex-col">
           <div>
             <Typography variant="footerCopy">
               5154 State University Dr., Los Angeles, CA 90032
@@ -102,6 +102,16 @@ export const Footer = () => {
           <div>
             <Typography variant="footerCopy">
               <NonBreakingSpan>(323) 343 - 2465</NonBreakingSpan>
+            </Typography>
+          </div>
+          <div className="max-sm:hidden">
+            <Typography variant="footerCopy">|</Typography>
+          </div>
+          <div>
+            <Typography variant="footerCopy">
+              <NonBreakingSpan>
+                info.usu@calstatelaelections.org
+              </NonBreakingSpan>
             </Typography>
           </div>
         </div>
