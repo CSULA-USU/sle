@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
-import Head from "next/head";
+import type { Metadata } from "next";
 import electionEvents from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
@@ -37,25 +37,40 @@ interface UsuData {
 
 const typedUsuData: UsuData = usuData;
 
+export const metadata: Metadata = {
+  title: "U-SU Board of Directors",
+  description:
+    "Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus.",
+  authors: [
+    {
+      name: "University-Student Union at Cal State LA",
+      url: "https://www.calstatelausu.org/",
+    },
+  ],
+  keywords: [
+    "University-Student Union",
+    "U-SU",
+    "Student Leader Elections",
+    "Application",
+    "Choose to lead",
+    "Election Events",
+    "Application Opens",
+    "Info Sessions",
+    "Application Deadline",
+    "BOD",
+    "Candidate Campaign Week",
+    "Election Results",
+    "Position Descriptions",
+    "Executive Positions",
+    "Board of Directors",
+    "Board Member",
+    "Basic Eligibility Requirements",
+  ],
+};
+
 export default function USU() {
   return (
     <div>
-      <Head>
-        <meta
-          name="author"
-          content="Associated Students, Inc. of Cal State LA"
-        />
-        <meta
-          name="keywords"
-          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, Application, Choose to lead, Election Events, Application Opens, Info Sessions, Application Deadline, ASI Mandatory Candidate Briefing, Candidate Campaign Week, Election Results, Position Descriptions, U-SU Board of Directors, Basic Eligibility Requirements"
-        />
-        <meta
-          name="description"
-          content="Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State Los Angeles and assist with essential changes on campus."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <HeroHeader
         imgAlt="ASI General Election Header Image"
         imgSrc="/sle-apply.png"
@@ -140,7 +155,8 @@ export default function USU() {
         <div className="my-6">
           <Typography variant="copy">
             If you have any questions regarding the process or requirements,
-            please call the U-SU Administrative Front Desk at (323) 343-2450.
+            please call the U-SU Administrative Front Desk at (323) 343-2450 or
+            email us at info.usu@calstatelaelections.org
           </Typography>
         </div>
       </FluidContainer>

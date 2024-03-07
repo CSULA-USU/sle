@@ -42,7 +42,7 @@ export default function Home() {
           <h1>
             <HeroHeader
               imgAlt="Student Leader Elections Home Page Header"
-              imgSrc="/headers/header-2.jpeg"
+              imgSrc="/headers/vote-campaign.svg"
             />
           </h1>
           <FluidContainer textAlign="center">
@@ -56,6 +56,17 @@ export default function Home() {
               bring to you and your peers!
             </Typography>
           </FluidContainer>
+          <Divider />
+          <InfoPanel
+            title="Your Vote Matters"
+            description="Choose leaders who understand your needs, resonate with your
+                values, and are dedicated to creating a campus that reflects
+                your vision."
+            imgAlt="Students voting"
+            imgSrc="/your-vote-matters.png"
+          >
+            <Button variant="black" text="Voting Instructions" href="/vote" />
+          </InfoPanel>
           <Divider />
           <InfoPanel
             title="Choose to Lead"
@@ -80,17 +91,6 @@ export default function Home() {
               href="https://form.jotform.com/240387162166154"
             />
           </InfoPanel>
-          <Divider />
-          <InfoPanel
-            title="Your Vote Matters"
-            description="Choose leaders who understand your needs, resonate with your
-                values, and are dedicated to creating a campus that reflects
-                your vision."
-            imgAlt="Students voting"
-            imgSrc="/your-vote-matters.png"
-          >
-            <Button variant="black" text="Voting Instructions" href="/vote" />
-          </InfoPanel>
           <div className="gap-8 flex max-md:flex-col my-10">
             <StatementCard
               title="Proven Excellence"
@@ -106,7 +106,7 @@ export default function Home() {
             </StatementCard>
             <StatementCard
               title="Come into the Spotlight"
-              text="Embrace the next stage of your life. You are a LEADER."
+              text="Embrace the next stage of your life. You are a Leader."
             >
               <FaRegLightbulb color="white" size={40} />
             </StatementCard>
