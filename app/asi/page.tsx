@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
-import Head from "next/head";
+import type { Metadata } from "next";
 import electionEvents from "@/data/asi/asi-election-events.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
@@ -36,25 +36,57 @@ interface AsiData {
 
 const typedAsiData: AsiData = asiData;
 
+export const metadata: Metadata = {
+  title: "ASI Student Government",
+  description:
+    "Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus.",
+  authors: [
+    {
+      name: "University-Student Union at Cal State LA",
+      url: "https://www.calstatelausu.org/",
+    },
+    {
+      name: "Associated Students, Inc. of Cal State LA",
+      url: "https://asicalstatela.org/",
+    },
+  ],
+  keywords: [
+    "CSULA",
+    "Cal State LA",
+    "ASI, Associated Students, Inc.",
+    "Student Leader Elections",
+    "Application",
+    "Choose to lead",
+    "Election Events",
+    "Application Opens",
+    "Info Sessions",
+    "Application Deadline",
+    "ASI Mandatory Candidate Briefing",
+    "Candidate Campaign Week",
+    "Election Results",
+    "Position Descriptions",
+    "Executive Positions",
+    "ASI President",
+    "ASI Secretary Treasurer",
+    "ASI Vice President for Administration",
+    "ASI Vice president for Academic Governance",
+    "ASI Vice President for External Affairs and Advancement",
+    "ASI Vice President for Finance, College Representative and Reps at Large",
+    "College Representatives, Diversity and Inclusion and Civic Engagement Officers",
+    "ASI Commissioners",
+    "Election and Outreach Comissioner and Officials",
+    "Environment Affairs Commissioner",
+    "ASI Spriit Commissioner",
+    "Military Connected Representative",
+    "Senators",
+    "Academic Senators",
+    "Basic Eligibility Requirements",
+  ],
+};
+
 export default function ASI() {
   return (
     <div>
-      <Head>
-        <meta
-          name="author"
-          content="Associated Students, Inc. of Cal State LA"
-        />
-        <meta
-          name="keywords"
-          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, Application, Choose to lead, Election Events, Application Opens, Info Sessions, Application Deadline, ASI Mandatory Candidate Briefing, Candidate Campaign Week, Election Results, Position Descriptions, Executive Positions, ASI President, ASI Secretary Treasurer, ASI Vice President for Administration, ASI Vice PResident for Academic Governance, ASI Vice President for External Affairs & Advancement, ASI Vice President for Finance, College Representative & Reps at Large, College Representatives, Diversity and Inclusion & Civic Engagement Officers, ASI Commissioners, Election and Outreach Comissioner and Officials, Environment Affaris Commissioner, ASI Spriit Commissioner, Military Connected Representative, Senators, Academic Senators, Basic Eligibility Requirements"
-        />
-        <meta
-          name="description"
-          content="Running for office is the perfect chance to help your voice be heard. As a part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <HeroHeader
         imgAlt="ASI General Election Header Image"
         imgSrc="/sle-apply.png"
@@ -66,7 +98,6 @@ export default function ASI() {
           href="https://asicalstatela.org/election"
         />
       </HeroHeader>
-
       <FluidContainer>
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="lg" />
@@ -81,7 +112,6 @@ export default function ASI() {
           theme="light"
         ></InfoPanel>
       </FluidContainer>
-
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="reg" />
@@ -99,7 +129,6 @@ export default function ASI() {
           ))}
         </div>
       </FluidContainer>
-
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
@@ -110,7 +139,7 @@ export default function ASI() {
             variant="black"
             borderless
             text="ASI Application"
-            href="https://asicalstatela.org/electionapp"
+            href="https://asicalstatela.org/general-election"
           />
           <Button
             variant="grey"
@@ -119,13 +148,11 @@ export default function ASI() {
           />
         </CTA>
       </FluidContainer>
-
       <FluidContainer>
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider />
         <PositionDescriptions data={typedAsiData?.data} />
       </FluidContainer>
-
       <FluidContainer>
         <Typography variant="sectionHeader">
           Basic Eligibility Requirements

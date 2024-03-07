@@ -13,43 +13,60 @@ import {
   FaRegLightbulb,
   FaRegStar,
 } from "react-icons/fa6";
-import Head from "next/head";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  creator:
+    "University-Student Union and Associated Students, Inc. of Cal State LA",
+  keywords: [
+    "CSULA",
+    "Cal State LA",
+    "ASI",
+    "Associated Students, Inc.",
+    "Student Leader Elections",
+    "University Student Government",
+    "Vote",
+    "Recruitment",
+    "Shape Your University Experience",
+    "Choose to lead",
+    "Your vote matters",
+  ],
+  description:
+    "Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you’re ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. Apply and learn how to vote for the student leader elections now!",
+};
 export default function Home() {
   return (
     <>
       <div className="bg-black">
-        <Head>
-          <meta
-            name="author"
-            content="Associated Students, Inc. of Cal State LA"
-          />
-          <meta
-            name="keywords"
-            content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, Vote, Recruitment, Shape Your University Experience, Choose to lead, Your vote matters"
-          />
-          <meta
-            name="description"
-            content="Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you’re ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. Apply and learn how to vote for the student leader elections now!"
-          />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
         <FluidContainer>
-          <HeroHeader
-            imgAlt="Student Leader Elections Home Page Header Image"
-            imgSrc="/headers/header-2.jpeg"
-          />
+          <h1>
+            <HeroHeader
+              imgAlt="Student Leader Elections Home Page Header"
+              imgSrc="/headers/vote-campaign.svg"
+            />
+          </h1>
           <FluidContainer textAlign="center">
             <div>
-              <Typography variant="footerHeader" color="white">
+              <Typography variant="footerHeader" color="white" as="h2">
                 Ready to elevate your college journey?
               </Typography>
             </div>
-            <Typography variant="footerHeader" color="white">
+            <Typography variant="footerHeader" color="white" as="h2">
               Apply now to uncover the amazing things your FULL potential can
               bring to you and your peers!
             </Typography>
           </FluidContainer>
+          <Divider />
+          <InfoPanel
+            title="Your Vote Matters"
+            description="Choose leaders who understand your needs, resonate with your
+                values, and are dedicated to creating a campus that reflects
+                your vision."
+            imgAlt="Students voting"
+            imgSrc="/your-vote-matters.png"
+          >
+            <Button variant="black" text="Voting Instructions" href="/vote" />
+          </InfoPanel>
           <Divider />
           <InfoPanel
             title="Choose to Lead"
@@ -66,24 +83,13 @@ export default function Home() {
             <Button
               variant="yellow"
               text="ASI Student Government"
-              href="https://asicalstatela.org/general-election/2024-25-student-leader-election-application-now-open"
+              href="https://asicalstatela.org/general-election"
             />
             <Button
               variant="grey"
               text="U-SU Board of Directors"
               href="https://form.jotform.com/240387162166154"
             />
-          </InfoPanel>
-          <Divider />
-          <InfoPanel
-            title="Your Vote Matters"
-            description="Choose leaders who understand your needs, resonate with your
-                values, and are dedicated to creating a campus that reflects
-                your vision."
-            imgAlt="Students voting"
-            imgSrc="/your-vote-matters.png"
-          >
-            <Button variant="black" text="Voting Instructions" href="/vote" />
           </InfoPanel>
           <div className="gap-8 flex max-md:flex-col my-10">
             <StatementCard
@@ -100,7 +106,7 @@ export default function Home() {
             </StatementCard>
             <StatementCard
               title="Come into the Spotlight"
-              text="Embrace the next stage of your life. You are a LEADER."
+              text="Embrace the next stage of your life. You are a Leader."
             >
               <FaRegLightbulb color="white" size={40} />
             </StatementCard>
