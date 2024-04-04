@@ -40,7 +40,7 @@ export default function Vote() {
 
       <FluidContainer>
         <div id="mobile">
-          <FluidContainer flex padding="p-0 justify-around">
+          <FluidContainer flex justifyContent="around" padding="mb-10">
             <Link
               href="
             https://apps.apple.com/us/app/cal-state-la-getmobile/id1043352893?mt=8"

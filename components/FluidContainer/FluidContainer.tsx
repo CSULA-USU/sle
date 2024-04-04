@@ -7,7 +7,7 @@ interface FluidContainerProps {
     | "end"
     | "center"
     | "between"
-    | "space-around"
+    | "around"
     | "evenly"
     | "stretch";
   alignItems?: "start" | "end" | "center" | "baseline" | "stretch";
