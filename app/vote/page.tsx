@@ -7,6 +7,8 @@ import {
   Typography,
 } from "@/components";
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Vote() {
   return (
@@ -38,6 +40,35 @@ export default function Vote() {
 
       <FluidContainer>
         <div id="mobile">
+          <FluidContainer flex justifyContent="around" padding="mb-10">
+            <Link
+              href="
+            https://apps.apple.com/us/app/cal-state-la-getmobile/id1043352893?mt=8"
+              className="flex justify-center"
+            >
+              <Image
+                alt="Download from the App Store Badge"
+                src="/vote/download-on-the-app-store.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="lg:w-1/2 md:w-3/5 w-3/4"
+              />
+            </Link>
+            <Link
+              href="https://play.google.com/store/apps/details?id=com.dub.app.csula&pli=1"
+              className="flex justify-center"
+            >
+              <Image
+                alt="Download from the Play Store Badge"
+                src="/vote/get-it-on-google-play.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="lg:w-1/2 md:w-3/5 w-3/4"
+              />
+            </Link>
+          </FluidContainer>
           <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
           <Divider margin="reg" />
           <InfoPanel
