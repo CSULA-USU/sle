@@ -42,7 +42,7 @@ export default function Home() {
           <h1>
             <HeroHeader
               imgAlt="Student Leader Elections Home Page Header"
-              imgSrc="/headers/vote-campaign.svg"
+              imgSrc="/headers/header.png"
             />
           </h1>
           <FluidContainer textAlign="center">
