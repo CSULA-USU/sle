@@ -39,36 +39,28 @@ export default function Vote() {
       </HeroHeader>
 
       <FluidContainer>
-        <div id="mobile">
-          <FluidContainer flex justifyContent="around" padding="mb-10">
-            <Link
-              href="
+        <div className="pt-4 pb-6 flex justify-between md:p-12 md:justify-evenly">
+          <Link
+            href="
             https://apps.apple.com/us/app/cal-state-la-getmobile/id1043352893?mt=8"
-              className="flex justify-center"
-            >
-              <Image
-                alt="Download from the App Store Badge"
-                src="/vote/download-on-the-app-store.png"
-                width={0}
-                height={0}
-                sizes="100vw"
-                className="lg:w-1/2 md:w-3/5 w-3/4"
-              />
-            </Link>
-            <Link
-              href="https://play.google.com/store/apps/details?id=com.dub.app.csula&pli=1"
-              className="flex justify-center"
-            >
-              <Image
-                alt="Download from the Play Store Badge"
-                src="/vote/get-it-on-google-play.png"
-                width={0}
-                height={0}
-                sizes="100vw"
-                className="lg:w-1/2 md:w-3/5 w-3/4"
-              />
-            </Link>
-          </FluidContainer>
+          >
+            <Image
+              alt="Download from the App Store Badge"
+              src="/vote/download-on-the-app-store.png"
+              width={160}
+              height={48}
+            />
+          </Link>
+          <Link href="https://play.google.com/store/apps/details?id=com.dub.app.csula&pli=1">
+            <Image
+              alt="Download from the Play Store Badge"
+              src="/vote/get-it-on-google-play.png"
+              width={160}
+              height={48}
+            />
+          </Link>
+        </div>
+        <div id="mobile">
           <Typography variant="sectionHeader">Voting on GET Mobile</Typography>
           <Divider margin="reg" />
           <InfoPanel
@@ -79,7 +71,7 @@ export default function Vote() {
             imgAlt="GET Mobile Scrensshot Step 1"
             imgSrc="/vote/get-ss-1.png"
             theme="light"
-          ></InfoPanel>
+          />
           <InfoPanel
             title="Voting Summary"
             description="Tap the position you would like to vote for. It will display the
@@ -88,7 +80,7 @@ export default function Vote() {
             imgAlt="GET Mobile Scrensshot Step 2"
             imgSrc="/vote/get-ss-2.png"
             theme="light"
-          ></InfoPanel>
+          />
           <InfoPanel
             title="Electing a Candidate"
             description="Once you have selected your candidate, the status will change from
@@ -101,7 +93,7 @@ export default function Vote() {
             imgAlt="GET Mobile Scrensshot Step 3"
             imgSrc="/vote/get-ss-3.png"
             theme="light"
-          ></InfoPanel>
+          />
         </div>
 
         <div id="website">
