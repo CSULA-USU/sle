@@ -51,7 +51,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
           <div className="underline">
             <Typography variant="subheader">{title}</Typography>
           </div>
-          {data.map((item, index) => (
+          {data?.map((item, index) => (
             <div key={index}>
               {item.type === "copy" && (
                 <div className="mb-2">
@@ -122,6 +122,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
                   alt={`${item.alt}`}
                   width={320}
                   height={320}
+                  className="mb-4"
                 />
               )}
             </div>
