@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import { Typography, Modal } from "@/components";
 import { FaCirclePlus } from "react-icons/fa6";
 import Link from "next/link";
@@ -8,6 +9,8 @@ interface PositionDataProps {
   type: string;
   text?: string;
   list?: (string | string[])[];
+  img?: string;
+  alt?: string;
 }
 
 interface PositionModalProps {
@@ -48,7 +51,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
           <div className="underline">
             <Typography variant="subheader">{title}</Typography>
           </div>
-          {data.map((item, index) => (
+          {data?.map((item, index) => (
             <div key={index}>
               {item.type === "copy" && (
                 <div className="mb-2">
@@ -112,7 +115,19 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
                   </Typography>
                 </div>
               )}
-              {item.type === "space" && <div className="mb-4" />}
+              {item.type === "space" && <span className="mb-4" />}
+              {item.type === "image" && (
+                <Image
+                  src={`${item.img}`}
+                  alt={`${item.alt}`}
+                  width={320}
+                  height={320}
+                  className="mb-4"
+                  style={{
+                    borderRadius: "12px",
+                  }}
+                />
+              )}
             </div>
           ))}
         </div>
