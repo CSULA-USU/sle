@@ -11,6 +11,7 @@ import {
 import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEvents from "@/data/asi/asi-election-events.json";
+import asiCandidatesData from "@/data/asi/asi-candidates.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
 
@@ -76,7 +77,7 @@ export const metadata: Metadata = {
     "ASI Commissioners",
     "Election and Outreach Comissioner and Officials",
     "Environment Affairs Commissioner",
-    "ASI Spriit Commissioner",
+    "ASI Spirit Commissioner",
     "Military Connected Representative",
     "Senators",
     "Academic Senators",
@@ -99,6 +100,9 @@ export default function ASI() {
         />
       </HeroHeader>
       <FluidContainer>
+        <Typography variant="sectionHeader">Meet the Candidates</Typography>
+        <Divider margin="lg" />
+        <PositionDescriptions data={asiCandidatesData?.data} />
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="lg" />
         <InfoPanel

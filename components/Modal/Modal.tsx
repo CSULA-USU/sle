@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import { Typography } from "@/components";
+import { RiCloseCircleFill } from "react-icons/ri";
 
 interface ModalProps {
   isOpen: boolean;
@@ -54,10 +54,10 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
             tabIndex={0}
           >
             <button
-              className="relative top-0 left-0 pb-2 text-gray-600"
+              className="relative top-0 left-0 text-gray-600 mx-3 pt-3"
               onClick={onClose}
             >
-              <Typography>X</Typography>
+              <RiCloseCircleFill size={28} color="red" />
             </button>
             {children}
           </div>
