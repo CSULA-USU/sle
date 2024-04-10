@@ -123,6 +123,9 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
                   width={320}
                   height={320}
                   className="mb-4"
+                  style={{
+                    borderRadius: "12px",
+                  }}
                 />
               )}
             </div>
