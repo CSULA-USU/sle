@@ -12,6 +12,7 @@ import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEvents from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
+import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 
 // Assuming the structure of your JSON data is similar to this
@@ -84,6 +85,9 @@ export default function USU() {
       </HeroHeader>
 
       <FluidContainer>
+        <Typography variant="sectionHeader">Meet the Candidates</Typography>
+        <Divider margin="lg" />
+        <PositionDescriptions data={bodCandidatesData?.data} />
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="lg" />
         <InfoPanel
