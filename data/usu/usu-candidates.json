@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "sectionName": "Board of Directors",
+      "positions": [
+        {
+          "positionName": "Kristen Gaber",
+          "positionData": [
+            {
+              "type": "image",
+              "alt": "candidate profile",
+              "img": "https://www.dropbox.com/scl/fi/qcrnns8zujkse59a29rqy/Kristen.jpg?rlkey=56bt0l0r8n0mbluwi3ehbca5t&raw=1"
+            },
+            {
+              "type": "copy",
+              "text": "I am a driven and passionate third-year student majoring in Social Work at Cal State LA. Since transferring in the spring of 2023, I have actively engaged in various campus initiatives, demonstrating my commitment to fostering positive change within the college community. I have acquired many leadership skills through multiple school organizations and my work with Los Angeles County. Through my work I have honed the ability to collaborate with diverse groups and develop innovative solutions to complex issues. With a strategic mindset and strong communication skills, I hope to mobilize support for various causes and drive meaningful change within the college community. As a candidate for the U-SU Board of Directors, I am committed to representing students' interests and advocating for policies that promote equity, diversity, and inclusion. I believe that the Board plays a crucial role in shaping the college's direction and ensuring that it remains responsive to the needs of its diverse student body. With a proven track record of success and dedication to serving others, I am poised to advocate effectively for students on the U-SU Board of Directors."
+            }
+          ]
+        },
+        {
+          "positionName": "Mark Raspopov",
+          "positionData": [
+            {
+              "type": "image",
+              "alt": "candidate profile",
+              "img": "https://www.dropbox.com/scl/fi/hyrpc06ni9oaasrclfomn/Mark.jpg?rlkey=i4ebsto9j22ghz61hih7nb8dx&raw=1"
+            },
+            {
+              "type": "copy",
+              "text": "I am currently a freshman at Cal State LA, having been accepted through the Early Entrance Program (EEP) at the age of 12. My major is Computer Science with a minor in Psychology. I enjoy challenges, learning new things, debate, MUN, math, robotics, programming, AI, ML, DeepL, and Quantum Computing. In 2023, I was honored as the Harvard International Relations Scholar and am an active member of UNA-USA and the International Model United Nations (IMUN)."
+            },
+            {
+              "type": "copy",
+              "text": "I am keen on joining the U-SU Board of Directors due to my extensive leadership experiences both within and beyond Cal State LA. I am the Founder and President of Kids4Kids Global, a non-profit organization dedicated to educating and mentoring disadvantaged students. Within Cal State LA, I hold leadership roles such as Lead of the Micromouse Central Processing Team for IEEE and serve as the PR Chair of the EEP Club. Additionally, I am involved in various other clubs including Eagle Rocketry (Avionics Team), Robosub (Autonomy Team), ACM, and AHA. My strengths lie in being responsible, detail-oriented, organized, possessing strong time management skills, as well as analytical and research abilities."
+            },
+            {
+              "type": "copy",
+              "text": "My desire to serve on the U-SU BOD is to connect with fellow students and faculty, engage with the wider community, gain invaluable experience, and make meaningful contributions to the student body. Leadership and helping others are central to my interests. I would like to bring in students from different aspects of life, offer support to those with questions or concerns, and provide guidance for success. My goal is to play a role in promoting positive change on our campus."
+            }
+          ]
+        },
+        {
+          "positionName": "Melissa Lopez",
+          "positionData": [
+            {
+              "type": "image",
+              "alt": "candidate profile",
+              "img": "https://www.dropbox.com/scl/fi/hn1fp4f8j7vhiuz4vqthi/Melissa.jpg?rlkey=7e1lkva4cu19c6pzaetvkuhv2&raw=1"
+            },
+            {
+              "type": "copy",
+              "text": "As a senior and now in my second year serving on the Student Board of Directors at Cal State LA, I am deeply honored to continue representing the student body and advocating for their needs and interests. Over the past year, I have had the privilege of collaborating with fellow board members to implement impactful initiatives and address important issues facing our campus community."
+            },
+            {
+              "type": "copy",
+              "text": "Building upon the foundation laid in my first year, I am committed to furthering our mission of fostering student success, promoting diversity and inclusion, and enhancing the overall student experience at Cal State LA. Through active engagement with students, faculty, and administrators, I aim to amplify student voices and ensure that their concerns are heard and addressed effectively."
+            },
+            {
+              "type": "copy",
+              "text": "As a senior, I bring a wealth of experience, insight, and dedication to my role on the board. I am eager to leverage this experience to contribute meaningfully to our collective efforts in shaping a vibrant and inclusive campus environment where every student has the opportunity to thrive."
+            }
+          ]
+        },
+        {
+          "positionName": "Vershaun Evans",
+          "positionData": [
+            {
+              "type": "image",
+              "alt": "candidate profile",
+              "img": "https://www.dropbox.com/scl/fi/a0442nvl6595of9m6kjcg/Vershaun.jpg?rlkey=sdgm293djfghcyzv2x49s6pup&raw=1"
+            },
+            {
+              "type": "copy",
+              "text": "My name is Vershaun Evans. I transferred to Cal State LA Spring 2023 from Santa Monica College. I am currently pursuing a bachelors degree in Sociology and a minor in Psychology. I am very passionate about cultural program expansion, educational supportive services, and enjoy advocating to make changes for all current and future students. In my free time I volunteer for a non-profit agency helping former inmates with reunification, rehabilitation, and other supportive services."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
