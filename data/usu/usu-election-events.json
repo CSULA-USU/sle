@@ -11,7 +11,7 @@
   {
     "title": "Candidate Meet & Greet",
     "startDate": "2025-04-10",
-    "endDate": "2025-04-10",
+    "endDate": "",
     "startTime": "",
     "endTime": "",
     "location": "",
@@ -20,7 +20,7 @@
   {
     "title": "Candidate Meet & Greet 2",
     "startDate": "2025-04-11",
-    "endDate": "2025-04-11",
+    "endDate": "",
     "startTime": "",
     "endTime": "",
     "location": "",
@@ -38,25 +38,25 @@
   {
     "title": "Taco Day",
     "startDate": "2025-04-15",
-    "endDate": "2025-04-15",
-    "startTime": "11AM to 2PM",
-    "endTime": "11AM to 2PM",
+    "endDate": "",
+    "startTime": "11AM",
+    "endTime": "2PM",
     "location": "",
     "description": ""
   },
   {
     "title": "Habit Burger",
     "startDate": "2025-04-16",
-    "endDate": "2025-04-16",
-    "startTime": "11AM to 2PM",
-    "endTime": "11AM to 2PM",
+    "endDate": "",
+    "startTime": "11AM",
+    "endTime": "2PM",
     "location": "",
     "description": ""
   },
   {
     "title": "ELECTION RESULTS ANNOUNCEMENT",
     "startDate": "2025-04-23",
-    "endDate": "2025-04-23",
+    "endDate": "",
     "startTime": "",
     "endTime": "",
     "location": "U-SU Plaza",

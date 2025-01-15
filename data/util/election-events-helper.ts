@@ -2,8 +2,8 @@ export interface ElectionEventProps {
   title: string;
   startDate?: string; // "2025-01-30"
   endDate?: string; // "2025-01-30"
-  startTime?: string; // "23:59"
-  endTime?: string; // "23:59"
+  startTime?: string; // "11AM"
+  endTime?: string; // "2PM"
   location: string;
   description: string;
 }
