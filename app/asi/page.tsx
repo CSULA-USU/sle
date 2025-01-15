@@ -14,6 +14,12 @@ import electionEventsData from "@/data/asi/asi-election-events.json";
 import asiCandidatesData from "@/data/asi/asi-candidates.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
+import {
+  ElectionEventProps,
+  filterElectionEvents,
+  formatDate,
+  sortElectionEvents,
+} from "@/data/util/election-events-helper";
 
 interface PositionData {
   type: string;
@@ -33,16 +39,6 @@ interface Section {
 
 interface AsiData {
   data: Section[];
-}
-
-interface ElectionEventProps {
-  title: string;
-  startDate?: string; // "2025-01-30"
-  endDate?: string; // "2025-01-30"
-  startTime?: string; // "23:59"
-  endTime?: string; // "23:59"
-  location: string;
-  description: string;
 }
 
 const typedAsiData: AsiData = asiData;
@@ -96,21 +92,6 @@ export const metadata: Metadata = {
 };
 
 export default function ASI() {
-  const filterElectionEvents = (electionEvents: ElectionEventProps[]) => {
-    return electionEvents.filter((electionEvent) => {
-      const today = new Date().toISOString().split("T")[0];
-      return electionEvent.startDate && electionEvent.startDate > today;
-    });
-  };
-
-  const sortElectionEvents = (electionEvents: ElectionEventProps[]) => {
-    electionEvents.sort(
-      (a, b) =>
-        new Date(a.startDate || "9999-00-00").getTime() -
-        new Date(b.startDate || "9999-00-00").getTime(),
-    );
-  };
-
   let electionEvents: ElectionEventProps[] =
     filterElectionEvents(electionEventsData);
   sortElectionEvents(electionEvents);
@@ -153,7 +134,7 @@ export default function ASI() {
             <Card
               key={i}
               title={e.title}
-              date={e.startDate}
+              date={formatDate(e.startDate)}
               location={e.location}
               time={e.startTime}
             >
