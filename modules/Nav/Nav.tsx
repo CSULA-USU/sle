@@ -50,6 +50,16 @@ export const Nav = () => {
           />
           <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
           <div className="sm:flex items-center w-2/5 max-sm:w-3/5 justify-between hidden">
+            <Link href="/">
+              <Typography
+                variant="navHeader"
+                className={`hover:text-yellow-400 ${
+                  activeLink === "/" ? "border-b-4 border-yellow-400" : ""
+                }`}
+              >
+                Home
+              </Typography>
+            </Link>
             <Link href="/vote">
               <Typography
                 variant="navHeader"
