@@ -1,29 +1,37 @@
 [
   {
     "title": "ASI MANDATORY CANDIDATE BRIEFING",
-    "date": "",
-    "time": "",
+    "startDate": "",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
     "location": "",
     "description": "If you're campaigning for office, remember to participate in the Mandatory Candidate Briefing. During this session, the Election and Judicial Review Committees will provide a comprehensive explanation of the code of procedures and offer support with any inquiries you may have regarding the election process."
   },
   {
     "title": "CANDIDATE CAMPAIGN WEEK",
-    "date": "April 8 to 12",
-    "time": "",
+    "startDate": "2024-04-08",
+    "endDate": "2024-04-12",
+    "startTime": "",
+    "endTime": "",
     "location": "",
     "description": "You choose to lead! This is the week where you can let the student body know who you are, what would you do, and overall, why you choose to lead."
   },
   {
     "title": "STUDENT LEADER ELECTION: VOTE",
-    "date": "April 12 to 16",
-    "time": "",
+    "startDate": "2025-04-12",
+    "endDate": "2025-04-16",
+    "startTime": "",
+    "endTime": "",
     "location": "GET",
     "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. Get involved! Be heard! Win prizes!"
   },
   {
     "title": "ELECTION RESULTS ANNOUNCEMENT",
-    "date": "April 23",
-    "time": "",
+    "startDate": "2024-04-23",
+    "endDate": "2024-04-23",
+    "startTime": "",
+    "endTime": "",
     "location": "U-SU Plaza",
     "description": "Return and see who won the student leader elections."
   }

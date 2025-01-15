@@ -1,50 +1,64 @@
 [
   {
     "title": "Campaign Week",
-    "date": "April 8 to 12",
-    "time": "",
+    "startDate": "2024-04-08",
+    "endDate": "2024-04-12",
+    "startTime": "",
+    "endTime": "",
     "location": "",
     "description": "Choose to lead! This is the week where you can let the student body know who you are, what you would do, and overall, why you choose to lead."
   },
   {
     "title": "Candidate Meet & Greet",
-    "date": "April 10",
-    "time": "",
+    "startDate": "2024-04-10",
+    "endDate": "2024-04-10",
+    "startTime": "",
+    "endTime": "",
     "location": "",
     "description": ""
   },
   {
     "title": "Candidate Meet & Greet 2",
-    "date": "April 11",
-    "time": "",
+    "startDate": "2024-04-11",
+    "endDate": "2024-04-11",
+    "startTime": "",
+    "endTime": "",
     "location": "",
     "description": ""
   },
   {
     "title": "STUDENT LEADER ELECTION: VOTE",
-    "date": "April 12 to 16",
-    "time": "",
+    "startDate": "2024-04-12",
+    "endDate": "2024-04-16",
+    "startTime": "",
+    "endTime": "",
     "location": "GET",
     "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. Get involved! Be heard! Win prizes!"
   },
   {
     "title": "Taco Day",
-    "date": "April 15",
-    "time": "11AM to 2PM",
+    "startDate": "2024-04-15",
+    "endDate": "2024-04-15",
+    "startTime": "11AM to 2PM",
+    "endTime": "11AM to 2PM",
     "location": "",
     "description": ""
   },
   {
     "title": "Habit Burger",
-    "date": "April 16",
-    "time": "11AM to 2PM",
+    "startDate": "2025-04-16",
+    "endDate": "2025-04-16",
+    "startTime": "11AM to 2PM",
+    "endTime": "11AM to 2PM",
     "location": "",
     "description": ""
   },
   {
     "title": "ELECTION RESULTS ANNOUNCEMENT",
-    "date": "April 23",
-    "time": "",
+    "startDate": "2025-04-23",
+    "endDate": "2025-04-23",
+    "startTime": "",
+    "endTime": "",
     "location": "U-SU Plaza",
     "description": "Return and see who won the student leader elections."
   }

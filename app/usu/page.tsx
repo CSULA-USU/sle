@@ -10,7 +10,7 @@ import {
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
-import electionEvents from "@/data/usu/usu-election-events.json";
+import electionEventsData from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
 import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
@@ -34,6 +34,16 @@ interface Section {
 
 interface UsuData {
   data: Section[];
+}
+
+interface ElectionEventProps {
+  title: string;
+  startDate?: string; // "2025-01-30"
+  endDate?: string; // "2025-01-30"
+  startTime?: string; // "23:59"
+  endTime?: string; // "23:59"
+  location: string;
+  description: string;
 }
 
 const typedUsuData: UsuData = usuData;
@@ -70,6 +80,24 @@ export const metadata: Metadata = {
 };
 
 export default function USU() {
+  const filterElectionEvents = (electionEvents: ElectionEventProps[]) => {
+    return electionEvents.filter((electionEvent) => {
+      const today = new Date().toISOString().split("T")[0];
+      return electionEvent.startDate && electionEvent.startDate > today;
+    });
+  };
+
+  const sortElectionEvents = (electionEvents: ElectionEventProps[]) => {
+    electionEvents.sort(
+      (a, b) =>
+        new Date(a.startDate || "9999-00-00").getTime() -
+        new Date(b.startDate || "9999-00-00").getTime(),
+    );
+  };
+
+  let electionEvents: ElectionEventProps[] =
+    filterElectionEvents(electionEventsData);
+  sortElectionEvents(electionEvents);
   return (
     <div>
       <HeroHeader
@@ -109,9 +137,9 @@ export default function USU() {
             <Card
               key={i}
               title={e.title}
-              date={e.date}
+              date={e.startDate}
               location={e.location}
-              time={e.time}
+              time={e.startTime}
             >
               {e.description}
             </Card>
