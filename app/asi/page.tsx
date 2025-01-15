@@ -106,7 +106,7 @@ export default function ASI() {
         <Button
           variant="yellow"
           text="Application"
-          href="https://asicalstatela.org/machform/view.php?id=85847"
+          href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
         />
       </HeroHeader>
       <FluidContainer>
@@ -145,7 +145,7 @@ export default function ASI() {
             variant="black"
             borderless
             text="ASI Application"
-            href="https://asicalstatela.org/machform/view.php?id=85847"
+            href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
           />
           <Button
             variant="grey"
