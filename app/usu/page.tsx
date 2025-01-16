@@ -10,10 +10,15 @@ import {
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
-import electionEvents from "@/data/usu/usu-election-events.json";
+import electionEventsData from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
 import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
+import {
+  ElectionEventProps,
+  filterElectionEvents,
+  sortElectionEvents,
+} from "@/data/util/election-events-helper";
 
 // Assuming the structure of your JSON data is similar to this
 interface PositionData {
@@ -70,6 +75,10 @@ export const metadata: Metadata = {
 };
 
 export default function USU() {
+  let electionEvents: ElectionEventProps[] =
+    filterElectionEvents(electionEventsData);
+  sortElectionEvents(electionEvents);
+
   return (
     <div>
       <HeroHeader
@@ -105,17 +114,15 @@ export default function USU() {
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
-          {electionEvents.map((e, i) => (
-            <Card
-              key={i}
-              title={e.title}
-              date={e.date}
-              location={e.location}
-              time={e.time}
-            >
-              {e.description}
-            </Card>
-          ))}
+          {electionEvents.length > 0 ? (
+            electionEvents.map((electionEvent: ElectionEventProps, idx) => (
+              <Card electionEvent={electionEvent} key={idx} />
+            ))
+          ) : (
+            <Typography>
+              No events schedule, please check again later
+            </Typography>
+          )}
         </div>
       </FluidContainer>
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
@@ -128,7 +135,7 @@ export default function USU() {
             variant="black"
             borderless
             text="ASI Application"
-            href="https://asicalstatela.org/machform/view.php?id=85847"
+            href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
           />
           <Button
             variant="grey"
