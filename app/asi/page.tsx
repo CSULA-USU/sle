@@ -110,9 +110,9 @@ export default function ASI() {
         />
       </HeroHeader>
       <FluidContainer>
-        <Typography variant="sectionHeader">Meet the Candidates</Typography>
+        {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
-        <PositionDescriptions data={asiCandidatesData?.data} />
+        <PositionDescriptions data={asiCandidatesData?.data} /> */}
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="lg" />
         <InfoPanel
