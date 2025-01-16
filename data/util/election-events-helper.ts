@@ -11,7 +11,12 @@ export interface ElectionEventProps {
 export const filterElectionEvents = (electionEvents: ElectionEventProps[]) => {
   return electionEvents.filter((electionEvent) => {
     const today = new Date().toISOString().split("T")[0];
-    return electionEvent.startDate && electionEvent.startDate > today;
+    if (electionEvent.endDate) {
+      return electionEvent.endDate > today;
+    } else if (electionEvent.startDate) {
+      return electionEvent.startDate > today;
+    }
+    return false;
   });
 };
 

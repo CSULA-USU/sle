@@ -114,9 +114,15 @@ export default function USU() {
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
-          {electionEvents.map((electionEvent: ElectionEventProps, idx) => (
-            <Card electionEvent={electionEvent} key={idx} />
-          ))}
+          {electionEvents.length > 0 ? (
+            electionEvents.map((electionEvent: ElectionEventProps, idx) => (
+              <Card electionEvent={electionEvent} key={idx} />
+            ))
+          ) : (
+            <Typography>
+              No events schedule, please check again later
+            </Typography>
+          )}
         </div>
       </FluidContainer>
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
