@@ -10,10 +10,16 @@ import {
 } from "@/components";
 import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
-import electionEvents from "@/data/asi/asi-election-events.json";
+import electionEventsData from "@/data/asi/asi-election-events.json";
 import asiCandidatesData from "@/data/asi/asi-candidates.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
+import {
+  ElectionEventProps,
+  filterElectionEvents,
+  formatDate,
+  sortElectionEvents,
+} from "@/data/util/election-events-helper";
 
 interface PositionData {
   type: string;
@@ -86,6 +92,10 @@ export const metadata: Metadata = {
 };
 
 export default function ASI() {
+  let electionEvents: ElectionEventProps[] =
+    filterElectionEvents(electionEventsData);
+  sortElectionEvents(electionEvents);
+
   return (
     <div>
       <HeroHeader
@@ -96,7 +106,7 @@ export default function ASI() {
         <Button
           variant="yellow"
           text="Application"
-          href="https://asicalstatela.org/machform/view.php?id=85847"
+          href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
         />
       </HeroHeader>
       <FluidContainer>
@@ -120,17 +130,15 @@ export default function ASI() {
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="reg" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
-          {electionEvents.map((e, i) => (
-            <Card
-              key={i}
-              title={e.title}
-              date={e.date}
-              location={e.location}
-              time={e.time}
-            >
-              {e.description}
-            </Card>
-          ))}
+          {electionEvents.length > 0 ? (
+            electionEvents.map((electionEvent: ElectionEventProps, idx) => (
+              <Card electionEvent={electionEvent} key={idx} />
+            ))
+          ) : (
+            <Typography>
+              No events schedule, please check again later
+            </Typography>
+          )}
         </div>
       </FluidContainer>
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
@@ -143,7 +151,7 @@ export default function ASI() {
             variant="black"
             borderless
             text="ASI Application"
-            href="https://asicalstatela.org/machform/view.php?id=85847"
+            href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
           />
           <Button
             variant="grey"
