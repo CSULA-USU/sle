@@ -94,9 +94,9 @@ export default function USU() {
       </HeroHeader>
 
       <FluidContainer>
-        <Typography variant="sectionHeader">Meet the Candidates</Typography>
+        {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
-        <PositionDescriptions data={bodCandidatesData?.data} />
+        <PositionDescriptions data={bodCandidatesData?.data} /> */}
         <Typography variant="sectionHeader">Choose to Lead</Typography>
         <Divider margin="lg" />
         <InfoPanel
@@ -108,7 +108,7 @@ export default function USU() {
           imgAlt="Students leading other students"
           imgSrc="/usu-choose-to-lead.png"
           theme="light"
-        ></InfoPanel>
+        />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
