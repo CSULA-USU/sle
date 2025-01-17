@@ -67,7 +67,7 @@ export const InfoPanel = ({
           width={1000}
           height={700}
           className="object-contain"
-        ></img>
+        />
       </div>
     </div>
   );
