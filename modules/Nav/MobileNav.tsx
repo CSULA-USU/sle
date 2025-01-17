@@ -64,7 +64,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             U-SU
           </Typography>
         </Link>
-        <Link href="/vote" onClick={onClose}>
+        {/* <Link href="/vote" onClick={onClose}>
           <Typography
             variant="subheader"
             color="white"
@@ -74,7 +74,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
           >
             Vote
           </Typography>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

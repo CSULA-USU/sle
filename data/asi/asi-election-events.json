@@ -1,38 +1,110 @@
 [
   {
-    "title": "ASI MANDATORY CANDIDATE BRIEFING",
-    "startDate": "",
-    "endDate": "",
-    "startTime": "",
-    "endTime": "",
-    "location": "",
-    "description": "If you're campaigning for office, remember to participate in the Mandatory Candidate Briefing. During this session, the Election and Judicial Review Committees will provide a comprehensive explanation of the code of procedures and offer support with any inquiries you may have regarding the election process."
-  },
-  {
-    "title": "CANDIDATE CAMPAIGN WEEK",
-    "startDate": "2024-04-08",
-    "endDate": "2024-04-12",
-    "startTime": "",
-    "endTime": "",
-    "location": "",
-    "description": "You choose to lead! This is the week where you can let the student body know who you are, what would you do, and overall, why you choose to lead."
-  },
-  {
-    "title": "STUDENT LEADER ELECTION: VOTE",
-    "startDate": "2024-04-12",
-    "endDate": "",
-    "startTime": "",
-    "endTime": "",
-    "location": "GET",
-    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. Get involved! Be heard! Win prizes!"
-  },
-  {
-    "title": "ELECTION RESULTS ANNOUNCEMENT",
-    "startDate": "2024-04-23",
+    "title": "Lead25' Kickoff Week - Lead 25' Info Session",
+    "startDate": "2025-01-28",
     "endDate": "",
     "startTime": "",
     "endTime": "",
     "location": "U-SU Plaza",
-    "description": "Return and see who won the student leader elections."
+    "description": ""
+  },
+  {
+    "title": "Lead25' Kickoff Week - Lead 25' Info Session",
+    "startDate": "2025-01-29",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "Main Walkway - Triangle",
+    "description": ""
+  },
+  {
+    "title": "Lead25' Kickoff Week - Lead 25' Info Session",
+    "startDate": "2025-01-30",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "Main Walkway - Salazar",
+    "description": ""
+  },
+  {
+    "title": "ASI Mandatory Candidate Briefing (1/4)",
+    "startDate": "2025-03-17",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "TBD",
+    "description": ""
+  },
+  {
+    "title": "ASI Mandatory Candidate Briefing (2/4)",
+    "startDate": "2025-03-18",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "TBD",
+    "description": ""
+  },
+  {
+    "title": "ASI Mandatory Candidate Briefing (3/4)",
+    "startDate": "2025-03-19",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "TBD",
+    "description": ""
+  },
+  {
+    "title": "ASI Mandatory Candidate Briefing (4/4)",
+    "startDate": "2025-03-20",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "TBD",
+    "description": ""
+  },
+  {
+    "title": "USU Candidate briefing (then attend the Board meeting)",
+    "startDate": "2025-03-21",
+    "endDate": "",
+    "startTime": "1pm",
+    "endTime": "2pm",
+    "location": "TBD",
+    "description": ""
+  },
+  {
+    "title": "Voting Day 1",
+    "startDate": "2025-04-15",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "USU Plaza",
+    "description": ""
+  },
+  {
+    "title": "Voting Day 2",
+    "startDate": "2025-04-16",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "USU Plaza",
+    "description": ""
+  },
+  {
+    "title": "Election Results Announcement",
+    "startDate": "2025-04-22",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "TBD",
+    "description": ""
+  },
+  {
+    "title": "Winners Rountable",
+    "startDate": "2025-04-29",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "TBD",
+    "description": ""
   }
 ]
