@@ -1,4 +1,4 @@
-import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
+import { Typography } from "@/components";
 
 interface InfoPanelProps {
   title?: string;

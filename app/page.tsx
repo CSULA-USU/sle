@@ -87,7 +87,7 @@ export default function Home() {
             gain invaluable skills and experience while making a positive impact
             that resonates across campus. You already have what it takes... Own
             it!"
-          imgAlt="own it  with eddie the eagle"
+          imgAlt="own it with eddie the eagle"
           imgSrc="/choose-to-lead.png"
         >
           <Button
@@ -135,11 +135,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
             {electionEvents.length > 0 ? (
               electionEvents.map((electionEvent: ElectionEventProps, idx) => (
-                <Card electionEvent={electionEvent} key={idx} inverted />
+                <Card electionEvent={electionEvent} key={idx} />
               ))
             ) : (
               <Typography>
-                No events schedule, please check again later
+                No events scheduled, please check again later
               </Typography>
             )}
           </div>

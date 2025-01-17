@@ -15,7 +15,7 @@ export const Card = ({
     <div
       className={`${
         inverted ? "bg-white" : "bg-black"
-      } p-6 my-4 min-h-[240px] max-md:min-w-full max-md:min-h-0`}
+      } p-6 my-4 min-h-[240px] max-md:min-w-full max-md:min-h-0 border border-neutral-700`}
     >
       <div className="mb-4 lg:3/8 flex flex-col">
         <div className="h-5/8 flex items-center">
