@@ -56,6 +56,7 @@ export const Nav = () => {
                 className={`hover:text-yellow-400 ${
                   activeLink === "/" ? "border-b-4 border-yellow-400" : ""
                 }`}
+                color="white"
               >
                 Home
               </Typography>
@@ -65,7 +66,7 @@ export const Nav = () => {
                 variant="navHeader"
                 className={`hover:text-yellow-400 ${
                   activeLink === "/vote" ? "border-b-4 border-yellow-400" : ""
-                }`}
+                }` } color="white"
               >
                 Vote
               </Typography>
@@ -76,6 +77,7 @@ export const Nav = () => {
                 className={`hover:text-yellow-400 ${
                   activeLink === "/asi" ? "border-b-4 border-yellow-400" : ""
                 }`}
+                color="white"
               >
                 ASI
               </Typography>
@@ -86,6 +88,7 @@ export const Nav = () => {
                 className={`hover:text-yellow-400 ${
                   activeLink === "/usu" ? "border-b-4 border-yellow-400" : ""
                 }`}
+                color="white"
               >
                 U-SU
               </Typography>

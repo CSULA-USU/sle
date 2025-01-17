@@ -12,7 +12,7 @@ import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
-import bodCandidatesData from "@/data/usu/usu-candidates.json";
+// import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 import {
   ElectionEventProps,
