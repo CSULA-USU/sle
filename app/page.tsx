@@ -79,7 +79,7 @@ export default function Home() {
         </InfoPanel>
         <Divider />
         <InfoPanel
-          title="Choose to Lead"
+          title="Own It"
           description="Welcome to the most exciting opportunity on campus! Your college
             adventure is already awesome, but we believe you’re ready to take it
             to the next level with us at Associated Students, Inc., the
@@ -87,7 +87,7 @@ export default function Home() {
             gain invaluable skills and experience while making a positive impact
             that resonates across campus. You already have what it takes... Own
             it!"
-          imgAlt="own it choose to lead with eddie the eagle"
+          imgAlt="own it  with eddie the eagle"
           imgSrc="/choose-to-lead.png"
         >
           <Button
