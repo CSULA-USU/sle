@@ -101,7 +101,7 @@ export const Footer = () => {
           </div>
           <div>
             <Typography variant="footerCopy">
-              <NonBreakingSpan>(323) 343 - 2465</NonBreakingSpan>
+              <NonBreakingSpan>(323) 343-2465</NonBreakingSpan>
             </Typography>
           </div>
           <div className="max-sm:hidden">
@@ -118,27 +118,27 @@ export const Footer = () => {
 
         <div className="flex gap-6 items-center max-lg:min-w-full max-lg:justify-center">
           <img
-            alt="Cal State LA Logo"
-            src="/footer/calstatela-badge.svg"
+            alt=""
+            src="/logos/updated-calstatela.png"
             style={{
               width: "auto",
-              height: "36px",
+              height: "28px",
             }}
           />
           <img
-            alt="ASI Logo"
+            alt=""
             src="/footer/asi-logo.png"
             style={{
               width: "auto",
-              height: "36px",
+              height: "32px",
             }}
           />
           <img
-            alt="Cal State LA U-SU Logo"
+            alt=""
             src="/footer/usu-wordmark-white.png"
             style={{
               width: "auto",
-              height: "36px",
+              height: "40px",
             }}
           />
         </div>

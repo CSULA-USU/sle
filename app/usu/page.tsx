@@ -89,7 +89,13 @@ export default function USU() {
         <Button
           variant="yellow"
           text="Application"
-          href="https://form.jotform.com/240387162166154"
+          href="https://form.jotform.com/210416532268047"
+          isExternalLink
+        />
+        <Button
+          variant="yellow"
+          text="Eligibility"
+          href="#eligibility-section"
         />
       </HeroHeader>
 
@@ -97,14 +103,12 @@ export default function USU() {
         {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={bodCandidatesData?.data} /> */}
-        <Typography variant="sectionHeader">Choose to Lead</Typography>
+        <Typography variant="sectionHeader">
+          University&ndash;Student Union &mdash; Board of Directors
+        </Typography>
         <Divider margin="lg" />
         <InfoPanel
-          description="Running for office is the perfect chance to help your voice be
-            heard. As a part of student government, students can network, gain
-            leadership experience, and be the voice for students. If elected,
-            you will be able to help the students of Cal State LA and
-            assist with essential changes on campus."
+          description="Are you ready to lead, connect, and make a meaningful difference? Join the U-SU Board of Directors and become part of a community dedicated to collaboration, inclusion, and growth. Develop valuable professional skills, expand your network, and vote on policies that shape and enhance the U-SU experience. Your voice matters—this is your chance to create a lasting impact."
           imgAlt="Students leading other students"
           imgSrc="/usu-choose-to-lead.png"
           theme="light"
@@ -132,32 +136,27 @@ export default function USU() {
           theme="gold"
         >
           <Button
-            variant="black"
-            borderless
-            text="ASI Application"
-            href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
-          />
-          <Button
             variant="grey"
-            text="U-SU BOD Application"
-            href="https://form.jotform.com/240387162166154"
+            text="Application"
+            href="https://form.jotform.com/210416532268047"
+            isExternalLink
           />
         </CTA>
       </FluidContainer>
-      <FluidContainer>
+      <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer>
-      <FluidContainer>
+      <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader">
           Basic Eligibility Requirements
         </Typography>
         <Divider margin="lg" />
         <div className="my-6">
           <Typography variant="copy">
-            Eligibility to hold ASI office or serve on a committee will be
-            verified by the University Registrar.
+            Eligibility to serve on the Board of Directors will be verified by
+            the University Registrar.
           </Typography>
         </div>
         {eligibilityReqs.map((e, i) => (

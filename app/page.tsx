@@ -75,11 +75,23 @@ export default function Home() {
           imgAlt="Students voting"
           imgSrc="/your-vote-matters.png"
         >
-          <Button variant="black" text="Voting Instructions" href="/vote" />
+          {/* <Button variant="black" text="Voting Instructions" href="/vote" /> */}
+          <Button
+            variant="black"
+            text="ASI Positions"
+            href="https://asicalstatela.org/general-election/position-descriptions"
+            isExternalLink
+          />
+          <Button
+            variant="black"
+            text="U-SU Positions"
+            href="https://www.calstatelausu.org/board-of-directors"
+            isExternalLink
+          />
         </InfoPanel>
         <Divider />
         <InfoPanel
-          title="Choose to Lead"
+          title="Own It"
           description="Welcome to the most exciting opportunity on campus! Your college
             adventure is already awesome, but we believe you’re ready to take it
             to the next level with us at Associated Students, Inc., the
@@ -87,19 +99,16 @@ export default function Home() {
             gain invaluable skills and experience while making a positive impact
             that resonates across campus. You already have what it takes... Own
             it!"
-          imgAlt="own it choose to lead with eddie the eagle"
+          imgAlt="own it with eddie the eagle"
           imgSrc="/choose-to-lead.png"
         >
           <Button
             variant="yellow"
             text="ASI Student Government"
             href="https://asicalstatela.org/general-election"
+            isExternalLink
           />
-          <Button
-            variant="grey"
-            text="U-SU Board of Directors"
-            href="https://form.jotform.com/240387162166154"
-          />
+          <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
         </InfoPanel>
         <div className="gap-8 flex max-md:flex-col my-10">
           <StatementCard
@@ -135,11 +144,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
             {electionEvents.length > 0 ? (
               electionEvents.map((electionEvent: ElectionEventProps, idx) => (
-                <Card electionEvent={electionEvent} key={idx} inverted />
+                <Card electionEvent={electionEvent} key={idx} />
               ))
             ) : (
               <Typography>
-                No events schedule, please check again later
+                No events scheduled, please check again later
               </Typography>
             )}
           </div>

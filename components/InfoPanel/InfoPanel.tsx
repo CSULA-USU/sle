@@ -1,4 +1,4 @@
-import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
+import { Typography } from "@/components";
 
 interface InfoPanelProps {
   title?: string;
@@ -67,7 +67,7 @@ export const InfoPanel = ({
           width={1000}
           height={700}
           className="object-contain"
-        ></img>
+        />
       </div>
     </div>
   );

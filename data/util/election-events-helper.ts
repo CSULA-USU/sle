@@ -30,7 +30,7 @@ export const sortElectionEvents = (electionEvents: ElectionEventProps[]) => {
 
 export const formatDate = (inputDate: string | undefined) => {
   if (inputDate == undefined || inputDate.length == 0) return "";
-  const date = new Date(inputDate);
+  const date = new Date(inputDate + "T00:00:00Z");
 
   const daysOfWeek = [
     "Sunday",
@@ -56,9 +56,9 @@ export const formatDate = (inputDate: string | undefined) => {
     "December",
   ];
 
-  const dayOfWeek = daysOfWeek[date.getDay()];
-  const month = monthsOfYear[date.getMonth()];
-  const dayOfMonth = date.getDate();
+  const dayOfWeek = daysOfWeek[date.getUTCDay()];
+  const month = monthsOfYear[date.getUTCMonth()];
+  const dayOfMonth = date.getUTCDate();
 
   return `${dayOfWeek}, ${month} ${dayOfMonth}`;
 };
