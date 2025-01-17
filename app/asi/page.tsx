@@ -11,7 +11,7 @@ import {
 import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/asi/asi-election-events.json";
-import asiCandidatesData from "@/data/asi/asi-candidates.json";
+// import asiCandidatesData from "@/data/asi/asi-candidates.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
 import {
@@ -107,24 +107,33 @@ export default function ASI() {
           variant="yellow"
           text="Application"
           href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
+          isExternalLink
+        />
+        <Button
+          variant="yellow"
+          text="ASI Positions"
+          href="#position-descriptions"
+        />
+        <Button
+          variant="yellow"
+          text="Eligibility"
+          href="#eligibility-section"
         />
       </HeroHeader>
       <FluidContainer>
         {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={asiCandidatesData?.data} /> */}
-        <Typography variant="sectionHeader">Choose to Lead</Typography>
+        <Typography variant="sectionHeader">
+          Associated Students, Inc. &mdash; Student Government
+        </Typography>
         <Divider margin="lg" />
         <InfoPanel
-          description="Running for office is the perfect chance to help your voice be
-            heard. As a part of student government, students can network, gain
-            leadership experience, and be the voice for students. If elected,
-            you will be able to help the students of Cal State LA and
-            assist with essential changes on campus."
+          description="ASI student leaders are empowered to advocate on behalf of students while participating in the University shared governance process. ASI student leaders work to improve the culture and education at Cal State LA and across the CSU."
           imgAlt="Students leading other students"
           imgSrc="/choose-to-lead.png"
           theme="light"
-        ></InfoPanel>
+        />
       </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
@@ -152,20 +161,22 @@ export default function ASI() {
             borderless
             text="ASI Application"
             href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
+            isExternalLink
           />
           <Button
             variant="grey"
             text="U-SU BOD Application"
             href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
+            isExternalLink
           />
         </CTA>
       </FluidContainer>
-      <FluidContainer>
+      <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider />
         <PositionDescriptions data={typedAsiData?.data} />
       </FluidContainer>
-      <FluidContainer>
+      <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader">
           Basic Eligibility Requirements
         </Typography>

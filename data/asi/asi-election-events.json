@@ -1,110 +1,83 @@
 [
   {
-    "title": "Lead25' Kickoff Week - Lead 25' Info Session",
+    "title": "Application Opens",
+    "startDate": "2025-01-20",
+    "endDate": "",
+    "startTime": "",
+    "endTime": "",
+    "location": "",
+    "description": "Are you interested in running for a position? Not sure where to start? We encourage any interested student to pursue a leadership positions on the ASI Board of Directors and Cal State LA Academic Senate by filing the application by the required deadline."
+  },
+  {
+    "title": "Own It! ASI Info Session 1",
     "startDate": "2025-01-28",
     "endDate": "",
-    "startTime": "",
-    "endTime": "",
+    "startTime": "11:30 AM",
+    "endTime": "1:30 PM",
     "location": "U-SU Plaza",
-    "description": ""
+    "description": "Need to know more? We got you! Join us for an 'Own it' info session and find out how you can Own it in 2025-2026. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
   },
   {
-    "title": "Lead25' Kickoff Week - Lead 25' Info Session",
+    "title": "Own It! ASI Info Session 2",
     "startDate": "2025-01-29",
     "endDate": "",
-    "startTime": "",
-    "endTime": "",
-    "location": "Main Walkway - Triangle",
-    "description": ""
+    "startTime": "12:30 PM",
+    "endTime": "2:30 PM",
+    "location": "Main Walkway Triangle",
+    "description": "If you didn't stop by our previous info session, you can stop by this one. Join us for an 'Own it' info session and find out how you can Own it in 2025-2026. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
   },
   {
-    "title": "Lead25' Kickoff Week - Lead 25' Info Session",
+    "title": "Own It! ASI Info Session 3",
     "startDate": "2025-01-30",
     "endDate": "",
-    "startTime": "",
-    "endTime": "",
-    "location": "Main Walkway - Salazar",
-    "description": ""
+    "startTime": "1:00 PM",
+    "endTime": "3:00 PM",
+    "location": "Main Walkway Salazar",
+    "description": "If you didn't stop by our previous info session, you can stop by this one. Join us for an 'Own it' info session and find out how you can Own it in 2025-2026. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
   },
   {
-    "title": "ASI Mandatory Candidate Briefing (1/4)",
-    "startDate": "2025-03-17",
+    "title": "Application Deadline",
+    "startDate": "2025-03-02",
     "endDate": "",
     "startTime": "",
     "endTime": "",
-    "location": "TBD",
-    "description": ""
+    "location": "Main Walkway Salazar",
+    "description": "Please complete your application by this date."
   },
   {
-    "title": "ASI Mandatory Candidate Briefing (2/4)",
-    "startDate": "2025-03-18",
-    "endDate": "",
+    "title": "Candidate Campaign Week",
+    "startDate": "2025-04-07",
+    "endDate": "2025-04-11",
     "startTime": "",
     "endTime": "",
-    "location": "TBD",
-    "description": ""
-  },
-  {
-    "title": "ASI Mandatory Candidate Briefing (3/4)",
-    "startDate": "2025-03-19",
-    "endDate": "",
-    "startTime": "",
-    "endTime": "",
-    "location": "TBD",
-    "description": ""
-  },
-  {
-    "title": "ASI Mandatory Candidate Briefing (4/4)",
-    "startDate": "2025-03-20",
-    "endDate": "",
-    "startTime": "",
-    "endTime": "",
-    "location": "TBD",
-    "description": ""
-  },
-  {
-    "title": "USU Candidate briefing (then attend the Board meeting)",
-    "startDate": "2025-03-21",
-    "endDate": "",
-    "startTime": "1pm",
-    "endTime": "2pm",
-    "location": "TBD",
-    "description": ""
+    "location": "Campus-wide",
+    "description": "Meet the candidates representing you at Cal State LA. Discover their ideas, ask questions, and learn about their passions for our community. Join us to find the best representative for your student voice."
   },
   {
     "title": "Voting Day 1",
     "startDate": "2025-04-15",
     "endDate": "",
-    "startTime": "",
+    "startTime": "11:00 AM",
     "endTime": "",
-    "location": "USU Plaza",
-    "description": ""
+    "location": "U-SU Plaza",
+    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election."
   },
   {
     "title": "Voting Day 2",
     "startDate": "2025-04-16",
     "endDate": "",
-    "startTime": "",
+    "startTime": "11:00 AM",
     "endTime": "",
-    "location": "USU Plaza",
-    "description": ""
+    "location": "U-SU Plaza",
+    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. "
   },
   {
     "title": "Election Results Announcement",
     "startDate": "2025-04-22",
     "endDate": "",
-    "startTime": "",
+    "startTime": "1:00 PM",
     "endTime": "",
-    "location": "TBD",
-    "description": ""
-  },
-  {
-    "title": "Winners Rountable",
-    "startDate": "2025-04-29",
-    "endDate": "",
-    "startTime": "",
-    "endTime": "",
-    "location": "TBD",
-    "description": ""
+    "location": "U-SU Plaza",
+    "description": "Join us at the U-SU plaza for our election announcement. Come meet your new representatives for the 2025 – 2026 academic year!"
   }
 ]

@@ -5,9 +5,16 @@ interface ButtonProps {
   text: string;
   borderless?: boolean;
   href?: string;
+  isExternalLink?: boolean;
 }
 
-export const Button = ({ href, borderless, variant, text }: ButtonProps) => {
+export const Button = ({
+  href,
+  borderless,
+  variant,
+  text,
+  isExternalLink,
+}: ButtonProps) => {
   return (
     <>
       {href ? (
@@ -22,7 +29,7 @@ export const Button = ({ href, borderless, variant, text }: ButtonProps) => {
                     : "bg-gray-300 border-none"
               } ${borderless ? "border-none" : ""}`}
             >
-              <a href={href}>
+              <a href={href} target={isExternalLink ? "_blank" : "_self"}>
                 <Typography variant="buttonText">{text}</Typography>
               </a>
             </span>
