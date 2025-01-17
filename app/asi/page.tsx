@@ -159,14 +159,8 @@ export default function ASI() {
           <Button
             variant="black"
             borderless
-            text="ASI Application"
+            text="Application"
             href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
-            isExternalLink
-          />
-          <Button
-            variant="grey"
-            text="U-SU BOD Application"
-            href="https://form.jotform.com/usugraffix/u-su-board-of-directors-application"
             isExternalLink
           />
         </CTA>

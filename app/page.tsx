@@ -75,7 +75,19 @@ export default function Home() {
           imgAlt="Students voting"
           imgSrc="/your-vote-matters.png"
         >
-          <Button variant="black" text="Voting Instructions" href="/vote" />
+          {/* <Button variant="black" text="Voting Instructions" href="/vote" /> */}
+          <Button
+            variant="black"
+            text="ASI Positions"
+            href="https://asicalstatela.org/general-election/position-descriptions"
+            isExternalLink
+          />
+          <Button
+            variant="black"
+            text="U-SU Positions"
+            href="https://www.calstatelausu.org/board-of-directors"
+            isExternalLink
+          />
         </InfoPanel>
         <Divider />
         <InfoPanel
@@ -94,12 +106,9 @@ export default function Home() {
             variant="yellow"
             text="ASI Student Government"
             href="https://asicalstatela.org/general-election"
+            isExternalLink
           />
-          <Button
-            variant="grey"
-            text="U-SU Board of Directors"
-            href="https://form.jotform.com/240387162166154"
-          />
+          <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
         </InfoPanel>
         <div className="gap-8 flex max-md:flex-col my-10">
           <StatementCard

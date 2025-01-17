@@ -89,7 +89,7 @@ export default function USU() {
         <Button
           variant="yellow"
           text="Application"
-          href="https://form.jotform.com/240387162166154"
+          href="https://form.jotform.com/210416532268047"
           isExternalLink
         />
         <Button
@@ -136,15 +136,10 @@ export default function USU() {
           theme="gold"
         >
           <Button
-            variant="black"
-            borderless
-            text="ASI Application"
-            href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
-          />
-          <Button
             variant="grey"
-            text="U-SU BOD Application"
-            href="https://form.jotform.com/240387162166154"
+            text="Application"
+            href="https://form.jotform.com/210416532268047"
+            isExternalLink
           />
         </CTA>
       </FluidContainer>
@@ -160,8 +155,8 @@ export default function USU() {
         <Divider margin="lg" />
         <div className="my-6">
           <Typography variant="copy">
-            Eligibility to hold ASI office or serve on a committee will be
-            verified by the University Registrar.
+            Eligibility to serve on the Board of Directors will be verified by
+            the University Registrar.
           </Typography>
         </div>
         {eligibilityReqs.map((e, i) => (
