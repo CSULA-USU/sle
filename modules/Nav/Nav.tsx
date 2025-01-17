@@ -60,7 +60,7 @@ export const Nav = () => {
                 Home
               </Typography>
             </Link>
-            <Link href="/vote">
+            {/* <Link href="/vote">
               <Typography
                 variant="navHeader"
                 className={`hover:text-yellow-400 ${
@@ -69,7 +69,7 @@ export const Nav = () => {
               >
                 Vote
               </Typography>
-            </Link>
+            </Link> */}
             <Link href="/asi">
               <Typography
                 variant="navHeader"

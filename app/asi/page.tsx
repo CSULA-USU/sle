@@ -136,7 +136,7 @@ export default function ASI() {
             ))
           ) : (
             <Typography>
-              No events schedule, please check again later
+              No events scheduled, please check again later.
             </Typography>
           )}
         </div>
