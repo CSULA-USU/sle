@@ -1,9 +1,5 @@
-import {
-  FaChartLine,
-  FaFire,
-  FaRegLightbulb,
-  FaRegStar,
-} from "react-icons/fa6";
+import { FaFire, FaStar, FaHandshake } from "react-icons/fa6";
+import { RiCommunityFill } from "react-icons/ri";
 import type { Metadata } from "next";
 import {
   Button,
@@ -112,22 +108,22 @@ export default function Home() {
         </InfoPanel>
         <div className="gap-8 flex max-md:flex-col my-10">
           <StatementCard
-            title="Proven Excellence"
-            text="You’re in college and made it this far—undeniable proof. Your academic progress showcases your capabilities."
+            title="Together We Can"
+            text="Being a student leader in ASI, the U-SU, or Senate means you are part of a dedicated team that works as partners, bringing students, faculty, and staff together to improve Cal State LA."
           >
-            <FaRegStar color="white" size={40} />
+            <FaHandshake color="white" size={40} />
           </StatementCard>
           <StatementCard
-            title="Proven Potential"
-            text="Your journey expresses volumes about your abilities."
+            title="Cultivate Community"
+            text="Embrace the next stage of your life and be involved on campus!  Impact your community by advocating for student needs and serving as the voice of the student body."
           >
-            <FaChartLine color="white" size={40} />
+            <RiCommunityFill color="white" size={40} />
           </StatementCard>
           <StatementCard
             title="Come into the Spotlight"
             text="Embrace the next stage of your life. You are a Leader."
           >
-            <FaRegLightbulb color="white" size={40} />
+            <FaStar color="white" size={40} />
           </StatementCard>
           <StatementCard
             title="Ignite Change"
