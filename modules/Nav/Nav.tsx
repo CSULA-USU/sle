@@ -35,7 +35,7 @@ export const Nav = () => {
           <Link href="/">
             <img
               alt="SLE Logo"
-              src="/logos/own-it-logo.svg"
+              src="/home/own-it-2025.svg"
               style={{
                 height: "48px",
                 width: "auto",
