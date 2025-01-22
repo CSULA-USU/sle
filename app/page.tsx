@@ -43,12 +43,12 @@ export default function Home() {
   sortElectionEvents(electionEvents);
 
   return (
-    <div className="bg-black">
+    <div className="bg-[#262C32]">
       <FluidContainer>
         <h1>
           <HeroHeader
             imgAlt="Student Leader Elections Home Page Header"
-            imgSrc="/headers/header-2025.png"
+            imgSrc="/home/own-it-header.jpg"
           />
         </h1>
         <FluidContainer textAlign="center">
@@ -62,17 +62,16 @@ export default function Home() {
             bring to you and your peers!
           </Typography>
         </FluidContainer>
-        <Divider />
-        <InfoPanel
+        {/* <InfoPanel
           title="Your Vote Matters"
           description="Choose leaders who understand your needs, resonate with your
                 values, and are dedicated to creating a campus that reflects
                 your vision."
           imgAlt="Students voting"
           imgSrc="/your-vote-matters.png"
-        >
-          {/* <Button variant="black" text="Voting Instructions" href="/vote" /> */}
-          <Button
+        > */}
+        {/* <Button variant="black" text="Voting Instructions" href="/vote" /> */}
+        {/* <Button
             variant="black"
             text="ASI Positions"
             href="https://asicalstatela.org/general-election/position-descriptions"
@@ -83,29 +82,8 @@ export default function Home() {
             text="U-SU Positions"
             href="https://www.calstatelausu.org/board-of-directors"
             isExternalLink
-          />
-        </InfoPanel>
-        <Divider />
-        <InfoPanel
-          title="Own It"
-          description="Welcome to the most exciting opportunity on campus! Your college
-            adventure is already awesome, but we believe you’re ready to take it
-            to the next level with us at Associated Students, Inc., the
-            University-Student Union, and Academic Senate! This is your chance to
-            gain invaluable skills and experience while making a positive impact
-            that resonates across campus. You already have what it takes... Own
-            it!"
-          imgAlt="own it with eddie the eagle"
-          imgSrc="/choose-to-lead.png"
-        >
-          <Button
-            variant="yellow"
-            text="ASI Student Government"
-            href="https://asicalstatela.org/general-election"
-            isExternalLink
-          />
-          <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
-        </InfoPanel>
+            />
+            </InfoPanel> */}
         <div className="gap-8 flex max-md:flex-col my-10">
           <StatementCard
             title="Together We Can"
@@ -132,15 +110,34 @@ export default function Home() {
             <FaFire color="white" size={40} />
           </StatementCard>
         </div>
+        <InfoPanel
+          title="Own It"
+          description="Welcome to the most exciting opportunity on campus! Your college
+            adventure is already awesome, but we believe you’re ready to take it
+            to the next level with us at Associated Students, Inc., the
+            University-Student Union, and Academic Senate! This is your chance to
+            gain invaluable skills and experience while making a positive impact
+            that resonates across campus. You already have what it takes... Own
+            it!"
+          imgAlt="own it with eddie the eagle"
+          imgSrc="/choose-to-lead.png"
+        >
+          <Button
+            variant="yellow"
+            text="ASI Student Government"
+            href="https://asicalstatela.org/general-election"
+            isExternalLink
+          />
+          <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
+        </InfoPanel>
         <div>
           <Typography variant="sectionHeader" color="white">
             Election Events
           </Typography>
-          <Divider />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
             {electionEvents.length > 0 ? (
               electionEvents.map((electionEvent: ElectionEventProps, idx) => (
-                <Card electionEvent={electionEvent} key={idx} />
+                <Card electionEvent={electionEvent} key={idx} transparent />
               ))
             ) : (
               <Typography>
