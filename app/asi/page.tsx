@@ -8,7 +8,7 @@ import {
   HeroHeader,
   Typography,
 } from "@/components";
-import { Card, PositionDescriptions } from "@/modules";
+import { PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/asi/asi-election-events.json";
 // import asiCandidatesData from "@/data/asi/asi-candidates.json";
@@ -17,7 +17,6 @@ import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
 import {
   ElectionEventProps,
   filterElectionEvents,
-  formatDate,
   sortElectionEvents,
 } from "@/data/util/election-events-helper";
 
@@ -135,7 +134,7 @@ export default function ASI() {
           theme="light"
         />
       </FluidContainer>
-      <FluidContainer>
+      {/* <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider margin="reg" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
@@ -149,7 +148,7 @@ export default function ASI() {
             </Typography>
           )}
         </div>
-      </FluidContainer>
+      </FluidContainer> */}
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"

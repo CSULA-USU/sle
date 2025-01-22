@@ -25,7 +25,7 @@ export const Nav = () => {
 
   return (
     <>
-      <div className="bg-black border-b-neutral-800 border-b-[1px]">
+      <div className="bg-[#262C32] border-b-neutral-700 border-b-[1px]">
         <FluidContainer
           flex
           justifyContent="between"

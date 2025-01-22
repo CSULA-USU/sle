@@ -84,7 +84,7 @@ export default function Vote() {
             description="Tap the position you would like to vote for. It will display the
           candidates for that position. For more information on the
           candidates and their platforms, tap the link shown below."
-            imgAlt="GET Mobile Scrensshot Step 2"
+            imgAlt="GET Mobile screenshot Step 2"
             imgSrc="/vote/get-ss-2.png"
             theme="light"
           />
@@ -97,7 +97,7 @@ export default function Vote() {
           representative for your college. For example, if you are student
           of the College of Natural and Social Sciences, you will be able to
           vote for the representative from your respective college."
-            imgAlt="GET Mobile Scrensshot Step 3"
+            imgAlt="GET Mobile screenshot Step 3"
             imgSrc="/vote/get-ss-3.png"
             theme="light"
           /> */}
