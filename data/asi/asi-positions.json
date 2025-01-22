@@ -12,7 +12,7 @@
             },
             {
               "type": "copy",
-              "text": "Advised by: ASI Executive Director, Dean of Students, University President, University Vice President for Student Affairs and Enrollment Management "
+              "text": "Advised By: ASI Executive Director, Dean of Students, University President, University Vice President for Student Affairs and Enrollment Management "
             },
             { "type": "subheader", "text": "Position Summary" },
             {
@@ -26,14 +26,14 @@
             {
               "type": "list",
               "list": [
-                "One-on-one meetings with all student leaders reporting to the President: Vice Presidents, Chief of Staff, Diversity and Inclusion Officer, (6 student leaders)",
-                "One-on-one meetings with ASI Executive Director, Dean of Students, University President and Vice President for Student Affairs and Enrollment Management",
+                "One-on-one meetings with ASI President, ASI Executive Director or designee",
+                "One-on-one meetings with the college representatives",
                 "Minimum requirements for student leaders - (see links below)",
-                "Not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
+                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 10 consecutive working days at a time (including breaks)",
                 "ASI officer duties begin in June and requires attendance at meetings and training throughout the summer",
                 "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which requires several hours each week",
-                "Engage with students weekly through events, programs, and presentations",
-                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+                "Schedule four “engagement hours” each week that may include meeting with students, faculty, staff, working events, or making presentations about ASI",
+                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
             { "type": "subheader", "text": "Term" },
@@ -133,18 +133,32 @@
               "text": "Reports To: ASI President"
             },
             {
+              "type": "copy",
+              "text": "Advised By: Executive Director or designee"
+            },
+            {
+              "type": "subheader",
+              "text": "Position Summary"
+            },
+            {
+              "type": "copy",
+              "text": "The Chief of Staff serves as an executive officer in the Associated Students, Incorporated (ASI) and serves as a voting member of the Board of Directors (BOD). The Chief of Staff assists the President in leading the team of student leaders, provides clear communication, and works to unite ASI with other departments and the University Administration. This position is responsible for managing the accountability process and Grant-in-Aid payments to all elected and appointed ASI members. The Chief of Staff manages the minutes of the ASI Board of Directors and catalogues ASI public documents and articles, with support from the ASI staff."
+            },
+            {
               "type": "subheader",
               "text": "Requirements"
             },
             {
               "type": "list",
               "list": [
-                "One-on-one meetings with ASI President, ASI Executive Director",
+                "One-on-one meetings with ASI President, ASI Executive Director or designee",
+                "One-on-one meetings with the college representatives",
                 "Minimum requirements for student leaders - (see links below)",
-                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
+                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 10 consecutive working days at a time (including breaks)",
                 "ASI officer duties begin in June and requires attendance at meetings and training throughout the summer",
                 "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which requires several hours each week",
-                "Hold regular office hours to be available for the student body to meet and express concerns"
+                "Schedule four “engagement hours” each week that may include meeting with students, faculty, staff, working events, or making presentations about ASI",
+                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
             {
@@ -153,34 +167,57 @@
             },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
-            },
-            {
-              "type": "subheader",
-              "text": "Position Summary"
-            },
-            {
-              "type": "copy",
-              "text": "The Secretary/Treasurer (S/T) serves as an executive officer in the Associated Students, Incorporated (ASI) and is responsible for managing the accountability process and Grant-in-Aid payments to all elected and appointed ASI members. The S/T manages the minutes of the ASI Board of Directors and catalogues ASI public documents and articles, with support from the ASI staff. Additionally, the S/T directs the ASI member orientation process and publishes member office hours each semester."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends"
             },
             {
               "type": "subheader",
               "text": "Essential Duties and Responsibilities"
             },
             {
+              "type": "copy",
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
+            },
+            {
               "type": "list",
               "list": [
-                "Attends all ASI board meetings",
+                "Attends all ASI Board Meetings and steps in as Chair if the President is not able to preside over the meeting",
+                "Shall serve as the ASI President's primary liaison/designee unless otherwise assigned by the ASI President",
                 "Ensures the accuracy of the BOD minutes prior to submission for approval by the BOD",
                 "Oversees accountability and quality control of ASI BOD Appointment & Interview Process and committee appointments",
-                "Sits on five (5) ASI standing committees and one (1) university committee and must be available for meetings of the ASI Shared Governance Committee, Personnel Committee, Executive Committee, and Strategic Planning Committee, Finance Committee, and the ASI Workflow and Biweekly Ad Hoc Committee",
-                "Keeps a catalogue of all newspaper articles and pictures relating to the ASI and compile files of all ASI BOD events and activities",
-                "Conducts an orientation for all members (ASI and committee) appointed or assigned by the BOD",
-                "Maintains a list of all ASI member office hours",
-                "Distributes and posts meeting agendas and minutes as required under the Gloria Romero Open Meetings Act of 2000",
-                "Forwards resolutions that have been signed by the ASI President to all parties addressed",
-                "Processes Grant-In-Aid requests with the input of the President, VPA, VPAG, and VPF",
-                "Keeps official record of the attendance of ASI members for all required committee meetings to ensure accountability"
+                [
+                  "Accountability Oversight:",
+                  "Monitor and evaluate the performance of board members and organizational units",
+                  "Alongside the ASI President, develop and implement policies to ensure accountability and compliance with ASI Policy"
+                ],
+                [
+                  "Performance Management:",
+                  " Identify performance issues and areas for improvement within the Board",
+                  "Collaborate with the ASI President to address performance concerns through structured feedback and support"
+                ],
+                [
+                  "Issuance of Performance Warning Letters:",
+                  "Draft performance warning letters for board members exhibiting non-compliance or performance concerns",
+                  "Review and refine the content of warning letters with the ASI President to ensure clarity and consistency",
+                  "Deliver warning letters to the relevant board members, ensuring all communications are documented and retained for records"
+                ],
+                [
+                  "Collaboration with the ASI President:",
+                  "Work closely with the ASI President to align strategies for performance management and accountability",
+                  "Attend regular meetings with the ASI President to discuss ongoing performance issues and develop action plans",
+                  "Support the ASI President in communicating performance expectations and consequences to the board"
+                ],
+
+                [
+                  "Reporting and Documentation:",
+                  "Maintain accurate and confidential records of all performance warning letters and related communications",
+                  "Prepare regular reports on accountability and performance management activities for review by the ASI President and the Board of Directors",
+                  "Ensure that all documentation complies with ASI Policy and legal requirements, in collaboration with ASI staff",
+                  "Keeps a catalogue of all newspaper articles and pictures relating to the ASI and compile files of all ASI BOD events and activities",
+                  "Distributes and posts meeting agendas and minutes as required under the Gloria Romero Open Meetings Act of 2000",
+                  "Forwards resolutions that have been signed by the ASI President to all parties addressed",
+                  "Processes Grant-In-Aid requests with review and approval from the appropriate Executive Cabinet members",
+                  "Keeps official record of the attendance of ASI members for all required committee meetings to ensure accountability"
+                ]
               ]
             },
             {
@@ -190,10 +227,11 @@
             {
               "type": "list",
               "list": [
-                "Serves as the Chair of the Strategic Planning Committee (SPC)¹, which assists the BOD in recommending goals for based the ASI strategic plan.",
-                "Serves as the recording secretary for the BOD² meetings and takes roll call.",
-                "Serves on the Executive Committee³ and coordinates the information, programs, projects, and problems to be considered by the ASI BOD.",
-                "Sits on five (5) ASI standing committees and one (1) university committee and must be available for meetings of the ASI Shared Governance Committee, Personnel Committee, Strategic Planning Committee, and Finance Committee"
+                "Serves as the Chair of the ASI Personnel Committee that meets monthly",
+                "Serves as the Vice Chair of the Board of Directors (BOD) and recording Secretary. The purpose and function of the BOD shall be to act as a governing body for ASI, be a steward to the student funds, and serve as a learning laboratory for student leadership. For more information about the BOD see links below",
+                "Voting member of the Executive Committee and coordinates the information, programs, projects, and problems to be considered by the ASI BOD. This body shall also provide general policy guidelines, and make specific policy decisions, in place of the entire BOD only when the BOD cannot be called together to act on an emergency matter. For more information about the Executive Committee see links below",
+                "Voting member of the Finance Committee",
+                "Voting member of the Cabinet of College Representatives"
               ]
             },
             {
@@ -232,7 +270,7 @@
             {
               "type": "link",
               "list": [
-                "https://asicalstatela.org/committee/asi-strategic-planning-committee",
+                "https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements",
                 "https://asicalstatela.org/committee/asi-board-directors",
                 "https://asicalstatela.org/committee/executive-committee"
               ]
@@ -247,12 +285,16 @@
               "text": "Reports To: ASI President"
             },
             {
+              "type": "copy",
+              "text": "Advised By: Program Coordinator and Executive Director"
+            },
+            {
               "type": "subheader",
               "text": "Position Summary"
             },
             {
               "type": "copy",
-              "text": "The Vice President for Administration (VPA) coordinates the activities of all Associated Students, Incorporated (ASI) administrative units and presides over the Cabinet of Commissioners (COC) which considers issues related to sustainability on campus, student housing, student veteran support, spirit initiatives, and ASI elections and orientations. The VPA has the power to recommend various commissioners for appointment and/or dismissal and, in the absence, disability, or at the request of the ASI President, perform all the duties of the ASI President."
+              "text": "The Vice President for Community Engagement (VPCE) coordinates the student engagement activities of Associated Students, Incorporated (ASI) and Chairs the Community Engagement and Outreach (CEO) Committee, which plans and executes a wide range of events and programs for students that include issues related to sustainability on campus, student housing, student veteran support, spirit initiatives, and ASI elections. The VPCE has the power to recommend various commissioners for appointment, with final approval by the Board of Directors"
             },
             {
               "type": "subheader",
@@ -261,13 +303,15 @@
             {
               "type": "list",
               "list": [
-                "One-on-one meetings with ASI President, ASI Executive Director",
+                "One-on-one meetings with ASI President, ASI Executive Director and Program Coordinator",
                 "One-on-one meetings with the Commissioners",
                 "Minimum requirements for student leaders - (see links below)",
                 "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
-                "ASI officer duties begin in June and require attendance at meetings and training throughout the summer",
-                "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which require several hours each week",
-                "Hold regular office hours to be available for the student body to meet and express concerns"
+                "ASI officer duties begin in June and requires attendance at meetings and training throughout the summer",
+                "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which requires several hours each week",
+                "Hold regular office hours to be available for the student body to meet and express concerns and to meet with ASI staff on programmatic logistics",
+                "Engage with students weekly through events, programs, and presentations",
+                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
             {
@@ -276,7 +320,7 @@
             },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends"
             },
             {
               "type": "subheader",
@@ -289,16 +333,12 @@
             {
               "type": "list",
               "list": [
-                "Plans, coordinates, and attends ASI outreach events to publicize ASI programs and events",
-                "Providing the ASI Office Manager with all original COC minutes",
-                "Promoting ASI advocacy and outreach programs and events",
-                "Managing the ASI General Election process",
-                "Overseeing environmental policy initiatives",
-                "Directing campus-wide spirit initiatives",
-                "Interviews and recommends to the ASI Board of Directors for appointment, official attendance, or dismissal, the following: Environmental Affairs Commissioner, Housing and Residence Life Representative, Public Relations and Marketing Commissioner, Spirit Commissioner, and Military Connected Representative",
-                "Recommends to the ASI President for appointment the Elections & Orientation Commissioner",
-                "Represents ASI on University committees relating to Administrative initiatives and campus-wide programming",
-                "Works with the ASI Office Manager to ensure the smooth operation of the ASI Administrative Office"
+                "Plans, coordinates, and executes events that foster belonging, community, and campus pride",
+                "Coordinates marketing and outreach activities in collaboration with the Director of Graphic Design and Marketing and the Screaming Eagles team",
+                "Providing the ASI Administrative Coordinator with all original CEO minutes",
+                "Assists the Engagement Commissioner planning and executing campus-wide spirit initiatives",
+                "Interviews and recommends candidates for the Engagement Commissioner to the ASI Board of Directors for appointment, official attendance, or dismissal",
+                "Represents ASI on University committees"
               ]
             },
             {
@@ -308,16 +348,8 @@
             {
               "type": "list",
               "list": [
-                "Serve as the Chair of the Cabinet of Commissioners (COC)¹ which consists of the Spirit, Environmental Affairs, Elections and Orientation, and Public Relations and Marketing Commissioners. Also included in the COC are the Housing and Residence Life Representative and the Veterans Affairs Representative. The COC coordinates, plans and is responsible for the activities of the administrative unit of ASI. In addition, the COC provides a number of social and educational programs for the Cal State LA community.",
-                "Serves as the Chair of the ASI Personnel Committee², which acts on behalf of the Board regarding matters pertaining to the full-time employees of ASI. The Personnel Committee also makes recommendations to the Board regarding policies, funding for staff positions, and the overall staffing structure for the organization.",
-                "Attends all ASI Board Meetings, serving as second in charge of ASI in the absence of the ASI President",
-                [
-                  "Sits on four (4) additional ASI standing committees and one (1) university committee and must be available for:",
-                  "Shared Governance Committee meetings",
-                  "Executive Committee meetings",
-                  "Strategic Planning Committee meetings",
-                  "Finance Committee meetings"
-                ]
+                "Serve as the Chair of the Community Engagement and Outreach (CEO) Committee which coordinates, plans, and is responsible for the activities as the programmatic group of ASI. In addition, CEO provides a number of social and educational programs for the Cal State LA community",
+                "Serve as a voting member of ASI Board of Directors, Executive Cabinet, Personnel Committee, and Finance Committee."
               ]
             },
             {
@@ -347,7 +379,7 @@
             },
             {
               "type": "copy",
-              "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+              "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment"
             },
             {
               "type": "subheader",
@@ -356,8 +388,7 @@
             {
               "type": "link",
               "list": [
-                "https://asicalstatela.org/commissioners",
-                "https://asicalstatela.org/committee/personnel-committee"
+                "https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements"
               ]
             }
           ]
@@ -366,13 +397,14 @@
           "positionName": "ASI Vice President for University Affairs",
           "positionData": [
             { "type": "copy", "text": "Reports To: ASI President" },
+            { "type": "copy", "text": "Advised By: Executive Director" },
             {
               "type": "subheader",
               "text": "Position Summary"
             },
             {
               "type": "copy",
-              "text": "The VPAG manages the recruitment and support of students sitting on Associated Students, Incorporated (ASI) and University Committees. When student applications are submitted, the VPAG conducts interviews and makes recommendations for committee appointments to the ASI Board of Directors. All committee members provide written reports to the VPAG for weekly processing. Additionally, the VPAG maintains the catalogue of ASI and University committees."
+              "text": "The Vice President for University Affairs (VPUA) manages the recruitment and supports the students sitting on Associated Students, Incorporated (ASI) and University Committees. When student applications are submitted, the VPUA conducts interviews and makes recommendations for committee appointments to the ASI Board of Directors. All committee members provide written reports to the VPUA for weekly processing. Additionally, the VPUA maintains the catalogue of ASI and University committees. The VPUA serves as the liaison to the Student Senators who serve on the Academic Senate and Chairs the Cabinet of Academic Senators (CAS) meetings where Senate matters are discussed"
             },
             {
               "type": "subheader",
@@ -382,13 +414,15 @@
               "type": "list",
               "list": [
                 "One-on-one meetings with ASI President, ASI Executive Director",
-                "One-on-one meetings with the Academic Senators",
+                "One-on-one meetings with the Academic Senators (6)",
                 "Interview all applicants for ASI and University committees and make recommendations for appointments to the Board of Directors",
-                "Minimum requirements for student leaders (see links below)",
-                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
-                "ASI officer duties begin in June and require attendance at meetings and training throughout the summer",
-                "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which require several hours each week",
-                "Hold regular office hours to be available for the student body to meet and express concerns"
+                "Minimum requirements for student leaders - (see links below)",
+                "Not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
+                "ASI officer duties begin in June and requires attendance at meetings and training throughout the summer",
+                "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which requires several hours each week",
+                "Hold regular office hours to be available for the student body to meet and express concerns and meet with ASI staff to oversee the committee appointment procedures ",
+                "Engage with students weekly through events, programs, and presentations",
+                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
             {
@@ -397,7 +431,7 @@
             },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends"
             },
             {
               "type": "subheader",
@@ -405,15 +439,21 @@
             },
             {
               "type": "copy",
-              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus."
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
             },
             {
               "type": "list",
               "list": [
-                "Recommends to the Board for appointment, official attendance, or dismissal, all students to university and academic committees, subcommittees boards of the University, and ASI committees not delegated to other officers.",
-                "Represents ASI along with the President, at any appropriate University committee relating to University Affairs",
+                "Interviews and appoints students to University-wide committees and Academic Senate committees and informs the BOD of all appointments",
+                "Represents ASI along with the President, at University committee relating to University Affairs",
                 "Submits proposals to the CAS, SGC, and the BOD to initiate reforms in the area of University Affairs",
-                "Reports to CAS, SGC, and the BOD on changes or proposed changes in academic or administrative procedures on campus, including information from the Academic Senate (AS)"
+                "Reports to CAS, SGC, and the BOD on changes or proposed changes in academic or administrative procedures on campus, including information from the Academic Senate (AS)",
+                "May be invited to meet with the Executive Committee of the Academic Senate as a non-voting member",
+                "Coordinates the assignment of Senators to the academic senate committees",
+                "Actively recruits students to Academic Senate, College Specific and University-Wide Committees alongside the Academic Senators and College Representatives",
+                "Reviews and submits the bi-weekly reports of the Academic Senators to the ASI Chief of Staff",
+                "Establishes a line of communication for themself and the ASI Senators between the Provost, Vice President of Academic Affairs, Dean of Undergraduate Students, Dean of Graduate Students, Chairs of the Academic Senate committees and subcommittees, etc. (preferably in the summer). ",
+                "At the end of each semester, the Vice President for Academic Governance shall submit a list of student committee members to the appropriate chair for verification of their participation. After verification, a list of students who attended at least 70% of their committee meetings will be forwarded to the Vice President for Student Life for final recording (see academic senate handbook below)"
               ]
             },
             {
@@ -423,11 +463,11 @@
             {
               "type": "list",
               "list": [
-                "Attends all ASI Board Meetings",
-                "Serve as the Chair of the Cabinet of Senators (CAS)¹, which coordinates, plans, and is responsible for the actions of the academic governance unit of ASI. The CAS meets with the Academic Senate (governed by faculty) to actively engage in the process of shared governance of the university. The council reviews, researches and makes recommendations on academic and administrative policy affecting students. This body also develops formal responses to be published via resolutions, white papers, student impact statements, etc. Additionally, the council works with all appropriate areas to ensure that genuine Shared Governance² is upheld between students, faculty, and administration.",
-                "Cal State LA Academic Senate³. The Academic Senate is served by its Executive Committee, which is elected annually by the Senate from its membership, and by six standing committees, the members of which are elected from various segments of the faculty to ensure representation. Student members are elected as full members of these committees. The Academic Senate is the representative body of the university-wide academic governance. It is composed of faculty members, academic administrators, and both undergraduate & post-baccalaureate students. The Senate develops and proposes policies for recommendation to the University President. When approved by the University President, these recommendations become University policy.",
-                "Sits on five (5) ASI standing committees and one (1) university committee and must be available for meetings of the ASI Shared Governance Committee, Personnel Committee, Executive Committee, Strategic Planning Committee, and Finance Committee Meetings",
-                "Meets with the Executive Committee of the Academic Senate if extended by the committee"
+                "Serves as a voting member of the ASI Board of Directors",
+                "Serve as the Chair of the Cabinet of Senators (CAS), that coordinates, plans, and is responsible for the actions of the academic governance unit of ASI. CAS meets with the Academic Senate (governed by faculty) to actively engage in the process of shared governance of the university",
+                "Serve as Chair of the Shared Governance Council. The council reviews, researches and makes recommendations on academic and administrative policy affecting students. This body also develops formal responses to be published via resolutions, white papers, student impact statements, etc. Additionally, the council works with appropriate areas in order to ensure that genuine Shared Governance is upheld between students, faculty, and administration. For more information about the Shared Governance Council see links below",
+                "Attend as guest the Cal State LA Academic Senate meetings. For more information about the Academic Senate and their scheduled meeting times, see link below",
+                "Voting member of the ASI Personnel Committee, Finance Committee, Legislative Affairs and Advocacy Committee, and Executive Cabinet"
               ]
             },
             {
@@ -458,6 +498,13 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/committee/shared-governance-council",
+                "https://www.calstatela.edu/academicsenate"
+              ]
             }
           ]
         },
@@ -469,12 +516,16 @@
               "text": "Reports To: ASI President"
             },
             {
+              "type": "copy",
+              "text": "Advised By: Executive Director and Program Coordinator"
+            },
+            {
               "type": "subheader",
               "text": "Position Summary"
             },
             {
               "type": "copy",
-              "text": "The VP for External Affairs and Advancement (VPEAA) serves as an executive officer on the Associated Students, Incorporated (ASI) Board of Directors (BOD) and is responsible for serving as one of two primary representatives for ASI to the California State Students Association (CSSA). The VPEAA serves as a conduit of information from various boards, commissions, and other policymaking groups of the California State University, the State of California, and other entities, to inform ASI and the student body about issues that concern Cal State LA students."
+              "text": "The Vice President for External Affairs (VPEA) serves as an executive officer on the Associated Students, Incorporated (ASI) Board of Directors (BOD) and is responsible for serving as one of two primary representatives for ASI to the California State Students Association (CSSA).  The VPEA serves as a conduit of information from various boards, commissions, and other policymaking groups of the California State University, the State of California, and local entities, to inform ASI and the student body about issues that concern Cal State LA students"
             },
             {
               "type": "subheader",
@@ -484,13 +535,14 @@
               "type": "list",
               "list": [
                 "One-on-one meetings with ASI President, ASI Executive Director",
-                "One-on-one meetings with the Civic Engagement Officer and Diversity and Inclusion Officer, as well as the Lobby Corps, Vice Chair for Legislative Affairs",
+                "One-on-one meetings with the Civic Engagement Officer and Diversity and Inclusion Officer, as well as the Lobby Corps",
                 "Serve as the voting member on behalf of ASI to the California State Student Association (CSSA) and attend monthly plenary meetings that may require travel to different parts of the State",
                 "Minimum requirements for student leaders - (see links below)",
                 "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
-                "ASI officer duties begin in June and require attendance at meetings and training throughout the summer",
+                "ASI officer duties begin in June and requires attendance at meetings and training throughout the summer",
                 "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which requires several hours each week",
-                "Hold regular office hours to be available for the student body to meet and express concerns"
+                "Hold regular office hours to be available for the student body to meet and express concerns and meet with ASI staff about events, CSSA, and advocacy efforts",
+                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
             {
@@ -499,7 +551,7 @@
             },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31.  Student leaders are expected to be available throughout the summer for required training and preparation for the year"
             },
             {
               "type": "subheader",
@@ -507,25 +559,21 @@
             },
             {
               "type": "copy",
-              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus."
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
             },
             {
               "type": "list",
               "list": [
-                "Serves as the voting member for ASI and attends all meetings of the California State Student Association (CSSA), the State-wide student government association for the CSU",
+                "Serves as the voting member for ASI and attends all meetings of the California State Student Association (CSSA), the State-wide student government association for the CSU, which includes travel throughout the State",
                 "Attends and organizes participation for other ASI student leaders in the annual CSSA California Higher Education Student Summit (CHESS)",
-                "Attends all external affairs meetings to carry out any external affairs work delegated or acquired at CSSA",
-                "Assists with the organization and planning of hosting of CSSA plenary meeting at Cal State LA for one weekend out of the year, if the BOD members choose to bid for the hosting of the event",
-                "Provides monthly reports to the BOD on CSSA, state and national issues, as well as legislative issues affecting students",
-                "Provides the ASI Office Manager with all original minutes from all LAAC meetings",
-                "Coordinates a voter registration drive throughout the fall for November elections",
-                "Keeps the BOD informed and does research regarding legislative action and campus opinions",
-                "Manages the creation, review, and approval process of creating ASI Resolutions",
+                "Provides monthly reports to the BOD on CSSA, state and national issues, as well as legislative issues affecting students at Cal State LA",
+                "Provides the ASI Administrative Coordinator with all original minutes from all Legislative Affairs and Advocacy Committee meetings",
+                "Coordinates a voter registration drive though out the fall for November elections",
+                "Conducts research regarding legislative action and campus opinions",
                 "Establishes contact with all appropriate representatives through written and personal communication for the purpose of conveying student concerns and obtaining information on relevant legislative issues",
-                "Coordinates student meetings with legislators in the Assembly and the Senate",
-                "Coordinates voter registration drives each semester there is an election",
-                "Acts as a legislative liaison to the media, and provides all relevant policy resource materials to the student body",
-                "Recruits and facilitates the placement of students on state-wide committees"
+                "Keeps the BOD informed and does research regarding legislative action and campus opinions",
+                "May coordinate meetings with legislators in the State Assembly and the Senate on issues that concern students at Cal State LA",
+                "Acts as a legislative liaison to the media, and provides all relevant policy resource materials to the student body"
               ]
             },
             {
@@ -535,8 +583,11 @@
             {
               "type": "list",
               "list": [
-                "Serves as Chair of the Legislative Affairs & Advocacy Committee (LAAC)¹. The committee reviews, researches and makes recommendations on legislation at the local, state, and national level. Additionally, this body creates a public policy priority list and recommends action to the BOD. The committee creates a plan to manage the ASI Legislative Agenda and coordinates the ASI Lobby Corps efforts.",
-                "Serves as the Chair of ASI Lobby Corps², which is a network of organized students from across the CSU system charged with maintaining student representation and advocacy in the State Legislature and at CSU Board of Trustees meetings. The Lobby Corps is responsible for disseminating information to students and coordinating its efforts with the California State Student Association (CSSA) and provides students with the necessary skills, knowledge and experience to advocate for students issues on  campus and at the local, state, and national level."
+                "Serves as Chair of the Legislative Affairs & Advocacy Committee (LAAC)¹. The committee reviews, researches and makes recommendations on legislation at the local, state, and national level. Additionally, this body creates a public policy priority list and recommends action to the BOD. The committee creates a plan to manage the ASI Legislative Agenda and coordinates the ASI Lobby Corps efforts",
+                "Serves as the Chair of ASI Lobby Corps, which is a network of organized students from across the CSU system charged with maintaining student representation and advocacy in the State Legislature and at CSU Board of Trustees meetings. The Lobby Corps is responsible for disseminating information to students and coordinating its efforts with the California State Student Association (CSSA) and provides students with the necessary skills, knowledge and experience to advocate for students issues on campus and at the local, state, and national level. For more information about Lobby Corps see link below",
+                "Voting member of the ASI Board of Directors  ",
+                "Attends monthly CSSA Plenary meetings and serves on CSSA committees that require additional meetings, such as Systemwide Affairs and Legislative Affairs",
+                "Voting member of the ASI Executive Cabinet, Personnel Committee, and Finance Committee"
               ]
             },
             {
@@ -585,28 +636,31 @@
           "positionName": "ASI Vice President for Finance",
           "positionData": [
             { "type": "copy", "text": "Reports To: ASI President" },
+            {
+              "type": "copy",
+              "text": "Advised By: Associative Executive Director and Administrative Coordinator"
+            },
             { "type": "subheader", "text": "Position Summary" },
             {
               "type": "copy",
-              "text": "The VPF coordinates the activities of all Associated Students, Incorporated (ASI) finance units and presides over the ASI Finance Committee as Chair. As a member of the ASI Board of Directors and Executive and Personnel Committees, the VPF clarifies the role and responsibilities of ASI's Chief Financial Officer (CFO) and has the power to recommend for appointment and/or dismissal of student to the position of Vice Finance Chair. As CFO, the VPF shall perform executive functions for the financial management of ASI."
+              "text": "The Vice Chair for Finance chairs the Club Funding Committee that is responsible for allocating money to support student activities, engagement, and belonging through the registered clubs on campus. The Vice Chair for Finance works closely with the Vice President for Finance and the ASI staff to manage the funding applications from clubs and meets with clubs to help educate them on the funding policies and procedures."
             },
             { "type": "subheader", "text": "Requirements" },
             {
               "type": "list",
               "list": [
-                "One-on-one meetings with ASI President, ASI Associate Executive Director or Executive Director",
-                "One-on-one meetings with Vice Chair for Finance",
+                "One-on-one meetings with ASI President, ASI Associate Executive Director or Administrative Director",
                 "Minimum requirements for student leaders - (see links below)",
                 "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
                 "ASI officer duties begin in June and require attendance at meetings and training throughout the summer",
-                "ASI executive officers are required to chair ASI committees and serve as student representatives on various University committees (see details below) which requires several hours each week",
-                "Hold regular office hours to be available for the student body to meet and express concerns"
+                "Hold regular office hours to be available for the student body to meet and express concerns",
+                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
             { "type": "subheader", "text": "Term" },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI executive officer positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31.  Student leaders are expected to be available throughout the summer for required training and preparation for the year"
             },
             {
               "type": "subheader",
@@ -614,33 +668,25 @@
             },
             {
               "type": "copy",
-              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus."
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
             },
             {
               "type": "list",
               "list": [
-                "Provides the BOD with an accurate accounting of balances, reserves and allowances at each meeting",
-                "Has a detailed understanding of all ASI Finance Policies & Procedures¹.",
-                "Maintains an accurate list of funding received by the Finance Committee",
-                "In collaboration with the ASI Executive Director, provides the BOD with quarterly budget revisions as needed (3/9, 6/6, 9/3)",
-                "Serves as an authorized signer on ASI accounts and paperwork",
-                "Develop and submit the ASI budgets with the ASI staff",
-                "Implements the financial policies of the ASI",
+                "Chairs the Club Funding Committee, a sub-committee of the Finance Committee responsible for allocating money to clubs for their events and activities and documents the minutes of the meetings for ASI’s official records",
+                "Serves as the Vice Chair for the Finance Committee meetings and takes minutes for the meetings and conducts roll call",
+                "Reports funding allocations to the Finance Committee along with account balances at each meeting",
+                "Has a detailed understanding of all ASI Finance Policies & Procedures (see link below)",
                 "Reviews and submits qualified Club and Organization funding proposals to the Finance Committee for consideration",
-                "Provides the ASI Office Manager of Administration & Services with all original minutes on a bi-weekly basis",
-                "Reports all financial recommendations of the ASI Finance Committee to the BOD and makes budget proposals when necessary"
+                "Works closely with the Administrative Coordinator to process funding request, allocations, and reimbursements"
               ]
             },
             { "type": "subheader", "text": "Committee Involvement" },
             {
               "type": "list",
               "list": [
-                "Serve as the Chair of the ASI Finance Committee². The Finance Committees acts on behalf of the BOD in all matters pertaining to income appropriation, and the safeguarding of Associated Students, Inc. funds. The Finance Committee makes recommendations to the Board of Directors regarding allocation of funds. The committee also prepares an annual budget which must be submitted to the Associated Students, Inc. BOD in sufficient time for review and approval. The Finance Committee also has the responsibility for recommending the most appropriate investments.",
-                "Supports the Vice Chair for Finance in Chairing and organizing the ASI Sub-Funding Committee³ that acts as a sub-committee of the ASI Finance Committee and is granted the authority to allocate ASI funds to student organizations, per the review of submitted proposals to this body. The sub-committee is the first step in a multi-level approval process in requests for appropriation of ASI funds to recognized clubs and organizations.",
-                "Alternative Funding & Referendum Ad Hoc Committee⁴: The charge of this committee is to research, identify, and present viable recommendations and funding alternatives to the ASI Finance Committee for consideration. Approved initiatives shall be presented at the BOD for action. The alternatives can include but not be limited to fundraising, securing grants, sponsoring a referendum, etc. All alternative initiatives must be in compliance with ASI, Cal State LA, the CSU Education Code, and Title 5 requirements.",
-                "Scholarship & Awards Ad Hoc Committee⁵ - This committee is responsible for the administrative review of current and new awards and scholarships offered by ASI. The charge of this body is to review research, identify, and update procedures and criteria for the awarding of ASI scholarships and general awards on at least an annual basis. All new scholarships and awards must be presented to this Ad Hoc Committee for review, approval, and recommendation to the Finance Committee.",
-                "Attends all ASI Board Meetings",
-                "Sits on an additional four (4) ASI standing committees and one (1) university committee and must be available for meetings of the Shared Governance Committee, Personnel Committee, Executive Committee, Strategic Planning Committee, Funding Sub-Committee, and Finance Committee"
+                "Chairs the ASI Club Funding Committee that acts as a sub-committee of the ASI Finance Committee and is granted the authority to allocate ASI funds to student organizations, per the review of submitted proposals to this body. The sub-committee is the first step in a multi-level approval process in requests for appropriation of ASI funds to recognized clubs and organizations. More information about the Funding Committee can be found at the link below",
+                "Serve as the Vice Chair of the ASI Finance Committee. The Finance Committees acts on behalf of the BOD in all matters pertaining to income appropriation, and the safeguarding of Associated Students, Inc. funds. The Finance Committee makes recommendations to the Board of Directors regarding allocation of funds. The committee also prepares an annual budget which must be submitted to the Associated Students, Inc. BOD in sufficient time for review and approval. The Finance Committee also has the responsibility for recommending the most appropriate investments. More information about the Finance Committee can be found at the link below"
               ]
             },
             { "type": "subheader", "text": "Skills and Abilities" },
@@ -673,11 +719,10 @@
             {
               "type": "link",
               "list": [
+                "https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements",
                 "https://asicalstatela.org/student-government/bylaws-operating-procedures/administrative-manual-governing-documents/finance",
-                "https://asicalstatela.org/committee/finance-committee",
                 "https://asicalstatela.org/committee/asi-funding-sub-committee",
-                "https://asicalstatela.org/committee/asi-alternative-funding-referendum-ad-hoc-committee",
-                "https://asicalstatela.org/committee/asi-scholarship-awards-ad-hoc-committee"
+                "https://asicalstatela.org/committee/finance-committee"
               ]
             }
           ]
@@ -691,6 +736,10 @@
           "positionName": "College Representatives",
           "positionData": [
             { "type": "copy", "text": "Reports To: ASI President" },
+            {
+              "type": "copy",
+              "text": "Advised By: ASI Program Coordinator and Executive Director"
+            },
             { "type": "subheader", "text": "Position Summary" },
             {
               "type": "copy",
@@ -702,17 +751,17 @@
               "list": [
                 "One-on-one meetings with ASI President and advising meetings with ASI Executive Director (designee)",
                 "Minimum requirements for student leaders - (see links below)",
-                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
+                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 10 consecutive working days at a time (including breaks)",
                 "Submit a state of affairs report to the BOD in accordance with the Code of Procedures",
                 "ASI officer duties begin June 1 and require attendance at meetings and training throughout the summer",
-                "Hold regular office hours to be available for the student body to meet and express concerns",
-                "Complete 2 engagement hours each week by attending events, tabling, or collaborating with clubs and departments"
+                "Schedule four “engagement hours” each week that may include meeting with students, faculty, staff, working events, or making presentations about ASI",
+                "All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
             { "type": "subheader", "text": "Term" },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI Board member positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI Board member positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends"
             },
             {
               "type": "subheader",
@@ -720,21 +769,20 @@
             },
             {
               "type": "copy",
-              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus."
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
             },
             {
               "type": "list",
               "list": [
                 "The College Representatives shall report at the BOD meeting on the state of their college and the needs of their constituency.",
-                "The College Representatives shall submit a state of affairs report to the BOD in accordance with the Code of Procedures at the end of each semester",
-                "Serve as official representatives of their respective colleges.",
-                "Actively seek the opinions, needs, and desires of their constituents (e.g. through college council meetings, interactive forums, other programs, surveys, and one-on-one conversations).",
-                "Maintain strong communication and build relationships with the college dean and/or associate deans, department chairs, and faculty.",
-                "Assess and maintain an archive of the constituents’ opinions, needs, desires, as well as the college’s goals and challenges for the year. This report should be presented along with the State of Affairs report.",
+                "Serve as official representatives of their respective colleges",
+                "Actively seek the opinions, needs, and desires of their constituents (e.g. through college council meetings, interactive forums, other programs, surveys, and one-on-one conversations)",
+                "Maintain strong communication and build relationships with the college dean and/or associate deans, department chairs, and faculty",
+                "Assess and maintain an archive of the constituents’ opinions, needs, desires, as well as the college’s goals and challenges for the year. This report should be presented along with the State of Affairs report",
                 "Serve on designated college-specific committee(s) to represent student voice in the college shared-governance process.",
                 "Present to the BOD for consideration, measures which might serve to resolve student-related problems encountered by their constituents.",
                 "Attend ASI outreach events to publicize ASI programs and services",
-                "Perform any other responsibilities that may be delegated by the BOD."
+                "Perform any other responsibilities that may be delegated by the BOD"
               ]
             },
             { "type": "subheader", "text": "Committee Involvement" },
@@ -743,7 +791,15 @@
               "list": [
                 "Voting member and required to attend all BOD meetings",
                 "Voting member and required to attend all ASI Cabinet of College Representatives meetings. One College Rep will be appointed to serve as the chair of the CCR and will sit on the ASI Executive Committee.",
-                "Required to join two additional ASI standing committees: Executive, Personnel, Finance, Bylaws, Legislative Affairs"
+                "Required to join two additional ASI standing committees:",
+                [
+                  "Executive",
+                  "Personnel",
+                  "Finance",
+                  "Community Engagement and Outreach (CEO)",
+                  "Legislative Affairs",
+                  "Environmental Policy Committee (EPC)"
+                ]
               ]
             },
             { "type": "subheader", "text": "Skills and Abilities" },
@@ -768,6 +824,16 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "subheader",
+              "text": "Resources"
+            },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements"
+              ]
             }
           ]
         },
@@ -776,7 +842,11 @@
           "positionData": [
             {
               "type": "copy",
-              "text": "Reports To: ASI Vice President for External Affairs and Advancement"
+              "text": "Reports To: ASI President"
+            },
+            {
+              "type": "copy",
+              "text": "Advised By: ASI Executive Director"
             },
             { "type": "subheader", "text": "Position Summary" },
             {
@@ -792,14 +862,14 @@
                 "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
                 "Submit a state of affairs report to the BOD in accordance with the Code of Procedures",
                 "ASI officer duties begin June 1 and require attendance at meetings and training throughout the summer",
-                "Hold regular office hours to be available for the student body to meet and express concerns",
-                "Complete 2 engagement hours each week by attending events, tabling, or collaborating with clubs and departments"
+                "Schedule four (4) “engagement hours” each week that may include meeting with students, faculty, staff, working events, or making presentations about ASI",
+                "All ASI student leaders must check email daily and be reachable by phone or other messaging system during business hours throughout their term in office"
               ]
             },
             { "type": "subheader", "text": "Term" },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI Board positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI Board positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends"
             },
             {
               "type": "subheader",
@@ -807,46 +877,24 @@
             },
             {
               "type": "copy",
-              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus."
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
             },
             { "type": "subheader", "text": "Diversity and Inclusion Officer" },
             {
               "type": "list",
               "list": [
-                "Promotes ASI advocacy and outreach programs and events",
-                "Works with all ASI leaders to align ASI’s programs and services with inclusive practices",
-                "Coordinates events and programs that build community and foster belonging",
-                "Communicates and coordinates programs and outreach with the Cross Cultural Centers and other departments on campus",
-                "Report at the BOD on diversity and inclusion issues relating to Cal State LA students",
-                "The Diversity and Inclusion Officer shall sit on the Legislative Affairs and Advocacy Committee.",
-                "Create Initiatives that amplify traditionally marginalized voices and others leading development that incorporates social change and justice",
+                "Serve as ASI’s liaison to university departments that support students such as Dreamers Resource Center, Veterans Resource Center, Project Rebound, Office for Students with Disabilities, Cross Cultural Centers, etc. and meets with each department monthly to provide and share updates",
+                "Collaborate with departments and affinity groups on campus to coordinate events and programs that build community, foster belonging initiatives, and improve Cal State LA’s campus climate to proactively achieve inclusivity",
+                "Work with all ASI leaders to align ASI’s programs and services with inclusive practices",
+                "Report to the BOD on diversity and inclusion issues relating to Cal State LA students",
+                "Create initiatives that amplify traditionally marginalized voices and others leading development that incorporates social change and justice",
                 "Work with all appropriate university departments to ensure that through transformative learning and engagement, students will experience expanded viewpoints, lessened fear, and increased openness",
-                "Increase awareness that explores the dimensions of difference in communities",
-                "Create programs and initiatives that improve Cal State LA’s campus climate to proactively achieve inclusivity",
                 "Promote efforts that make all students feel welcome and diminish sentiments that impact learning",
-                "Acquire proper knowledge on Title IX, ADA/504, and Safe Zones to disseminate this information by holding workshops and focus groups, so our campus community is aware and abiding of a diverse student population",
-                "Serve as an ASI point of contact to OSD, VRC, DRC",
-                "Creating and overseeing a passion project that will directly serve the diversity of our students",
-                "Work to establish an open and aware community where students understand that people come from different backgrounds and to respect and celebrate the differences in people",
+                "Be knowledgeable on Title IX, ADA/504, and Safe Zones to disseminate this information to students and inform ASI’s practices",
+                "Work to establish an open and aware community where students understand that people come from diverse backgrounds and to respect and celebrate the differences in people",
                 "Create identity building and hope to experience true meaning-making within a transformative community",
-                "Perform any other responsibilities that may be delegated by the President or Vice President for External Affairs and Advancement"
-              ]
-            },
-            { "type": "subheader", "text": "Civic Engagement Officer" },
-            {
-              "type": "list",
-              "list": [
-                "Report at the BOD on civic engagement issues relating to Cal State LA students",
-                "Manage the development and implementation of ASI’s civic and voter engagement program, including voter registration, non-partisan voter education, GOTV efforts, and voter data (NSLVE) tracking",
-                "Participate in the planning of the ASI Alternative Break, participating in the trip is optional",
-                "Work with the Center for Engagement, Service, and the Public Good to create local, national, and/or international service-learning opportunities for Cal State LA students",
-                "Build innovative community service programs that develop and sustain new leaders and activists",
-                "Brief the BOD and the student population at large in the nature, problems, and resources of the Los Angeles community",
-                "Promote new avenues of thinking about participatory democracy and governance",
-                "Partner with leaders to create exemplars of how civic engagement works in neighborhoods and public institutions",
-                "Host workshops, seminars, and town hall meetings to promote deliberate dialogue",
-                "Be responsible for establishing communication links/community resources with appropriate organizations",
-                "Perform any other responsibilities that may be delegated by the President or Vice President for External Affairs and Advancement."
+                "Represent the interests of student veterans or military connected students through close partnership with the Veteran Resource Center",
+                "Support student veteran services and promote involvement opportunities to student veterans"
               ]
             },
             { "type": "subheader", "text": "Committee Involvement" },
@@ -855,7 +903,7 @@
               "list": [
                 "Voting member and required to attend all BOD meetings",
                 "Voting member and required to attend all ASI Legislative Affairs Committee meetings",
-                "Required to join two additional ASI standing committees"
+                "Voting member and required to attend the Community Engagement and Outreach committee (CEO) meetings"
               ]
             },
             { "type": "subheader", "text": "Skills and Abilities" },
@@ -880,6 +928,16 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "subheader",
+              "text": "Resources"
+            },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements"
+              ]
             }
           ]
         },
@@ -888,30 +946,34 @@
           "positionData": [
             {
               "type": "copy",
-              "text": "Reports To: ASI Vice President for External Affairs and Advancement"
+              "text": "Reports To: ASI Vice President for External Affairs"
+            },
+            {
+              "type": "copy",
+              "text": "Advised By: ASI Program Coordinator and Executive Director"
             },
             { "type": "subheader", "text": "Position Summary" },
             {
               "type": "copy",
-              "text": "There are two Representatives At-Large who serve on the ASI Board of Directors (BOD), the Diversity and Inclusion Officer and the Civic Engagement Officer. These two positions were created to focus on specific aspects of ASI’s mission to serve the diverse student body of Cal State LA by ensuring ASI’s events and services are inclusive and that ASI serves as the primary advocates for student needs on campus."
+              "text": "There are two Representatives At-Large who serve on the ASI Board of Directors (BOD), the Diversity and Inclusion Officer and the Civic Engagement Officer. These two positions are created to focus on specific aspects of ASI’s mission to serve the diverse student body of Cal State LA by ensuring ASI’s events and services are inclusive, and that ASI serves as the primary advocates for student needs on campus"
             },
             { "type": "subheader", "text": "Requirements" },
             {
               "type": "list",
               "list": [
-                "One-on-one meetings with ASI VP for External Affairs and Advancement and advising meetings with ASI Executive Director (designee)",
+                "One-on-one meetings with ASI VP for External Affairs and advising meetings with ASI Executive Director (designee)",
                 "Minimum requirements for student leaders - (see links below)",
-                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
+                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 10 consecutive working days at a time (including breaks)",
                 "Submit a state of affairs report to the BOD in accordance with the Code of Procedures",
                 "ASI officer duties begin June 1 and require attendance at meetings and training throughout the summer",
-                "Hold regular office hours to be available for the student body to meet and express concerns",
-                "Complete 2 engagement hours each week by attending events, tabling, or collaborating with clubs and departments"
+                "Schedule four (4) “engagement hours” each week that may include meeting with students, faculty, staff, working events, or making presentations about ASI",
+                "All ASI student leaders must check email daily and be reachable by phone or other messaging system during business hours throughout their term in office"
               ]
             },
             { "type": "subheader", "text": "Term" },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI Board positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends. All ASI student leaders must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. ASI Board positions are essential roles in the direction and financial oversight of ASI and are required to be available to respond to business matters every day ASI is open, which includes breaks when the campus is open as well as some weekends"
             },
             {
               "type": "subheader",
@@ -919,55 +981,37 @@
             },
             {
               "type": "copy",
-              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus."
-            },
-            { "type": "subheader", "text": "Diversity and Inclusion Officer" },
-            {
-              "type": "list",
-              "list": [
-                "Promotes ASI advocacy and outreach programs and events",
-                "Works with all ASI leaders to align ASI’s programs and services with inclusive practices",
-                "Coordinates events and programs that build community and foster belonging",
-                "Communicates and coordinates programs and outreach with the Cross Cultural Centers and other departments on campus",
-                "Report at the BOD on diversity and inclusion issues relating to Cal State LA students",
-                "The Diversity and Inclusion Officer shall sit on the Legislative Affairs and Advocacy Committee.",
-                "Create Initiatives that amplify traditionally marginalized voices and others leading development that incorporates social change and justice",
-                "Work with all appropriate university departments to ensure that through transformative learning and engagement, students will experience expanded viewpoints, lessened fear, and increased openness",
-                "Increase awareness that explores the dimensions of difference in communities",
-                "Create programs and initiatives that improve Cal State LA’s campus climate to proactively achieve inclusivity",
-                "Promote efforts that make all students feel welcome and diminish sentiments that impact learning",
-                "Acquire proper knowledge on Title IX, ADA/504, and Safe Zones to disseminate this information by holding workshops and focus groups, so our campus community is aware and abiding of a diverse student population",
-                "Serve as an ASI point of contact to OSD, VRC, DRC",
-                "Creating and overseeing a passion project that will directly serve the diversity of our students",
-                "Work to establish an open and aware community where students understand that people come from different backgrounds and to respect and celebrate the differences in people",
-                "Create identity building and hope to experience true meaning-making within a transformative community",
-                "Perform any other responsibilities that may be delegated by the President or Vice President for External Affairs and Advancement"
-              ]
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
             },
             { "type": "subheader", "text": "Civic Engagement Officer" },
             {
               "type": "list",
               "list": [
-                "Report at the BOD on civic engagement issues relating to Cal State LA students",
-                "Manage the development and implementation of ASI’s civic and voter engagement program, including voter registration, non-partisan voter education, GOTV efforts, and voter data (NSLVE) tracking",
-                "Participate in the planning of the ASI Alternative Break, participating in the trip is optional",
-                "Work with the Center for Engagement, Service, and the Public Good to create local, national, and/or international service-learning opportunities for Cal State LA students",
-                "Build innovative community service programs that develop and sustain new leaders and activists",
-                "Brief the BOD and the student population at large in the nature, problems, and resources of the Los Angeles community",
+                "Serve as ASI’s liaison to the Student Health Advisory Committee, Pat Brown Institute, the Center for Engagement, Service, and the Public Good, and the Associate Director of Government and Community Relations",
+                "Report at the BOD on legislation or issues relating to Cal State LA students",
+                "Manage the development and implementation of ASI’s civic and voter engagement program, including voter registration, non-partisan voter education, and distribution of information about ballot measures",
+                "Work with the Center for Engagement, Service, and the Public Good to create and/or promote local service-learning opportunities for Cal State LA students",
+                "Build innovative programs that develop and sustain new leaders and activists",
+                "Brief the BOD and the student population at large about problems and resources of the Los Angeles community that pertain to students on campus",
                 "Promote new avenues of thinking about participatory democracy and governance",
-                "Partner with leaders to create exemplars of how civic engagement works in neighborhoods and public institutions",
-                "Host workshops, seminars, and town hall meetings to promote deliberate dialogue",
+                "Work with ASI’s standing committees to host workshops, seminars, and town hall meetings to promote deliberate dialogue on issues of importance to Cal State LA students",
                 "Be responsible for establishing communication links/community resources with appropriate organizations",
-                "Perform any other responsibilities that may be delegated by the President or Vice President for External Affairs and Advancement."
+                "Chairs the Environmental Policy Committee (EPC), a standing committee of ASI established to guide the organization’s efforts to educate campus on sustainable practices and guide ASI’s practices to be environmentally friendly",
+                "Reports actions and recommendations of EPC to the Executive Cabinet and/or BOD",
+                "Provides direction and content for a strategic marketing plan for promoting ASI sustainability initiatives",
+                "Develops programs that create awareness around environmental issues",
+                "Meets with the VPA to discuss environmental issues on campus and within the CSU System",
+                "Serves on and recruits for the Cal State LA Campus Sustainability Committee Acts as liaison between the campus and the CSU System, in terms of advocating for sustainability"
               ]
             },
             { "type": "subheader", "text": "Committee Involvement" },
             {
               "type": "list",
               "list": [
+                "Chair of the ASI Environmental Policy Committee (EPC)",
                 "Voting member and required to attend all BOD meetings",
-                "Voting member and required to attend all ASI Legislative Affairs Committee meetings",
-                "Required to join two additional ASI standing committees"
+                "Voting member and required to attend all  ASI Legislative Affairs Committee meetings",
+                "Voting member and required to attend all Community Engagement and Outreach Committee meetings"
               ]
             },
             { "type": "subheader", "text": "Skills and Abilities" },
@@ -992,6 +1036,16 @@
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+            },
+            {
+              "type": "subheader",
+              "text": "Resources"
+            },
+            {
+              "type": "link",
+              "list": [
+                "https://asicalstatela.org/get-involved/apply-position/basic-eligibility-requirements"
+              ]
             }
           ]
         }
@@ -1005,69 +1059,37 @@
           "positionData": [
             {
               "type": "copy",
-              "text": "Reports To: Chair of the Academic Senate with dotted line to ASI Vice President for Academic Governance"
-            },
-            { "type": "subheader", "text": "POSITION SUMMARY" },
-            {
-              "type": "copy",
-              "text": "The Academic Senate at Cal State LA fosters faculty participation in university policy making. The Senate is a representative body that acts for the faculty, provides for faculty planning and consideration in the development of policy, and ensures regular communication between faculty and administration in policy matters. With a belief in the principles of shared governance, six students are included in the Academic Senate as full voting Senators. Senators serve on sub-committees of the Academic Senate and may be called to represent the Senate on other University committees as well."
+              "text": "Reports To: ASI Vice President of Administration"
             },
             {
               "type": "copy",
-              "text": "Student Senators are not members of ASI leadership but are allied with ASI through the Cabinet of Academic Senators and though regular meetings with the ASI Vice President for Academic Governance. Student Senators work with ASI to broaden the reach of advocacy efforts to ensure that students interests are represented to the highest levels of the University administration. ASI provides the Grant-in-aid scholarships for Student Senators as well as a budget for programming events and outreach opportunities for Senators to connect with the student body."
+              "text": "Advised By: ASI Program Coordinator"
             },
+            { "type": "subheader", "text": "Position Summary" },
             {
               "type": "copy",
-              "text": "Additional information about the work and make up of the Academic Senate is provided on the Senate website¹."
+              "text": "Responsible for the creative direction and planning of events that foster campus community, builds school spirit, and creates opportunities for belonging. Supports the recruitment of volunteers for the Screaming Eagles program. Organizes and coordinates school spirit initiatives and programs. Initiates crowd participation at school athletic events. Develops and implements a schedule of spirit programs to be approved by the ASI CEO Committee. Meets with the Athletics to ensure communication/collaboration between ASI and Athletics. In collaboration with the Elections Committee (a joint team from ASI and U-SU), communicate all General Election involvement opportunities to the campus community. Understand and uphold the guidelines and rules for the election as stated in the Election Code of Procedure (ASI policy 004). The Spirit Commissioner is ineligible to run for elected student leader positions in the year they serve in order to be impartial in the elections process"
             },
-            { "type": "subheader", "text": "REQUIREMENTS" },
+            { "type": "subheader", "text": "Requirements" },
             {
               "type": "list",
               "list": [
-                "One-on-one meetings with ASI Vice President for Academic Governance and advising meetings with ASI Executive Director (designee)",
-                "Minimum requirements for student leaders²",
-                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
-                "Submit a state of affairs report to the BOD in accordance with the Code of Procedures",
-                "ASI officer duties begin June 1 and requires attendance at meetings and training throughout the summer",
-                "Hold regular office hours to be available for the student body to meet and express concerns",
-                "Complete 2 engagement hours each week by attending events, tabling, or collaborating with clubs and departments"
+                "Commissioner shall have one-on-one meetings with the ASI Vice President for Administration (VPA) and Program Coordinator weekly",
+                "Minimum requirements for student leaders - (see links below)",
+                "Not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 10 consecutive working days at a time (including breaks)",
+                "ASI officer duties begin in June and requires attendance at meetings and training throughout the summer",
+                "Student leaders are on break during academic holidays and campus closures but must check email daily and be reachable by phone year-round during their term in office."
               ]
             },
-            { "type": "subheader", "text": "TERM" },
+            { "type": "subheader", "text": "Term" },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. Student Senators must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year."
             },
             {
               "type": "subheader",
-              "text": "ESSENTIAL DUTIES AND RESPONSIBILITIES"
+              "text": "Skills and Abilities"
             },
-            {
-              "type": "list",
-              "list": [
-                "All voting members of the Academic Senate and of its standing committees and subcommittees, both faculty and students, are expected to attend meetings regularly in order to fulfill the commitments of membership. If any voting members are absent from three consecutive meetings, they shall be replaced unless they are on approved leave or off campus for university related business. (Senate Handbook³)",
-                "Attend all Academic Senate meetings, which are held every other week for two hours",
-                "Submit a state of affairs report to the ASI BOD each semester that documents the accomplishments of the individual Senator",
-                "Actively seek the opinions, needs, and desires of their constituents (e.g. through college council meetings, interactive forums, other programs, surveys, and one-on-one conversations).",
-                "Maintain strong communication and build relationships with the college dean and/or associate deans, department chairs, and faculty to advocate for student needs.",
-                "Assess and maintain an archive of the constituents’ opinions, needs, desires, as well as the college’s goals and challenges for the year. This report should be presented along with the State of Affairs report.",
-                "Present to CAS measures which might serve to resolve student-related problems encountered by their constituents.",
-                "Attend outreach events to publicize Senator programs and gather feedback from students on academic issues",
-                "Perform any other responsibilities that may be delegated by the Academic Senate.",
-                "A notation is made on the permanent record of every student member of an academic governance body for participation in academic governance, provided that the student so recognized has maintained a minimum of 70 percent attendance during each such appointment. Participation in academic governance is defined as membership in any recognized university, college, or department/division/school committee; college assembly; or the Academic Senate, its four standing committees, their subcommittees, or any ad hoc committee established by the Senate or the President."
-              ]
-            },
-            { "type": "subheader", "text": "COMMITTEE INVOLVEMENT" },
-            {
-              "type": "list",
-              "list": [
-                "Attend all Academic Senate meetings and serve as a voting member",
-                "Serve on two (2) sub committees of the Academic Senate",
-                "Attend and serve as a voting member of the Cabinet of Academic Senators",
-                "Serve on ASI Legislative Affairs and Strategic Planning Committees (one Senator needed)"
-              ]
-            },
-            { "type": "subheader", "text": "SKILLS AND ABILITIES" },
             {
               "type": "list",
               "list": [
@@ -1085,14 +1107,19 @@
                 "Working knowledge and understanding of ASI policies and bylaws"
               ]
             },
-            { "type": "subheader", "text": "GRANT IN AID" },
+            { "type": "subheader", "text": "Committee Involvement" },
             {
               "type": "copy",
-              "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
+              "text": "Serve as a voting member of the Community Engagement and Outreach Committee (CEO). The committee is charged to serve as ASI’s primary programming entity creating and coordinating a variety of events and activities that engage students in fun and meaningful ways with the purpose to create a strong campus community and foster a strong sense of belonging for Cal State LA students. The committee meets every other week to discuss events and allocate funding to ASI programs"
+            },
+            { "type": "subheader", "text": "Grant in Aid" },
+            {
+              "type": "copy",
+              "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment"
             },
             {
               "type": "subheader",
-              "text": "RESOURCES"
+              "text": "Resources"
             },
             {
               "type": "link",
@@ -1114,47 +1141,54 @@
           "positionData": [
             {
               "type": "copy",
-              "text": "Reports To: Chair of the Academic Senate with dotted line to ASI Vice President for Academic Governance"
-            },
-            { "type": "subheader", "text": "POSITION SUMMARY" },
-            {
-              "type": "copy",
-              "text": "The Academic Senate at Cal State LA fosters faculty participation in university policy making. The Senate is a representative body that acts for the faculty, provides for faculty planning and consideration in the development of policy, and ensures regular communication between faculty and administration in policy matters. With a belief in the principles of shared governance, six students are included in the Academic Senate as full voting Senators. Senators serve on sub-committees of the Academic Senate and may be called to represent the Senate on other University committees as well."
+              "text": "Reports To: Chair of the Cal State LA Academic Senate"
             },
             {
               "type": "copy",
-              "text": "Student Senators are not members of ASI leadership but are allied with ASI through the Cabinet of Academic Senators and though regular meetings with the ASI Vice President for Academic Governance. Student Senators work with ASI to broaden the reach of advocacy efforts to ensure that students interests are represented to the highest levels of the University administration. ASI provides the Grant-in-aid scholarships for Student Senators as well as a budget for programming events and outreach opportunities for Senators to connect with the student body."
+              "text": "Advised By: ASI Vice President for Academic Governance and Executive Director"
+            },
+            { "type": "subheader", "text": "Position Summary" },
+            {
+              "type": "copy",
+              "text": "The Academic Senate at Cal State LA fosters faculty participation in university policy making. The Senate is a representative body that acts for the faculty, provides for faculty planning and consideration in the development of policy, and ensures regular communication between faculty and administration in policy matters.  With a belief in the principles of shared governance, six students are included in the Academic Senate as full voting Senators.  Senators serve on sub-committees of the Academic Senate and may be called to represent the Senate on other University committees as well"
             },
             {
               "type": "copy",
-              "text": "Additional information about the work and make up of the Academic Senate is provided on the Senate website¹."
+              "text": "Student Senators are not members of ASI leadership but are allied with ASI through the Cabinet of Academic Senators and though regular meetings with the ASI Vice President for Academic Governance.  Student Senators work with ASI to broaden the reach of advocacy efforts to ensure that students interests are represented to the highest levels of the University administration.  ASI provides the Grant-in-aid scholarships for Student Senators as well as a budget for programming events and outreach opportunities for Senators to connect with the student body"
             },
-            { "type": "subheader", "text": "REQUIREMENTS" },
+            {
+              "type": "copy",
+              "text": "Additional information about the work and make up of the Academic Senate is provided on the Senate website (see link below)"
+            },
+            { "type": "subheader", "text": "Requirements" },
             {
               "type": "list",
               "list": [
                 "One-on-one meetings with ASI Vice President for Academic Governance and advising meetings with ASI Executive Director (designee)",
-                "Minimum requirements for student leaders²",
-                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 1 week at a time",
-                "Submit a state of affairs report to the BOD in accordance with the Code of Procedures",
-                "ASI officer duties begin June 1 and requires attendance at meetings and training throughout the summer",
-                "Hold regular office hours to be available for the student body to meet and express concerns",
-                "Complete 2 engagement hours each week by attending events, tabling, or collaborating with clubs and departments"
+                "Minimum requirements for student leaders - (see links below)",
+                "Are not allowed to participate in study abroad during their term and cannot be unreachable by phone or email for more than 10 working days at a time",
+                "Submit a state of affairs report to the BOD to the BOD in accordance each semester to document their work as a senator",
+                "Student Senator duties begin August 1, with training occurring just before the start of the fall semester.  Academic Senate and the sub-committees only meet during the academic year (Fall and Spring semesters)",
+                "Student Senators must check email daily and be reachable by phone during business hours throughout their term in office"
               ]
             },
-            { "type": "subheader", "text": "TERM" },
+            { "type": "subheader", "text": "Term" },
             {
               "type": "copy",
-              "text": "The term in office is one academic year beginning June 1 and ending May 31. Student leaders are expected to be available throughout the summer for required training and preparation for the year. Student Senators must check email daily and be reachable by phone during business hours throughout their term in office."
+              "text": "The term in office is one academic year beginning June 1 and ending May 31.  Student leaders are expected to be available throughout the summer for required training and preparation for the year."
             },
             {
               "type": "subheader",
-              "text": "ESSENTIAL DUTIES AND RESPONSIBILITIES"
+              "text": "Essential Duties and Responsibilities"
+            },
+            {
+              "type": "copy",
+              "text": "In addition to meeting and maintaining Cal State LA academic standards, the following reflects ASI’s definition of essential functions for this position. This does not restrict the tasks that may be assigned or expected, as ASI's Board of Directors may delegate additional duties and responsibilities at any time, due to reasonable accommodation or refocus"
             },
             {
               "type": "list",
               "list": [
-                "All voting members of the Academic Senate and of its standing committees and subcommittees, both faculty and students, are expected to attend meetings regularly in order to fulfill the commitments of membership. If any voting members are absent from three consecutive meetings, they shall be replaced unless they are on approved leave or off campus for university related business. (Senate Handbook³)",
+                "All voting members of the Academic Senate and of its standing committees and subcommittees, both faculty and students, are expected to attend meetings regularly in order to fulfill the commitments of membership. If any voting members are absent from three consecutive meetings, they shall be replaced unless they are on approved leave or off campus for university related business. (see Senate Handbook link below)",
                 "Attend all Academic Senate meetings, which are held every other week for two hours",
                 "Submit a state of affairs report to the ASI BOD each semester that documents the accomplishments of the individual Senator",
                 "Actively seek the opinions, needs, and desires of their constituents (e.g. through college council meetings, interactive forums, other programs, surveys, and one-on-one conversations).",
@@ -1163,20 +1197,20 @@
                 "Present to CAS measures which might serve to resolve student-related problems encountered by their constituents.",
                 "Attend outreach events to publicize Senator programs and gather feedback from students on academic issues",
                 "Perform any other responsibilities that may be delegated by the Academic Senate.",
-                "A notation is made on the permanent record of every student member of an academic governance body for participation in academic governance, provided that the student so recognized has maintained a minimum of 70 percent attendance during each such appointment. Participation in academic governance is defined as membership in any recognized university, college, or department/division/school committee; college assembly; or the Academic Senate, its four standing committees, their subcommittees, or any ad hoc committee established by the Senate or the President."
+                "A notation is made on the permanent record of every student member of an academic governance body for participation in academic governance, provided that the student so recognized has maintained a minimum of 70 percent attendance during each such appointment. Participation in academic governance is defined as membership in any recognized university, college, or department/division/school committee; college assembly; or the Academic Senate, its four standing committees, their subcommittees, or any ad hoc committee established by the Senate or the President.",
+                "Perform any other responsibilities that may be delegated by the Academic Senate"
               ]
             },
-            { "type": "subheader", "text": "COMMITTEE INVOLVEMENT" },
+            { "type": "subheader", "text": "Committee Involvement" },
             {
               "type": "list",
               "list": [
-                "Attend all Academic Senate meetings and serve as a voting member",
+                "Serve as a voting member of the Academic Senate",
                 "Serve on two (2) sub committees of the Academic Senate",
-                "Attend and serve as a voting member of the Cabinet of Academic Senators",
-                "Serve on ASI Legislative Affairs and Strategic Planning Committees (one Senator needed)"
+                "Attend and serve as a voting member of the Cabinet of Academic Senators and Shared Governance Committee"
               ]
             },
-            { "type": "subheader", "text": "SKILLS AND ABILITIES" },
+            { "type": "subheader", "text": "Skills and Abilities" },
             {
               "type": "list",
               "list": [
@@ -1194,7 +1228,7 @@
                 "Working knowledge and understanding of ASI policies and bylaws"
               ]
             },
-            { "type": "subheader", "text": "GRANT IN AID" },
+            { "type": "subheader", "text": "Grant in Aid" },
             {
               "type": "copy",
               "text": "All elected and appointed ASI student leaders receive a type of scholarship called the Grant in Aid (GIA). The GIA payments are distributed on a set schedule each semester. To earn the full GIA payment, student leaders are required to submit bi-weekly reports of their accomplishments and activities pertaining to their position. Failure to turn in bi-weekly reports results in a deduction of the GIA payment."
