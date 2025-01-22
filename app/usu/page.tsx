@@ -114,7 +114,7 @@ export default function USU() {
           theme="light"
         />
       </FluidContainer>
-      <FluidContainer>
+      {/* <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
@@ -124,11 +124,11 @@ export default function USU() {
             ))
           ) : (
             <Typography>
-              No events schedule, please check again later
+              No events scheduled, please check again later
             </Typography>
           )}
         </div>
-      </FluidContainer>
+      </FluidContainer> */}
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
@@ -136,7 +136,7 @@ export default function USU() {
           theme="gold"
         >
           <Button
-            variant="grey"
+            variant="black"
             text="Application"
             href="https://form.jotform.com/210416532268047"
             isExternalLink
