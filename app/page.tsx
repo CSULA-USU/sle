@@ -134,6 +134,7 @@ export default function Home() {
           <Typography variant="sectionHeader" color="white">
             Election Events
           </Typography>
+          <Divider />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
             {electionEvents.length > 0 ? (
               electionEvents.map((electionEvent: ElectionEventProps, idx) => (

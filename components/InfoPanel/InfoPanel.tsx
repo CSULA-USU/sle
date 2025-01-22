@@ -44,7 +44,7 @@ export const InfoPanel = ({
         )}
         <div className="text-left">
           <Typography
-            variant="copy"
+            variant="informational"
             color={`${theme === "light" ? "black" : "white"}`}
           >
             {description}

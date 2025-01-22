@@ -8,7 +8,7 @@ import {
   HeroHeader,
   Typography,
 } from "@/components";
-import { Card, PositionDescriptions } from "@/modules";
+import { PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/asi/asi-election-events.json";
 // import asiCandidatesData from "@/data/asi/asi-candidates.json";
@@ -17,7 +17,6 @@ import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
 import {
   ElectionEventProps,
   filterElectionEvents,
-  formatDate,
   sortElectionEvents,
 } from "@/data/util/election-events-helper";
 

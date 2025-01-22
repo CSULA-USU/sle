@@ -12,7 +12,8 @@ interface TypographyProps {
     | "buttonText"
     | "copy"
     | "footerLink"
-    | "footerCopy";
+    | "footerCopy"
+    | "informational";
   className?: string;
   color?: "black" | "white";
   lineHeight?: "none" | "normal" | "loose";
@@ -31,6 +32,7 @@ const variants = {
   copy: "text-base font-sans",
   footerLink: "text-base font-serif text-yellow-400 leading-loose",
   footerCopy: "text-base font-serif text-white",
+  informational: "text-xl font-sans leading-loose",
 };
 
 export const Typography = ({
