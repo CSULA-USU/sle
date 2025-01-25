@@ -98,7 +98,6 @@ export default function USU() {
           href="#eligibility-section"
         />
       </HeroHeader>
-
       <FluidContainer>
         {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
@@ -129,6 +128,18 @@ export default function USU() {
           )}
         </div>
       </FluidContainer> */}
+      <FluidContainer id="position-descriptions">
+        <Typography variant="sectionHeader">
+          Responsibilities and Requirements
+        </Typography>
+        <Divider />
+        {/* <PositionDescriptions data={typedUsuData?.data} /> */}
+      </FluidContainer>
+      <FluidContainer id="position-descriptions">
+        <Typography variant="sectionHeader">Benefits of Serving</Typography>
+        <Divider />
+        {/* <PositionDescriptions data={typedUsuData?.data} /> */}
+      </FluidContainer>
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
