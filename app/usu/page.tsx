@@ -12,6 +12,8 @@ import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
+import usuResponsibilitesData from "@/data/usu/usu-responsibilities.json";
+import usuBenefitsData from "@/data/usu/usu-benefits.json";
 // import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 import {
@@ -42,6 +44,8 @@ interface UsuData {
 }
 
 const typedUsuData: UsuData = usuData;
+const usuResponsibilities = usuResponsibilitesData;
+const usuBenefits = usuBenefitsData;
 
 export const metadata: Metadata = {
   title: "U-SU Board of Directors",
@@ -133,12 +137,22 @@ export default function USU() {
           Responsibilities and Requirements
         </Typography>
         <Divider />
-        {/* <PositionDescriptions data={typedUsuData?.data} /> */}
+        {usuResponsibilities?.list && (
+          <BulletList
+            title="Some responsibilities include:"
+            description={usuResponsibilities.list}
+          />
+        )}
       </FluidContainer>
       <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader">Benefits of Serving</Typography>
         <Divider />
-        {/* <PositionDescriptions data={typedUsuData?.data} /> */}
+        {usuBenefits?.list && (
+          <BulletList
+            title="Some benefits include:"
+            description={usuBenefits.list}
+          />
+        )}
       </FluidContainer>
       <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
