@@ -113,7 +113,8 @@ export default function Home() {
             that resonates across campus. You already have what it takes... Own
             it!"
           imgAlt="own it with eddie the eagle"
-          imgSrc="/choose-to-lead.png"
+          imgSrc="/home/usu-own-it-crowd.jpg"
+          imgClass="rounded-md"
         >
           <Button
             variant="yellow"
