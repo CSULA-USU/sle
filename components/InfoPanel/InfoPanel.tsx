@@ -5,6 +5,7 @@ interface InfoPanelProps {
   description: string;
   imgAlt: string;
   imgSrc: string;
+  imgClass?: string;
   theme?: "light" | "dark";
   imageRight?: boolean;
   children?: React.ReactNode;
@@ -17,6 +18,7 @@ export const InfoPanel = ({
   imgSrc,
   theme,
   imageRight,
+  imgClass,
   children,
 }: InfoPanelProps) => {
   return (
@@ -66,7 +68,7 @@ export const InfoPanel = ({
           src={imgSrc}
           width={1000}
           height={700}
-          className="object-contain"
+          className={`object-contain ${imgClass}`}
         />
       </div>
     </div>
