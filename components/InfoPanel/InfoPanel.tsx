@@ -23,7 +23,7 @@ export const InfoPanel = ({
 }: InfoPanelProps) => {
   return (
     <div
-      className={`flex mb-10 max-md:flex-col items-center ${
+      className={`flex mb-10 flex-col-reverse md:flex-row max-md:flex-col-reverse items-center ${
         imageRight === true ? "flex-row-reverse" : "flex-row"
       }`}
     >
@@ -68,7 +68,7 @@ export const InfoPanel = ({
           src={imgSrc}
           width={1000}
           height={700}
-          className={`object-contain ${imgClass}`}
+          className={`object-contain ${imgClass} mb-10 md:mb-0`}
         />
       </div>
     </div>

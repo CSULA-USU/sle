@@ -1,8 +1,9 @@
-import { FaFire, FaStar, FaHandshake } from "react-icons/fa6";
+import { FaFire, FaHandshake } from "react-icons/fa6";
 import { RiCommunityFill } from "react-icons/ri";
 import type { Metadata } from "next";
 import {
   Button,
+  Divider,
   InfoPanel,
   FluidContainer,
   HeroHeader,
@@ -103,31 +104,37 @@ export default function Home() {
             <FaFire color="white" size={40} />
           </StatementCard>
         </div>
-        <InfoPanel
-          title="Own It"
-          description="Welcome to the most exciting opportunity on campus! Your college
+        <div>
+          <Typography variant="sectionHeader" color="white">
+            Own It
+          </Typography>
+          <Divider />
+          <InfoPanel
+            description="Welcome to the most exciting opportunity on campus! Your college
             adventure is already awesome, but we believe you’re ready to take it
             to the next level with us at Associated Students, Inc., the
             University-Student Union, and Academic Senate! This is your chance to
             gain invaluable skills and experience while making a positive impact
             that resonates across campus. You already have what it takes... Own
             it!"
-          imgAlt="own it with eddie the eagle"
-          imgSrc="/home/usu-own-it-crowd.jpg"
-          imgClass="rounded-md"
-        >
-          <Button
-            variant="yellow"
-            text="ASI Student Government"
-            href="https://asicalstatela.org/general-election"
-            isExternalLink
-          />
-          <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
-        </InfoPanel>
+            imgAlt="own it with eddie the eagle"
+            imgSrc="/home/usu-own-it-crowd.jpg"
+            imgClass="rounded-md"
+          >
+            <Button
+              variant="yellow"
+              text="ASI Student Government"
+              href="https://asicalstatela.org/general-election"
+              isExternalLink
+            />
+            <Button variant="grey" text="U-SU Board of Directors" href="/usu" />
+          </InfoPanel>
+        </div>
         <div>
           <Typography variant="sectionHeader" color="white">
             Election Events
           </Typography>
+          <Divider />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
             {electionEvents.length > 0 ? (
               electionEvents.map((electionEvent: ElectionEventProps, idx) => (
