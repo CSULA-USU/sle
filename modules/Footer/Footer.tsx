@@ -96,16 +96,10 @@ export const Footer = () => {
               5154 State University Dr., Los Angeles, CA 90032
             </Typography>
           </div>
-          <div className="max-sm:hidden">
-            <Typography variant="footerCopy">|</Typography>
-          </div>
           <div>
             <Typography variant="footerCopy">
               <NonBreakingSpan>(323) 343-2465</NonBreakingSpan>
             </Typography>
-          </div>
-          <div className="max-sm:hidden">
-            <Typography variant="footerCopy">|</Typography>
           </div>
           <div>
             <Typography variant="footerCopy">
@@ -116,7 +110,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex gap-6 items-center max-lg:min-w-full max-lg:justify-center">
+        <div className="flex flex-col md:flex-row gap-6 items-center max-lg:min-w-full max-lg:justify-center">
           <img
             alt=""
             src="/logos/updated-calstatela.png"

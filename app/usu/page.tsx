@@ -8,7 +8,7 @@ import {
   InfoPanel,
   Typography,
 } from "@/components";
-import { Card, PositionDescriptions } from "@/modules";
+// import { Card, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
@@ -113,7 +113,7 @@ export default function USU() {
         <InfoPanel
           description="Are you ready to lead, connect, and make a meaningful difference? Join the U-SU Board of Directors and become part of a community dedicated to collaboration, inclusion, and growth. Develop valuable professional skills, expand your network, and vote on policies that shape and enhance the U-SU experience. Your voice matters—this is your chance to create a lasting impact."
           imgAlt="Students leading other students"
-          imgSrc="/usu-choose-to-lead.png"
+          imgSrc="/headers/own-it-pages.jpg"
           theme="light"
         />
       </FluidContainer>
@@ -132,29 +132,41 @@ export default function USU() {
           )}
         </div>
       </FluidContainer> */}
-      <FluidContainer id="position-descriptions">
+      <FluidContainer>
         <Typography variant="sectionHeader">
           Responsibilities and Requirements
         </Typography>
         <Divider />
-        {usuResponsibilities?.list && (
-          <BulletList
-            title="Some responsibilities include:"
-            description={usuResponsibilities.list}
+        <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+          {usuResponsibilities?.list && (
+            <BulletList
+              title="Some responsibilities include:"
+              description={usuResponsibilities.list}
+            />
+          )}
+          <img
+            src="/usu/completed-tasks.svg"
+            className="max-h-48 w-auto my-2"
           />
-        )}
+        </div>
       </FluidContainer>
-      <FluidContainer id="position-descriptions">
+      <FluidContainer>
         <Typography variant="sectionHeader">Benefits of Serving</Typography>
         <Divider />
-        {usuBenefits?.list && (
-          <BulletList
-            title="Some benefits include:"
-            description={usuBenefits.list}
+        <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+          {usuBenefits?.list && (
+            <BulletList
+              title="Some benefits include:"
+              description={usuBenefits.list}
+            />
+          )}
+          <img
+            src="/usu/career-progress.svg"
+            className="max-h-48 w-auto my-2"
           />
-        )}
+        </div>
       </FluidContainer>
-      <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
+      <FluidContainer padding="py-8 px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
           description="Ready to elevate your college journey? Apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
@@ -165,23 +177,22 @@ export default function USU() {
             text="Application"
             href="https://form.jotform.com/210416532268047"
             isExternalLink
+            borderless
           />
         </CTA>
       </FluidContainer>
-      <FluidContainer id="position-descriptions">
+      {/* <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
-      </FluidContainer>
+      </FluidContainer> */}
       <FluidContainer id="eligibility-section">
-        <Typography variant="sectionHeader">
-          Basic Eligibility Requirements
-        </Typography>
+        <Typography variant="sectionHeader">Eligibility</Typography>
         <Divider margin="lg" />
         <div className="my-6">
           <Typography variant="copy">
             Eligibility to serve on the Board of Directors will be verified by
-            the University Registrar.
+            the Office of the Dean of Students.
           </Typography>
         </div>
         {eligibilityReqs.map((e, i) => (

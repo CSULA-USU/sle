@@ -130,7 +130,7 @@ export default function ASI() {
         <InfoPanel
           description="ASI student leaders are empowered to advocate on behalf of students while participating in the University shared governance process. ASI student leaders work to improve the culture and education at Cal State LA and across the CSU."
           imgAlt="Students leading other students"
-          imgSrc="/choose-to-lead.png"
+          imgSrc="/headers/own-it-pages.jpg"
           theme="light"
         />
       </FluidContainer>
