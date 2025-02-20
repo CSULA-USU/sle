@@ -41,7 +41,7 @@
     "endDate": "",
     "startTime": "",
     "endTime": "",
-    "location": "Main Walkway Salazar",
+    "location": "",
     "description": "Please complete your application by this date."
   },
   {
@@ -55,7 +55,7 @@
   },
   {
     "title": "Voting Day 1",
-    "startDate": "2025-04-15",
+    "startDate": "2025-04-14",
     "endDate": "",
     "startTime": "11:00 AM",
     "endTime": "",
@@ -64,7 +64,7 @@
   },
   {
     "title": "Voting Day 2",
-    "startDate": "2025-04-16",
+    "startDate": "2025-04-15",
     "endDate": "",
     "startTime": "11:00 AM",
     "endTime": "",
@@ -78,6 +78,6 @@
     "startTime": "1:00 PM",
     "endTime": "",
     "location": "U-SU Plaza",
-    "description": "Join us at the U-SU plaza for our election announcement. Come meet your new representatives for the 2025 – 2026 academic year!"
+    "description": "Join us at the U-SU plaza for our election announcement. Come meet your new representatives for the 2025 to 2026 academic year!"
   }
 ]
