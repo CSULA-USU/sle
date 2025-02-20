@@ -54,13 +54,23 @@
     "description": "Meet the candidates representing you at Cal State LA. Discover their ideas, ask questions, and learn about their passions for our community. Join us to find the best representative for your student voice."
   },
   {
+    "title": "Voting Week",
+    "startDate": "2025-04-14",
+    "endDate": "2025-04-18",
+    "startTime": "8:00 AM",
+    "endTime": "5:00 PM",
+    "location": "Campus-wide",
+    "description": "Meet the candidates representing you at Cal State LA. Discover their ideas, ask questions, and learn about their passions for our community. Join us to find the best representative for your student voice."
+  },
+  {
     "title": "Voting Day 1",
     "startDate": "2025-04-14",
     "endDate": "",
     "startTime": "11:00 AM",
     "endTime": "",
     "location": "U-SU Plaza",
-    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election."
+    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election.",
+    "highlight": true
   },
   {
     "title": "Voting Day 2",
@@ -69,7 +79,8 @@
     "startTime": "11:00 AM",
     "endTime": "",
     "location": "U-SU Plaza",
-    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. "
+    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. ",
+    "highlight": true
   },
   {
     "title": "Election Results Announcement",
