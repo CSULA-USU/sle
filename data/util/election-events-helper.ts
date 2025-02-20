@@ -6,6 +6,7 @@ export interface ElectionEventProps {
   endTime?: string; // "2PM"
   location: string;
   description: string;
+  highlight?: boolean;
 }
 
 export const filterElectionEvents = (electionEvents: ElectionEventProps[]) => {

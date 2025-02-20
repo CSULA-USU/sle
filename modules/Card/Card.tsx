@@ -17,18 +17,21 @@ export const Card = ({
     <div
       className={`${
         inverted ? "bg-white" : "bg-black"
-      } p-6 my-4 min-h-[240px] max-md:min-w-full max-md:min-h-0 border border-neutral-700 ${transparent ? "bg-transparent" : ""}`}
+      } p-6 my-4 min-h-[240px] max-md:min-w-full max-md:min-h-0 border border-neutral-700 ${transparent ? "bg-transparent" : ""} ${electionEvent.highlight ? "bg-gradient-to-br from-yellow-300 via-orange-600 to-purple-400 w-full" : ""}`}
     >
       <div className="mb-4 lg:3/8 flex flex-col">
         <div className="h-5/8 flex items-center">
-          <Typography variant="cardHeader" color={inverted ? "black" : "white"}>
+          <Typography
+            variant="cardHeader"
+            color={inverted || electionEvent.highlight ? "black" : "white"}
+          >
             {electionEvent.title}
           </Typography>
         </div>
         {electionEvent.startDate && (
           <Typography
             variant="copy"
-            color={inverted ? "black" : "white"}
+            color={inverted || electionEvent.highlight ? "black" : "white"}
             fontWeight="bold"
           >
             {formatDate(electionEvent.startDate)}
@@ -40,7 +43,7 @@ export const Card = ({
         {electionEvent.startTime && (
           <Typography
             variant="copy"
-            color={inverted ? "black" : "white"}
+            color={inverted || electionEvent.highlight ? "black" : "white"}
             fontWeight="bold"
           >
             {electionEvent.startTime}
@@ -50,14 +53,17 @@ export const Card = ({
         {electionEvent.location && (
           <Typography
             variant="copy"
-            color={inverted ? "black" : "white"}
+            color={inverted || electionEvent.highlight ? "black" : "white"}
             fontWeight="bold"
           >
             @{electionEvent.location}
           </Typography>
         )}
       </div>
-      <Typography variant="copy" color={inverted ? "black" : "white"}>
+      <Typography
+        variant="copy"
+        color={inverted || electionEvent.highlight ? "black" : "white"}
+      >
         {electionEvent.description}
       </Typography>
     </div>
