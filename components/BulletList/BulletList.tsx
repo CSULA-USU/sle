@@ -15,7 +15,7 @@ export const BulletList = ({ title, description }: BulletListProps) => {
         {description.map((e, i) => (
           <li
             key={i}
-            className="mb-2 pl-6 relative before:content-['✓'] before:text-yellow-400 before:font-bold before:absolute before:left-0"
+            className="mb-2 pl-6 relative before:content-['✓'] before:text-yellow-400 before:font-bold before:absolute before:left-0 z-[-1]"
           >
             <Typography variant="copy">{e}</Typography>
           </li>

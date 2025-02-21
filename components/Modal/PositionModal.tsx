@@ -47,7 +47,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
         </button>
       </div>
       <Modal isOpen={modalOpen} onClose={closeModal}>
-        <div className="max-w-screen-lg mx-4">
+        <div className="max-w-screen-lg mx-4 z-40">
           <div className="underline">
             <Typography variant="subheader">{title}</Typography>
           </div>
