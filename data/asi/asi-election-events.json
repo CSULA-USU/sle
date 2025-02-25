@@ -46,7 +46,7 @@
   },
   {
     "title": "Candidate Campaign Week",
-    "startDate": "2025-04-07",
+    "startDate": "2025-03-17",
     "endDate": "2025-04-11",
     "startTime": "",
     "endTime": "",
@@ -60,26 +60,27 @@
     "startTime": "8:00 AM",
     "endTime": "5:00 PM",
     "location": "Campus-wide",
-    "description": "Meet the candidates representing you at Cal State LA. Discover their ideas, ask questions, and learn about their passions for our community. Join us to find the best representative for your student voice."
-  },
-  {
-    "title": "Voting Day 1",
-    "startDate": "2025-04-14",
-    "endDate": "",
-    "startTime": "11:00 AM",
-    "endTime": "",
-    "location": "U-SU Plaza",
-    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election.",
+    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System.",
     "highlight": true
   },
   {
-    "title": "Voting Day 2",
+    "title": "Bite the Vote",
     "startDate": "2025-04-15",
     "endDate": "",
     "startTime": "11:00 AM",
     "endTime": "",
     "location": "U-SU Plaza",
-    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details regarding the ASI General Election. ",
+    "description": "Bite the Vote! Help shape the future of your campus by voting for your student representatives. Enjoy music, food, and a lively atmosphere while you make your voice heard. Food will be available while supplies last—don’t miss out!",
+    "highlight": true
+  },
+  {
+    "title": "Goodie Vote",
+    "startDate": "2025-04-16",
+    "endDate": "",
+    "startTime": "11:00 AM",
+    "endTime": "",
+    "location": "Main Campus Walkway",
+    "description": "Missed your chance to vote yesterday? There’s still time! Cast your ballot for your student representatives and pick up a free goodie bag while supplies last. Stop by and make your vote count!",
     "highlight": true
   },
   {
