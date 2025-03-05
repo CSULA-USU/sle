@@ -1,20 +1,23 @@
 import {
   BulletList,
   Button,
-  CTA,
+  // CTA,
   Divider,
   FluidContainer,
   HeroHeader,
   InfoPanel,
   Typography,
 } from "@/components";
-// import { Card, PositionDescriptions } from "@/modules";
+import {
+  // Card,
+  PositionDescriptions,
+} from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
 import usuResponsibilitesData from "@/data/usu/usu-responsibilities.json";
 import usuBenefitsData from "@/data/usu/usu-benefits.json";
-// import bodCandidatesData from "@/data/usu/usu-candidates.json";
+import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 import {
   ElectionEventProps,
@@ -90,12 +93,12 @@ export default function USU() {
         imgSrc="/headers/header-2025-2.svg"
         title="U-SU BOD Election"
       >
-        <Button
+        {/* <Button
           variant="yellow"
           text="Application"
           href="https://form.jotform.com/210416532268047"
           isExternalLink
-        />
+        /> */}
         <Button
           variant="yellow"
           text="Eligibility"
@@ -111,7 +114,7 @@ export default function USU() {
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
-          description="Are you ready to lead, connect, and make a meaningful difference? Join the U-SU Board of Directors and become part of a community dedicated to collaboration, inclusion, and growth. Develop valuable professional skills, expand your network, and vote on policies that shape and enhance the U-SU experience. Your voice matters—this is your chance to create a lasting impact."
+          description="Are you ready to lead, connect, and make a meaningful difference? Join the U-SU Board of Directors and become part of a community dedicated to collaboration, inclusion, and growth. Develop valuable professional skills, expand your network, and vote on policies that shape and enhance the U-SU experience. Your voice matters! This is your chance to create a lasting impact."
           imgAlt="Students leading other students"
           imgSrc="/headers/own-it-pages.jpg"
           theme="light"
@@ -132,6 +135,11 @@ export default function USU() {
           )}
         </div>
       </FluidContainer> */}
+      <FluidContainer id="position-descriptions">
+        <Typography variant="sectionHeader">Position Descriptions</Typography>
+        <Divider />
+        <PositionDescriptions data={typedUsuData?.data} />
+      </FluidContainer>
       <FluidContainer>
         <Typography variant="sectionHeader">
           Responsibilities and Requirements
@@ -166,7 +174,7 @@ export default function USU() {
           />
         </div>
       </FluidContainer>
-      <FluidContainer padding="py-8 px-16 max-xl:px-9 max-sm:px-4">
+      {/* <FluidContainer padding="py-8 px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
           description="Ready to elevate your college journey? Apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
@@ -180,12 +188,8 @@ export default function USU() {
             borderless
           />
         </CTA>
-      </FluidContainer>
-      {/* <FluidContainer id="position-descriptions">
-        <Typography variant="sectionHeader">Position Descriptions</Typography>
-        <Divider />
-        <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer> */}
+
       <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader">Eligibility</Typography>
         <Divider margin="lg" />
