@@ -51,15 +51,28 @@ export default function Home() {
         />
       </h1>
       <FluidContainer>
-        <FluidContainer textAlign="center">
-          <div>
-            <Typography variant="footerHeader" color="white" as="h2">
-              Ready to elevate your college journey?
-            </Typography>
-          </div>
+        <FluidContainer
+          textAlign="center"
+          padding="px-16 max-xl:py-5 max-xl:px-9 max-sm:py-5 max-sm:px-4"
+        >
+          {/* section for application phase*/}
+          {/* <Typography variant="footerHeader" color="white" as="h2">
+            Ready to elevate your college journey?
+          </Typography>
           <Typography variant="footerHeader" color="white" as="h2">
             Apply now to uncover the amazing things your FULL potential can
             bring to you and your peers!
+          </Typography> */}
+
+          {/* section for voting phase */}
+          <Typography variant="footerHeader" color="white" as="h2">
+            The Student Leader Elections are happening April 14 to 18.
+          </Typography>
+          <Typography variant="footerHeader" color="white" as="h2">
+            Now is your chance to elect the representatives who will advicate
+            for student concerns, drive campus initiatives, and enhance student
+            life through Associated Students, Inc. and the University-Student
+            Union Board of Directors.
           </Typography>
         </FluidContainer>
         <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
@@ -88,10 +101,8 @@ export default function Home() {
           </Typography>
           <Divider />
           <InfoPanel
-            // title="Your Vote Matters"
-            description="Choose leaders who understand your needs, resonate with your
-                values, and are dedicated to creating a campus that reflects
-                your vision."
+            title="Make your voice heard. Get involved. Vote."
+            description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Check back at a later date for details on how and where to cast your vote."
             imgAlt="Students voting"
             imgSrc="/headers/own-it-pages.jpg"
           >
