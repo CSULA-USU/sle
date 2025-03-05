@@ -19,11 +19,16 @@ export const HeroHeader = ({
         <div className="flex justify-between max-md:flex-col-reverse max-md:text-center w-full">
           {title ? (
             <>
-              <FluidContainer flex flexDirection="col" justifyContent="center">
+              <FluidContainer
+                flex
+                flexDirection="col"
+                justifyContent="center"
+                padding="max-md:py-4"
+              >
                 <Typography variant="pageHeader" color="white">
                   {title}
                 </Typography>
-                <div className="flex justify-between gap-4 max-md:justify-center max-sm:flex-col max-sm:gap-0">
+                <div className="flex justify-between gap-4 max-sm:gap-0">
                   {children}
                 </div>
               </FluidContainer>

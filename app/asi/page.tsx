@@ -102,12 +102,12 @@ export default function ASI() {
         imgSrc="/headers/header-2025-2.svg"
         title="ASI General Election"
       >
-        <Button
+        {/* <Button
           variant="yellow"
           text="Application"
           href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
           isExternalLink
-        />
+        /> */}
         <Button
           variant="yellow"
           text="ASI Positions"
@@ -149,7 +149,8 @@ export default function ASI() {
           )}
         </div>
       </FluidContainer> */}
-      <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
+      {/* // CTA section commented out for voting phase */}
+      {/* <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
           description="Ready to elevate your college journey? Apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
@@ -163,7 +164,7 @@ export default function ASI() {
             isExternalLink
           />
         </CTA>
-      </FluidContainer>
+      </FluidContainer> */}
       <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader">Position Descriptions</Typography>
         <Divider />

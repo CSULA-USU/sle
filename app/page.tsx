@@ -44,13 +44,13 @@ export default function Home() {
 
   return (
     <div className="bg-[#262C32]">
+      <h1>
+        <HeroHeader
+          imgAlt="Cal State LA Student Leader Elections Header that says Vote, dated April 14 to 18"
+          imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//vote-2025.png"
+        />
+      </h1>
       <FluidContainer>
-        <h1>
-          <HeroHeader
-            imgAlt="Student Leader Elections Home Page Header"
-            imgSrc="/home/own-it-header.jpg"
-          />
-        </h1>
         <FluidContainer textAlign="center">
           <div>
             <Typography variant="footerHeader" color="white" as="h2">
@@ -62,28 +62,6 @@ export default function Home() {
             bring to you and your peers!
           </Typography>
         </FluidContainer>
-        {/* <InfoPanel
-          title="Your Vote Matters"
-          description="Choose leaders who understand your needs, resonate with your
-                values, and are dedicated to creating a campus that reflects
-                your vision."
-          imgAlt="Students voting"
-          imgSrc="/your-vote-matters.png"
-        > */}
-        {/* <Button variant="black" text="Voting Instructions" href="/vote" /> */}
-        {/* <Button
-            variant="black"
-            text="ASI Positions"
-            href="https://asicalstatela.org/general-election/position-descriptions"
-            isExternalLink
-          />
-          <Button
-            variant="black"
-            text="U-SU Positions"
-            href="https://www.calstatelausu.org/board-of-directors"
-            isExternalLink
-            />
-            </InfoPanel> */}
         <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
           <StatementCard
             title="Together We Can"
@@ -106,6 +84,28 @@ export default function Home() {
         </div>
         <div>
           <Typography variant="sectionHeader" color="white">
+            Your Vote Matters
+          </Typography>
+          <Divider />
+          <InfoPanel
+            // title="Your Vote Matters"
+            description="Choose leaders who understand your needs, resonate with your
+                values, and are dedicated to creating a campus that reflects
+                your vision."
+            imgAlt="Students voting"
+            imgSrc="/headers/own-it-pages.jpg"
+          >
+            <Button
+              variant="yellow"
+              text="ASI Positions"
+              href="/asi"
+              // isExternalLink
+            />
+            <Button variant="grey" text="U-SU Voting Info" href="/usu" />
+          </InfoPanel>
+        </div>
+        <div>
+          <Typography variant="sectionHeader" color="white">
             Own It
           </Typography>
           <Divider />
@@ -119,7 +119,6 @@ export default function Home() {
             it!"
             imgAlt="own it with eddie the eagle"
             imgSrc="/home/usu-own-it-crowd.jpg"
-            imgClass="rounded-md"
           >
             <Button
               variant="yellow"
