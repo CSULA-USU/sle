@@ -43,7 +43,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
           }}
         >
           <FaCirclePlus className="mr-2 flex-shrink-0" />
-          <p className="font-sans truncate">{title}</p>
+          <p className="font-sans truncate text-lg">{title}</p>
         </button>
       </div>
       <Modal isOpen={modalOpen} onClose={closeModal}>

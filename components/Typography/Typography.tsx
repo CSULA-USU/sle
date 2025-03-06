@@ -17,6 +17,7 @@ interface TypographyProps {
   className?: string;
   color?: "black" | "white";
   lineHeight?: "none" | "normal" | "loose";
+  fontSize?: "base" | "lg" | "xl" | "3xl";
   fontWeight?: "thin" | "normal" | "bold";
   children: React.ReactNode;
 }
@@ -27,7 +28,7 @@ const variants = {
   cardHeader: "text-2xl max-sm:text-xl font-sans font-bold",
   subheader: "text-3xl max-sm:text-2xl font-sans font-bold leading-loose",
   navHeader: "text-md lg:text-xl font-sans font-bold",
-  footerHeader: "text-lg font-sans font-bold leading-loose",
+  footerHeader: "text-xl font-sans font-bold leading-loose",
   buttonText: "text-lg font-sans font-bold",
   copy: "text-base font-sans",
   footerLink: "text-base font-serif text-yellow-400 leading-loose",
@@ -42,11 +43,12 @@ export const Typography = ({
   className,
   color,
   lineHeight,
+  fontSize,
   fontWeight,
 }: TypographyProps) => {
   return (
     <TypographyElement
-      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight} ${className}`}
+      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight} text-${fontSize} ${className}`}
     >
       {children}
     </TypographyElement>
