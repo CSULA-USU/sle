@@ -176,7 +176,7 @@ export default function ASI() {
         </Typography>
         <Divider margin="lg" />
         <div className="my-6">
-          <Typography variant="copy">
+          <Typography variant="copy" fontSize="xl">
             Eligibility to hold ASI office or serve on a committee will be
             verified by the University Registrar.
           </Typography>
@@ -185,7 +185,7 @@ export default function ASI() {
           <BulletList key={i} title={e.title} description={e.description} />
         ))}
         <div className="my-6">
-          <Typography variant="copy">
+          <Typography variant="copy" fontSize="xl">
             If you have any questions regarding the process or requirements
             please call the ASI Administrative Office, U-SU 203 at 323-343-4778
             or email us.

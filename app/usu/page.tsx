@@ -194,7 +194,7 @@ export default function USU() {
         <Typography variant="sectionHeader">Eligibility</Typography>
         <Divider margin="lg" />
         <div className="my-6">
-          <Typography variant="copy">
+          <Typography variant="copy" fontSize="xl">
             Eligibility to serve on the Board of Directors will be verified by
             the Office of the Dean of Students.
           </Typography>
@@ -203,10 +203,10 @@ export default function USU() {
           <BulletList key={i} title={e.title} description={e.description} />
         ))}
         <div className="my-6">
-          <Typography variant="copy">
+          <Typography variant="copy" fontSize="xl">
             If you have any questions regarding the process or requirements,
-            please call the U-SU Administrative Front Desk at (323) 343-2450 or
-            email us at info.usu@calstatelaelections.org
+            please call the U-SU Administrative Front Desk at (323)
+            343&mdash;2450 or email us at info.usu@calstatelaelections.org
           </Typography>
         </div>
       </FluidContainer>
