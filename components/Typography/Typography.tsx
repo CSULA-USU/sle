@@ -17,6 +17,7 @@ interface TypographyProps {
   className?: string;
   color?: "black" | "white";
   lineHeight?: "none" | "normal" | "loose";
+  fontSize?: "base" | "lg" | "xl" | "3xl";
   fontWeight?: "thin" | "normal" | "bold";
   children: React.ReactNode;
 }
@@ -42,11 +43,12 @@ export const Typography = ({
   className,
   color,
   lineHeight,
+  fontSize,
   fontWeight,
 }: TypographyProps) => {
   return (
     <TypographyElement
-      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight} ${className}`}
+      className={`${variants[variant]} text-${color} leading-${lineHeight} font-${fontWeight} text-${fontSize} ${className}`}
     >
       {children}
     </TypographyElement>

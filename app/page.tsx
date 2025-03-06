@@ -65,14 +65,20 @@ export default function Home() {
           </Typography> */}
 
           {/* section for voting phase */}
-          <Typography variant="footerHeader" color="white" as="h2">
+          <Typography
+            variant="subheader"
+            color="white"
+            as="h2"
+            fontSize="xl"
+            className="mb-4"
+          >
             The Student Leader Elections are happening April 14 to 18.
           </Typography>
-          <Typography variant="footerHeader" color="white" as="h2">
-            Now is your chance to elect the representatives who will advicate
+          <Typography variant="subheader" color="white" as="h2" fontSize="xl">
+            Now is your chance to elect the representatives who will advocate
             for student concerns, drive campus initiatives, and enhance student
             life through Associated Students, Inc. and the University-Student
-            Union Board of Directors.
+            Union Board.
           </Typography>
         </FluidContainer>
         <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
