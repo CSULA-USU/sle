@@ -155,6 +155,7 @@ export default function USU() {
           <img
             src="/usu/completed-tasks.svg"
             className="max-h-48 w-auto my-2"
+            alt=""
           />
         </div>
       </FluidContainer>
@@ -171,6 +172,7 @@ export default function USU() {
           <img
             src="/usu/career-progress.svg"
             className="max-h-48 w-auto my-2"
+            alt=""
           />
         </div>
       </FluidContainer>
