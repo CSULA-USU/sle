@@ -89,7 +89,7 @@ export default function USU() {
   return (
     <div>
       <HeroHeader
-        imgAlt="ASI General Election Header Image"
+        imgAlt=""
         imgSrc="/headers/header-2025-2.svg"
         title="U-SU BOD Election"
       >
@@ -109,7 +109,7 @@ export default function USU() {
         {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={bodCandidatesData?.data} /> */}
-        <Typography variant="sectionHeader">
+        <Typography variant="sectionHeader" as="h2">
           University&ndash;Student Union &mdash; Board of Directors
         </Typography>
         <Divider margin="lg" />
@@ -136,12 +136,14 @@ export default function USU() {
         </div>
       </FluidContainer> */}
       <FluidContainer id="position-descriptions">
-        <Typography variant="sectionHeader">Position Descriptions</Typography>
+        <Typography variant="sectionHeader" as="h2">
+          Position Descriptions
+        </Typography>
         <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer>
       <FluidContainer>
-        <Typography variant="sectionHeader">
+        <Typography variant="sectionHeader" as="h2">
           Responsibilities and Requirements
         </Typography>
         <Divider />
@@ -155,11 +157,14 @@ export default function USU() {
           <img
             src="/usu/completed-tasks.svg"
             className="max-h-48 w-auto my-2"
+            alt=""
           />
         </div>
       </FluidContainer>
       <FluidContainer>
-        <Typography variant="sectionHeader">Benefits of Serving</Typography>
+        <Typography variant="sectionHeader" as="h2">
+          Benefits of Serving
+        </Typography>
         <Divider />
         <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
           {usuBenefits?.list && (
@@ -171,6 +176,7 @@ export default function USU() {
           <img
             src="/usu/career-progress.svg"
             className="max-h-48 w-auto my-2"
+            alt=""
           />
         </div>
       </FluidContainer>
@@ -191,7 +197,9 @@ export default function USU() {
       </FluidContainer> */}
 
       <FluidContainer id="eligibility-section">
-        <Typography variant="sectionHeader">Eligibility</Typography>
+        <Typography variant="sectionHeader" as="h2">
+          Eligibility
+        </Typography>
         <Divider margin="lg" />
         <div className="my-6">
           <Typography variant="copy" fontSize="xl">

@@ -20,7 +20,9 @@ export const PositionsSection = ({ title, data }: PositionsSectionProps) => {
   return (
     <div className="flex flex-col my-4">
       <div className="uppercase">
-        <Typography variant="footerHeader">{title}</Typography>
+        <Typography variant="footerHeader" as="h3">
+          {title}
+        </Typography>
       </div>
       {data.map((position, positionIndex) => {
         return (
