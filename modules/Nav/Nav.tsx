@@ -24,45 +24,42 @@ export const Nav = () => {
   }, [pathname, isMobileMenuOpen]);
 
   return (
-    <>
-      <div className="bg-[#262C32] border-b-neutral-700 border-b-[1px]">
-        <FluidContainer
-          flex
-          justifyContent="between"
-          padding="py-5 px-20 max-md:px-10"
-          alignItems="center"
-        >
+    <div className="bg-[#262C32] border-b-neutral-700 border-b-[1px] sticky top-0">
+      <FluidContainer
+        flex
+        justifyContent="between"
+        padding="py-5 px-20 max-md:px-10"
+        alignItems="center"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          src="/home/own-it-2025.svg"
+          style={{
+            height: "48px",
+            width: "auto",
+          }}
+        />
+        <FaBars
+          style={{ color: "white" }}
+          size={40}
+          className="sm:hidden hover:opacity-70"
+          onClick={handleMobileNavToggle}
+        />
+        <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
+        <div className="sm:flex items-center w-2/5 max-sm:w-3/5 justify-between hidden">
           <Link href="/">
-            <img
-              alt=""
-              aria-hidden="true"
-              src="/home/own-it-2025.svg"
-              style={{
-                height: "48px",
-                width: "auto",
-              }}
-            />
+            <Typography
+              variant="navHeader"
+              className={`hover:text-yellow-400 ${
+                activeLink === "/" ? "border-b-4 border-yellow-400" : ""
+              }`}
+              color="white"
+            >
+              Home
+            </Typography>
           </Link>
-          <FaBars
-            style={{ color: "white" }}
-            size={40}
-            className="sm:hidden hover:opacity-70"
-            onClick={handleMobileNavToggle}
-          />
-          <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
-          <div className="sm:flex items-center w-2/5 max-sm:w-3/5 justify-between hidden">
-            <Link href="/">
-              <Typography
-                variant="navHeader"
-                className={`hover:text-yellow-400 ${
-                  activeLink === "/" ? "border-b-4 border-yellow-400" : ""
-                }`}
-                color="white"
-              >
-                Home
-              </Typography>
-            </Link>
-            {/* <Link href="/vote">
+          {/* <Link href="/vote">
               <Typography
                 variant="navHeader"
                 className={`hover:text-yellow-400 ${
@@ -72,31 +69,30 @@ export const Nav = () => {
                 Vote
               </Typography>
             </Link> */}
-            <Link href="/asi">
-              <Typography
-                variant="navHeader"
-                className={`hover:text-yellow-400 ${
-                  activeLink === "/asi" ? "border-b-4 border-yellow-400" : ""
-                }`}
-                color="white"
-              >
-                ASI
-              </Typography>
-            </Link>
-            <Link href="/usu">
-              <Typography
-                variant="navHeader"
-                className={`hover:text-yellow-400 ${
-                  activeLink === "/usu" ? "border-b-4 border-yellow-400" : ""
-                }`}
-                color="white"
-              >
-                U-SU
-              </Typography>
-            </Link>
-          </div>
-        </FluidContainer>
-      </div>
-    </>
+          <Link href="/asi">
+            <Typography
+              variant="navHeader"
+              className={`hover:text-yellow-400 ${
+                activeLink === "/asi" ? "border-b-4 border-yellow-400" : ""
+              }`}
+              color="white"
+            >
+              ASI
+            </Typography>
+          </Link>
+          <Link href="/usu">
+            <Typography
+              variant="navHeader"
+              className={`hover:text-yellow-400 ${
+                activeLink === "/usu" ? "border-b-4 border-yellow-400" : ""
+              }`}
+              color="white"
+            >
+              U-SU
+            </Typography>
+          </Link>
+        </div>
+      </FluidContainer>
+    </div>
   );
 };
