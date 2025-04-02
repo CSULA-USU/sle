@@ -98,7 +98,7 @@ export default function ASI() {
   return (
     <div>
       <HeroHeader
-        imgAlt="ASI General Election Header Image"
+        imgAlt=""
         imgSrc="/headers/header-2025-2.svg"
         title="ASI General Election"
       >
@@ -120,10 +120,10 @@ export default function ASI() {
         />
       </HeroHeader>
       <FluidContainer>
-        {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
+        {/* <Typography variant="sectionHeader" as="h2">>Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={asiCandidatesData?.data} /> */}
-        <Typography variant="sectionHeader">
+        <Typography variant="sectionHeader" as="h2">
           Associated Students, Inc. &mdash; Student Government
         </Typography>
         <Divider margin="lg" />
@@ -135,7 +135,7 @@ export default function ASI() {
         />
       </FluidContainer>
       {/* <FluidContainer>
-        <Typography variant="sectionHeader">Election Events</Typography>
+        <Typography variant="sectionHeader" as="h2">Election Events</Typography>
         <Divider margin="reg" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {electionEvents.length > 0 ? (
@@ -166,12 +166,14 @@ export default function ASI() {
         </CTA>
       </FluidContainer> */}
       <FluidContainer id="position-descriptions">
-        <Typography variant="sectionHeader">Position Descriptions</Typography>
+        <Typography variant="sectionHeader" as="h2">
+          Position Descriptions
+        </Typography>
         <Divider />
         <PositionDescriptions data={typedAsiData?.data} />
       </FluidContainer>
       <FluidContainer id="eligibility-section">
-        <Typography variant="sectionHeader">
+        <Typography variant="sectionHeader" as="h2">
           Basic Eligibility Requirements
         </Typography>
         <Divider margin="lg" />

@@ -25,7 +25,7 @@ export const HeroHeader = ({
                 justifyContent="center"
                 padding="max-md:py-4"
               >
-                <Typography variant="pageHeader" color="white">
+                <Typography variant="pageHeader" color="white" as="h1">
                   {title}
                 </Typography>
                 <div className="flex justify-between gap-4 max-sm:gap-0">
