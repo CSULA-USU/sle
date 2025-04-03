@@ -48,7 +48,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
       </div>
       <Modal isOpen={modalOpen} onClose={closeModal}>
         <div className="max-w-screen-lg mx-4 z-40">
-          <div className="underline">
+          <div>
             <Typography variant="subheader">{title}</Typography>
           </div>
           {data?.map((item, index) => (
