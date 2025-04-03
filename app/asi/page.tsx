@@ -110,8 +110,8 @@ export default function ASI() {
         /> */}
         <Button
           variant="yellow"
-          text="ASI Positions"
-          href="#position-descriptions"
+          text="Positions"
+          href="https://asicalstatela.org/general-election/2025-platforms"
         />
         <Button
           variant="yellow"
@@ -120,9 +120,6 @@ export default function ASI() {
         />
       </HeroHeader>
       <FluidContainer>
-        {/* <Typography variant="sectionHeader" as="h2">>Meet the Candidates</Typography>
-        <Divider margin="lg" />
-        <PositionDescriptions data={asiCandidatesData?.data} /> */}
         <Typography variant="sectionHeader" as="h2">
           Associated Students, Inc. &mdash; Student Government
         </Typography>
@@ -134,6 +131,13 @@ export default function ASI() {
           theme="light"
         />
       </FluidContainer>
+      {/* <FluidContainer>
+        <Typography variant="sectionHeader" as="h2">
+          Meet the Candidates
+        </Typography>
+        <Divider margin="lg" />
+        <PositionDescriptions data={asiCandidatesData?.data} />
+      </FluidContainer> */}
       {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">Election Events</Typography>
         <Divider margin="reg" />
