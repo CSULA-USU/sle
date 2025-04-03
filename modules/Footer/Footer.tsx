@@ -45,13 +45,13 @@ export const Footer = () => {
                 </Typography>
               </Link>
             </div>
-            <div>
+            {/* <div>
               <Link href="/vote">
                 <Typography variant="footerLink">
                   <NonBreakingSpan>How to Vote</NonBreakingSpan>
                 </Typography>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div>
             <Typography variant="footerHeader" color="white">

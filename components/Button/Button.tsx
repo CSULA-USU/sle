@@ -5,6 +5,7 @@ interface ButtonProps {
   text: string;
   borderless?: boolean;
   href?: string;
+  isDisabled?: boolean;
   isExternalLink?: boolean;
 }
 
@@ -13,11 +14,12 @@ export const Button = ({
   borderless,
   variant,
   text,
+  isDisabled,
   isExternalLink,
 }: ButtonProps) => {
   return (
     <>
-      {href ? (
+      {href && !isDisabled ? (
         <div className="my-4">
           <NonBreakingSpan>
             <span
@@ -44,6 +46,8 @@ export const Button = ({
                 ? "bg-yellow-400 border-none"
                 : "bg-gray-300 border-none"
           } ${borderless ? "border-none" : ""} py-2 px-4`}
+          disabled={isDisabled}
+          aria-disabled={isDisabled}
         >
           <Typography variant="buttonText">{text}</Typography>
         </button>

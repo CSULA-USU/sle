@@ -1,7 +1,6 @@
 import {
   BulletList,
   Button,
-  CTA,
   InfoPanel,
   Divider,
   FluidContainer,
@@ -11,7 +10,7 @@ import {
 import { PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/asi/asi-election-events.json";
-// import asiCandidatesData from "@/data/asi/asi-candidates.json";
+import asiCandidatesData from "@/data/asi/asi-candidates.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
 import {
@@ -110,8 +109,8 @@ export default function ASI() {
         /> */}
         <Button
           variant="yellow"
-          text="Positions"
-          href="https://asicalstatela.org/general-election/2025-platforms"
+          text="Candidate Info"
+          href="#meet-candidates"
         />
         <Button
           variant="yellow"
@@ -131,13 +130,13 @@ export default function ASI() {
           theme="light"
         />
       </FluidContainer>
-      {/* <FluidContainer>
+      <FluidContainer id="meet-candidates">
         <Typography variant="sectionHeader" as="h2">
           Meet the Candidates
         </Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={asiCandidatesData?.data} />
-      </FluidContainer> */}
+      </FluidContainer>
       {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">Election Events</Typography>
         <Divider margin="reg" />
@@ -169,13 +168,13 @@ export default function ASI() {
           />
         </CTA>
       </FluidContainer> */}
-      <FluidContainer id="position-descriptions">
+      {/* <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
         <Divider />
         <PositionDescriptions data={typedAsiData?.data} />
-      </FluidContainer>
+      </FluidContainer> */}
       <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader" as="h2">
           Basic Eligibility Requirements
