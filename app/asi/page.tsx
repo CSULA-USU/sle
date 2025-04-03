@@ -109,8 +109,8 @@ export default function ASI() {
         /> */}
         <Button
           variant="yellow"
-          text="Positions"
-          href="https://asicalstatela.org/general-election/2025-platforms"
+          text="Candidate Info"
+          href="#meet-candidates"
         />
         <Button
           variant="yellow"
@@ -130,7 +130,7 @@ export default function ASI() {
           theme="light"
         />
       </FluidContainer>
-      <FluidContainer>
+      <FluidContainer id="meet-candidates">
         <Typography variant="sectionHeader" as="h2">
           Meet the Candidates
         </Typography>
