@@ -103,7 +103,7 @@ export default function Home() {
           </Typography>
           <Divider />
           <InfoPanel
-            description="Your voice matters! Student elections shape the future of campus life, and your vote makes a difference. Get to know the candidates, their vision, and how they plan to represent you. Be informed, be involved, and be ready to vote! Learn more about your future student leaders."
+            description="Your voice matters! Student elections shape the future of campus life, and your vote makes a difference. Get to know the candidates, their vision, and how they plan to represent you. Be informed, be involved, and be ready to vote! Click here to learn more about your future student leaders."
             imgAlt="Students leading other students"
             imgSrc="/headers/own-it-pages.jpg"
           >
