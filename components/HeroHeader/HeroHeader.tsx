@@ -1,8 +1,10 @@
+import Image from "next/image";
 import { FluidContainer, Typography } from "@/components";
 
 interface HeroHeaderProps {
   imgAlt: string;
   imgSrc: string;
+  imgSrcMobile?: string; // Optional mobile image
   title?: string;
   children?: React.ReactNode;
 }
@@ -10,6 +12,7 @@ interface HeroHeaderProps {
 export const HeroHeader = ({
   imgAlt,
   imgSrc,
+  imgSrcMobile,
   title,
   children,
 }: HeroHeaderProps) => {
@@ -30,15 +33,40 @@ export const HeroHeader = ({
                 </Typography>
                 <div className="flex justify-center gap-4">{children}</div>
               </FluidContainer>
-              <img
-                alt={imgAlt}
-                src={`${imgSrc}`}
-                className="object-contain h-[350px] max-sm:h-[200px]"
-              />
+              <picture>
+                {/* Mobile image */}
+                <source srcSet={imgSrcMobile} media="(max-width: 768px)" />
+                {/* Desktop image */}
+                <source srcSet={imgSrc} media="(min-width: 769px)" />
+                {/* Fallback image */}
+                <Image
+                  alt={imgAlt}
+                  src={imgSrc}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-contain h-[350px] max-sm:h-[200px]"
+                  width={500}
+                  height={300}
+                  layout="intrinsic"
+                  priority
+                />
+              </picture>
             </>
           ) : (
+            // If no title is provided, just shows the image
             <>
-              <img alt={imgAlt || ""} src={imgSrc} className="object-contain" />
+              <picture>
+                <source srcSet={imgSrcMobile} media="(max-width: 768px)" />
+                <source srcSet={imgSrc} media="(min-width: 769px)" />
+                <Image
+                  alt={imgAlt || ""}
+                  src={imgSrc}
+                  className="object-contain"
+                  layout="responsive"
+                  width={0}
+                  height={0}
+                  priority
+                />
+              </picture>
             </>
           )}
         </div>

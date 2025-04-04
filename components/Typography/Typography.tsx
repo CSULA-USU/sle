@@ -23,7 +23,7 @@ interface TypographyProps {
 }
 
 const variants = {
-  pageHeader: "text-5xl max-xl:text-4xl font-sans font-bold",
+  pageHeader: "text-6xl max-xl:text-4xl font-sans font-bold",
   sectionHeader: "text-4xl max-md:text-3xl font-sans leading-loose",
   cardHeader: "text-2xl max-sm:text-xl font-sans font-bold",
   subheader: "text-3xl max-sm:text-2xl font-sans font-bold leading-loose",
