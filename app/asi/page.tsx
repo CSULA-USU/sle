@@ -111,12 +111,9 @@ export default function ASI() {
           variant="yellow"
           text="Candidate Info"
           href="#meet-candidates"
+          class="mr-4"
         />
-        <Button
-          variant="yellow"
-          text="Eligibility"
-          href="#eligibility-section"
-        />
+        <Button variant="grey" text="Eligibility" href="#eligibility-section" />
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
