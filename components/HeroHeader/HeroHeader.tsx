@@ -28,9 +28,7 @@ export const HeroHeader = ({
                 <Typography variant="pageHeader" color="white" as="h1">
                   {title}
                 </Typography>
-                <div className="flex justify-between gap-4 max-sm:gap-0">
-                  {children}
-                </div>
+                <div className="flex justify-center gap-4">{children}</div>
               </FluidContainer>
               <img
                 alt={imgAlt}
