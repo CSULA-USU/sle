@@ -44,14 +44,15 @@ export const HeroHeader = ({
                   src={imgSrc}
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-contain h-[350px] max-sm:h-[200px]"
-                  layout="responsive"
-                  width={1920}
-                  height={1080}
+                  width={500}
+                  height={300}
+                  layout="intrinsic"
                   priority
                 />
               </picture>
             </>
           ) : (
+            // If no title is provided, just shows the image
             <>
               <picture>
                 <source srcSet={imgSrcMobile} media="(max-width: 768px)" />
@@ -59,11 +60,10 @@ export const HeroHeader = ({
                 <Image
                   alt={imgAlt || ""}
                   src={imgSrc}
-                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-contain"
                   layout="responsive"
-                  width={1920}
-                  height={1080}
+                  width={0}
+                  height={0}
                   priority
                 />
               </picture>

@@ -52,44 +52,14 @@ export default function Home() {
         />
       </h1>
       <FluidContainer>
-        <FluidContainer
-          textAlign="center"
-          padding="px-16 max-xl:py-5 max-xl:px-9 max-sm:py-5 max-sm:px-4"
-        >
-          {/* section for application phase*/}
-          {/* <Typography variant="footerHeader" color="white" as="h2">
-            Ready to elevate your college journey?
-          </Typography>
-          <Typography variant="footerHeader" color="white" as="h2">
-            Apply now to uncover the amazing things your FULL potential can
-            bring to you and your peers!
-          </Typography> */}
-
-          {/* section for voting phase */}
-          <Typography
-            variant="subheader"
-            color="white"
-            as="h2"
-            fontSize="xl"
-            className="mb-4"
-          >
-            The Student Leader Elections are happening April 14 to 18.
-          </Typography>
-          <Typography variant="subheader" color="white" as="h2" fontSize="xl">
-            Now is your chance to elect the representatives who will advocate
-            for student concerns, drive campus initiatives, and enhance student
-            life through Associated Students, Inc. and the University-Student
-            Union Board.
-          </Typography>
-        </FluidContainer>
-        <div className="mt-8">
+        <div>
           <Typography variant="sectionHeader" color="white">
             Your Vote Matters
           </Typography>
           <Divider />
           <InfoPanel
             title="Make your voice heard. Get involved. Vote."
-            description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Opens 4/14 to 4/18 at 11:59 PM for submissions. Please note that students will be prompted to login with Cal State LA credentials upon clicking the form."
+            description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Opens 4/14 to 4/18 at 11:59 PM for submissions."
             imgAlt="Students voting"
             imgSrc="/home/usu-own-it-crowd.jpg"
           >
@@ -103,7 +73,7 @@ export default function Home() {
           </Typography>
           <Divider />
           <InfoPanel
-            description="Your voice matters! Student elections shape the future of campus life, and your vote makes a difference. Get to know the candidates, their vision, and how they plan to represent you. Be informed, be involved, and be ready to vote! Click here to learn more about your future student leaders."
+            description="Get to know the candidates, their vision, and how they plan to represent you. Be informed, be involved, and be ready to vote! Click here to learn more about your future student leaders."
             imgAlt="Students leading other students"
             imgSrc="/headers/own-it-pages.jpg"
           >
@@ -148,6 +118,33 @@ export default function Home() {
             )}
           </div>
         </div>
+      </FluidContainer>
+      <FluidContainer textAlign="center">
+        {/* section for application phase*/}
+        {/* <Typography variant="footerHeader" color="white" as="h2">
+            Ready to elevate your college journey?
+          </Typography>
+          <Typography variant="footerHeader" color="white" as="h2">
+            Apply now to uncover the amazing things your FULL potential can
+            bring to you and your peers!
+          </Typography> */}
+
+        {/* section for voting phase */}
+        <Typography
+          variant="subheader"
+          color="white"
+          as="h2"
+          fontSize="xl"
+          className="mb-4"
+        >
+          The Student Leader Elections are happening April 14 to 18.
+        </Typography>
+        <Typography variant="subheader" color="white" as="h2" fontSize="xl">
+          Now is your chance to elect the representatives who will advocate for
+          student concerns, drive campus initiatives, and enhance student life
+          through Associated Students, Inc. and the University-Student Union
+          Board.
+        </Typography>
       </FluidContainer>
     </div>
   );
