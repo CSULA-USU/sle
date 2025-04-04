@@ -48,6 +48,7 @@ export default function Home() {
         <HeroHeader
           imgAlt="Cal State LA Student Leader Elections Header that says Vote, dated April 14 to 18"
           imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//vote-2025.png"
+          imgSrcMobile="/headers/vote-mobile-25.png"
         />
       </h1>
       <FluidContainer>
