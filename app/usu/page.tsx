@@ -101,14 +101,13 @@ export default function USU() {
         /> */}
         <Button
           variant="yellow"
-          text="Eligibility"
-          href="#eligibility-section"
+          text="Candidate Info"
+          href="#candidates-section"
+          class="mr-4"
         />
+        <Button variant="grey" text="Eligibility" href="#eligibility-section" />
       </HeroHeader>
       <FluidContainer>
-        {/* <Typography variant="sectionHeader">Meet the Candidates</Typography>
-        <Divider margin="lg" />
-        <PositionDescriptions data={bodCandidatesData?.data} /> */}
         <Typography variant="sectionHeader" as="h2">
           University&ndash;Student Union &mdash; Board of Directors
         </Typography>
@@ -120,6 +119,7 @@ export default function USU() {
           theme="light"
         />
       </FluidContainer>
+      {/* Election Events Section */}
       {/* <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider />
@@ -135,13 +135,24 @@ export default function USU() {
           )}
         </div>
       </FluidContainer> */}
-      <FluidContainer id="position-descriptions">
+
+      {/* Meet the Candidates Section */}
+      <FluidContainer id="candidates-section">
+        <Typography variant="sectionHeader">Meet the Candidates</Typography>
+        <Divider margin="lg" />
+        <PositionDescriptions data={bodCandidatesData?.data} />
+      </FluidContainer>
+
+      {/* Position Descriptions Section  */}
+      {/* <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
         <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
-      </FluidContainer>
+      </FluidContainer> */}
+
+      {/* Responsibilities and Requirements Section */}
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
           Responsibilities and Requirements

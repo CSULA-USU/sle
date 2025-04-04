@@ -1,12 +1,13 @@
 import { NonBreakingSpan, Typography } from "@/components";
 
 interface ButtonProps {
-  variant: "black" | "grey" | "yellow";
-  text: string;
   borderless?: boolean;
+  class?: string;
   href?: string;
   isDisabled?: boolean;
   isExternalLink?: boolean;
+  text: string;
+  variant: "black" | "grey" | "yellow";
 }
 
 export const Button = ({
@@ -29,7 +30,7 @@ export const Button = ({
                   : variant === "yellow"
                     ? "bg-yellow-400 border-none"
                     : "bg-gray-300 border-none"
-              } ${borderless ? "border-none" : ""}`}
+              } ${borderless ? "border-none" : ""} {class}`}
             >
               <a href={href} target={isExternalLink ? "_blank" : "_self"}>
                 <Typography variant="buttonText">{text}</Typography>
@@ -45,7 +46,7 @@ export const Button = ({
               : variant === "yellow"
                 ? "bg-yellow-400 border-none"
                 : "bg-gray-300 border-none"
-          } ${borderless ? "border-none" : ""} py-2 px-4`}
+          } ${borderless ? "border-none" : ""} py-2 px-4 {class}`}
           disabled={isDisabled}
           aria-disabled={isDisabled}
         >
