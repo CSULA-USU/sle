@@ -31,15 +31,16 @@ export const Nav = () => {
         padding="py-5 px-20 max-md:px-10"
         alignItems="center"
       >
-        <img
-          alt=""
-          aria-hidden="true"
-          src="/home/own-it-2025.svg"
-          style={{
-            height: "48px",
-            width: "auto",
-          }}
-        />
+        <Link href="/">
+          <img
+            alt="Homepage"
+            src="/home/own-it-2025.svg"
+            style={{
+              height: "48px",
+              width: "auto",
+            }}
+          />
+        </Link>
         <FaBars
           style={{ color: "white" }}
           size={40}
@@ -48,7 +49,7 @@ export const Nav = () => {
         />
         <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
         <div className="sm:flex items-center w-2/5 max-sm:w-3/5 justify-between hidden">
-          <Link href="/">
+          {/* <Link href="/">
             <Typography
               variant="navHeader"
               className={`hover:text-yellow-400 ${
@@ -58,7 +59,7 @@ export const Nav = () => {
             >
               Home
             </Typography>
-          </Link>
+          </Link> */}
           {/* <Link href="/vote">
               <Typography
                 variant="navHeader"
