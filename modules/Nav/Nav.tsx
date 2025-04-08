@@ -60,16 +60,17 @@ export const Nav = () => {
               Home
             </Typography>
           </Link> */}
-          {/* <Link href="/vote">
-              <Typography
-                variant="navHeader"
-                className={`hover:text-yellow-400 ${
-                  activeLink === "/vote" ? "border-b-4 border-yellow-400" : ""
-                }` } color="white"
-              >
-                Vote
-              </Typography>
-            </Link> */}
+          <Link href="/vote">
+            <Typography
+              variant="navHeader"
+              className={`hover:text-yellow-400 ${
+                activeLink === "/vote" ? "border-b-4 border-yellow-400" : ""
+              }`}
+              color="white"
+            >
+              Vote
+            </Typography>
+          </Link>
           <Link href="/asi">
             <Typography
               variant="navHeader"
