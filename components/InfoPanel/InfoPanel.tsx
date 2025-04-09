@@ -37,6 +37,7 @@ export const InfoPanel = ({
             <Typography
               variant={`${theme === "dark" ? "sectionHeader" : "subheader"}`}
               color={`${theme === "light" ? "black" : "white"}`}
+              as="h3"
             >
               {title}
             </Typography>

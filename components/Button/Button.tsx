@@ -24,9 +24,9 @@ export const Button = ({
         <div className="my-4">
           <NonBreakingSpan>
             <span
-              className={`rounded-md border py-3 px-4 hover:opacity-70 ${
+              className={`rounded-md py-3 px-4 hover:opacity-70 ${
                 variant === "black"
-                  ? "border-white text-white bg-black"
+                  ? "text-white bg-black"
                   : variant === "yellow"
                     ? "bg-yellow-400 border-none"
                     : "bg-gray-300 border-none"
@@ -40,9 +40,9 @@ export const Button = ({
         </div>
       ) : (
         <button
-          className={`rounded-md border hover:opacity-70 ${
+          className={`rounded-md hover:opacity-70 ${
             variant === "black"
-              ? "border-white text-white bg-black"
+              ? "text-white bg-black"
               : variant === "yellow"
                 ? "bg-yellow-400 border-none"
                 : "bg-gray-300 border-none"
