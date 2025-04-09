@@ -32,7 +32,7 @@ export default function Vote() {
         imgAlt="SLE Vote Header 1"
         imgSrc="/headers/header-2025-2.svg"
       >
-        <Button variant="yellow" text="Voting Open 4/14 at 11:59 PM" href="#" />
+        <Button variant="yellow" text="Open 4/14 at 11:59 PM" href="#" />
       </HeroHeader>
 
       <FluidContainer>
@@ -50,7 +50,7 @@ export default function Vote() {
           />
           <InfoPanel
             title="View ASI Candidates"
-            description="Click on view to see an image and statement from your candidates to see who deserves your vote."
+            description="Click on view to see an image and statement from your candidates to see who deserves your vote. Scroll down to see all the positions available."
             imgAlt="Toggle shows a radio section to view candidates or hide the options. Selecting view shows an image of the candidate and their campaign statements."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/01-Select-View-Radio-Button.jpg"
             theme="light"
@@ -91,11 +91,7 @@ export default function Vote() {
           title="Make your voice heard today!"
           description="Click the link below in order to make an impact here at Cal State LA"
         >
-          <Button
-            variant="black"
-            text="Voting open on 14 April at 11:59 PM"
-            href="#"
-          />
+          <Button variant="black" text="Open 4/14 at 11:59 PM" href="#" />
         </CTA>
       </FluidContainer>
     </>
