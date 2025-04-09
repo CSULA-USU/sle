@@ -19,11 +19,11 @@ export default function Vote() {
         />
         <meta
           name="keywords"
-          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, How to Vote, GET Mobile, GET Website"
+          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, How to Vote, Presence Voting, Vote, Elections, Candidates, Instructions, RSO, RSOs, Recognized Student Organizations, U-SU Board of Directors, student org, student organization"
         />
         <meta
           name="description"
-          content="Learn how to vote on GET Mobile and the GET Website for Cal State LA's Studnet Leader Elections."
+          content="Learn how to vote on Presence for Cal State LA's Studnet Leader Elections."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -74,6 +74,13 @@ export default function Vote() {
             description="Select 8 BOD candidates to elect into the U-SU Board of Directors."
             imgAlt="checkbox input of candidates. Select up to 8 candidates for the U-SU Board of Directors."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/11---Cast-Your-Vote.jpg"
+            theme="light"
+          />
+          <InfoPanel
+            title="Voting for Recognized Student Organizations"
+            description="Click the dropdown to vote for a Recognized Student Organization! Each vote that an org gets equals $3 in funds raised. The top 3 RSOs with the most votes will receive additional funding. You do not have to be a member of the organization you wish to vote for. This question is optional; you may leave it blank if you do not wish to vote for a student org."
+            imgAlt="screenshot of dropdown menu with recognized student organization names. Each vote an org gets equals $3 in funds raised. The top 3 RSOs with the most votes will receive additional funding: third place $100, second place $200, and first place $300."
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.png"
             theme="light"
           />
           <InfoPanel
