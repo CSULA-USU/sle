@@ -59,7 +59,7 @@ export default function Home() {
           <Divider />
           <InfoPanel
             title="Make your voice heard. Get involved. Vote."
-            description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Opens 4/14 to 4/18 at 11:59 PM for submissions."
+            description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Opens 4/14 to 4/18 at 8:00 AM for submissions."
             imgAlt="Students voting"
             imgSrc="/home/usu-own-it-crowd.jpg"
           >
