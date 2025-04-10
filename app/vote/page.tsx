@@ -32,7 +32,7 @@ export default function Vote() {
         imgAlt="SLE Vote Header 1"
         imgSrc="/headers/header-2025-2.svg"
       >
-        <Button variant="yellow" text="Open 4/14 at 11:59 PM" href="#" />
+        <Button variant="yellow" text="Open 4/14 at 8:00 AM" href="#" />
       </HeroHeader>
 
       <FluidContainer>
@@ -98,7 +98,7 @@ export default function Vote() {
           title="Make your voice heard today!"
           description="Click the link below in order to make an impact here at Cal State LA"
         >
-          <Button variant="black" text="Open 4/14 at 11:59 PM" href="#" />
+          <Button variant="black" text="Open 4/14 at 8:00 AM" href="#" />
         </CTA>
       </FluidContainer>
     </>
