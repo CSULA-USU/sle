@@ -600,23 +600,23 @@
             },
             {
               "type": "copy",
-              "text": "Hello Golden Eagles! My name is De’Ja Gordon, and I’m running for ASI Engagement Commissioner because I believe in creating a campus where everyone feels connected and valued."
+              "text": "Hello Golden Eagles! My name is De’Ja Gordon, and I’m running to be your HHS Representative because I’m passionate about making sure our voices as Health and Human Services students are heard, supported, and empowered."
             },
             {
               "type": "copy",
-              "text": "As the founder of Shopwithdeja, I’ve learned how to build relationships, inspire engagement, and create opportunities that bring people together. My nonprofit work on Skid Row has shown me the importance of compassion and community support. Through my passion for drill team and photography, I’ve seen how shared experiences can uplift and unite us."
+              "text": "As the founder of Shopwithdeja, I’ve built strong connections through creativity and community outreach. My nonprofit work supporting Skid Row has taught me the importance of service and advocacy, while my drill team and photography work remind me of the power of teamwork and expression."
             },
             {
               "type": "copy",
-              "text": "If elected, I will make it my mission to increase student involvement by hosting more interactive events, boosting social media presence, and making every student feel heard and valued. I want to turn your ideas into actions and ensure ASI becomes a platform for your voice and vision."
+              "text": "If elected, I’ll advocate for more opportunities, resources, and events tailored to HHS students. I want to help amplify your concerns, turn your feedback into action, and ensure you feel connected to both ASI and our department."
             },
             {
               "type": "copy",
-              "text": "Together, we can build a more engaging and supportive campus. Vote De’Ja Gordon for ASI Engagement Commissioner!"
+              "text": "Let’s build a stronger, more inclusive HHS community—together. Vote De’Ja Gordon for HHS Representative!"
             },
             {
               "type": "copy",
-              "text": "Social Media: @Dejagordon_ "
+              "text": "@Dejagordon_ "
             }
           ]
         }
@@ -625,20 +625,6 @@
     {
       "sectionName": "College of Natural and Social Sciences Representative",
       "positions": [
-        {
-          "positionName": "Adrian Siu",
-          "positionData": [
-            {
-              "type": "image",
-              "alt": "candidate profile",
-              "img": "https://asicalstatela.org/sites/default/files/content/img/2025/03/9q9a0117-ps-copy.jpg"
-            },
-            {
-              "type": "copy",
-              "text": "Who Am I? What Is my name? Why am I here? These Questions all have answers. My name is Adrian Siu, and I am running for Student Senator. I am the best candidate because I have teamwork experience and have been able to build clubs from the ground up. I am currently the president of the SinoSphere Society, which was founded in the Fall of 2023 and had only 5 members at the start, now membership is over 35. I have excellent communication, just like Ronald Reagan. Please Vote for Adrian Siu for Student Senator."
-            }
-          ]
-        },
         {
           "positionName": "Dorcia White-Brake",
           "positionData": [
@@ -776,6 +762,20 @@
     {
       "sectionName": "Undergraduate Academic Senator",
       "positions": [
+        {
+          "positionName": "Adrian Siu",
+          "positionData": [
+            {
+              "type": "image",
+              "alt": "candidate profile",
+              "img": "https://asicalstatela.org/sites/default/files/content/img/2025/03/9q9a0117-ps-copy.jpg"
+            },
+            {
+              "type": "copy",
+              "text": "Who Am I? What Is my name? Why am I here? These Questions all have answers. My name is Adrian Siu, and I am running for Student Senator. I am the best candidate because I have teamwork experience and have been able to build clubs from the ground up. I am currently the president of the SinoSphere Society, which was founded in the Fall of 2023 and had only 5 members at the start, now membership is over 35. I have excellent communication, just like Ronald Reagan. Please Vote for Adrian Siu for Student Senator."
+            }
+          ]
+        },
         {
           "positionName": "Mark Raspopov",
           "positionData": [
