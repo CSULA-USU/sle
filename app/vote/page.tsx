@@ -42,7 +42,7 @@ export default function Vote() {
           <Divider margin="reg" />
           <InfoPanel
             title="April 14 to 18"
-            description="Voting has never been easier! Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
+            description="Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
             imgAlt="Screenshot of the hero header section of the Presence voting form."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-header.png"
             theme="light"
@@ -55,61 +55,100 @@ export default function Vote() {
             </Typography>
           </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
-            ASI Executive Positions (Associated Students Inc.)
+            Associated Students Inc. (ASI)
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
             title="View ASI Candidates"
             imgAlt="Toggle shows a radio section to view candidates or hide the options. Selecting view shows an image of the candidate and their campaign statements."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/01-Select-View-Radio-Button.jpg"
-            list={[
-              "Click View next to each position to learn more about the candidates.",
-              "Read their statements, platforms, and goals.",
-              "Select the candidate who best aligns with you.",
-              "You can only choose one candidate per executive role",
-            ]}
             theme="light"
-          />
+          >
+            <Typography variant="informational" color="black">
+              Click &quot;View&quot; next to each position to learn more about
+              the candidates. Read their statements and goals
+            </Typography>
+            <Typography variant="informational" color="black">
+              Select the candidate who best aligns with you
+            </Typography>
+            <Typography variant="informational" color="black">
+              You can only choose one candidate per executive role
+            </Typography>
+          </InfoPanel>
           <InfoPanel
             title="Cast Your Vote"
-            description="Select the candidate you feel will make the best impact on your campus."
+            description="Select the candidate you feel will make the most positive impact on your campus."
             imgAlt="Radio button of candidate names. Selecting a candidate will show your support for them when you submit your vote."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/00---Select-View.jpg"
             theme="light"
           />
           <Typography variant="sectionHeader" as="h2">
-            College Representatives
+            Voting Instructions College Representatives
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
             title="View College Representatives"
-            description="Click through the radial buttons to see the candidates for each college and vote for your representatives underneath."
             imgAlt="Radio button of colleges. Selecting a college will show the candidates for that college."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/05---Select-Your-College.jpg"
             theme="light"
-          />
+          >
+            <Typography variant="informational" color="black">
+              Use the dropdown menu to choose your college
+            </Typography>
+            <Typography variant="informational" color="black">
+              Click &quot;View&quot; to see candidates for your college
+            </Typography>
+            <Typography variant="informational" color="black">
+              Select your college rep from the dropdown list
+            </Typography>
+            <Typography variant="informational" color="black">
+              Repeat for all other open positions
+            </Typography>
+            <Typography variant="informational" color="black">
+              Note: Only one candidate can be selected per open position
+            </Typography>
+          </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
             University-Student Union (U-SU) Board of Directors
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
             title="Voting for the U-SU Board of Directors"
-            description="Select 8 BOD candidates to elect into the U-SU Board of Directors."
             imgAlt="checkbox input of candidates. Select up to 8 candidates for the U-SU Board of Directors."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/11---Cast-Your-Vote.jpg"
             theme="light"
-          />
+          >
+            <Typography variant="informational" color="black">
+              Click &quot;View&quot; next to any candidate&apos;s name to learn
+              more about them
+            </Typography>
+            <Typography variant="informational" color="black">
+              You may select up to 8 candidates in this section
+            </Typography>
+          </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
-            Recognized Student Organization (RSO) Voting
+            Voting Instructions Recognized Student Organization (RSO) Voting
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
-            title="Voting for Recognized Student Organizations"
-            description="Click the dropdown to vote for a Recognized Student Organization! Each vote that an org gets equals $3 in funds raised. The top 3 RSOs with the most votes will receive additional funding. You do not have to be a member of the organization you wish to vote for. This question is optional; you may leave it blank if you do not wish to vote for a student org."
-            imgAlt="screenshot of dropdown menu with recognized student organization names. Each vote an org gets equals $3 in funds raised. The top 3 RSOs with the most votes will receive additional funding: third place $100, second place $200, and first place $300."
+            title="Your Vote = Real Support"
+            imgAlt="Screenshot of the RSO voting section. Select one RSO at a time from the dropdown menu."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.png"
             theme="light"
-          />
+            list={[
+              "You don't need to be a member to vote-just show love for a group that's doing great work on campus",
+              "Want to make the biggest impact? Encourage your friends to vote too.",
+              "Make your voice count. Fund your community.",
+            ]}
+          >
+            <Typography variant="informational" color="black">
+              $3 per vote goes to the org you select! Plus, the top vote-getters
+              can win bonuses totaling $600.
+            </Typography>
+            <Typography variant="informational" color="black">
+              Select one Recognized Student Organization from the dropdown.
+            </Typography>
+          </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
             Turn in Your Ballot!
           </Typography>
