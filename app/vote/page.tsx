@@ -23,7 +23,7 @@ export default function Vote() {
         />
         <meta
           name="description"
-          content="Learn how to vote on Presence for Cal State LA's Studnet Leader Elections."
+          content="Learn how to vote on Presence for Cal State LA's Student Leader Elections."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -34,25 +34,40 @@ export default function Vote() {
       >
         <Button variant="yellow" text="Open 4/14 at 11:59 PM" href="#" />
       </HeroHeader>
-
       <FluidContainer>
-        <div id="mobile">
+        <div>
           <Typography variant="sectionHeader" as="h2">
-            Voting on Presence
+            Student Leader Elections: Voting Instructions
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
-            title="Presence Voting"
+            title="April 14 to 18"
             description="Voting has never been easier! Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
             imgAlt="Screenshot of the hero header section of the Presence voting form."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-header.png"
             theme="light"
-          />
+          >
+            <Typography variant="informational" color="black">
+              Voting opens at 8:00 AM on Monday, April 14th
+            </Typography>
+            <Typography variant="informational" color="black">
+              Voting closes at 11:59 PM on Friday, April 18th
+            </Typography>
+          </InfoPanel>
+          <Typography variant="sectionHeader" as="h2">
+            ASI Executive Positions (Associated Students Inc.)
+          </Typography>
+          <Divider margin="reg" />
           <InfoPanel
             title="View ASI Candidates"
-            description="Click on view to see an image and statement from your candidates to see who deserves your vote. Scroll down to see all the positions available."
             imgAlt="Toggle shows a radio section to view candidates or hide the options. Selecting view shows an image of the candidate and their campaign statements."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/01-Select-View-Radio-Button.jpg"
+            list={[
+              "Click View next to each position to learn more about the candidates.",
+              "Read their statements, platforms, and goals.",
+              "Select the candidate who best aligns with you.",
+              "You can only choose one candidate per executive role",
+            ]}
             theme="light"
           />
           <InfoPanel
@@ -62,6 +77,10 @@ export default function Vote() {
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/00---Select-View.jpg"
             theme="light"
           />
+          <Typography variant="sectionHeader" as="h2">
+            College Representatives
+          </Typography>
+          <Divider margin="reg" />
           <InfoPanel
             title="View College Representatives"
             description="Click through the radial buttons to see the candidates for each college and vote for your representatives underneath."
@@ -69,6 +88,10 @@ export default function Vote() {
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/05---Select-Your-College.jpg"
             theme="light"
           />
+          <Typography variant="sectionHeader" as="h2">
+            University-Student Union (U-SU) Board of Directors
+          </Typography>
+          <Divider margin="reg" />
           <InfoPanel
             title="Voting for the U-SU Board of Directors"
             description="Select 8 BOD candidates to elect into the U-SU Board of Directors."
@@ -76,6 +99,10 @@ export default function Vote() {
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/11---Cast-Your-Vote.jpg"
             theme="light"
           />
+          <Typography variant="sectionHeader" as="h2">
+            Recognized Student Organization (RSO) Voting
+          </Typography>
+          <Divider margin="reg" />
           <InfoPanel
             title="Voting for Recognized Student Organizations"
             description="Click the dropdown to vote for a Recognized Student Organization! Each vote that an org gets equals $3 in funds raised. The top 3 RSOs with the most votes will receive additional funding. You do not have to be a member of the organization you wish to vote for. This question is optional; you may leave it blank if you do not wish to vote for a student org."
@@ -83,6 +110,10 @@ export default function Vote() {
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.png"
             theme="light"
           />
+          <Typography variant="sectionHeader" as="h2">
+            Turn in Your Ballot!
+          </Typography>
+          <Divider margin="reg" />
           <InfoPanel
             title="Submit your Vote"
             description="When you're finished, return to the top and click the green submit button. All done! Thank you for making the campus a better place!"
