@@ -1,11 +1,13 @@
+import Image from "next/image";
 import { Typography } from "@/components";
 
 interface InfoPanelProps {
   title?: string;
-  description: string;
+  description?: string;
   imgAlt: string;
   imgSrc: string;
   imgClass?: string;
+  list?: string[];
   theme?: "light" | "dark";
   imageRight?: boolean;
   children?: React.ReactNode;
@@ -16,6 +18,7 @@ export const InfoPanel = ({
   description,
   imgAlt,
   imgSrc,
+  list,
   theme,
   imageRight,
   imgClass,
@@ -53,10 +56,19 @@ export const InfoPanel = ({
             {description}
           </Typography>
         </div>
-        {children ? (
+        {children || list ? (
           <>
             <div className="flex flex-wrap gap-x-5 max-md:justify-center">
               {children}
+            </div>
+            <div className="flex flex-wrap gap-x-5 max-md:justify-center">
+              <ol className="list-disc list-inside">
+                {list?.map((item, index) => (
+                  <li key={index} className="list-item flex items-center">
+                    <Typography fontSize="lg">{item}</Typography>
+                  </li>
+                ))}
+              </ol>
             </div>
           </>
         ) : (
@@ -64,7 +76,7 @@ export const InfoPanel = ({
         )}
       </div>
       <div>
-        <img
+        <Image
           alt={imgAlt}
           src={imgSrc}
           width={1000}
