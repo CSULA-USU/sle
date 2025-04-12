@@ -63,8 +63,12 @@ export default function Home() {
             imgAlt="Students voting"
             imgSrc="/home/usu-own-it-crowd.jpg"
           >
-            <Button variant="yellow" text="Opens 4/14" isDisabled={true} />
-            {/* <Button variant="grey" text="How to Vote" href="/vote" /> */}
+            <Button
+              variant="yellow"
+              text="Vote Here"
+              href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
+            />
+            <Button variant="grey" text="How to Vote" href="/vote" />
           </InfoPanel>
         </div>
         <div>
