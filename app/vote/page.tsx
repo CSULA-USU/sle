@@ -174,7 +174,7 @@ export default function Vote() {
         >
           <Button
             variant="black"
-            text="Vote Here"
+            text="Cast Your Ballot"
             href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
           />
         </CTA>

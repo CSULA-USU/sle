@@ -20,8 +20,8 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
 
   return (
     <div
-      className={`bg-black h-full w-full bg-opacity-90 fixed p-6 inset-0 ${
-        isOpen ? "visible" : "invisible"
+      className={`bg-black h-full w-full bg-opacity-90 fixed p-6 inset-0 transform transition-transform duration-300 ${
+        isOpen ? "visible translate-x-0" : "invisible  translate-x-full"
       }`}
     >
       <FaXmark
@@ -40,6 +40,17 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             }`}
           >
             Home
+          </Typography>
+        </Link>
+        <Link href="vote" onClick={onClose}>
+          <Typography
+            variant="subheader"
+            color="white"
+            className={`hover:text-yellow-400 ${
+              activeLink === "/vote" ? "border-b-4 border-yellow-400" : ""
+            }`}
+          >
+            Vote
           </Typography>
         </Link>
         <Link href="/asi" onClick={onClose}>
