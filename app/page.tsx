@@ -54,7 +54,7 @@ export default function Home() {
       <FluidContainer>
         <CTA
           theme="gold"
-          title="Make your voice heard today!"
+          title="Vote Here!"
           description="Click the link below and make a positive impact here at Cal State LA"
           CTAClass="mb-10"
         >
@@ -75,12 +75,7 @@ export default function Home() {
             imgAlt="Students voting"
             imgSrc="/home/usu-own-it-crowd.jpg"
           >
-            <Button
-              variant="yellow"
-              text="Vote Here"
-              href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
-            />
-            <Button variant="grey" text="How to Vote" href="/vote" />
+            <Button variant="yellow" text="Voting Information" href="/vote" />
           </InfoPanel>
         </div>
         <div>
