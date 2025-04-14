@@ -169,7 +169,7 @@ export default function Vote() {
       <FluidContainer>
         <CTA
           theme="gold"
-          title="Make your voice heard today!"
+          title="Vote Here!"
           description="Click the link below and make a positive impact here at Cal State LA"
         >
           <Button
