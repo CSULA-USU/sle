@@ -32,7 +32,11 @@ export default function Vote() {
         imgAlt="SLE Vote Header 1"
         imgSrc="/headers/header-2025-2.svg"
       >
-        <Button variant="yellow" text="Open 4/14 at 8:00 AM" href="#" />
+        <Button
+          variant="yellow"
+          text="Vote Here"
+          href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
+        />
       </HeroHeader>
       <FluidContainer>
         <div>
@@ -83,7 +87,7 @@ export default function Vote() {
             theme="light"
           />
           <Typography variant="sectionHeader" as="h2">
-            Voting Instructions College Representatives
+            College Representatives
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
@@ -127,7 +131,7 @@ export default function Vote() {
             </Typography>
           </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
-            Voting Instructions Recognized Student Organization (RSO) Voting
+            Recognized Student Organization (RSO) Voting
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
@@ -142,8 +146,8 @@ export default function Vote() {
             ]}
           >
             <Typography variant="informational" color="black">
-              $3 per vote goes to the org you select! Plus, the top vote-getters
-              can win bonuses totaling $600.
+              $3 per vote goes to the org you select! Organizations with the
+              most votes can win bonuses totaling $600!
             </Typography>
             <Typography variant="informational" color="black">
               Select one Recognized Student Organization from the dropdown.
@@ -166,9 +170,13 @@ export default function Vote() {
         <CTA
           theme="gold"
           title="Make your voice heard today!"
-          description="Click the link below in order to make an impact here at Cal State LA"
+          description="Click the link below and make a positive impact here at Cal State LA"
         >
-          <Button variant="black" text="Open 4/14 at 8:00 AM" href="#" />
+          <Button
+            variant="black"
+            text="Vote Here"
+            href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
+          />
         </CTA>
       </FluidContainer>
     </>
