@@ -1,13 +1,13 @@
-import { FaFire, FaHandshake } from "react-icons/fa6";
-import { RiCommunityFill } from "react-icons/ri";
+// import { FaFire, FaHandshake } from "react-icons/fa6";
+// import { RiCommunityFill } from "react-icons/ri";
 import type { Metadata } from "next";
 import {
   Button,
+  CTA,
   Divider,
   InfoPanel,
   FluidContainer,
   HeroHeader,
-  StatementCard,
   Typography,
 } from "@/components";
 import { Card } from "@/modules";
@@ -52,6 +52,18 @@ export default function Home() {
         />
       </h1>
       <FluidContainer>
+        <CTA
+          theme="gold"
+          title="Make your voice heard today!"
+          description="Click the link below and make a positive impact here at Cal State LA"
+          CTAClass="mb-10"
+        >
+          <Button
+            variant="black"
+            text="Cast Your Ballot"
+            href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
+          />
+        </CTA>
         <div>
           <Typography variant="sectionHeader" color="white">
             Your Vote Matters

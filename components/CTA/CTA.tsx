@@ -5,9 +5,16 @@ interface CTAProps {
   title: string;
   description: string;
   children?: React.ReactNode;
+  CTAClass?: string;
 }
 
-export const CTA = ({ theme, title, description, children }: CTAProps) => {
+export const CTA = ({
+  CTAClass,
+  theme,
+  title,
+  description,
+  children,
+}: CTAProps) => {
   return (
     <div
       className={`flex flex-col bg-cover text-center p-8 gap-3 ${
@@ -16,7 +23,7 @@ export const CTA = ({ theme, title, description, children }: CTAProps) => {
           : theme === "gold"
             ? "bg-yellow-400"
             : "bg-white"
-      }`}
+      } ${CTAClass ? CTAClass : ""}`}
     >
       <Typography
         variant="pageHeader"
