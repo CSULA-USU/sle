@@ -19,7 +19,7 @@ export default function Vote() {
         />
         <meta
           name="keywords"
-          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, How to Vote, Presence Voting, Vote, Elections, Candidates, Instructions, RSO, RSOs, Recognized Student Organizations, U-SU Board of Directors, student org, student organization"
+          content="CSULA, Cal State LA, ASI, Associated Students, Inc., Student Leader Elections, University Student Government, How to Vote, Presence Voting, Vote, Elections, Candidates, Instructions, RSO, RSOs, Recognized Student Organizations, U-SU Board of Directors, student org, student organization, ballot"
         />
         <meta
           name="description"
@@ -31,6 +31,7 @@ export default function Vote() {
         title="How to Vote"
         imgAlt="SLE Vote Header 1"
         imgSrc="/headers/header-2025-2.svg"
+        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
       >
         <Button
           variant="yellow"
