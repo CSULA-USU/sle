@@ -92,6 +92,7 @@ export default function USU() {
         imgAlt=""
         imgSrc="/headers/header-2025-2.svg"
         title="U-SU BOD Election"
+        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
       >
         {/* <Button
           variant="yellow"
