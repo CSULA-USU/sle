@@ -123,7 +123,7 @@ export default function Home() {
                 <Card electionEvent={electionEvent} key={idx} transparent />
               ))
             ) : (
-              <Typography>
+              <Typography color="white">
                 No events scheduled, please check again later
               </Typography>
             )}

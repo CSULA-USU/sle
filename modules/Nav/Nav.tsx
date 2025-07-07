@@ -31,23 +31,24 @@ export const Nav = () => {
         padding="py-5 px-20 max-md:px-10"
         alignItems="center"
       >
-        <Link href="/">
-          <img
-            alt="Homepage"
-            src="/home/own-it-2025.svg"
-            style={{
-              height: "48px",
-              width: "auto",
-            }}
-          />
-        </Link>
+        <nav aria-label="Primary site navigation">
+          <Link href="/" aria-label="Student Leader Election homepage">
+            <img
+              alt="Own It campaign logo"
+              src="/home/own-it-2025.svg"
+              style={{ height: "48px", width: "auto" }}
+            />
+          </Link>
+        </nav>
         <FaBars
           style={{ color: "white" }}
           size={40}
           className="sm:hidden hover:opacity-70"
           onClick={handleMobileNavToggle}
         />
-        <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
+        {isMobileMenuOpen && (
+          <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
+        )}
         <div className="sm:flex items-center w-2/5 max-sm:w-3/5 justify-between hidden">
           {/* <Link href="/">
             <Typography
