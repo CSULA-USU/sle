@@ -65,7 +65,7 @@ export default function Vote() {
           <Divider margin="reg" />
           <InfoPanel
             title="View ASI Candidates"
-            imgAlt="Toggle shows a radio section to view candidates or hide the options. Selecting view shows an image of the candidate and their campaign statements."
+            imgAlt="Toggle shows a radio section to view candidates or hide the options."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/01-Select-View-Radio-Button.jpg"
             theme="light"
           >
@@ -83,7 +83,7 @@ export default function Vote() {
           <InfoPanel
             title="Cast Your Vote"
             description="Select the candidate you feel will make the most positive impact on your campus."
-            imgAlt="Radio button of candidate names. Selecting a candidate will show your support for them when you submit your vote."
+            imgAlt="Radio button of candidate names."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/00---Select-View.jpg"
             theme="light"
           />
@@ -93,7 +93,7 @@ export default function Vote() {
           <Divider margin="reg" />
           <InfoPanel
             title="View College Representatives"
-            imgAlt="Radio button of colleges. Selecting a college will show the candidates for that college."
+            imgAlt="Radio button of colleges."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/05---Select-Your-College.jpg"
             theme="light"
           >
@@ -119,7 +119,7 @@ export default function Vote() {
           <Divider margin="reg" />
           <InfoPanel
             title="Voting for the U-SU Board of Directors"
-            imgAlt="checkbox input of candidates. Select up to 8 candidates for the U-SU Board of Directors."
+            imgAlt="checkbox input. Select up to 8 candidates for the U-SU Board of Directors."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/11---Cast-Your-Vote.jpg"
             theme="light"
           >
@@ -161,7 +161,7 @@ export default function Vote() {
           <InfoPanel
             title="Submit your Vote"
             description="When you're finished, return to the top and click the green submit button. All done! Thank you for making the campus a better place!"
-            imgAlt="Green submit button at the top right corner of the page is available upon completion of all voting."
+            imgAlt="Green submit button at the top right corner of the page is available upon completion."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/12---voting-submit.png"
             theme="light"
           />

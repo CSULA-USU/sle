@@ -1,5 +1,11 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
+
+html {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.serif {
+  font-family: var(--font-bitter), serif;
+}

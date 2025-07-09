@@ -45,8 +45,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="overscroll-none">
-      <body className={`${bitter.variable} ${montserrat.variable}`}>
+    <html
+      lang="en"
+      className={`${bitter.variable} ${montserrat.variable} overscroll-none`}
+    >
+      <body>
         <Nav />
         <main>
           {children}
