@@ -46,7 +46,6 @@ export const HeroHeader = ({
                   className="object-contain h-[350px] max-sm:h-[200px]"
                   width={500}
                   height={300}
-                  layout="intrinsic"
                   priority
                 />
               </picture>
