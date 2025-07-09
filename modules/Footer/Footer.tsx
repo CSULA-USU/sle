@@ -9,7 +9,7 @@ export const Footer = () => {
           <img
             alt="SLE Logo"
             src="/logos/sle-logo.png"
-            style={{ height: "150px", width: "auto" }}
+            style={{ height: "150px", width: "auto", flexShrink: 0 }}
           />
         </div>
         <>
