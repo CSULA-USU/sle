@@ -27,18 +27,20 @@ export default function Vote() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HeroHeader
-        title="How to Vote"
-        imgAlt="SLE Vote Header 1"
-        imgSrc="/headers/header-2025-2.svg"
-        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
-      >
-        <Button
-          variant="yellow"
-          text="Vote Here"
-          href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
-        />
-      </HeroHeader>
+      <div id="vote-button">
+        <HeroHeader
+          title="How to Vote"
+          imgAlt="SLE Vote Header 1"
+          imgSrc="/headers/header-2025-2.svg"
+          imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
+        >
+          <Button
+            variant="yellow"
+            text="Vote Here"
+            href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
+          />
+        </HeroHeader>
+      </div>
       <FluidContainer>
         <div>
           <Typography variant="sectionHeader" as="h2">
@@ -173,11 +175,7 @@ export default function Vote() {
           title="Vote Here!"
           description="Click the link below and make a positive impact here at Cal State LA"
         >
-          <Button
-            variant="black"
-            text="Cast Your Ballot"
-            href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
-          />
+          <Button variant="black" text="Cast Your Ballot" href="#vote-button" />
         </CTA>
       </FluidContainer>
     </>
