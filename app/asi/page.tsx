@@ -100,7 +100,7 @@ export default function ASI() {
         imgAlt=""
         imgSrc="/headers/header-2025-2.svg"
         title="ASI General Election"
-        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
+        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/mobile-header-2025.svg"
       >
         {/* <Button
           variant="yellow"
@@ -190,8 +190,8 @@ export default function ASI() {
         <div className="my-6">
           <Typography variant="copy" fontSize="xl">
             If you have any questions regarding the process or requirements
-            please call the ASI Administrative Office, U-SU 203 at 323-343-4778
-            or email us.
+            please call the ASI Administrative Office, U&ndash;SU 203 at (323)
+            343&ndash;4778 or email us.
           </Typography>
         </div>
       </FluidContainer>

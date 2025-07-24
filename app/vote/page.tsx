@@ -116,7 +116,7 @@ export default function Vote() {
             </Typography>
           </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
-            University-Student Union (U-SU) Board of Directors
+            University&ndash;Student Union (U&ndash;SU) Board of Directors
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
@@ -157,7 +157,7 @@ export default function Vote() {
             </Typography>
           </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
-            Turn in Your Ballot!
+            Turn in Your Ballot
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
