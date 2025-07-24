@@ -110,7 +110,7 @@ export default function USU() {
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
-          University&ndash;Student Union &mdash; Board of Directors
+          University&ndash;Student Union Board of Directors
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
@@ -225,8 +225,8 @@ export default function USU() {
         <div className="my-6">
           <Typography variant="copy" fontSize="xl">
             If you have any questions regarding the process or requirements,
-            please call the U-SU Administrative Front Desk at (323)
-            343&mdash;2450 or email us at info.usu@calstatelaelections.org
+            please call the U&ndash;SU Administrative Front Desk at (323)
+            343&ndash;2450 or email us at info.usu@calstatelaelections.org
           </Typography>
         </div>
       </FluidContainer>

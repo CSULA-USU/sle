@@ -43,7 +43,7 @@ export const HeroHeader = ({
                   alt={imgAlt}
                   src={imgSrc}
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-contain h-[350px] max-sm:h-[200px]"
+                  className="object-contain h-[350px] max-sm:w-[100%] max-sm:h-auto"
                   width={500}
                   height={300}
                   priority
