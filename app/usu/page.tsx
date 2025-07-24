@@ -110,7 +110,7 @@ export default function USU() {
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
-          University&ndash;Student Union Board of Directors
+          University&ndash;Student Union &mdash; Board of Directors
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
