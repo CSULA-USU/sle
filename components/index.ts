@@ -9,3 +9,4 @@ export * from "./NonBreakingSpan";
 export * from "./Modal";
 export * from "./StatementCard";
 export * from "./Typography";
+export * from "./Image";
