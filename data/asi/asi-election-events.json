@@ -1,7 +1,7 @@
 [
   {
     "title": "Application Opens",
-    "startDate": "2026-01-02",
+    "startDate": "2026-01-20",
     "endDate": "",
     "startTime": "",
     "endTime": "",
@@ -9,35 +9,35 @@
     "description": "Are you interested in running for a position? Not sure where to start? We encourage any interested student to pursue a leadership positions on the ASI Board of Directors and Cal State LA Academic Senate by filing the application by the required deadline."
   },
   {
-    "title": "SLE Information Sessions",
-    "startDate": "2026-01-28",
+    "title": "Own It! Info Session I",
+    "startDate": "2026-01-27",
     "endDate": "",
     "startTime": "11:30 AM",
     "endTime": "1:30 PM",
     "location": "U-SU Plaza",
-    "description": "Need to know more? We got you! Join us for an 'Own it' info session and find out how you can Own it in 2026-2026. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
+    "description": "Need to know more? Join us for an “Own it” info session and find out how you can Own it in 2026–2027. Gain leadership experience, be the voice for students, and help with essential campus changes."
   },
   {
-    "title": "SLE Information Sessions",
-    "startDate": "2026-01-29",
+    "title": "Own It! Info Session II",
+    "startDate": "2026-01-28",
     "endDate": "",
     "startTime": "12:30 PM",
     "endTime": "2:30 PM",
     "location": "Main Walkway Triangle",
-    "description": "If you didn't stop by our previous info session, you can stop by this one. Join us for an 'Own it' info session and find out how you can Own it in 2026-2026. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
+    "description": "If you missed the previous session, join this one! Find out how you can Own it in 2026–2027. Network, gain leadership experience, and be the voice for students, helping with essential campus changes."
   },
   {
-    "title": "SLE Information Sessions",
-    "startDate": "2026-01-30",
+    "title": "Own It! Info Session III",
+    "startDate": "2026-01-29",
     "endDate": "",
     "startTime": "1:00 PM",
     "endTime": "3:00 PM",
     "location": "Main Walkway Salazar",
-    "description": "If you didn't stop by our previous info session, you can stop by this one. Join us for an 'Own it' info session and find out how you can Own it in 2026-2026. As part of student government, students can network, gain leadership experience, and be the voice for students. If elected, you will be able to help the students of Cal State LA and assist with essential changes on campus. Stop by this info session to learn about the election process, available positions, and more."
+    "description": "Another chance to learn how you can Own it in 2026–2027. Network, gain leadership experience, and be the voice for students, helping with essential campus changes."
   },
   {
     "title": "Application Deadline",
-    "startDate": "2026-03-02",
+    "startDate": "2026-03-01",
     "endDate": "",
     "startTime": "",
     "endTime": "",
@@ -45,32 +45,68 @@
     "description": "Please complete your application by this date."
   },
   {
-    "title": "Candidate Campaign Week",
+    "title": "ASI Mandatory Candidate Briefing",
+    "startDate": "2026-03-16",
+    "endDate": "",
+    "startTime": "12:00 PM",
+    "endTime": "2:00 PM",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "ASI Mandatory Candidate Briefing",
     "startDate": "2026-03-17",
-    "endDate": "2026-04-11",
+    "endDate": "",
+    "startTime": "2:00 PM",
+    "endTime": "4:00 PM",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "ASI Mandatory Candidate Briefing",
+    "startDate": "2026-03-18",
+    "endDate": "",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "ASI Mandatory Candidate Briefing",
+    "startDate": "2026-03-19",
+    "endDate": "",
+    "startTime": "10:00 AM",
+    "endTime": "12:00 PM",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "Candidate Campaign Week",
+    "startDate": "2026-04-06",
+    "endDate": "2026-04-10",
     "startTime": "",
     "endTime": "",
-    "location": "Campus-wide",
-    "description": "Meet the candidates representing you at Cal State LA. Discover their ideas, ask questions, and learn about their passions for our community. Join us to find the best representative for your student voice."
+    "location": "Campuswide",
+    "description": "Meet the candidates representing you at Cal State LA. Discover their ideas, ask questions, and learn about their passions for our community. Find the best representative for your student voice."
   },
   {
     "title": "Voting Week",
-    "startDate": "2026-04-14",
-    "endDate": "2026-04-18",
+    "startDate": "2026-04-13",
+    "endDate": "2026-04-17",
     "startTime": "8:00 AM",
     "endTime": "5:00 PM",
-    "location": "Campus-wide",
-    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System.",
+    "location": "",
+    "description": "Your Voice, Your Vote! Vote online for your student representatives through the Cal State LA GET System. Check your Cal State LA email for more details.",
     "highlight": true
   },
   {
-    "title": "Bite the Vote",
-    "startDate": "2026-04-15",
+    "title": "Voting Day 1 - In-N-Out",
+    "startDate": "2026-04-14",
     "endDate": "",
-    "startTime": "11:00 AM",
+    "startTime": "12:00 PM",
     "endTime": "",
     "location": "U-SU Plaza",
-    "description": "Bite the Vote! Help shape the future of your campus by voting for your student representatives. Enjoy music, food, and a lively atmosphere while you make your voice heard. Food will be available while supplies last—don’t miss out!",
+    "description": "Bite the Vote! Help shape the future of your campus by voting for your student representatives. Enjoy music, food, and a lively atmosphere while you make your voice heard. Food will be available while supplies last! Don’t miss out!",
     "highlight": true
   },
   {
@@ -85,11 +121,11 @@
   },
   {
     "title": "Election Results Announcement",
-    "startDate": "2026-04-22",
+    "startDate": "2026-04-21",
     "endDate": "",
     "startTime": "12:00 PM",
     "endTime": "",
-    "location": "Farmer's Market at the Main Walkway",
-    "description": "Join us at the Farmer's Market at the Main Walkway for our election announcement. Come meet your new representatives for the 2026 to 2026 academic year!"
+    "location": "",
+    "description": "Join us for our election announcement. Come meet your new representatives for the 2026 to 2027 academic year!"
   }
 ]
