@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { FluidContainer, Typography } from "@/components";
+import { FluidContainer, Typography, Image } from "@/components";
 
 interface HeroHeaderProps {
   imgAlt: string;
@@ -46,7 +45,6 @@ export const HeroHeader = ({
                   className="object-contain h-[350px] max-sm:w-[100%] max-sm:h-auto"
                   width={500}
                   height={300}
-                  priority
                 />
               </picture>
             </>
@@ -57,13 +55,10 @@ export const HeroHeader = ({
                 <source srcSet={imgSrcMobile} media="(max-width: 768px)" />
                 <source srcSet={imgSrc} media="(min-width: 769px)" />
                 <Image
-                  alt={imgAlt || ""}
+                  alt={imgAlt ?? ""}
                   src={imgSrc}
-                  className="object-contain"
-                  layout="responsive"
-                  width={0}
-                  height={0}
-                  priority
+                  className="w-full h-auto object-contain"
+                  lazy
                 />
               </picture>
             </>
