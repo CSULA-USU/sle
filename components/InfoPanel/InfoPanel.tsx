@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Typography } from "@/components";
+import { Typography, Image } from "@/components";
 
 interface InfoPanelProps {
   title?: string;
@@ -64,7 +63,7 @@ export const InfoPanel = ({
             <div className="flex flex-wrap gap-x-5 max-md:justify-center">
               <ol className="list-disc list-inside">
                 {list?.map((item, index) => (
-                  <li key={index} className="list-item flex items-center">
+                  <li key={index} className="flex items-center">
                     <Typography fontSize="lg">{item}</Typography>
                   </li>
                 ))}

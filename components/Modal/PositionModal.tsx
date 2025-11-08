@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
-import { Typography, Modal } from "@/components";
+import { Typography, Modal, Image } from "@/components";
 import { FaCirclePlus } from "react-icons/fa6";
 import Link from "next/link";
 
