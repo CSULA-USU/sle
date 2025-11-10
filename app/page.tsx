@@ -1,13 +1,14 @@
-// import { FaFire, FaHandshake } from "react-icons/fa6";
-// import { RiCommunityFill } from "react-icons/ri";
+import { FaFire, FaHandshake } from "react-icons/fa6";
+import { RiCommunityFill } from "react-icons/ri";
 import type { Metadata } from "next";
 import {
   Button,
-  CTA,
+  // CTA,
   Divider,
   InfoPanel,
   FluidContainer,
   HeroHeader,
+  StatementCard,
   Typography,
 } from "@/components";
 import { Card } from "@/modules";
@@ -52,7 +53,8 @@ export default function Home() {
         />
       </h1>
       <FluidContainer>
-        <CTA
+        {/* CTA section for voting phase */}
+        {/* <CTA
           theme="gold"
           title="Vote Here!"
           description="Click the link below and make a positive impact here at Cal State LA"
@@ -63,21 +65,8 @@ export default function Home() {
             text="Cast Your Ballot"
             href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
           />
-        </CTA>
-        <div>
-          <Typography variant="sectionHeader" color="white">
-            Your Vote Matters
-          </Typography>
-          <Divider />
-          <InfoPanel
-            title="Make your voice heard. Get involved. Vote."
-            description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Opens 4/14 to 4/18 at 8:00 AM for submissions."
-            imgAlt="Students voting"
-            imgSrc="/home/usu-own-it-crowd.jpg"
-          >
-            <Button variant="yellow" text="Voting Information" href="/vote" />
-          </InfoPanel>
-        </div>
+        </CTA> */}
+        {/* switch order of sections depending on phase of campaign */}
         <div>
           <Typography variant="sectionHeader" color="white">
             Meet the Candidates
@@ -89,10 +78,26 @@ export default function Home() {
             imgSrc="/headers/own-it-pages.jpg"
           >
             <Button variant="yellow" text="ASI Candidates" href="/asi" />
-            <Button variant="grey" text="U-SU Candidates" href="/usu" />
+            <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
           </InfoPanel>
         </div>
-        {/* <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
+        <div>
+          <Typography variant="sectionHeader" color="white">
+            Your Vote Matters
+          </Typography>
+          <Divider />
+          <InfoPanel
+            title="Make your voice heard. Get involved. Vote."
+            description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Opens 4/13 to 4/17 at 8:00 AM for submissions."
+            imgAlt="Students voting"
+            imgSrc="/home/usu-own-it-crowd.jpg"
+          >
+            <Button variant="yellow" text="Voting Information" href="/vote" />
+          </InfoPanel>
+        </div>
+
+        {/* section for recruitment phase */}
+        <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
           <StatementCard
             title="Together We Can"
             text="Being a student leader in ASI, the U-SU, or Senate means you are part of a dedicated team that works as partners, bringing students, faculty, and staff together to improve Cal State LA."
@@ -111,7 +116,9 @@ export default function Home() {
           >
             <FaFire color="white" size={40} />
           </StatementCard>
-        </div> */}
+        </div>
+
+        {/* section always available regardless of phase */}
         <div>
           <Typography variant="sectionHeader" color="white">
             Election Events
@@ -131,31 +138,31 @@ export default function Home() {
         </div>
       </FluidContainer>
       <FluidContainer textAlign="center">
-        {/* section for application phase*/}
-        {/* <Typography variant="footerHeader" color="white" as="h2">
-            Ready to elevate your college journey?
-          </Typography>
-          <Typography variant="footerHeader" color="white" as="h2">
-            Apply now to uncover the amazing things your FULL potential can
-            bring to you and your peers!
-          </Typography> */}
+        {/* section for application phase */}
+        <Typography variant="footerHeader" color="white" as="h2">
+          Ready to elevate your college journey?
+        </Typography>
+        <Typography variant="footerHeader" color="white" as="h2">
+          Apply now to uncover the amazing things your full potential can bring
+          to you and your peers!
+        </Typography>
 
         {/* section for voting phase */}
-        <Typography
+        {/* <Typography
           variant="subheader"
           color="white"
           as="h2"
           fontSize="xl"
           className="mb-4"
         >
-          The Student Leader Elections are happening April 14 to 18.
+          The Student Leader Elections are happening April 13 to 17.
         </Typography>
         <Typography variant="subheader" color="white" as="h2" fontSize="xl">
           Now is your chance to elect the representatives who will advocate for
           student concerns, drive campus initiatives, and enhance student life
-          through Associated Students, Inc. and the University-Student Union
+          through Associated Students, Inc. and the University&ndash;Student Union
           Board.
-        </Typography>
+        </Typography> */}
       </FluidContainer>
     </div>
   );
