@@ -34,11 +34,12 @@ export default function Vote() {
           imgSrc="/headers/header-2025-2.svg"
           imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
         >
-          <Button
+          {/* Vote button commented out for marketing phase */}
+          {/* <Button
             variant="yellow"
             text="Vote Here"
             href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
-          />
+          /> */}
         </HeroHeader>
       </div>
       <FluidContainer>
@@ -55,10 +56,10 @@ export default function Vote() {
             theme="light"
           >
             <Typography variant="informational" color="black">
-              Voting opens at 8:00 AM on Monday, April 14th
+              Voting opens at 8:00 AM on Monday, April 13th
             </Typography>
             <Typography variant="informational" color="black">
-              Voting closes at 11:59 PM on Friday, April 18th
+              Voting closes at 11:59 PM on Friday, April 17th
             </Typography>
           </InfoPanel>
           <Typography variant="sectionHeader" as="h2">

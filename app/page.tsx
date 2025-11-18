@@ -67,7 +67,8 @@ export default function Home() {
           />
         </CTA> */}
         {/* switch order of sections depending on phase of campaign */}
-        <div>
+        {/* meet the candidates section for voting phase */}
+        {/* <div>
           <Typography variant="sectionHeader" color="white">
             Meet the Candidates
           </Typography>
@@ -79,6 +80,20 @@ export default function Home() {
           >
             <Button variant="yellow" text="ASI Candidates" href="/asi" />
             <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
+          </InfoPanel>
+        </div> */}
+        <div>
+          <Typography variant="sectionHeader" color="white">
+            Leadership Opportunities
+          </Typography>
+          <Divider />
+          <InfoPanel
+            description="Discover how you can boost your campus experience, develop leadership skills, and represent your fellow students! Learn more about Student Leader Election positions and help shape your college’s future. Make your voice count!"
+            imgAlt="Students leading other students"
+            imgSrc="/headers/own-it-pages.jpg"
+          >
+            <Button variant="yellow" text="ASI Positions" href="/asi" />
+            <Button variant="grey" text="U&ndash;SU Positions" href="/usu" />
           </InfoPanel>
         </div>
         <div>
