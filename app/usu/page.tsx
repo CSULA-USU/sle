@@ -102,8 +102,8 @@ export default function USU() {
         /> */}
         <Button
           variant="yellow"
-          text="Candidate Info"
-          href="#candidates-section"
+          text="Position Descriptions"
+          href="#position-descriptions"
           class="mr-4"
         />
         <Button variant="grey" text="Eligibility" href="#eligibility-section" />
@@ -137,21 +137,21 @@ export default function USU() {
         </div>
       </FluidContainer> */}
 
-      {/* Meet the Candidates Section */}
-      <FluidContainer id="candidates-section">
+      {/* Meet the Candidates Section comment out during marketing phase*/}
+      {/* <FluidContainer id="candidates-section">
         <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={bodCandidatesData?.data} />
-      </FluidContainer>
+      </FluidContainer> */}
 
-      {/* Position Descriptions Section  */}
-      {/* <FluidContainer id="position-descriptions">
+      {/* Position Descriptions Section commented out during voting phase  */}
+      <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
         <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
-      </FluidContainer> */}
+      </FluidContainer>
 
       {/* Responsibilities and Requirements Section */}
       <FluidContainer>
