@@ -136,6 +136,7 @@ export default function ASI() {
         <Divider margin="lg" />
         <PositionDescriptions data={asiCandidatesData?.data} />
       </FluidContainer> */}
+      {/* Election Events Section */}
       {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">Election Events</Typography>
         <Divider margin="reg" />
