@@ -49,7 +49,7 @@ export default function Vote() {
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
-            title="April 14 to 18"
+            title="April 13 to 17"
             description="Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
             imgAlt="Screenshot of the hero header section of the Presence voting form."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-header.png"
