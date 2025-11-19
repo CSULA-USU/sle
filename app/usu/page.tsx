@@ -114,7 +114,8 @@ export default function USU() {
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
-          description="Are you ready to lead, connect, and make a meaningful difference? Join the U-SU Board of Directors and become part of a community dedicated to collaboration, inclusion, and growth. Develop valuable professional skills, expand your network, and vote on policies that shape and enhance the U-SU experience. Your voice matters! This is your chance to create a lasting impact."
+          title="With open doors and minds, we provide space and opportunities enabling Golden Eagles to soar."
+          description="The Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction for the U-SU and advocacy for students at Cal State LA. There are 8 positions in total: 6 student directors, 1 vice-chair, and 1 chair."
           imgAlt="Students leading other students"
           imgSrc="/headers/own-it-pages.jpg"
           theme="light"
