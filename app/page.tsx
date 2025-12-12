@@ -89,7 +89,7 @@ export default function Home() {
           <Divider />
           <InfoPanel
             description="Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you're ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. You already have what it takes... Own it!"
-            imgAlt="Students leading other students"
+            imgAlt="Students leader election voting"
             imgSrc="/home/usu-own-it-crowd.jpg"
           />
         </div>
