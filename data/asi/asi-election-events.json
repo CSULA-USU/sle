@@ -14,7 +14,7 @@
     "endDate": "",
     "startTime": "11:30 AM",
     "endTime": "1:30 PM",
-    "location": "U-SU Plaza",
+    "location": "Farmer's Market",
     "description": "Need to know more? Join us for an “Own it” info session and find out how you can Own it in 2026–2027. Gain leadership experience, be the voice for students, and help with essential campus changes."
   },
   {
@@ -23,7 +23,7 @@
     "endDate": "",
     "startTime": "12:30 PM",
     "endTime": "2:30 PM",
-    "location": "Main Walkway Triangle",
+    "location": "Involvement Fair",
     "description": "If you missed the previous session, join this one! Find out how you can Own it in 2026–2027. Network, gain leadership experience, and be the voice for students, helping with essential campus changes."
   },
   {
@@ -32,7 +32,7 @@
     "endDate": "",
     "startTime": "1:00 PM",
     "endTime": "3:00 PM",
-    "location": "Main Walkway Salazar",
+    "location": "U-SU Plaza",
     "description": "Another chance to learn how you can Own it in 2026–2027. Network, gain leadership experience, and be the voice for students, helping with essential campus changes."
   },
   {
@@ -45,7 +45,7 @@
     "description": "This session is designed for students interested in learning more about the U-SU Board of Directors, its purpose, responsibilities, and the application process. Ask questions, meet current leaders, and find out if this opportunity matches your goals."
   },
   {
-    "title": "SLE Applications Close",
+    "title": "Application Deadline",
     "startDate": "2026-03-01",
     "endDate": "",
     "startTime": "",
@@ -134,7 +134,7 @@
     "endDate": "",
     "startTime": "12:00 PM",
     "endTime": "",
-    "location": "",
+    "location": "Golden Eagle Statue",
     "description": "Join us for our election announcement. Come meet your new representatives for the 2026 to 2027 academic year!"
   }
 ]
