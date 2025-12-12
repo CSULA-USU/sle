@@ -10,6 +10,7 @@ import {
 import { PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/asi/asi-election-events.json";
+import ASIBenefits from "@/data/asi/asi-benefits.json";
 import asiCandidatesData from "@/data/asi/asi-candidates.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
@@ -177,6 +178,25 @@ export default function ASI() {
         </Typography>
         <Divider />
         <PositionDescriptions data={typedAsiData?.data} />
+      </FluidContainer>
+      <FluidContainer>
+        <Typography variant="sectionHeader" as="h2">
+          Benefits of Serving
+        </Typography>
+        <Divider />
+        <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+          {ASIBenefits?.list && (
+            <BulletList
+              title="Some benefits include:"
+              description={ASIBenefits.list}
+            />
+          )}
+          <img
+            src="/usu/career-progress.svg"
+            className="max-h-48 w-auto my-2"
+            alt=""
+          />
+        </div>
       </FluidContainer>
       <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader" as="h2">
