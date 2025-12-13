@@ -84,6 +84,17 @@ export default function Home() {
         </div> */}
         <div>
           <Typography variant="sectionHeader" color="white">
+            Together we can!
+          </Typography>
+          <Divider />
+          <InfoPanel
+            description="Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you're ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. You already have what it takes... Own it!"
+            imgAlt="Students leader election voting"
+            imgSrc="/home/usu-own-it-crowd.jpg"
+          />
+        </div>
+        <div>
+          <Typography variant="sectionHeader" color="white">
             Leadership Opportunities
           </Typography>
           <Divider />
@@ -96,7 +107,8 @@ export default function Home() {
             <Button variant="grey" text="U&ndash;SU Positions" href="/usu" />
           </InfoPanel>
         </div>
-        <div>
+        {/* section for voting phase */}
+        {/* <div>
           <Typography variant="sectionHeader" color="white">
             Your Vote Matters
           </Typography>
@@ -109,7 +121,7 @@ export default function Home() {
           >
             <Button variant="yellow" text="Voting Information" href="/vote" />
           </InfoPanel>
-        </div>
+        </div> */}
 
         {/* section for recruitment phase */}
         <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
