@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { FluidContainer, Typography } from "@/components";
 import { usePathname } from "next/navigation";
 import { FaBars } from "react-icons/fa6";
@@ -10,6 +10,7 @@ export const Nav = () => {
   const [activeLink, setActiveLink] = useState("");
   const pathname = usePathname();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navRef = useRef<HTMLDivElement>(null);
 
   const handleMobileNavToggle = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -23,8 +24,26 @@ export const Nav = () => {
     setActiveLink(pathname.toString());
   }, [pathname, isMobileMenuOpen]);
 
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      // Calculate and set scrollbar width as CSS variable
+      const scrollbarWidth =
+        window.innerWidth - document.documentElement.clientWidth;
+      document.documentElement.style.setProperty(
+        "--scrollbar-width",
+        `${scrollbarWidth}px`,
+      );
+      document.documentElement.classList.add("menu-open");
+    } else {
+      document.documentElement.classList.remove("menu-open");
+    }
+  }, [isMobileMenuOpen]);
+
   return (
-    <div className="bg-[#262C32] border-b-neutral-700 border-b-[1px] sticky top-0">
+    <div
+      ref={navRef}
+      className="bg-[#262C32] border-b-neutral-700 border-b-[1px] sticky top-0"
+    >
       <FluidContainer
         flex
         justifyContent="between"
@@ -40,12 +59,14 @@ export const Nav = () => {
             />
           </Link>
         </nav>
-        <FaBars
-          style={{ color: "white" }}
-          size={40}
-          className="sm:hidden hover:opacity-70"
+        <button
           onClick={handleMobileNavToggle}
-        />
+          aria-label="Open mobile menu"
+          aria-expanded={isMobileMenuOpen}
+          className="sm:hidden hover:opacity-70"
+        >
+          <FaBars style={{ color: "white" }} size={40} />
+        </button>
         {isMobileMenuOpen && (
           <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
         )}
