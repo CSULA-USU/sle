@@ -76,67 +76,91 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
   }, [isOpen, onClose]);
 
   return (
-    <nav aria-label="Mobile site navigation">
-      <div
-        ref={menuRef}
-        className={`bg-black h-full w-full bg-opacity-90 fixed p-6 inset-0 transform transition-transform duration-300 ${
-          isOpen ? "visible translate-x-0" : "invisible  translate-x-full"
-        }`}
+    <div
+      ref={menuRef}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Mobile navigation menu"
+      onClick={(e) => {
+        // Close menu if clicking directly on the overlay (not on child elements)
+        if (e.target === e.currentTarget) {
+          onClose();
+        }
+      }}
+      className={`bg-black h-full w-full bg-opacity-90 fixed p-6 inset-0 transform transition-transform duration-300 ${
+        isOpen ? "visible translate-x-0" : "invisible  translate-x-full"
+      }`}
+    >
+      <button
+        ref={closeButtonRef}
+        onClick={onClose}
+        aria-label="Close mobile menu"
+        className="hover:opacity-70"
       >
-        <button
-          ref={closeButtonRef}
+        <FaXmark size={35} color="white" />
+      </button>
+      <div className="flex flex-col items-end gap-y-4">
+        <Link
+          href="/"
           onClick={onClose}
-          aria-label="Close mobile menu"
-          className="hover:opacity-70"
+          aria-current={activeLink === "/" ? "page" : undefined}
         >
-          <FaXmark size={35} color="white" />
-        </button>
-        <div className="flex flex-col items-end gap-y-4">
-          <Link href="/" aria-label="Mobile menu home link" onClick={onClose}>
-            <Typography
-              variant="subheader"
-              color="white"
-              className={`hover:text-yellow-400 ${
-                activeLink === "/" ? "border-b-4 border-yellow-400" : ""
-              }`}
-            >
-              Home
-            </Typography>
-          </Link>
-          <Link href="/vote" onClick={onClose}>
-            <Typography
-              variant="subheader"
-              color="white"
-              className={`hover:text-yellow-400 ${
-                activeLink === "/vote" ? "border-b-4 border-yellow-400" : ""
-              }`}
-            >
-              Vote
-            </Typography>
-          </Link>
-          <Link href="/asi" onClick={onClose}>
-            <Typography
-              variant="subheader"
-              color="white"
-              className={`hover:text-yellow-400 ${
-                activeLink === "/asi" ? "border-b-4 border-yellow-400" : ""
-              }`}
-            >
-              ASI
-            </Typography>
-          </Link>
-          <Link href="/usu" onClick={onClose}>
-            <Typography
-              variant="subheader"
-              color="white"
-              className={`hover:text-yellow-400 ${
-                activeLink === "/usu" ? "border-b-4 border-yellow-400" : ""
-              }`}
-            >
-              U-SU
-            </Typography>
-          </Link>
-          {/* <Link href="/vote" onClick={onClose}>
+          <Typography
+            variant="subheader"
+            color="white"
+            className={`hover:text-yellow-400 ${
+              activeLink === "/" ? "border-b-4 border-yellow-400" : ""
+            }`}
+          >
+            Home
+          </Typography>
+        </Link>
+        <Link
+          href="/vote"
+          onClick={onClose}
+          aria-current={activeLink === "/vote" ? "page" : undefined}
+        >
+          <Typography
+            variant="subheader"
+            color="white"
+            className={`hover:text-yellow-400 ${
+              activeLink === "/vote" ? "border-b-4 border-yellow-400" : ""
+            }`}
+          >
+            Vote
+          </Typography>
+        </Link>
+        <Link
+          href="/asi"
+          onClick={onClose}
+          aria-current={activeLink === "/asi" ? "page" : undefined}
+        >
+          <Typography
+            variant="subheader"
+            color="white"
+            className={`hover:text-yellow-400 ${
+              activeLink === "/asi" ? "border-b-4 border-yellow-400" : ""
+            }`}
+          >
+            ASI
+          </Typography>
+        </Link>
+        <Link
+          href="/usu"
+          onClick={onClose}
+          aria-current={activeLink === "/usu" ? "page" : undefined}
+        >
+          <Typography
+            variant="subheader"
+            color="white"
+            className={`hover:text-yellow-400 ${
+              activeLink === "/usu" ? "border-b-4 border-yellow-400" : ""
+            }`}
+          >
+            U&ndash;SU
+          </Typography>
+        </Link>
+        {/* <Link href="/vote" onClick={onClose}>
           <Typography
             variant="subheader"
             color="white"
@@ -147,8 +171,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             Vote
           </Typography>
         </Link> */}
-        </div>
       </div>
-    </nav>
+    </div>
   );
 };
