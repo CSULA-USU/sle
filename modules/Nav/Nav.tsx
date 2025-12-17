@@ -40,9 +40,10 @@ export const Nav = () => {
   }, [isMobileMenuOpen]);
 
   return (
-    <div
+    <nav
       ref={navRef}
       className="bg-[#262C32] border-b-neutral-700 border-b-[1px] sticky top-0"
+      aria-label="Site navigation"
     >
       <FluidContainer
         flex
@@ -50,26 +51,24 @@ export const Nav = () => {
         padding="py-5 px-20 max-md:px-10"
         alignItems="center"
       >
-        <nav aria-label="Primary site navigation">
-          <Link href="/" aria-label="Student Leader Election homepage">
-            <img
-              alt="Own It campaign logo"
-              src="/home/own-it-2025.svg"
-              style={{ height: "48px", width: "auto" }}
-            />
-          </Link>
-        </nav>
+        <Link href="/" aria-label="Student Leader Election homepage">
+          <img
+            alt="Own It campaign logo"
+            src="/home/own-it-2025.svg"
+            style={{ height: "48px", width: "auto" }}
+          />
+        </Link>
+        {isMobileMenuOpen && (
+          <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
+        )}
         <button
           onClick={handleMobileNavToggle}
           aria-label="Open mobile menu"
           aria-expanded={isMobileMenuOpen}
-          className="sm:hidden hover:opacity-70"
+          className={`sm:hidden hover:opacity-70 ${isMobileMenuOpen ? "hidden" : ""}`}
         >
           <FaBars style={{ color: "white" }} size={40} />
         </button>
-        {isMobileMenuOpen && (
-          <MobileNav isOpen={isMobileMenuOpen} onClose={closeMobileNav} />
-        )}
         <div className="sm:flex items-center w-2/5 max-sm:w-3/5 justify-between hidden">
           {/* <Link href="/">
             <Typography
@@ -82,7 +81,10 @@ export const Nav = () => {
               Home
             </Typography>
           </Link> */}
-          <Link href="/vote">
+          <Link
+            href="/vote"
+            aria-current={activeLink === "/vote" ? "page" : undefined}
+          >
             <Typography
               variant="navHeader"
               className={`hover:text-yellow-400 ${
@@ -93,7 +95,10 @@ export const Nav = () => {
               Vote
             </Typography>
           </Link>
-          <Link href="/asi">
+          <Link
+            href="/asi"
+            aria-current={activeLink === "/asi" ? "page" : undefined}
+          >
             <Typography
               variant="navHeader"
               className={`hover:text-yellow-400 ${
@@ -104,7 +109,10 @@ export const Nav = () => {
               ASI
             </Typography>
           </Link>
-          <Link href="/usu">
+          <Link
+            href="/usu"
+            aria-current={activeLink === "/usu" ? "page" : undefined}
+          >
             <Typography
               variant="navHeader"
               className={`hover:text-yellow-400 ${
@@ -112,11 +120,11 @@ export const Nav = () => {
               }`}
               color="white"
             >
-              U-SU
+              U&ndash;SU
             </Typography>
           </Link>
         </div>
       </FluidContainer>
-    </div>
+    </nav>
   );
 };

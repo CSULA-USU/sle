@@ -45,7 +45,7 @@ export default function Vote() {
       <FluidContainer>
         <div>
           <Typography variant="sectionHeader" as="h2">
-            Student Leader Elections: Voting Instructions
+            Voting Instructions
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
@@ -144,7 +144,7 @@ export default function Vote() {
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.png"
             theme="light"
             list={[
-              "You don't need to be a member to vote-just show love for a group that's doing great work on campus",
+              "You don't need to be a member to vote! Just show love for a group that's doing great work on campus",
               "Want to make the biggest impact? Encourage your friends to vote too.",
               "Make your voice count. Fund your community.",
             ]}
