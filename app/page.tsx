@@ -46,9 +46,9 @@ export default function Home() {
     <div className="bg-[#262C32]">
       <h1>
         <HeroHeader
-          imgAlt="Cal State LA Student Leader Elections Header that says Vote, dated April 14 to 18"
-          imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//vote-2025.png"
-          imgSrcMobile="/headers/vote-mobile-25.png"
+          imgAlt="Cal State LA Student Leader Elections Header that says own it together we can!"
+          imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/Ownit-Slider%203.jpg"
+          imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/Own-800x1200.jpg"
         />
       </h1>
       <FluidContainer>
