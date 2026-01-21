@@ -102,8 +102,8 @@ export default function USU() {
         /> */}
         <Button
           variant="yellow"
-          text="Candidate Info"
-          href="#candidates-section"
+          text="Position Descriptions"
+          href="#position-descriptions"
           class="mr-4"
         />
         <Button variant="grey" text="Eligibility" href="#eligibility-section" />
@@ -114,7 +114,8 @@ export default function USU() {
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
-          description="Are you ready to lead, connect, and make a meaningful difference? Join the U-SU Board of Directors and become part of a community dedicated to collaboration, inclusion, and growth. Develop valuable professional skills, expand your network, and vote on policies that shape and enhance the U-SU experience. Your voice matters! This is your chance to create a lasting impact."
+          title="With open doors and minds, we provide space and opportunities enabling Golden Eagles to soar."
+          description="The Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction for the U-SU and advocacy for students at Cal State LA. There are 8 positions in total: 6 student directors, 1 vice-chair, and 1 chair."
           imgAlt="Students leading other students"
           imgSrc="/headers/own-it-pages.jpg"
           theme="light"
@@ -137,21 +138,21 @@ export default function USU() {
         </div>
       </FluidContainer> */}
 
-      {/* Meet the Candidates Section */}
-      <FluidContainer id="candidates-section">
+      {/* Meet the Candidates Section comment out during marketing phase*/}
+      {/* <FluidContainer id="candidates-section">
         <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={bodCandidatesData?.data} />
-      </FluidContainer>
+      </FluidContainer> */}
 
-      {/* Position Descriptions Section  */}
-      {/* <FluidContainer id="position-descriptions">
+      {/* Position Descriptions Section commented out during voting phase  */}
+      <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
         <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
-      </FluidContainer> */}
+      </FluidContainer>
 
       {/* Responsibilities and Requirements Section */}
       <FluidContainer>

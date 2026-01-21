@@ -47,15 +47,19 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
           onClick={(event: React.MouseEvent<HTMLDivElement>) =>
             handleClickOutside(event.nativeEvent)
           }
+          role="presentation"
         >
           <div
             className="max-w-screen-xl max-h-[90vh] bg-white p-4 rounded shadow-lg overflow-y-scroll"
             data-ref={modalRef}
-            tabIndex={0}
+            tabIndex={-1}
+            role="dialog"
+            aria-modal="true"
           >
             <button
-              className="relative top-0 left-0 text-gray-600 mx-3 pt-3"
+              className="relative top-0 left-0 text-gray-600 mx-3 pt-3 hover:opacity-70"
               onClick={onClose}
+              aria-label="Close modal"
             >
               <RiCloseCircleFill size={28} color="red" />
             </button>

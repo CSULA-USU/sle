@@ -34,31 +34,32 @@ export default function Vote() {
           imgSrc="/headers/header-2025-2.svg"
           imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
         >
-          <Button
+          {/* Vote button commented out for marketing phase */}
+          {/* <Button
             variant="yellow"
             text="Vote Here"
             href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
-          />
+          /> */}
         </HeroHeader>
       </div>
       <FluidContainer>
         <div>
           <Typography variant="sectionHeader" as="h2">
-            Student Leader Elections: Voting Instructions
+            Voting Instructions
           </Typography>
           <Divider margin="reg" />
           <InfoPanel
-            title="April 14 to 18"
+            title="April 13 to 17"
             description="Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
             imgAlt="Screenshot of the hero header section of the Presence voting form."
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-header.png"
             theme="light"
           >
             <Typography variant="informational" color="black">
-              Voting opens at 8:00 AM on Monday, April 14th
+              Voting opens at 8:00 AM on Monday, April 13th
             </Typography>
             <Typography variant="informational" color="black">
-              Voting closes at 11:59 PM on Friday, April 18th
+              Voting closes at 11:59 PM on Friday, April 17th
             </Typography>
           </InfoPanel>
           <Typography variant="sectionHeader" as="h2">
@@ -143,7 +144,7 @@ export default function Vote() {
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.png"
             theme="light"
             list={[
-              "You don't need to be a member to vote-just show love for a group that's doing great work on campus",
+              "You don't need to be a member to vote! Just show love for a group that's doing great work on campus",
               "Want to make the biggest impact? Encourage your friends to vote too.",
               "Make your voice count. Fund your community.",
             ]}

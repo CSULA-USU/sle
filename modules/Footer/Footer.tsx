@@ -7,7 +7,7 @@ export const Footer = () => {
       <FluidContainer flex flexWrap="wrap" justifyContent="between">
         <div className="flex w-full justify-center items-center lg:w-1/4">
           <img
-            alt="SLE Logo"
+            alt=""
             src="/logos/sle-logo.png"
             style={{ height: "150px", width: "auto", flexShrink: 0 }}
           />

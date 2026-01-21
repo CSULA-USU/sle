@@ -10,6 +10,7 @@ import {
 import { PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/asi/asi-election-events.json";
+import ASIBenefits from "@/data/asi/asi-benefits.json";
 import asiCandidatesData from "@/data/asi/asi-candidates.json";
 import asiData from "@/data/asi/asi-positions.json";
 import eligibilityReqs from "@/data/asi/asi-eligibility-requirements.json";
@@ -110,8 +111,8 @@ export default function ASI() {
         /> */}
         <Button
           variant="yellow"
-          text="Candidate Info"
-          href="#meet-candidates"
+          text="Position Descriptions"
+          href="#position-descriptions"
           class="mr-4"
         />
         <Button variant="grey" text="Eligibility" href="#eligibility-section" />
@@ -128,13 +129,15 @@ export default function ASI() {
           theme="light"
         />
       </FluidContainer>
-      <FluidContainer id="meet-candidates">
+      {/* Meet the Candidates section commented out for marketing phase */}
+      {/* <FluidContainer id="meet-candidates">
         <Typography variant="sectionHeader" as="h2">
           Meet the Candidates
         </Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={asiCandidatesData?.data} />
-      </FluidContainer>
+      </FluidContainer> */}
+      {/* Election Events Section */}
       {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">Election Events</Typography>
         <Divider margin="reg" />
@@ -150,6 +153,7 @@ export default function ASI() {
           )}
         </div>
       </FluidContainer> */}
+
       {/* // CTA section commented out for voting phase */}
       {/* <FluidContainer padding="px-16 max-xl:px-9 max-sm:px-4">
         <CTA
@@ -166,13 +170,34 @@ export default function ASI() {
           />
         </CTA>
       </FluidContainer> */}
-      {/* <FluidContainer id="position-descriptions">
+
+      {/* Position Descriptions section commented out for voting phase */}
+      <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
         <Divider />
         <PositionDescriptions data={typedAsiData?.data} />
-      </FluidContainer> */}
+      </FluidContainer>
+      <FluidContainer>
+        <Typography variant="sectionHeader" as="h2">
+          Benefits of Serving
+        </Typography>
+        <Divider />
+        <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+          {ASIBenefits?.list && (
+            <BulletList
+              title="Some benefits include:"
+              description={ASIBenefits.list}
+            />
+          )}
+          <img
+            src="/usu/career-progress.svg"
+            className="max-h-48 w-auto my-2"
+            alt=""
+          />
+        </div>
+      </FluidContainer>
       <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader" as="h2">
           Basic Eligibility Requirements
