@@ -123,6 +123,36 @@ export default function Home() {
             <Button variant="yellow" text="Voting Information" href="/vote" />
           </InfoPanel>
         </div> */}
+        <div className="flex flex-col items-center">
+          <Typography variant="footerHeader" color="white" as="h2">
+            Ready to elevate your college journey?
+          </Typography>
+          <Typography variant="footerHeader" color="white" as="h2">
+            Apply now to uncover the amazing things your full potential can
+            bring to you and your peers!
+          </Typography>
+        </div>
+        {/* section for recruitment phase */}
+        <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
+          <StatementCard
+            title="Together We Can"
+            text="Being a student leader in ASI, the U-SU, or Senate means you are part of a dedicated team that works as partners, bringing students, faculty, and staff together to improve Cal State LA."
+          >
+            <FaHandshake color="white" size={40} />
+          </StatementCard>
+          <StatementCard
+            title="Cultivate Community"
+            text="Embrace the next stage of your life and be involved on campus!  Impact your community by advocating for student needs and serving as the voice of the student body."
+          >
+            <RiCommunityFill color="white" size={40} />
+          </StatementCard>
+          <StatementCard
+            title="Ignite Change"
+            text="Be the force behind positive change within our campus community."
+          >
+            <FaFire color="white" size={40} />
+          </StatementCard>
+        </div>
 
         {/* section always available regardless of phase */}
         <div>
@@ -145,13 +175,13 @@ export default function Home() {
       </FluidContainer>
       <FluidContainer textAlign="center">
         {/* section for application phase */}
-        <Typography variant="footerHeader" color="white" as="h2">
+        {/* <Typography variant="footerHeader" color="white" as="h2">
           Ready to elevate your college journey?
         </Typography>
         <Typography variant="footerHeader" color="white" as="h2">
           Apply now to uncover the amazing things your full potential can bring
           to you and your peers!
-        </Typography>
+        </Typography> */}
 
         {/* section for voting phase */}
         {/* <Typography
@@ -169,27 +199,6 @@ export default function Home() {
           through Associated Students, Inc. and the University&ndash;Student Union
           Board.
         </Typography> */}
-        {/* section for recruitment phase */}
-        <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
-          <StatementCard
-            title="Together We Can"
-            text="Being a student leader in ASI, the U-SU, or Senate means you are part of a dedicated team that works as partners, bringing students, faculty, and staff together to improve Cal State LA."
-          >
-            <FaHandshake color="white" size={40} />
-          </StatementCard>
-          <StatementCard
-            title="Cultivate Community"
-            text="Embrace the next stage of your life and be involved on campus!  Impact your community by advocating for student needs and serving as the voice of the student body."
-          >
-            <RiCommunityFill color="white" size={40} />
-          </StatementCard>
-          <StatementCard
-            title="Ignite Change"
-            text="Be the force behind positive change within our campus community."
-          >
-            <FaFire color="white" size={40} />
-          </StatementCard>
-        </div>
       </FluidContainer>
     </div>
   );

@@ -41,7 +41,9 @@ export const Footer = () => {
             <div>
               <Link href="/usu">
                 <Typography variant="footerLink">
-                  <NonBreakingSpan>U-SU Board of Directors</NonBreakingSpan>
+                  <NonBreakingSpan>
+                    U&ndash;SU Board of Directors
+                  </NonBreakingSpan>
                 </Typography>
               </Link>
             </div>
