@@ -15,14 +15,18 @@ export const BulletList = ({ title, description }: BulletListProps) => {
         {description.map((e, i) => (
           <li
             key={i}
-            className="mb-2 pl-6 relative before:content-['✓'] before:text-yellow-400 before:font-bold before:absolute before:left-0 z-[-1]"
+            className={`mb-2 relative ${
+              Array.isArray(e)
+                ? "pl-6"
+                : "pl-6 before:content-['✓'] before:text-yellow-400 before:font-bold before:absolute before:left-0 z-[-1]"
+            }`}
           >
             {Array.isArray(e) ? (
               <ul className="list-none pl-0 mt-1">
                 {e.map((subItem, subIndex) => (
                   <li
                     key={subIndex}
-                    className="mb-1 pl-6 relative before:content-['✓'] before:text-yellow-400 before:font-bold before:absolute before:left-0 before:text-sm"
+                    className="mb-1 pl-6 relative before:content-['•'] before:text-black before:font-bold before:absolute before:left-0 before:text-sm"
                   >
                     <Typography variant="copy" fontSize="lg">
                       {subItem}
