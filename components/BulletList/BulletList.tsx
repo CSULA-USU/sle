@@ -8,7 +8,7 @@ interface BulletListProps {
 export const BulletList = ({ title, description }: BulletListProps) => {
   return (
     <div>
-      <Typography variant="footerHeader" color="black" fontSize="xl">
+      <Typography variant="footerHeader" fontSize="xl">
         {title}
       </Typography>
       <ul className="list-none pl-0">
@@ -26,7 +26,7 @@ export const BulletList = ({ title, description }: BulletListProps) => {
                 {e.map((subItem, subIndex) => (
                   <li
                     key={subIndex}
-                    className="mb-1 pl-6 relative before:content-['•'] before:text-black before:font-bold before:absolute before:left-0 before:text-sm"
+                    className="mb-1 pl-6 relative before:content-['•']  before:font-bold before:absolute before:left-0 before:text-sm z-[-1]"
                   >
                     <Typography variant="copy" fontSize="lg">
                       {subItem}

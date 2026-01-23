@@ -42,7 +42,7 @@ export const Nav = () => {
   return (
     <nav
       ref={navRef}
-      className="bg-[#262C32] border-b-neutral-700 border-b-[1px] sticky top-0"
+      className="bg-[#060709] border-b-neutral-700 border-b-[1px] sticky top-0"
       aria-label="Site navigation"
     >
       <FluidContainer

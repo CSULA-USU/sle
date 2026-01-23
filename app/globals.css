@@ -10,3 +10,15 @@ html {
 .serif {
   font-family: var(--font-bitter), serif;
 }
+
+body {
+  background-color: rgba(6, 7, 9);
+  color: rgb(255 255 255);
+}
+
+/* 1. Target the containers themselves and their descendants */
+.bg-white,
+.bg-gray-300,
+.bg-yellow-400 {
+  color: rgb(6 7 9) !important; /* Force black text */
+}

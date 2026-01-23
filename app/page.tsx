@@ -10,6 +10,7 @@ import {
   HeroHeader,
   StatementCard,
   Typography,
+  BulletList,
 } from "@/components";
 import { Card } from "@/modules";
 import {
@@ -18,6 +19,7 @@ import {
   sortElectionEvents,
 } from "@/data/util/election-events-helper";
 import electionEventsData from "@/data/asi/asi-election-events.json";
+import rsodata from "@/data/index/rso.json";
 
 export const metadata: Metadata = {
   creator:
@@ -38,13 +40,14 @@ export const metadata: Metadata = {
   description:
     "Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you’re ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. Apply and learn how to vote for the student leader elections now!",
 };
+
 export default function Home() {
   let electionEvents: ElectionEventProps[] =
     filterElectionEvents(electionEventsData);
   sortElectionEvents(electionEvents);
 
   return (
-    <div className="bg-[#262C32]">
+    <div>
       <h1>
         <HeroHeader
           imgAlt="Cal State LA Student Leader Elections Header that says own it together we can!"
@@ -108,6 +111,7 @@ export default function Home() {
             <Button variant="grey" text="U&ndash;SU Positions" href="/usu" />
           </InfoPanel>
         </div>
+
         {/* section for voting phase */}
         {/* <div>
           <Typography variant="sectionHeader" color="white">
@@ -152,6 +156,16 @@ export default function Home() {
           >
             <FaFire color="white" size={40} />
           </StatementCard>
+        </div>
+
+        <div>
+          <Typography variant="sectionHeader" color="white">
+            Recognized Student Organizations Opportunities
+          </Typography>
+          <Divider />
+          {rsodata?.list && (
+            <BulletList title="How it works:" description={rsodata.list} />
+          )}
         </div>
 
         {/* section always available regardless of phase */}
