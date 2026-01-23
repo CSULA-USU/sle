@@ -95,7 +95,20 @@ export default function Home() {
             description="Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you're ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. You already have what it takes... Own it!"
             imgAlt="Students leader election voting"
             imgSrc="/home/usu-own-it-crowd.jpg"
-          />
+          >
+            <Button
+              variant="yellow"
+              text="ASI Positions"
+              href="https://asicalstatela.org/machform/view.php?id=94108"
+              isExternalLink
+            />
+            <Button
+              variant="grey"
+              text="U&ndash;SU Positions"
+              href="https://form.jotform.com/210416532268047"
+              isExternalLink
+            />
+          </InfoPanel>
         </div>
         <div>
           <Typography variant="sectionHeader" color="white">
@@ -127,7 +140,17 @@ export default function Home() {
             <Button variant="yellow" text="Voting Information" href="/vote" />
           </InfoPanel>
         </div> */}
-        <div className="flex flex-col items-center">
+        <div>
+          <Typography variant="sectionHeader" color="white">
+            Recognized Student Organizations Opportunities
+          </Typography>
+          <Divider />
+          {rsodata?.list && (
+            <BulletList title="How it works:" description={rsodata.list} />
+          )}
+        </div>
+
+        <div className="flex flex-col items-center mt-10">
           <Typography variant="footerHeader" color="white" as="h2">
             Ready to elevate your college journey?
           </Typography>
@@ -156,16 +179,6 @@ export default function Home() {
           >
             <FaFire color="white" size={40} />
           </StatementCard>
-        </div>
-
-        <div>
-          <Typography variant="sectionHeader" color="white">
-            Recognized Student Organizations Opportunities
-          </Typography>
-          <Divider />
-          {rsodata?.list && (
-            <BulletList title="How it works:" description={rsodata.list} />
-          )}
         </div>
 
         {/* section always available regardless of phase */}
