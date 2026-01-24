@@ -16,7 +16,7 @@ export const HeroHeader = ({
   children,
 }: HeroHeaderProps) => {
   return (
-    <div className="overflow-hidden bg-[rgba(6,7,9)]">
+    <div className="overflow-hidden bg-current-bg">
       <FluidContainer alignItems="end">
         <div className="flex justify-between max-md:flex-col-reverse max-md:text-center w-full">
           {title ? (

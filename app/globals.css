@@ -11,13 +11,8 @@ html {
   font-family: var(--font-bitter), serif;
 }
 
-body {
-  background-color: rgba(6, 7, 9);
-}
-
-/* 1. Target the containers themselves and their descendants */
-.bg-white,
-.bg-gray-300,
-.bg-yellow-400 {
-  color: rgb(6 7 9) !important; /* Force black text */
+:root {
+  --color-current-bg: 6 7 9;  /* rgb values for Tailwind */
+  --color-current-text: 250 250 250;  /* light text for dark bg */
+  --color-current-accent: 234 179 8;  /* example accent */
 }

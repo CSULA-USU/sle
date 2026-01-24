@@ -18,7 +18,7 @@ export const BulletList = ({ title, description }: BulletListProps) => {
             className={`mb-2 relative ${
               Array.isArray(e)
                 ? "pl-6"
-                : "pl-6 before:content-['✓'] before:text-yellow-400 before:font-bold before:absolute before:left-0 z-[-1]"
+                : "pl-6 before:content-['✓'] before:text-yellow-400 before:font-bold before:absolute before:left-0"
             }`}
           >
             {Array.isArray(e) ? (
@@ -26,7 +26,7 @@ export const BulletList = ({ title, description }: BulletListProps) => {
                 {e.map((subItem, subIndex) => (
                   <li
                     key={subIndex}
-                    className="mb-1 pl-6 relative before:content-['•']  before:font-bold before:absolute before:left-0 before:text-sm z-[-1]"
+                    className="mb-1 pl-6 relative before:content-['•']  before:font-bold before:absolute before:left-0 before:text-sm"
                   >
                     <Typography variant="copy" fontSize="lg">
                       {subItem}

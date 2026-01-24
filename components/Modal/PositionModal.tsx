@@ -31,7 +31,7 @@ export const PositionModal = ({ title, data }: PositionModalProps) => {
   return (
     <>
       <div
-        className="p-1 w-full bg-zinc-800 flex align-middle my-1 px-4 cursor-pointer hover:bg-zinc-600 transition-all"
+        className="p-1 bg-gray-100 w-full flex align-middle my-1 px-4 cursor-pointer hover:bg-gray-200 transition-all"
         onClick={openModal}
       >
         <button

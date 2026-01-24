@@ -42,7 +42,7 @@ export const Nav = () => {
   return (
     <nav
       ref={navRef}
-      className="bg-[#060709] border-b-neutral-700 border-b-[1px] sticky top-0"
+      className="bg-[#060709] border-b-neutral-700 border-b-[1px] sticky top-0 z-50"
       aria-label="Site navigation"
     >
       <FluidContainer
@@ -81,7 +81,7 @@ export const Nav = () => {
               Home
             </Typography>
           </Link> */}
-          <Link
+          {/* <Link
             href="/vote"
             aria-current={activeLink === "/vote" ? "page" : undefined}
           >
@@ -94,7 +94,7 @@ export const Nav = () => {
             >
               Vote
             </Typography>
-          </Link>
+          </Link> */}
           <Link
             href="/asi"
             aria-current={activeLink === "/asi" ? "page" : undefined}

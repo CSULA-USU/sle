@@ -47,7 +47,7 @@ export default function Home() {
   sortElectionEvents(electionEvents);
 
   return (
-    <div>
+    <div className="bg-current-bg">
       <h1>
         <HeroHeader
           imgAlt="Cal State LA Student Leader Elections Header that says own it together we can!"

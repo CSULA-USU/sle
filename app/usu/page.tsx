@@ -103,11 +103,18 @@ export default function USU() {
         /> */}
         <Button
           variant="yellow"
+          text="Application"
+          href="https://form.jotform.com/210416532268047"
+          class="mr-4"
+          isExternalLink
+        />
+        <Button
+          variant="grey"
           text="Position Descriptions"
           href="#position-descriptions"
           class="mr-4"
         />
-        <Button variant="grey" text="Eligibility" href="#eligibility-section" />
+        {/* <Button variant="grey" text="Eligibility" href="#eligibility-section" /> */}
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
