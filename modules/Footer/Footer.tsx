@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="bg-[#262C32] border-t-neutral-700 border-t-[1px]">
+    <div className="border-t-neutral-700 border-t-[1px] bg-[rgba(6,7,9)]">
       <FluidContainer flex flexWrap="wrap" justifyContent="between">
         <div className="flex w-full justify-center items-center lg:w-1/4">
           <img
@@ -41,7 +41,9 @@ export const Footer = () => {
             <div>
               <Link href="/usu">
                 <Typography variant="footerLink">
-                  <NonBreakingSpan>U-SU Board of Directors</NonBreakingSpan>
+                  <NonBreakingSpan>
+                    U&ndash;SU Board of Directors
+                  </NonBreakingSpan>
                 </Typography>
               </Link>
             </div>

@@ -43,14 +43,14 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
       {isOpen && (
         <div
           id="outer-div"
-          className="fixed top-0 left-0 w-full h-full  bg-gray-800 bg-opacity-50 flex items-center justify-center"
+          className="fixed top-0 left-0 w-full h-full bg-opacity-50 bg-white flex items-center justify-center z-10"
           onClick={(event: React.MouseEvent<HTMLDivElement>) =>
             handleClickOutside(event.nativeEvent)
           }
           role="presentation"
         >
           <div
-            className="max-w-screen-xl max-h-[90vh] bg-white p-4 rounded shadow-lg overflow-y-scroll"
+            className="max-w-screen-xl max-h-[90vh] p-4 rounded shadow-lg overflow-y-scroll bg-white"
             data-ref={modalRef}
             tabIndex={-1}
             role="dialog"

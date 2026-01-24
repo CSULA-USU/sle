@@ -16,8 +16,9 @@ import type { Metadata } from "next";
 import electionEventsData from "@/data/usu/usu-election-events.json";
 import usuData from "@/data/usu/usu-positions.json";
 import usuResponsibilitesData from "@/data/usu/usu-responsibilities.json";
+import usuCommitteesData from "@/data/usu/usu-committees.json";
 import usuBenefitsData from "@/data/usu/usu-benefits.json";
-import bodCandidatesData from "@/data/usu/usu-candidates.json";
+// import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 import {
   ElectionEventProps,
@@ -102,11 +103,18 @@ export default function USU() {
         /> */}
         <Button
           variant="yellow"
+          text="Application"
+          href="https://form.jotform.com/210416532268047"
+          class="mr-4"
+          isExternalLink
+        />
+        <Button
+          variant="grey"
           text="Position Descriptions"
           href="#position-descriptions"
           class="mr-4"
         />
-        <Button variant="grey" text="Eligibility" href="#eligibility-section" />
+        {/* <Button variant="grey" text="Eligibility" href="#eligibility-section" /> */}
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
@@ -114,7 +122,7 @@ export default function USU() {
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
-          title="With open doors and minds, we provide space and opportunities enabling Golden Eagles to soar."
+          title="With open doors and minds, we provide space and opportunities enabling Golden Eagles to soar"
           description="The Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction for the U-SU and advocacy for students at Cal State LA. There are 8 positions in total: 6 student directors, 1 vice-chair, and 1 chair."
           imgAlt="Students leading other students"
           imgSrc="/headers/own-it-pages.jpg"
@@ -161,12 +169,20 @@ export default function USU() {
         </Typography>
         <Divider />
         <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
-          {usuResponsibilities?.list && (
-            <BulletList
-              title="Some responsibilities include:"
-              description={usuResponsibilities.list}
-            />
-          )}
+          <div className="flex flex-col">
+            {usuResponsibilities?.list && (
+              <BulletList
+                title="Some responsibilities include:"
+                description={usuResponsibilities.list}
+              />
+            )}
+            {usuCommitteesData?.list && (
+              <BulletList
+                title="The BOD has the following standing committees:"
+                description={usuCommitteesData.list}
+              />
+            )}
+          </div>
           <img
             src="/usu/completed-tasks.svg"
             className="max-h-48 w-auto my-2"

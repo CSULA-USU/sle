@@ -10,6 +10,7 @@ import {
   HeroHeader,
   StatementCard,
   Typography,
+  BulletList,
 } from "@/components";
 import { Card } from "@/modules";
 import {
@@ -18,6 +19,7 @@ import {
   sortElectionEvents,
 } from "@/data/util/election-events-helper";
 import electionEventsData from "@/data/asi/asi-election-events.json";
+import rsodata from "@/data/index/rso.json";
 
 export const metadata: Metadata = {
   creator:
@@ -38,13 +40,14 @@ export const metadata: Metadata = {
   description:
     "Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you’re ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. Apply and learn how to vote for the student leader elections now!",
 };
+
 export default function Home() {
   let electionEvents: ElectionEventProps[] =
     filterElectionEvents(electionEventsData);
   sortElectionEvents(electionEvents);
 
   return (
-    <div className="bg-[#262C32]">
+    <div className="bg-current-bg">
       <h1>
         <HeroHeader
           imgAlt="Cal State LA Student Leader Elections Header that says own it together we can!"
@@ -92,7 +95,20 @@ export default function Home() {
             description="Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you're ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. You already have what it takes... Own it!"
             imgAlt="Students leader election voting"
             imgSrc="/home/usu-own-it-crowd.jpg"
-          />
+          >
+            <Button
+              variant="yellow"
+              text="ASI Applications"
+              href="https://asicalstatela.org/machform/view.php?id=94108"
+              isExternalLink
+            />
+            <Button
+              variant="grey"
+              text="U&ndash;SU Applications"
+              href="https://form.jotform.com/210416532268047"
+              isExternalLink
+            />
+          </InfoPanel>
         </div>
         <div>
           <Typography variant="sectionHeader" color="white">
@@ -108,6 +124,7 @@ export default function Home() {
             <Button variant="grey" text="U&ndash;SU Positions" href="/usu" />
           </InfoPanel>
         </div>
+
         {/* section for voting phase */}
         {/* <div>
           <Typography variant="sectionHeader" color="white">
@@ -123,6 +140,51 @@ export default function Home() {
             <Button variant="yellow" text="Voting Information" href="/vote" />
           </InfoPanel>
         </div> */}
+        <div className="text-white">
+          <Typography variant="sectionHeader" color="white">
+            Recognized Student Organizations Opportunities
+          </Typography>
+          <Divider />
+          <Typography variant="footerHeader" color="white">
+            Cal State LA Recognized Student Organizations (RSO) will have the
+            opportunity to earn funding for their organization!
+          </Typography>
+          <br />
+          {rsodata?.list && (
+            <BulletList title="How it works:" description={rsodata.list} />
+          )}
+        </div>
+
+        <div className="flex flex-col items-center mt-10">
+          <Typography variant="footerHeader" color="white" as="h2">
+            Ready to elevate your college journey?
+          </Typography>
+          <Typography variant="footerHeader" color="white" as="h2">
+            Apply now to uncover the amazing things your full potential can
+            bring to you and your peers!
+          </Typography>
+        </div>
+        {/* section for recruitment phase */}
+        <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
+          <StatementCard
+            title="Together We Can"
+            text="Being a student leader in ASI, the U-SU, or Senate means you are part of a dedicated team that works as partners, bringing students, faculty, and staff together to improve Cal State LA."
+          >
+            <FaHandshake color="white" size={40} />
+          </StatementCard>
+          <StatementCard
+            title="Cultivate Community"
+            text="Embrace the next stage of your life and be involved on campus!  Impact your community by advocating for student needs and serving as the voice of the student body."
+          >
+            <RiCommunityFill color="white" size={40} />
+          </StatementCard>
+          <StatementCard
+            title="Ignite Change"
+            text="Be the force behind positive change within our campus community."
+          >
+            <FaFire color="white" size={40} />
+          </StatementCard>
+        </div>
 
         {/* section always available regardless of phase */}
         <div>
@@ -145,13 +207,13 @@ export default function Home() {
       </FluidContainer>
       <FluidContainer textAlign="center">
         {/* section for application phase */}
-        <Typography variant="footerHeader" color="white" as="h2">
+        {/* <Typography variant="footerHeader" color="white" as="h2">
           Ready to elevate your college journey?
         </Typography>
         <Typography variant="footerHeader" color="white" as="h2">
           Apply now to uncover the amazing things your full potential can bring
           to you and your peers!
-        </Typography>
+        </Typography> */}
 
         {/* section for voting phase */}
         {/* <Typography
@@ -169,27 +231,6 @@ export default function Home() {
           through Associated Students, Inc. and the University&ndash;Student Union
           Board.
         </Typography> */}
-        {/* section for recruitment phase */}
-        <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
-          <StatementCard
-            title="Together We Can"
-            text="Being a student leader in ASI, the U-SU, or Senate means you are part of a dedicated team that works as partners, bringing students, faculty, and staff together to improve Cal State LA."
-          >
-            <FaHandshake color="white" size={40} />
-          </StatementCard>
-          <StatementCard
-            title="Cultivate Community"
-            text="Embrace the next stage of your life and be involved on campus!  Impact your community by advocating for student needs and serving as the voice of the student body."
-          >
-            <RiCommunityFill color="white" size={40} />
-          </StatementCard>
-          <StatementCard
-            title="Ignite Change"
-            text="Be the force behind positive change within our campus community."
-          >
-            <FaFire color="white" size={40} />
-          </StatementCard>
-        </div>
       </FluidContainer>
     </div>
   );
