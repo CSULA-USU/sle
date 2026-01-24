@@ -98,13 +98,13 @@ export default function Home() {
           >
             <Button
               variant="yellow"
-              text="ASI Positions"
+              text="ASI Applications"
               href="https://asicalstatela.org/machform/view.php?id=94108"
               isExternalLink
             />
             <Button
               variant="grey"
-              text="U&ndash;SU Positions"
+              text="U&ndash;SU Applications"
               href="https://form.jotform.com/210416532268047"
               isExternalLink
             />
@@ -140,11 +140,16 @@ export default function Home() {
             <Button variant="yellow" text="Voting Information" href="/vote" />
           </InfoPanel>
         </div> */}
-        <div>
+        <div className="text-white">
           <Typography variant="sectionHeader" color="white">
             Recognized Student Organizations Opportunities
           </Typography>
           <Divider />
+          <Typography variant="footerHeader" color="white">
+            Cal State LA Recognized Student Organizations (RSO) will have the
+            opportunity to earn funding for their organization!
+          </Typography>
+          <br />
           {rsodata?.list && (
             <BulletList title="How it works:" description={rsodata.list} />
           )}
