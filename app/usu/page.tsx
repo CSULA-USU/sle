@@ -91,7 +91,7 @@ export default function USU() {
     <div>
       <HeroHeader
         imgAlt=""
-        imgSrc="/headers/header-2025-2.svg"
+        imgSrc="sle-apply.png"
         title="U-SU BOD Election"
         imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
       >
