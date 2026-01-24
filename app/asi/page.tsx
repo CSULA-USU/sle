@@ -99,7 +99,7 @@ export default function ASI() {
     <div>
       <HeroHeader
         imgAlt=""
-        imgSrc="/headers/header-2025-2.svg"
+        imgSrc="sle-apply.png"
         title="ASI General Election"
         imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/mobile-header-2025.svg"
       >
