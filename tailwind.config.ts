@@ -14,6 +14,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "current-bg": "rgb(var(--color-current-bg) / <alpha-value>)",
+        "current-text": "rgb(var(--color-current-text) / <alpha-value>)",
+        "current-accent": "rgb(var(--color-current-accent) / <alpha-value>)",
+      },
       fontFamily: {
         sans: ["var(--font-montserrat)"],
         serif: ["var(--font-bitter)"],
