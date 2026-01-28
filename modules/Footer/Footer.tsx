@@ -1,4 +1,9 @@
-import { FluidContainer, NonBreakingSpan, Typography } from "@/components";
+import {
+  FluidContainer,
+  NonBreakingSpan,
+  Typography,
+  StyledLink,
+} from "@/components";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -18,13 +23,18 @@ export const Footer = () => {
               <NonBreakingSpan>Election Code of Procedure</NonBreakingSpan>
             </Typography>
             <div>
-              <a href="https://asicalstatela.org/administrative-governing-policies">
+              <StyledLink
+                variant="footer"
+                isInverseUnderlineStyling
+                isExternalLink
+                href="https://asicalstatela.org/administrative-governing-policies"
+              >
                 <Typography variant="footerLink">
                   <NonBreakingSpan>
                     Administrative Governing Policies
                   </NonBreakingSpan>
                 </Typography>
-              </a>
+              </StyledLink>
             </div>
           </div>
           <div>
@@ -32,27 +42,35 @@ export const Footer = () => {
               <NonBreakingSpan>Site Links</NonBreakingSpan>
             </Typography>
             <div>
-              <Link href="/asi">
+              <StyledLink
+                href="/asi"
+                variant="footer"
+                isInverseUnderlineStyling
+              >
                 <Typography variant="footerLink">
                   <NonBreakingSpan>ASI Student Government</NonBreakingSpan>
                 </Typography>
-              </Link>
+              </StyledLink>
             </div>
             <div>
-              <Link href="/usu">
+              <StyledLink
+                href="/usu"
+                variant="footer"
+                isInverseUnderlineStyling
+              >
                 <Typography variant="footerLink">
                   <NonBreakingSpan>
                     U&ndash;SU Board of Directors
                   </NonBreakingSpan>
                 </Typography>
-              </Link>
+              </StyledLink>
             </div>
             {/* <div>
-              <Link href="/vote">
+              <StyledLink href="/vote" variant="footer" isInverseUnderlineStyling>
                 <Typography variant="footerLink">
                   <NonBreakingSpan>How to Vote</NonBreakingSpan>
                 </Typography>
-              </Link>
+              </StyledLink>
             </div> */}
           </div>
           <div>
@@ -60,25 +78,40 @@ export const Footer = () => {
               <NonBreakingSpan>Our Sites</NonBreakingSpan>
             </Typography>
             <div>
-              <Link href="https://asicalstatela.org/">
+              <StyledLink
+                href="https://asicalstatela.org/"
+                variant="footer"
+                isExternalLink
+                isInverseUnderlineStyling
+              >
                 <Typography variant="footerLink">
                   <NonBreakingSpan>Associated Students, Inc.</NonBreakingSpan>
                 </Typography>
-              </Link>
+              </StyledLink>
             </div>
             <div>
-              <Link href="https://www.calstatelausu.org/">
+              <StyledLink
+                href="https://www.calstatelausu.org/"
+                isExternalLink
+                isInverseUnderlineStyling
+                variant="footer"
+              >
                 <Typography variant="footerLink">
                   <NonBreakingSpan>University-Student Union</NonBreakingSpan>
                 </Typography>
-              </Link>
+              </StyledLink>
             </div>
             <div>
-              <Link href="https://www.calstatela.edu/">
+              <StyledLink
+                href="https://www.calstatela.edu/"
+                isInverseUnderlineStyling
+                isExternalLink
+                variant="footer"
+              >
                 <Typography variant="footerLink">
                   <NonBreakingSpan>Cal State LA</NonBreakingSpan>
                 </Typography>
-              </Link>
+              </StyledLink>
             </div>
           </div>
         </>

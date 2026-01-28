@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { Bitter, Montserrat } from "next/font/google";
 import { Nav, Footer } from "../modules";
 import "./globals.css";
+import { BackToTop } from "@/components";
 
 const bitter = Bitter({
   style: ["normal", "italic"],
@@ -50,9 +51,13 @@ export default function RootLayout({
       className={`${bitter.variable} ${montserrat.variable} overscroll-none`}
     >
       <body>
+        <a href="#main-content" className="skip-link">
+          Skip to main conent
+        </a>
         <Nav />
-        <main>
+        <main id="main-content">
           {children}
+          <BackToTop />
           <Analytics />
         </main>
         <Footer />
