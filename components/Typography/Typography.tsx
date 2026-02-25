@@ -31,7 +31,7 @@ const variants = {
   footerHeader: "text-xl font-sans font-bold leading-loose",
   buttonText: "text-lg font-sans font-bold",
   copy: "text-base font-sans",
-  footerLink: "text-base font-serif text-yellow-400 leading-loose",
+  footerLink: "text-base font-serif leading-loose",
   footerCopy: "text-base font-serif text-white",
   informational: "text-xl font-sans leading-loose",
 };

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Typography } from "@/components";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
+import { StyledLink } from "@/components/Link/StyledLink";
 
 interface MobileNavProps {
   isOpen: boolean;
@@ -115,7 +116,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             Home
           </Typography>
         </Link>
-        {/* <Link
+        {/* <StyledLink
           href="/vote"
           onClick={onClose}
           aria-current={activeLink === "/vote" ? "page" : undefined}
@@ -129,7 +130,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
           >
             Vote
           </Typography>
-        </Link> */}
+        </StyledLink> */}
         <Link
           href="/asi"
           onClick={onClose}
@@ -160,7 +161,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
             U&ndash;SU
           </Typography>
         </Link>
-        {/* <Link href="/vote" onClick={onClose}>
+        {/* <StyledLink href="/vote" onClick={onClose}>
           <Typography
             variant="subheader"
             color="white"
@@ -170,7 +171,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
           >
             Vote
           </Typography>
-        </Link> */}
+        </StyledLink> */}
       </div>
     </div>
   );
