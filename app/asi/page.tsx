@@ -99,9 +99,9 @@ export default function ASI() {
     <div>
       <HeroHeader
         imgAlt=""
-        imgSrc="sle-apply.png"
+        imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/vote-2025.webp"
         title="ASI General Election"
-        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/mobile-header-2025.svg"
+        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/mobile-header-2025%20(1).svg"
       >
         {/* <Button
           variant="yellow"
@@ -132,7 +132,7 @@ export default function ASI() {
         <InfoPanel
           description="ASI student leaders are empowered to advocate on behalf of students while participating in the University shared governance process. ASI student leaders work to improve the culture and education at Cal State LA and across the CSU."
           imgAlt="Students leading other students"
-          imgSrc="/headers/own-it-pages.jpg"
+          imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-pages.webp"
           theme="light"
         />
       </FluidContainer>
