@@ -32,7 +32,7 @@ export default function Vote() {
           title="How to Vote"
           imgAlt="SLE Vote Header 1"
           imgSrc="/headers/header-2025-2.svg"
-          imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
+          imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/mobile-header-2025%20(1).svg"
         >
           {/* Vote button commented out for marketing phase */}
           {/* <Button
@@ -52,7 +52,7 @@ export default function Vote() {
             title="April 13 to 17"
             description="Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
             imgAlt="Screenshot of the hero header section of the Presence voting form."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-header.png"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-header.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -69,7 +69,7 @@ export default function Vote() {
           <InfoPanel
             title="View ASI Candidates"
             imgAlt="Toggle shows a radio section to view candidates or hide the options."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/01-Select-View-Radio-Button.jpg"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/01-Select-View-Radio-Button.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -87,7 +87,7 @@ export default function Vote() {
             title="Cast Your Vote"
             description="Select the candidate you feel will make the most positive impact on your campus."
             imgAlt="Radio button of candidate names."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/00---Select-View.jpg"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/00---Select-View.webp"
             theme="light"
           />
           <Typography variant="sectionHeader" as="h2">
@@ -97,7 +97,7 @@ export default function Vote() {
           <InfoPanel
             title="View College Representatives"
             imgAlt="Radio button of colleges."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/05---Select-Your-College.jpg"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/05---Select-Your-College.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -123,7 +123,7 @@ export default function Vote() {
           <InfoPanel
             title="Voting for the U-SU Board of Directors"
             imgAlt="checkbox input. Select up to 8 candidates for the U-SU Board of Directors."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/11---Cast-Your-Vote.jpg"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/11---Cast-Your-Vote.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -141,7 +141,7 @@ export default function Vote() {
           <InfoPanel
             title="Your Vote = Real Support"
             imgAlt="Screenshot of the RSO voting section. Select one RSO at a time from the dropdown menu."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.png"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.webp"
             theme="light"
             list={[
               "You don't need to be a member to vote! Just show love for a group that's doing great work on campus",
@@ -165,7 +165,7 @@ export default function Vote() {
             title="Submit your Vote"
             description="When you're finished, return to the top and click the green submit button. All done! Thank you for making the campus a better place!"
             imgAlt="Green submit button at the top right corner of the page is available upon completion."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/12---voting-submit.png"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/12---voting-submit.webp"
             theme="light"
           />
         </div>

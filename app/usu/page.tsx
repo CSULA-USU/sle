@@ -91,7 +91,7 @@ export default function USU() {
     <div>
       <HeroHeader
         imgAlt=""
-        imgSrc="sle-apply.png"
+        imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/vote-2025.webp"
         title="U-SU BOD Election"
         imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
       >
@@ -125,7 +125,7 @@ export default function USU() {
           title="With open doors and minds, we provide space and opportunities enabling Golden Eagles to soar"
           description="The Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction for the U-SU and advocacy for students at Cal State LA. There are 8 positions in total: 6 student directors, 1 vice-chair, and 1 chair."
           imgAlt="Students leading other students"
-          imgSrc="/headers/own-it-pages.jpg"
+          imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-pages.webp"
           theme="light"
         />
       </FluidContainer>
