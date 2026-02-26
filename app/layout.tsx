@@ -21,8 +21,6 @@ const montserrat = Montserrat({
   weight: ["400", "700"],
 });
 
-const siteUrl = "https://www.calstatelaelections.org/";
-
 export const metadata: Metadata = {
   title: "Student Leader Elections at Cal State LA",
   description:
@@ -36,7 +34,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL("https://www.calstatelaelections.org/"),
   openGraph: {
     images: "/sle-header.png",
   },
