@@ -13,7 +13,7 @@ export const Footer = () => {
         <div className="flex w-full justify-center items-center lg:w-1/4">
           <img
             alt=""
-            src="/logos/sle-logo.png"
+            src="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/logos/instructions/sle-logo.webp"
             style={{ height: "150px", width: "auto", flexShrink: 0 }}
           />
         </div>
@@ -148,7 +148,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row gap-6 items-center max-lg:min-w-full max-lg:justify-center">
           <img
             alt=""
-            src="/logos/updated-calstatela.png"
+            src="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/logos/instructions/updated-calstatela.webp"
             style={{
               width: "auto",
               height: "28px",
@@ -156,7 +156,7 @@ export const Footer = () => {
           />
           <img
             alt=""
-            src="/footer/asi-logo.png"
+            src="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/logos/instructions/asi-logo.webp"
             style={{
               width: "auto",
               height: "32px",
@@ -164,7 +164,7 @@ export const Footer = () => {
           />
           <img
             alt=""
-            src="/footer/usu-wordmark-white.png"
+            src="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/logos/instructions/usu-wordmark-white.webp"
             style={{
               width: "auto",
               height: "40px",
