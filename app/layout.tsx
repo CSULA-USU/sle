@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/",
-    languages: { "en-US": "/en-US" },
   },
+  metadataBase: new URL("https://www.calstatelaelections.org/"),
   openGraph: {
     images: "/sle-header.png",
   },
