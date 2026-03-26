@@ -20,7 +20,6 @@ export const filterElectionEvents = (events: ElectionEventProps[]) => {
     return endDt >= now;
   });
 };
-//changes ???
 
 const parseTimeTo24h = (time?: string) => {
   if (!time) return null;
