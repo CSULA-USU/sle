@@ -18,7 +18,7 @@ import usuData from "@/data/usu/usu-positions.json";
 import usuResponsibilitesData from "@/data/usu/usu-responsibilities.json";
 import usuCommitteesData from "@/data/usu/usu-committees.json";
 import usuBenefitsData from "@/data/usu/usu-benefits.json";
-// import bodCandidatesData from "@/data/usu/usu-candidates.json";
+import bodCandidatesData from "@/data/usu/usu-candidates.json";
 import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 import {
   ElectionEventProps,
@@ -26,7 +26,6 @@ import {
   sortElectionEvents,
 } from "@/data/util/election-events-helper";
 
-// Assuming the structure of your JSON data is similar to this
 interface PositionData {
   type: string;
   text?: string;
@@ -147,11 +146,11 @@ export default function USU() {
       </FluidContainer> */}
 
       {/* Meet the Candidates Section comment out during marketing phase*/}
-      {/* <FluidContainer id="candidates-section">
+      <FluidContainer id="candidates-section">
         <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={bodCandidatesData?.data} />
-      </FluidContainer> */}
+      </FluidContainer>
 
       {/* Position Descriptions Section commented out during voting phase  */}
       <FluidContainer id="position-descriptions">
