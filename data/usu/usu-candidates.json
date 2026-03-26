@@ -1,129 +1,42 @@
 {
   "data": [
     {
-      "sectionName": "Board of Directors",
+      "sectionName": "Chair",
       "positions": [
         {
-          "positionName": "Brian Pham",
+          "positionName": "Emily Catherine Webb",
           "positionData": [
             {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/7lugbjmj5hjpbwr66xyyd/WebsiteCandidateVote__BrianPham.png?rlkey=2xlpaqeirqwt7b5dzgd3rl758&st=wmkb72sj&raw=1"
-            },
-            {
               "type": "copy",
-              "text": "As a fellow candidate, I am qualified to be a part of the U-SU Board of Directors because of my experience with student engagement from student organizations here on campus. Some of these organizations include the Association for Computing Machinery (ACM), where I was the Vice President of Internal Affairs, responsible for member outreach and engagement through ACM's social media platforms. Another organization that I would include is MESA, where I was a volunteer to manage competitions held on campus, for middle and high school students from across LA County, showing them what the field of STEM and Engineering is all about. As a master's student that has been here at Cal State LA from 2019 until now, I see overtime, how students are feeling about the environment here, and how it might not be as engaging at times. Furthermore, I have went to other CSU campuses, seeing the lifestyle and engagement of the student population that would want to make them enroll there in the first place. My goal, if I were to become part of the Board of Directors, would to have students have their voices heard, and how we could improve the campus the best it could be, competing with the other CSU campuses. Not only that the changes that I will make last for current students, but for future students as well, as they consider enrolling to Cal State LA in the future."
+              "text": "Hi everyone!!  I had an amazing year representing you and your fellow students and it would be a privilege to do it again. We started so many projects this year and I want nothing less than to see them grow and finish. As a political science student being an advocate is something I want to do for the rest of my life, and it was so much fun being able to do it this year. let’s work together and make this campus a better place for everybody."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "sectionName": "Vice Chair",
+      "positions": [
         {
-          "positionName": "Darpan Patel",
+          "positionName": "Reine Santos Saavedra",
           "positionData": [
             {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/j063f35ib1g0mmap22p1n/WebsiteCandidateVote__DarpanPatel.png?rlkey=4jdywcby920ut9cg73l53hdel&st=e5vfymkk&raw=1"
-            },
-            {
               "type": "copy",
-              "text": "I am a passionate and driven student pursuing my Master’s in Computer Science at California State University, Los Angeles. With a strong interest in technology, leadership, and community engagement, I actively seek opportunities to make a positive impact both on and off campus. I enjoy collaborating with diverse groups, advocating for student needs, and contributing to initiatives that promote inclusivity, innovation, and growth. Outside of academics, I am involved in various projects and organizations that aim to uplift student voices and foster a supportive campus environment."
+              "text": "My decision to run for Vice-Chair comes from my genuine commitment to supporting the Board, strengthening the U-SU, and advocating for students here at Cal State LA. I firmly believe in collaborative engagement and how it can indeed elevate student life, and I hope to contribute to this community further by uplifting both my fellow directors and the campus as a whole. Through my leadership positions in the Delta Phi Epsilon sorority, new role as Director of Events for the Marketing Club, involvement in the ROOTS Scholars program, and background in various external experiences, I have consistently worked to build spaces where creativity and connection are transformed into impactful initiatives. These opportunities have solidified my skills in organizing effectively, communicating across teams, and supporting the work of others – all of which I will bring to the Board. More importantly, my approach is centered on leadership with heart, which I believe to be my strongest suit: leading with empathy, purpose, and sincerity. As your Vice-Chair, I would be a dependable source of support to the Board and to you, helping ensure that the U-SU remains a space where everyone truly feels heard, valued, and empowered to belong."
             }
           ]
-        },
-        {
-          "positionName": "Eder Perdomo Hernandez",
-          "positionData": [
-            {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/8sxs16wsko1ph9d0w01r1/WebsiteCandidateVote__EderPerdomoHernandez.png?rlkey=rmub28erk1b7l595f1c8ussx5&st=3zv44oqs&raw=1"
-            },
-            {
-              "type": "copy",
-              "text": "As a dedicated student with a strong background in leadership, advocacy, and community engagement, I am committed to being a voice for all students as your University Student Union Student Director. Growing up in an immigrant family, I understand the value of opportunity, representation, and the power of collective action, which fuels my passion for ensuring every student feels heard and supported. My experience in healthcare, customer service, and social media management has shaped me into an adaptable and solution-oriented leader who thrives in diverse environments. I believe that student leadership is about more than just making decisions—it’s about creating lasting change, fostering inclusivity, and amplifying the concerns of those who often go unheard. By electing me, you are choosing a leader who will fight for resources, mental health support, and student success, ensuring that our university is a place where everyone can thrive because we all matter."
-            }
-          ]
-        },
-        {
-          "positionName": "Edward Salame",
-          "positionData": [
-            {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/urnjztmms5ok5glov43ko/WebsiteCandidateVote__EdwardSalame.png?rlkey=x1uwf4wvy7d35fti44bzoh2m5&st=25vgj5kq&raw=1"
-            },
-            {
-              "type": "copy",
-              "text": "I am qualified to be a part of the U-SU Board of Directors because of my strong leadership and problem-solving skills, which I have developed through my experiences in cybersecurity, law enforcement, and public service. My background has equipped me with expertise in crisis management and advocacy, allowing me to effectively address the concerns of our diverse student body."
-            },
-            {
-              "type": "copy",
-              "text": "I love the Student Union Building and appreciate the role it plays in bringing students together. As a member of the U-SU Board of Directors, I will work to enhance its resources, particularly by improving computer access for students. I want to ensure that every student has the technology needed to complete homework, conduct research, and work on specialty IT labs."
-            },
-            {
-              "type": "copy",
-              "text": "I aim to enhance student life by expanding student support services, promoting inclusivity, and advocating for initiatives that support academic success, career development, and digital literacy. I am also committed to amplifying student voices by working closely with university administration to address concerns about tuition, campus safety, and equity in education."
-            },
-            {
-              "type": "copy",
-              "text": "A fun aspect I would love to improve is adding free vintage arcade machines throughout the building, providing students with a way to take a break and enjoy classic video games at no cost. Creating a more engaging and enjoyable environment in the Student Union will help students relax and connect with one another"
-            }
-          ]
-        },
-        {
-          "positionName": "Emily Webb",
-          "positionData": [
-            {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/0y4q7o08j2wmyttmeng7f/WebsiteCandidateVote__EmilyWebb.png?rlkey=mxzvly8lsw3a4wi0wt1ll3w3e&st=qpuran6m&raw=1"
-            },
-            {
-              "type": "copy",
-              "text": "Hello everyone!! My name is Emily, and I hope that you vote for me in the student elections for the University Student Union Board of Directors. I am a political science student, and I hope to run a political campaign, and even become a politician. This role would help me gain experience so I can be the best person for my future career. I hope to have first-hand experience in the logistical aspect of government work. I’ve always had the desire to make a difference in the world, no matter how little, and to be an advocate for those who cannot have a voice themselves. I am confident that being on the student board of directors is a great place to start and I promise to make the school a better place for all students. I am also the social chairwoman for my sorority, Delta Zeta, which has given me experience in planning events with other organizations on campus. I can apply the skills I’ve learned from this position to the board of directors position. This is why I believe I will be an amazing choice for the Student Union Board of Directors."
-            }
-          ]
-        },
-        {
-          "positionName": "Hugo Arredondo Ortiz",
-          "positionData": [
-            {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/zudm0007soplz0jwdr1mi/WebsiteCandidateVote__HugoAreedondo.png?rlkey=6ubtban6ec13awxofx9pjlgl6&st=cifzucts&raw=1"
-            },
-            {
-              "type": "copy",
-              "text": "I am eager to serve as a member of the Cal State LA U-SU Board of Directors. My qualifications include co-founding the Project Rebound Sankofa Book Club and serving as its current Treasurer. I have also developed and facilitated workshops for Cal State LA Project Rebound and served as the Master of Ceremony for the 2024-2025 Project Rebound student orientation. My experience extends to lobbying for policy change and my current internship as a community advocate for at-promise youth. If elected, I will prioritize policies that foster growth and ensure financial stability for our Cal State LA campus."
-            }
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "sectionName": "Board of Directors",
+      "positions": [
         {
           "positionName": "Giovanni Torres",
           "positionData": [
             {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/nqzyqrm0i88f8l6i0tjm3/WebsiteCandidateVote__GiovanniTorres.png?rlkey=s2nwc26tloqhf7l3eb5io6czh&st=93p3797v&raw=1"
-            },
-            {
               "type": "copy",
-              "text": "As a second-year student at Cal State LA, I am eager to potentially serve on the U-SU Board of Directors alongside fellow students, members, and staff. My strong background in counseling and leadership demonstrates both my qualifications for this role and my passion for engaging with schools and organizations. In high school, I gained valuable experience as a college peer counselor, assisting seniors with their college and financial aid applications—an experience that honed my counseling skills and deepened my commitment to student success. Currently, I serve as a VITA volunteer, preparing tax returns for individuals who need assistance, showcasing my reliability, attention to detail, and dedication to community service. Recently, I joined the ALPFA club here at Cal State LA, where they enhance opportunities for Latinos and build leadership and career skills. I plan to associate with more clubs that align with my interests in the future. Through my leadership experiences and problem-solving abilities, I hope to exhibit my enthusiasm for contributing to the U-SU BOD."
-            }
-          ]
-        },
-        {
-          "positionName": "Jaqueline Fajardo",
-          "positionData": [
-            {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/3dayy8p84kykzj7i13ndu/WebsiteCandidateVote__JaquelineFajardo.png?rlkey=t5dpjbgqd9ggqt2tiwbhyeqb6&st=wetw2r1r&raw=1"
-            },
-            {
-              "type": "copy",
-              "text": "I have been a Golden Eagle since my undergraduate years and am now a graduate student. I first received my bachelor's degree in psychology with a minor in Rehabilitation Services, and I am now pursuing my master's degree in the Educational Foundations M.A. program, studying to learn and apply skills in my future career in higher education. I am a Student Organization and Leadership Development Assistant at our University-Student Union's Center for Student Involvement. In this role, I lead and coordinate enrichment, leadership development, and wellness programs that unite the student community. For my LEAD Series program, where I encourage students to engage with themes of advocacy, I was proud to receive the ACUI Region | Student-Driven Program of the Year award. I am also the current Chair of the U-SU Board of Directors. In my role, I prioritize cultivating safe and inclusive spaces for our diverse student body. I am passionate about the U-SU and the home it provides for students and staff. The U-SU is my second home, and I aim to continue its path in fostering the needs and interests of students."
+              "text": "As a third-year student at Cal State LA, I am excited about the opportunity to potentially serve on the U-SU Board of Directors for a second year and to continue building on the work started this school year, in collaboration with fellow board members, on initiatives that support and engage the student community. Over the past year, my consistent involvement with VITA has grown into a supervisory role, and in the coming weeks I will begin serving as a Summer Orientation Leader, experiences that will hone my leadership, reliability, and empowerment skills to support students throughout their college journey. These opportunities have reinforced my dedication to fostering a welcoming campus environment where students feel encouraged to get involved, discover communities and clubs, build meaningful connections, and develop their own path toward growth and success."
             }
           ]
         },
@@ -131,49 +44,62 @@
           "positionName": "Mark Raspopov",
           "positionData": [
             {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/o53hntb3hipjma5f6zv7r/WebsiteCandidateVote_Mark-Raspopov.png?rlkey=43511hekily5w0bk5a3tiaogf&st=olgnibza&raw=1"
-            },
-            {
               "type": "copy",
-              "text": "I am currently a sophomore at Cal State LA majoring in Computer Science and minoring in Psychology, Biomedical Engineering, and Math. I am interested in AI and Machine Learning as well as their applications to benefit the world. I enjoy challenges, learning new things, and am passionate about policy development and student success."
-            },
-            {
-              "type": "copy",
-              "text": "I'm serving as a Student Director this current year, and I'm running for the same position for next year. My involvement with the U-SU Board of Directors as a Student Director, ASI as an Undergraduate Academic Senator, the AI/ML Club as President and the RoboSubLA Club as Controls Team Lead within Cal State LA, and the nonprofit Kids4Kids Global as President beyond our university has prepared me to effectively advocate for your needs. I worked to address student concerns, improve academic policies, and promote initiatives that enhance our learning environment. "
-            },
-            {
-              "type": "copy",
-              "text": "With strong leadership experience both within and beyond Cal State LA and interpersonal skills, I aim to connect with and advocate for students, engage the community, and contribute to positive campus change providing guidance for success. Let’s continue working together for a better future at Cal State LA!"
+              "text": "I am currently a junior at Cal State LA majoring in Computer Science and minoring in Biomedical Engineering, Psychology, and Math. I am interested in AI and Machine Learning as well as their applications to benefit the world. I enjoy taking on challenges, learning new things, and I am passionate about policy development and supporting student success. I have been serving as a Student Director for the past two years, and I am running for the same position again to continue contributing to our campus community. My involvement with the U-SU Board of Directors as a Student Director and Fiscal Committee Chair, as well as with ASI as an Undergraduate Academic Senator, has given me extensive leadership experience at Cal State LA. Through these roles, I have worked to address student concerns, improve academic policies, and support initiatives that enhance our learning environment. For example, as Fiscal Committee Chair, I have worked to present our budget situation to the board and contribute to decisions on the path we should take. With strong leadership experience both within and beyond Cal State LA and interpersonal skills, I aim to connect with and advocate for students, engage the community, and contribute to positive campus change providing guidance for success. Let’s continue working together for a better future at Cal State LA!"
             }
           ]
         },
         {
-          "positionName": "Martin Camacho",
+          "positionName": "Angel Daniel Bernal",
           "positionData": [
             {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/tzsd0ni3xafo8m7qc61nv/WebsiteCandidateVote_artinCamacho.png?rlkey=j0wjo7pimzc7i3xszxz7cn0s9&st=vbxuvje5&raw=1"
-            },
-            {
               "type": "copy",
-              "text": "I am expressing my strong interest into joining the U-SU Board of Directors in order make real progress towards a safe and better school. I provided about 2 years of related experience as the Safey Committee Chair in Huntington Memorial Hospital. I provide various knowledge in policy making and enforcing policies, along with the necessary work ethic to ensure every student's safety and well-being. If given the opportunity to serve on the Board, I would guarantee that my leadership and experience will benefit the students of Cal State LA by looking over every concern, whether that is with Student parking, or Safety concerns in our community. I urge you to vote for me into your Board of Directors for Cal State LA to prosper and achieve the goals we envisioned."
+              "text": "Hi, my name is Angel Bernal. I am a third-year History Major with a Double Minor in Art and Chicano Studies. The reason I have chosen to put my hat in the ring for this position is that I want to be part of the puzzle to help students. I want to see and help students so they can be students while also having a life outside of school. And I know that it may take a lot of time and work. I hope you let me start this project."
             }
           ]
         },
         {
-          "positionName": "Reine Santos Saavedra",
+          "positionName": "Ariana Sarahi Rodriguez",
           "positionData": [
             {
-              "type": "image",
-              "alt": "",
-              "img": "https://www.dropbox.com/scl/fi/09zo7t840637sjnrai2q4/WebsiteCandidateVote__Reine-Santos-Saavedra.png?rlkey=nlbpuxr3lnyecp8ukk1v0x7fd&st=jdm13wwj&raw=1"
-            },
+              "type": "copy",
+              "text": "My name is Ariana Rodriguez, and I am a second-year psychology student. I am interested in running for student director because I want to be an advocate for Cal State LA students. I am committed to helping build an environment here on campus of academic opportunity and service, and to be part of the change alongside with other Cal State LA members."
+            }
+          ]
+        },
+        {
+          "positionName": "Blanca Filomena Loza",
+          "positionData": [
             {
               "type": "copy",
-              "text": "Pursuing an academic journey is more than just an educational decision; rather, a profound transition that shapes resilience, broadens perspectives, and redefines the meaning of community. And, as such, I am eager to serve on the U-SU Board of Directors to help create a campus where students—whether near or far—are indeed at home here at Cal State LA. My experiences in external jobs and volunteering roles have equipped me with the skills necessary for this position. From collaborating with diverse teams to managing complex responsibilities with my attention to detail, I've learned how to problem-solve effectively and follow through with success. Being part of the AANHPI Student Achievement Program has also contributed to enhancing my leadership skills, as well as the numerous campus events I attend and participate in. On top of that, my active involvement in my sorority as secretary and coordinator has further strengthened my ability to express my empathy, navigate different perspectives, and cultivate meaningful connections, all of which I will bring to the Board. I have the honest intention of running to be a part of the U-SU BOD, and I aim to grow in speaking up for myself so I can confidently do the same for people in need. I am ready to listen, learn, lead with integrity, and hopefully leave a lasting impact to ensure that every student feels valued and supported—all done by yours truly."
+              "text": "As a proud senior at Cal State LA, I am excited to run for the USU Board of Directors and continue building my community at this institution that I cherish so much. My lived experiences as a first-generation Latina in and out of college, combined with my ability to foster relationships with people of all backgrounds, make me an ideal candidate for this role. As a student director, I hope to represent our university and sharpen my professional skills while I complete the criminal justice program, alongside working in retail and serving as an intern at a nonprofit organization centered around transformative justice."
+            }
+          ]
+        },
+        {
+          "positionName": "Ina Grace Lozano",
+          "positionData": [
+            {
+              "type": "copy",
+              "text": "Hello everyone! My name is Ina and I transferred to Cal State LA last semester. As a transfer student and after almost a year of being here on campus, I have the ideal perspective of what current and future students want and need. I know what aspects I’d like to improve on for the student body, and I want to be more involved on campus and create an impact for Golden Eagles. I’m a very creative person and possess great organizational and team work skills from my past involvement in clubs. On top of that, I’m highly motivated to create change on campus, especially highlighting the relevance of students’ voices. For example, I would like to help ensure that there is more accessibility for student facilities and visibility for students in services, such as better way finding and more events. The USU is already a hub where students can connect but I believe it can become greater than it is and I wanna be a part of that growth. I also want students to know they matter because the USU is a bridge between students and the community, and both are valued. As a student director I’m ready to lead and want to bring my and your ideas to life on making Cal State LA go from a “commuter-ty” to a community"
+            }
+          ]
+        },
+        {
+          "positionName": "Marissa Samantha Syreni",
+          "positionData": [
+            {
+              "type": "copy",
+              "text": "I am qualified to be part of the U-SU Board of Directors because of the learning experiences I have gained at and outside of Cal State LA. In programs such as Social Justice Club at my community college, where I was the social media manager posting our events to the student body for my sophomore year. Although this is my first year as a transfer at Cal State LA, I offer a unique perspective as a disabilities student who aims to encourage all student to embody their full potential. I am a member of the Pre Law Society as well as the Political Science Association. I have much to learn and I would be honored to be considered for a Board position of the Directors of U-SU. "
+            }
+          ]
+        },
+        {
+          "positionName": "Christina Ann Barraza",
+          "positionData": [
+            {
+              "type": "copy",
+              "text": "I am a strong candidate for the U-SU Board of  Directors due to my incredible leadership skills that I used at my previous place of employment. As an acting shift lead I would delegate duties and responsibilities to coworkers regularly. I have awesome organizational abilities that supersede all the other candidates. I have been an outstanding student this year at CSULA. I am on the NSS Dean’s list. I was Interim President for Psi Chi the International Club on Psychology and helped transition the club into the new year at CSULA. I look forward to this next year coming as it will be my senior year. I will continue my educational career here at CSULA. Thank you for allowing me to run for this position!"
             }
           ]
         }
