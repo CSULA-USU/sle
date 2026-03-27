@@ -90,9 +90,9 @@ export default function USU() {
     <div>
       <HeroHeader
         imgAlt=""
-        imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/vote-2025.webp"
+        imgSrc="logos/sle-logo.png"
         title="U-SU BOD Election"
-        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero//mobile-header-2025.svg"
+        imgSrcMobile="logos/sle-logo.png"
       >
         {/* <Button
           variant="yellow"
@@ -109,8 +109,8 @@ export default function USU() {
         />
         <Button
           variant="grey"
-          text="Position Descriptions"
-          href="#position-descriptions"
+          text="Candidates"
+          href="#candidates-section"
           class="mr-4"
         />
         {/* <Button variant="grey" text="Eligibility" href="#eligibility-section" /> */}
@@ -153,13 +153,13 @@ export default function USU() {
       </FluidContainer>
 
       {/* Position Descriptions Section commented out during voting phase  */}
-      <FluidContainer id="position-descriptions">
+      {/* <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
         <Divider />
         <PositionDescriptions data={typedUsuData?.data} />
-      </FluidContainer>
+      </FluidContainer> */}
 
       {/* Responsibilities and Requirements Section */}
       <FluidContainer>

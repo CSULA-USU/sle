@@ -86,7 +86,8 @@ export default function Home() {
           </InfoPanel>
         </div> */}
 
-        <div>
+        {/* section for recruitment phase */}
+        {/* <div>
           <Typography variant="sectionHeader" color="white">
             Together we can!
           </Typography>
@@ -109,7 +110,8 @@ export default function Home() {
               isExternalLink
             />
           </InfoPanel>
-        </div>
+        </div> */}
+
         <div>
           <Typography variant="sectionHeader" color="white">
             Leadership Opportunities
@@ -121,7 +123,7 @@ export default function Home() {
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-pages.webp"
           >
             <Button variant="yellow" text="ASI Positions" href="/asi" />
-            <Button variant="grey" text="U&ndash;SU Positions" href="/usu" />
+            <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
           </InfoPanel>
         </div>
 

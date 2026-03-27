@@ -99,9 +99,9 @@ export default function ASI() {
     <div>
       <HeroHeader
         imgAlt=""
-        imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/vote-2025.webp"
+        imgSrc="logos/sle-logo.png"
         title="ASI General Election"
-        imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/mobile-header-2025%20(1).svg"
+        imgSrcMobile="logos/sle-logo.png"
       >
         {/* <Button
           variant="yellow"
