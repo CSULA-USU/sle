@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   BulletList,
   Button,
@@ -14,12 +15,12 @@ import {
 } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/usu/usu-election-events.json";
-import usuData from "@/data/usu/usu-positions.json";
+// import usuData from "@/data/usu/usu-positions.json";
 import usuResponsibilitesData from "@/data/usu/usu-responsibilities.json";
 import usuCommitteesData from "@/data/usu/usu-committees.json";
 import usuBenefitsData from "@/data/usu/usu-benefits.json";
 import bodCandidatesData from "@/data/usu/usu-candidates.json";
-import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
+// import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 import {
   ElectionEventProps,
   filterElectionEvents,
@@ -46,7 +47,7 @@ interface UsuData {
   data: Section[];
 }
 
-const typedUsuData: UsuData = usuData;
+// const typedUsuData: UsuData = usuData;
 const usuResponsibilities = usuResponsibilitesData;
 const usuBenefits = usuBenefitsData;
 
@@ -100,15 +101,16 @@ export default function USU() {
           href="https://form.jotform.com/210416532268047"
           isExternalLink
         /> */}
-        <Button
+        {/* Button only needed during recruitment phase */}
+        {/* <Button
           variant="yellow"
           text="Application"
           href="https://form.jotform.com/210416532268047"
           class="mr-4"
           isExternalLink
-        />
+        /> */}
         <Button
-          variant="grey"
+          variant="yellow"
           text="Candidates"
           href="#candidates-section"
           class="mr-4"
@@ -182,14 +184,17 @@ export default function USU() {
               />
             )}
           </div>
-          <img
+          <Image
             src="/usu/completed-tasks.svg"
             className="max-h-48 w-auto my-2"
+            width={100}
+            height={100}
             alt=""
           />
         </div>
       </FluidContainer>
-      <FluidContainer>
+      {/* Section for recruitment phase */}
+      {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
           Benefits of Serving
         </Typography>
@@ -201,13 +206,15 @@ export default function USU() {
               description={usuBenefits.list}
             />
           )}
-          <img
+          <Image
             src="/usu/career-progress.svg"
             className="max-h-48 w-auto my-2"
             alt=""
+            width={100}
+            height={100}
           />
         </div>
-      </FluidContainer>
+      </FluidContainer> */}
       {/* <FluidContainer padding="py-8 px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
@@ -224,7 +231,8 @@ export default function USU() {
         </CTA>
       </FluidContainer> */}
 
-      <FluidContainer id="eligibility-section">
+      {/* For recruitment phase */}
+      {/* <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader" as="h2">
           Eligibility
         </Typography>
@@ -245,7 +253,7 @@ export default function USU() {
             343&ndash;2450 or email us at info.usu@calstatelaelections.org
           </Typography>
         </div>
-      </FluidContainer>
+      </FluidContainer> */}
     </div>
   );
 }

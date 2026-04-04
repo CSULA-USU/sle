@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { Typography, Modal, Image } from "@/components";
 import { FaCirclePlus } from "react-icons/fa6";
 import Link from "next/link";
-import { StyledLink } from "../Link/StyledLink";
 
 interface PositionDataProps {
   type: string;

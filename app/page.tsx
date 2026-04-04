@@ -142,6 +142,24 @@ export default function Home() {
             <Button variant="yellow" text="Voting Information" href="/vote" />
           </InfoPanel>
         </div> */}
+        {/* section always available regardless of phase */}
+        <div>
+          <Typography variant="sectionHeader" color="white">
+            Election Events
+          </Typography>
+          <Divider />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
+            {electionEvents.length > 0 ? (
+              electionEvents.map((electionEvent: ElectionEventProps, idx) => (
+                <Card electionEvent={electionEvent} key={idx} transparent />
+              ))
+            ) : (
+              <Typography color="white">
+                No events scheduled, please check again later
+              </Typography>
+            )}
+          </div>
+        </div>
         <div className="text-white">
           <Typography variant="sectionHeader" color="white">
             Recognized Student Organizations Opportunities
@@ -166,6 +184,7 @@ export default function Home() {
             bring to you and your peers!
           </Typography>
         </div>
+
         {/* section for recruitment phase */}
         <div className="gap-8 flex max-md:flex-col my-10 justify-evenly">
           <StatementCard
@@ -186,25 +205,6 @@ export default function Home() {
           >
             <FaFire color="white" size={40} />
           </StatementCard>
-        </div>
-
-        {/* section always available regardless of phase */}
-        <div>
-          <Typography variant="sectionHeader" color="white">
-            Election Events
-          </Typography>
-          <Divider />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
-            {electionEvents.length > 0 ? (
-              electionEvents.map((electionEvent: ElectionEventProps, idx) => (
-                <Card electionEvent={electionEvent} key={idx} transparent />
-              ))
-            ) : (
-              <Typography color="white">
-                No events scheduled, please check again later
-              </Typography>
-            )}
-          </div>
         </div>
       </FluidContainer>
       <FluidContainer textAlign="center">
