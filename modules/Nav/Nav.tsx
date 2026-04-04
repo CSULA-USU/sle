@@ -81,7 +81,8 @@ export const Nav = () => {
               Home
             </Typography>
           </Link> */}
-          {/* <Link
+          {/* section for voting phase */}
+          <Link
             href="/vote"
             aria-current={activeLink === "/vote" ? "page" : undefined}
           >
@@ -94,7 +95,7 @@ export const Nav = () => {
             >
               Vote
             </Typography>
-          </Link> */}
+          </Link>
           <Link
             href="/asi"
             aria-current={activeLink === "/asi" ? "page" : undefined}
