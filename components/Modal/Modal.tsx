@@ -43,7 +43,7 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
       {isOpen && (
         <div
           id="outer-div"
-          className="fixed top-0 left-0 w-full h-full bg-opacity-50 bg-white flex items-center justify-center z-10"
+          className="fixed top-0 left-0 w-full h-full bg-opacity-50 bg-white flex items-center justify-center z-[2147483647]"
           onClick={(event: React.MouseEvent<HTMLDivElement>) =>
             handleClickOutside(event.nativeEvent)
           }
