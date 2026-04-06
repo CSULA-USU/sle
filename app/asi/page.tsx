@@ -137,13 +137,13 @@ export default function ASI() {
         />
       </FluidContainer>
       {/* Meet the Candidates section commented out for marketing phase */}
-      {/* <FluidContainer id="meet-candidates">
+      <FluidContainer id="meet-candidates">
         <Typography variant="sectionHeader" as="h2">
           Meet the Candidates
         </Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={asiCandidatesData?.data} />
-      </FluidContainer> */}
+      </FluidContainer>
       {/* Election Events Section */}
       {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">Election Events</Typography>
@@ -179,7 +179,7 @@ export default function ASI() {
       </FluidContainer> */}
 
       {/* Position Descriptions section commented out for voting phase */}
-      <FluidContainer id="position-descriptions">
+      {/* <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
@@ -204,8 +204,10 @@ export default function ASI() {
             alt=""
           />
         </div>
-      </FluidContainer>
-      <FluidContainer id="eligibility-section">
+      </FluidContainer> */}
+
+      {/* Eligibility section for recruitment phase, commented out for voting phase */}
+      {/* <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader" as="h2">
           Basic Eligibility Requirements
         </Typography>
@@ -226,7 +228,7 @@ export default function ASI() {
             343&ndash;4778 or email us.
           </Typography>
         </div>
-      </FluidContainer>
+      </FluidContainer> */}
     </div>
   );
 }
