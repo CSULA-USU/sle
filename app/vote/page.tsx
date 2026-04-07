@@ -35,11 +35,12 @@ export default function Vote() {
           imgSrcMobile="logos/sle-logo.png"
         >
           {/* Vote button commented out for marketing phase */}
-          {/* <Button
+          <Button
             variant="yellow"
             text="Vote Here"
-            href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
-          /> */}
+            href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
+            isExternalLink
+          />
         </HeroHeader>
       </div>
       <FluidContainer>
