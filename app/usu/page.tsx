@@ -111,6 +111,12 @@ export default function USU() {
         /> */}
         <Button
           variant="yellow"
+          text="Vote Here"
+          href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
+          class="mr-4"
+        />
+        <Button
+          variant="grey"
           text="Candidates"
           href="#candidates-section"
           class="mr-4"
@@ -163,8 +169,8 @@ export default function USU() {
         <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer> */}
 
-      {/* Responsibilities and Requirements Section */}
-      <FluidContainer>
+      {/* Responsibilities and Requirements Section. Hide for voting phase? */}
+      {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
           Responsibilities and Requirements
         </Typography>
@@ -192,7 +198,7 @@ export default function USU() {
             alt=""
           />
         </div>
-      </FluidContainer>
+      </FluidContainer> */}
       {/* Section for recruitment phase */}
       {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">

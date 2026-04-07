@@ -18,7 +18,7 @@ export const HeroHeader = ({
   return (
     <div className="overflow-hidden bg-current-bg">
       <FluidContainer alignItems="end">
-        <div className="flex justify-between max-md:flex-col-reverse max-md:text-center w-full">
+        <div className="flex justify-evenly max-md:flex-col-reverse max-md:text-center w-full">
           {title ? (
             <>
               <FluidContainer
