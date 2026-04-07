@@ -111,24 +111,8 @@ export default function Home() {
             />
           </InfoPanel>
         </div> */}
-
-        <div>
-          <Typography variant="sectionHeader" color="white">
-            Leadership Opportunities
-          </Typography>
-          <Divider />
-          <InfoPanel
-            description="Discover how you can boost your campus experience, develop leadership skills, and represent your fellow students! Learn more about Student Leader Election positions and help shape your college’s future. Make your voice count!"
-            imgAlt="Students leading other students"
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-pages.webp"
-          >
-            <Button variant="yellow" text="ASI Positions" href="/asi" />
-            <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
-          </InfoPanel>
-        </div>
-
         {/* section for voting phase */}
-        {/* <div>
+        <div>
           <Typography variant="sectionHeader" color="white">
             Your Vote Matters
           </Typography>
@@ -139,9 +123,29 @@ export default function Home() {
             imgAlt="Students voting"
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-crowd.webp"
           >
-            <Button variant="yellow" text="Voting Information" href="/vote" />
+            <Button
+              variant="yellow"
+              text="Vote Here"
+              href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
+              isExternalLink
+            />
           </InfoPanel>
-        </div> */}
+        </div>
+        <div>
+          <Typography variant="sectionHeader" color="white">
+            Leadership Opportunities
+          </Typography>
+          <Divider />
+          <InfoPanel
+            description="Discover how you can boost your campus experience, develop leadership skills, and represent your fellow students! Learn more about Student Leader Election positions and help shape your college’s future. Make your voice count!"
+            imgAlt="Students leading other students"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-pages.webp"
+          >
+            <Button variant="yellow" text="ASI Candidates" href="/asi" />
+            <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
+          </InfoPanel>
+        </div>
+
         {/* section always available regardless of phase */}
         <div>
           <Typography variant="sectionHeader" color="white">

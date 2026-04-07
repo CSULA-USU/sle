@@ -111,15 +111,15 @@ export default function ASI() {
         /> */}
         <Button
           variant="yellow"
-          text="Application"
-          href="https://asicalstatela.org/machform/view.php?id=94108"
+          text="Vote Here"
+          href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
           class="mr-4"
           isExternalLink
         />
         <Button
           variant="grey"
-          text="Position Descriptions"
-          href="#position-descriptions"
+          text="Candidates"
+          href="#meet-candidates"
           class="mr-4"
         />
         {/* <Button variant="grey" text="Eligibility" href="#eligibility-section" /> */}
