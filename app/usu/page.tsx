@@ -11,6 +11,7 @@ import {
 } from "@/components";
 import {
   // Card,
+  CandidateGrid,
   PositionDescriptions,
 } from "@/modules";
 import type { Metadata } from "next";
@@ -154,10 +155,20 @@ export default function USU() {
       </FluidContainer> */}
 
       {/* Meet the Candidates Section comment out during marketing phase*/}
-      <FluidContainer id="candidates-section">
+      {/* <FluidContainer id="candidates-section">
         <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={bodCandidatesData?.data} />
+      </FluidContainer> */}
+
+      <FluidContainer id="candidates-section">
+        <Typography variant="sectionHeader">Meet the Candidates</Typography>
+        <Divider margin="lg" />
+        <Typography variant="informational">
+          Click on a candidate to learn more about their platform and why they
+          deserve your vote.
+        </Typography>
+        <CandidateGrid data={bodCandidatesData?.data} />
       </FluidContainer>
 
       {/* Position Descriptions Section commented out during voting phase  */}
