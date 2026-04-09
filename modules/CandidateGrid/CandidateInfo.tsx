@@ -69,7 +69,7 @@ export const CandidateInfo = ({ name, data }: CandidateInfoProps) => {
 
           {/* Hover glow effect overlay */}
           <div
-            className="absolute inset-0 opacity-0 transition-opacity duration-300 bg-gradient-to-t from-yellow-500/20 via-transparent to-transparent group-hover:opacity-100 group-focus-visible:opacity-100"
+            className="absolute inset-0 opacity-0 transition-opacity duration-300 bg-gradient-to-t from-yellow-500/10 via-transparent to-transparent group-hover:opacity-100 group-focus-visible:opacity-100"
             aria-hidden="true"
           />
 
@@ -82,7 +82,7 @@ export const CandidateInfo = ({ name, data }: CandidateInfoProps) => {
 
         {/* Name Section */}
         <div className="relative px-3 py-3 bg-gradient-to-t from-gray-300 via-gray-200 to-gray-100 group-hover:from-yellow-500 group-hover:via-yellow-300 group-hover:to-yellow-200 group-focus-visible:from-yellow-500 group-focus-visible:via-yellow-300 group-focus-visible:to-yellow-200 transition-all duration-300">
-          <p className="text-center font-semibold text-foreground text-sm sm:text-base tracking-wide uppercase transition-colors duration-300">
+          <p className="text-center font-semibold text-foreground text-sm sm:text-base tracking-wide transition-colors duration-300">
             {firstName}
           </p>
         </div>
@@ -163,10 +163,7 @@ export const CandidateInfo = ({ name, data }: CandidateInfoProps) => {
                   alt={`${item.alt}`}
                   width={320}
                   height={320}
-                  className="mb-4"
-                  style={{
-                    borderRadius: "12px",
-                  }}
+                  className="mb-4 rounded-xl"
                 />
               )}
             </div>
