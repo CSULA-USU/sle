@@ -192,7 +192,11 @@ export default function Vote() {
           title="Vote Here!"
           description="Click the link below and make a positive impact here at Cal State LA"
         >
-          <Button variant="black" text="Cast Your Ballot" href="#vote-button" />
+          <Button
+            variant="black"
+            text="Cast Your Ballot"
+            href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
+          />
         </CTA>
       </FluidContainer>
     </>
