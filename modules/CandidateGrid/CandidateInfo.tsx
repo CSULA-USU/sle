@@ -58,6 +58,9 @@ export const CandidateInfo = ({ name, data }: CandidateInfoProps) => {
               src={imageData.img}
               alt={imageData.alt || `Portrait of ${name || "candidate"}`}
               fill
+              quality={60}
+              placeholder="blur"
+              blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjQyNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjY2NjIi8+PC9zdmc+"
               className="object-cover transition-all duration-500 ease-out grayscale group-hover:grayscale-0 group-hover:scale-105 group-focus-visible:grayscale-0 group-focus-visible:scale-105"
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
             />
@@ -81,7 +84,7 @@ export const CandidateInfo = ({ name, data }: CandidateInfoProps) => {
         </div>
 
         {/* Name Section */}
-        <div className="relative px-3 py-3 bg-gradient-to-t from-gray-300 via-gray-200 to-gray-100 group-hover:from-yellow-500 group-hover:via-yellow-300 group-hover:to-yellow-200 group-focus-visible:from-yellow-500 group-focus-visible:via-yellow-300 group-focus-visible:to-yellow-200 transition-all duration-300">
+        <div className="relative w-full px-3 py-3 bg-gradient-to-t from-gray-300 via-gray-200 to-gray-100 group-hover:from-yellow-500 group-hover:via-yellow-300 group-hover:to-yellow-200 group-focus-visible:from-yellow-500 group-focus-visible:via-yellow-300 group-focus-visible:to-yellow-200 transition-all duration-300">
           <p className="text-center font-semibold text-foreground text-sm sm:text-base tracking-wide transition-colors duration-300">
             {firstName}
           </p>

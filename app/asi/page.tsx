@@ -5,6 +5,7 @@ import {
   Divider,
   FluidContainer,
   HeroHeader,
+  LazySection,
   Typography,
 } from "@/components";
 import { CandidateGrid, PositionDescriptions } from "@/modules";
@@ -143,7 +144,9 @@ export default function ASI() {
         </Typography>
         <Divider margin="lg" />
         {/* <PositionDescriptions data={asiCandidatesData?.data} /> */}
-        <CandidateGrid data={asiCandidatesData?.data} />
+        <LazySection rootMargin="300px" minHeight="600px">
+          <CandidateGrid data={asiCandidatesData?.data} />
+        </LazySection>
       </FluidContainer>
       {/* Election Events Section */}
       {/* <FluidContainer>

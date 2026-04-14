@@ -10,4 +10,5 @@ export * from "./Modal";
 export * from "./StatementCard";
 export * from "./Typography";
 export * from "./Image";
+export * from "./LazySection";
 export * from "./Link";
