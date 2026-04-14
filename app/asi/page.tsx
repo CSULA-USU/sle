@@ -7,7 +7,7 @@ import {
   HeroHeader,
   Typography,
 } from "@/components";
-import { PositionDescriptions } from "@/modules";
+import { CandidateGrid, PositionDescriptions } from "@/modules";
 import type { Metadata } from "next";
 import electionEventsData from "@/data/asi/asi-election-events.json";
 import ASIBenefits from "@/data/asi/asi-benefits.json";
@@ -142,7 +142,8 @@ export default function ASI() {
           Meet the Candidates
         </Typography>
         <Divider margin="lg" />
-        <PositionDescriptions data={asiCandidatesData?.data} />
+        {/* <PositionDescriptions data={asiCandidatesData?.data} /> */}
+        <CandidateGrid data={asiCandidatesData?.data} />
       </FluidContainer>
       {/* Election Events Section */}
       {/* <FluidContainer>
