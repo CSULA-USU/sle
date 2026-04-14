@@ -137,7 +137,7 @@ export default function Home() {
         <CTA
           theme="gold"
           title="Vote Here!"
-          description="Click the link below and make a positive impact here at Cal State LA"
+          description="Click the link below and make a positive impact at Cal State LA"
           CTAClass="mb-10"
         >
           <Button
