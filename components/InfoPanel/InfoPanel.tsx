@@ -5,6 +5,7 @@ interface InfoPanelProps {
   description?: string;
   imgAlt: string;
   imgSrc: string;
+  imgSrcMobile?: string;
   imgClass?: string;
   list?: string[];
   theme?: "light" | "dark";
@@ -21,6 +22,7 @@ export const InfoPanel = ({
   theme,
   imageRight,
   imgClass,
+  imgSrcMobile,
   children,
 }: InfoPanelProps) => {
   return (
@@ -75,13 +77,27 @@ export const InfoPanel = ({
         )}
       </div>
       <div>
-        <Image
-          alt={imgAlt}
-          src={imgSrc}
-          width={1000}
-          height={700}
-          className={`object-contain ${imgClass} mb-10 md:mb-0`}
-        />
+        {/* Desktop */}
+        <div className="hidden md:block">
+          <Image
+            alt={imgAlt}
+            src={imgSrc}
+            width={1000}
+            height={700}
+            className={`object-contain ${imgClass} mb-10 md:mb-0`}
+          />
+        </div>
+
+        {/* Mobile */}
+        <div className="block md:hidden">
+          <Image
+            alt={imgAlt}
+            src={imgSrcMobile || imgSrc} // fallback if not provided
+            width={1000}
+            height={700}
+            className={`object-contain ${imgClass} mb-10 md:mb-0`}
+          />
+        </div>
       </div>
     </div>
   );

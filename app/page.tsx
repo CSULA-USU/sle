@@ -3,7 +3,7 @@ import { RiCommunityFill } from "react-icons/ri";
 import type { Metadata } from "next";
 import {
   Button,
-  // CTA,
+  CTA,
   Divider,
   InfoPanel,
   FluidContainer,
@@ -56,19 +56,6 @@ export default function Home() {
         />
       </h1>
       <FluidContainer>
-        {/* CTA section for voting phase */}
-        {/* <CTA
-          theme="gold"
-          title="Vote Here!"
-          description="Click the link below and make a positive impact here at Cal State LA"
-          CTAClass="mb-10"
-        >
-          <Button
-            variant="black"
-            text="Cast Your Ballot"
-            href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
-          />
-        </CTA> */}
         {/* switch order of sections depending on phase of campaign */}
         {/* meet the candidates section for voting phase */}
         {/* <div>
@@ -145,6 +132,20 @@ export default function Home() {
             <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
           </InfoPanel>
         </div>
+
+        {/* CTA section for voting phase */}
+        <CTA
+          theme="gold"
+          title="Vote Here!"
+          description="Click the link below and make a positive impact at Cal State LA"
+          CTAClass="mb-10"
+        >
+          <Button
+            variant="black"
+            text="Cast Your Ballot"
+            href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
+          />
+        </CTA>
 
         {/* section always available regardless of phase */}
         <div>
