@@ -27,6 +27,7 @@ export default function Vote() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div id="vote-button">
         <HeroHeader
           title="How to Vote"
@@ -34,7 +35,6 @@ export default function Vote() {
           imgSrc="logos/sle-logo.png"
           imgSrcMobile="logos/sle-logo.png"
         >
-          {/* Vote button commented out for marketing phase */}
           <Button
             variant="yellow"
             text="Vote Here"
@@ -43,6 +43,7 @@ export default function Vote() {
           />
         </HeroHeader>
       </div>
+
       <FluidContainer>
         <div>
           <Typography variant="sectionHeader" as="h2">
@@ -53,7 +54,8 @@ export default function Vote() {
             title="April 13 to 17"
             description="Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
             imgAlt="Screenshot of the hero header section of the Presence voting form."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-header.webp"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/00--Voting-Header-Desktop.webp"
+            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/00--Voting-Header-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -63,6 +65,7 @@ export default function Vote() {
               Voting closes at 11:59 PM on Friday, April 17th
             </Typography>
           </InfoPanel>
+
           <Typography variant="sectionHeader" as="h2">
             Associated Students Inc. (ASI)
           </Typography>
@@ -70,7 +73,8 @@ export default function Vote() {
           <InfoPanel
             title="View ASI Candidates"
             imgAlt="Toggle shows a radio section to view candidates or hide the options."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/01-Select-View-Radio-Button.webp"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/01--View-ASI-Candidates-Desktop.webp"
+            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/01--View-ASI-Candidates-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -84,13 +88,16 @@ export default function Vote() {
               You can only choose one candidate per executive role
             </Typography>
           </InfoPanel>
+
           <InfoPanel
             title="Cast Your Vote"
             description="Select the candidate you feel will make the most positive impact on your campus."
             imgAlt="Radio button of candidate names."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/00---Select-View.webp"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/02--Cast-Your-Vote-Desktop.webp"
+            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/02--Cast-Your-Vote-Mobile.webp"
             theme="light"
           />
+
           <Typography variant="sectionHeader" as="h2">
             College Representatives
           </Typography>
@@ -98,7 +105,8 @@ export default function Vote() {
           <InfoPanel
             title="View College Representatives"
             imgAlt="Radio button of colleges."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/05---Select-Your-College.webp"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/03--View-College-Representatives-Desktop.webp"
+            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/03--View-College-Representatives-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -117,6 +125,7 @@ export default function Vote() {
               Note: Only one candidate can be selected per open position
             </Typography>
           </InfoPanel>
+
           <Typography variant="sectionHeader" as="h2">
             University&ndash;Student Union (U&ndash;SU) Board of Directors
           </Typography>
@@ -124,7 +133,8 @@ export default function Vote() {
           <InfoPanel
             title="Voting for the U-SU Board of Directors"
             imgAlt="checkbox input. Select up to 8 candidates for the U-SU Board of Directors."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/11---Cast-Your-Vote.webp"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/04--Voting-for-the%20U-SU%20Board-of-Directors-Desktop.webp"
+            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/04--Voting-for-the%20U-SU%20Board-of-Directors-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -135,6 +145,7 @@ export default function Vote() {
               You may select up to 8 candidates in this section
             </Typography>
           </InfoPanel>
+
           <Typography variant="sectionHeader" as="h2">
             Recognized Student Organization (RSO) Voting
           </Typography>
@@ -142,7 +153,8 @@ export default function Vote() {
           <InfoPanel
             title="Your Vote = Real Support"
             imgAlt="Screenshot of the RSO voting section. Select one RSO at a time from the dropdown menu."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/voting-rso.webp"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/05--RSO-Voting-Desktop.webp"
+            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/05--RSO-Voting-Mobile.webp"
             theme="light"
             list={[
               "You don't need to be a member to vote! Just show love for a group that's doing great work on campus",
@@ -158,6 +170,7 @@ export default function Vote() {
               Select one Recognized Student Organization from the dropdown.
             </Typography>
           </InfoPanel>
+
           <Typography variant="sectionHeader" as="h2">
             Turn in Your Ballot
           </Typography>
@@ -166,18 +179,24 @@ export default function Vote() {
             title="Submit your Vote"
             description="When you're finished, return to the top and click the green submit button. All done! Thank you for making the campus a better place!"
             imgAlt="Green submit button at the top right corner of the page is available upon completion."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/12---voting-submit.webp"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/06--Submit-your-Vote-Mobile.webp"
+            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/06--Submit-your-Vote-Mobile.webp"
             theme="light"
           />
         </div>
       </FluidContainer>
+
       <FluidContainer>
         <CTA
           theme="gold"
           title="Vote Here!"
           description="Click the link below and make a positive impact here at Cal State LA"
         >
-          <Button variant="black" text="Cast Your Ballot" href="#vote-button" />
+          <Button
+            variant="black"
+            text="Cast Your Ballot"
+            href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
+          />
         </CTA>
       </FluidContainer>
     </>
