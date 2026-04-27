@@ -140,8 +140,11 @@ export default function ASI() {
       {/* Meet the Candidates section commented out for marketing phase */}
       <FluidContainer id="meet-candidates">
         <Typography variant="sectionHeader" as="h2">
-          Meet the Candidates
+          Meet the Winners
         </Typography>
+        {/* <Typography variant="sectionHeader" as="h2">
+          Meet the Candidates
+        </Typography>*/}
         <Divider margin="lg" />
         {/* <PositionDescriptions data={asiCandidatesData?.data} /> */}
         <LazySection rootMargin="300px" minHeight="600px">
