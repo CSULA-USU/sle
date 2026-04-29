@@ -20,6 +20,8 @@ import {
   filterElectionEvents,
   sortElectionEvents,
 } from "@/data/util/election-events-helper";
+import { ElectionResults } from "@/modules/ElectionResults/ElectionResults";
+import asiDataResults from "@/data/asi/asi-results.json";
 
 interface PositionData {
   type: string;
@@ -104,13 +106,15 @@ export default function ASI() {
         title="ASI General Election"
         imgSrcMobile="logos/sle-logo.png"
       >
+        {/* Button only needed during recruitment phase */}
         {/* <Button
           variant="yellow"
           text="Application"
           href="https://asicalstatela.org/general-election/2025-26-student-leader-election-application"
           isExternalLink
         /> */}
-        <Button
+        {/* Buttons for vote phase only */}
+        {/* <Button
           variant="yellow"
           text="Vote Here"
           href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
@@ -122,7 +126,22 @@ export default function ASI() {
           text="Candidates"
           href="#meet-candidates"
           class="mr-4"
+        /> */}
+
+        {/* Button only for results phase */}
+        <Button
+          variant="yellow"
+          text="Winners"
+          href="#meet-candidates"
+          class="mr-4"
         />
+        {/* <Button
+          variant="grey"
+          text="Vote Totals"
+          href="#winners-section"
+          class="mr-4"
+        /> */}
+
         {/* <Button variant="grey" text="Eligibility" href="#eligibility-section" /> */}
       </HeroHeader>
       <FluidContainer>
@@ -235,6 +254,74 @@ export default function ASI() {
             343&ndash;4778 or email us.
           </Typography>
         </div>
+      </FluidContainer> */}
+
+      {/* Vote total shown only in results phase */}
+      {/* <FluidContainer id="winners-section" padding="0">
+        <ElectionResults
+          sectionTitle="ASI President"
+          description="The results for the 2026 ASI President position."
+          candidates={asiDataResults.president}
+          totalVotes={1201}
+        />
+        <ElectionResults
+          sectionTitle="ASI Vice President for External Affairs"
+          description="The results for the 2026 Vice President for External Affairs position."
+          candidates={asiDataResults.vicePresidentForExternalAffairs}
+          totalVotes={1180}
+        />
+        <ElectionResults
+          sectionTitle="ASI Vice President for Community Engagement"
+          description="The results for the 2026 Vice President for Community Engagement position."
+          candidates={asiDataResults.vicePresidentforCommunityEngagement}
+          totalVotes={1178}
+        />
+        <ElectionResults
+          sectionTitle="ASI Vice President for Finance"
+          description="The results for the 2026 Vice President for Finance position."
+          candidates={asiDataResults.vicePresidentforFinance}
+          totalVotes={1196}
+        />
+        <ElectionResults
+          sectionTitle="College of Ethnic Studies Representative"
+          description="The results for the 2026 College of Ethnic Studies Representative position."
+          candidates={asiDataResults.collegeofEthnicStudiesRepresentative}
+          totalVotes={13}
+        />
+        <ElectionResults
+          sectionTitle="College of Arts and Letters Representative"
+          description="The results for the 2026 College of Arts and Letters Representative position."
+          candidates={asiDataResults.collegeofArtsandLettersRepresentative}
+          totalVotes={202}
+        />
+        <ElectionResults
+          sectionTitle="College of Health and Human Services Representative"
+          description="The results for the 2026 College of Health and Human Services Representative position."
+          candidates={
+            asiDataResults.collegeofHealthandHumanServicesRepresentative
+          }
+          totalVotes={314}
+        />
+        <ElectionResults
+          sectionTitle="College of Natural and Social Sciences Representative"
+          description="The results for the 2026 College of Natural and Social Sciences Representative position."
+          candidates={
+            asiDataResults.collegeofNaturalandSocialSciencesRepresentative
+          }
+          totalVotes={269}
+        />
+        <ElectionResults
+          sectionTitle="Undergraduate Academic Senator"
+          description="The results for the 2026 Undergraduate Academic Senator positions."
+          candidates={asiDataResults.undergraduateAcademicSenator}
+          totalVotes={1057}
+        />
+        <ElectionResults
+          sectionTitle="Graduate Academic Senator"
+          description="The results for the 2026 Graduate Academic Senator position."
+          candidates={asiDataResults.graduateAcademicSenator}
+          totalVotes={114}
+        />
       </FluidContainer> */}
     </div>
   );

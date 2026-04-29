@@ -98,13 +98,13 @@ export default function USU() {
         title="U-SU BOD Election"
         imgSrcMobile="logos/sle-logo.png"
       >
+        {/* Buttons only needed during recruitment phase */}
         {/* <Button
           variant="yellow"
           text="Application"
           href="https://form.jotform.com/210416532268047"
           isExternalLink
         /> */}
-        {/* Button only needed during recruitment phase */}
         {/* <Button
           variant="yellow"
           text="Application"
@@ -112,8 +112,9 @@ export default function USU() {
           class="mr-4"
           isExternalLink
         /> */}
-        {/* Buttons for vote phase 
-        <Button
+
+        {/* Buttons for vote phase only */}
+        {/* <Button
           variant="yellow"
           text="Vote Here"
           href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
@@ -124,14 +125,22 @@ export default function USU() {
           text="Candidates"
           href="#candidates-section"
           class="mr-4"
-        />
-        */}
+        /> */}
+
+        {/* Button only for results phase */}
         <Button
           variant="yellow"
           text="Winners"
           href="#candidates-section"
           class="mr-4"
         />
+        {/* <Button
+          variant="grey"
+          text="Vote Totals"
+          href="#votes-section"
+          class="mr-4"
+        /> */}
+
         {/* <Button variant="grey" text="Eligibility" href="#eligibility-section" /> */}
       </HeroHeader>
       <FluidContainer>
@@ -173,8 +182,12 @@ export default function USU() {
 
         {/* Meet the Candidates Section */}
         <FluidContainer id="candidates-section" padding="0">
+          {/* Show this title only in vote phase */}
           {/*<Typography variant="sectionHeader">Meet the Candidates</Typography>*/}
+
+          {/* Show this title only in results phase */}
           <Typography variant="sectionHeader">Meet the Winners</Typography>
+
           <Divider margin="lg" />
           <Typography variant="informational">
             Click on a candidate to learn more about their platform and why they
@@ -285,27 +298,29 @@ export default function USU() {
       </FluidContainer> */}
 
         {/* Results Section */}
-        {/* U-SU Results Sections */}
-        <ElectionResults
-          sectionTitle="U–SU Board Chair"
-          description="The results for the 2026 Board Chair position."
-          candidates={usuData.boardChair}
-          totalVotes={1173}
-        />
+        {/* U-SU Vote total shown only in results phase */}
+        {/* <FluidContainer id="votes-section" padding="0">
+          <ElectionResults
+            sectionTitle="U–SU Board Chair"
+            description="The results for the 2026 Board Chair position."
+            candidates={usuData.boardChair}
+            totalVotes={1173}
+          />
 
-        <ElectionResults
-          sectionTitle="U–SU Board Vice Chair"
-          description="The results for the 2026 Vice Chair position."
-          candidates={usuData.viceChair}
-          totalVotes={1170}
-        />
+          <ElectionResults
+            sectionTitle="U–SU Board Vice Chair"
+            description="The results for the 2026 Vice Chair position."
+            candidates={usuData.viceChair}
+            totalVotes={1170}
+          />
 
-        <ElectionResults
-          sectionTitle="U–SU Board of Directors"
-          description="The top 6 candidates elected to the Board."
-          candidates={usuData.boardOfDirectors}
-          totalVotes={1159}
-        />
+          <ElectionResults
+            sectionTitle="U–SU Board of Directors"
+            description="The top 6 candidates elected to the Board."
+            candidates={usuData.boardOfDirectors}
+            totalVotes={1159}
+          />
+        </FluidContainer> */}
       </FluidContainer>
     </div>
   );

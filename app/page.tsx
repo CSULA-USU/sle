@@ -187,6 +187,7 @@ export default function Home() {
         </div>
         */}
 
+        {/* RSO Fundraising Winners for results phase */}
         <ElectionResults
           sectionTitle="RSO Fundraising Winners"
           description="Top 3 vote getters for RSO funding."
@@ -194,6 +195,7 @@ export default function Home() {
           totalVotes={774}
           dark
         />
+
         {/* RSO Opportunities always shown regardless of phase */}
         <div className="text-white">
           <Typography variant="sectionHeader" color="white">
