@@ -127,7 +127,7 @@ export default function Home() {
           <Divider />
           <InfoPanel
             title="The results are in!"
-            description="Thank you for participating in the student leader elections. Your vote helps empower representatives to shape campus policies and create meaningful change. Click below to view the official results and meet your new ASI and U–SU leaders."
+            description="Thank you for participating in the student leader elections. In total, there have been 1,348 votes cast in support of your fellow student leaders. Your vote helps empower representatives to shape campus policies and create meaningful change. Click below to view the official results and meet your new ASI and U–SU leaders."
             imgAlt="Students celebrating"
             imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-crowd.webp"
           >

@@ -189,10 +189,11 @@ export default function USU() {
           <Typography variant="sectionHeader">Meet the Winners</Typography>
 
           <Divider margin="lg" />
-          <Typography variant="informational">
+          {/* Voting section only */}
+          {/* <Typography variant="informational">
             Click on a candidate to learn more about their platform and why they
             deserve your vote.
-          </Typography>
+          </Typography> */}
           <CandidateGrid data={bodCandidatesData?.data} />
         </FluidContainer>
 
