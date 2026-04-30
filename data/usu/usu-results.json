@@ -1,0 +1,13 @@
+{
+  "boardChair": [{ "name": "Emily Webb", "votes": 1075, "winner": true }],
+  "viceChair": [
+    { "name": "Reine Santos Saavedra", "votes": 1077, "winner": true }
+  ],
+  "boardOfDirectors": [
+    { "name": "Blanca Filomena Loza", "votes": 658, "winner": true },
+    { "name": "Christina Ann Barraza", "votes": 617, "winner": true },
+    { "name": "Ina Grace Lozano", "votes": 614, "winner": true },
+    { "name": "Ariana Sarahi Rodriguez", "votes": 602, "winner": true },
+    { "name": "Giovanni Torres", "votes": 581, "winner": true }
+  ]
+}

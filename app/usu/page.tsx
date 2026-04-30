@@ -21,12 +21,14 @@ import usuResponsibilitesData from "@/data/usu/usu-responsibilities.json";
 import usuCommitteesData from "@/data/usu/usu-committees.json";
 import usuBenefitsData from "@/data/usu/usu-benefits.json";
 import bodCandidatesData from "@/data/usu/usu-candidates.json";
+import usuData from "@/data/usu/usu-results.json";
 // import eligibilityReqs from "@/data/usu/usu-eligibility-requirements.json";
 import {
   ElectionEventProps,
   filterElectionEvents,
   sortElectionEvents,
 } from "@/data/util/election-events-helper";
+import { ElectionResults } from "@/modules/ElectionResults/ElectionResults";
 
 interface PositionData {
   type: string;
@@ -96,13 +98,13 @@ export default function USU() {
         title="U-SU BOD Election"
         imgSrcMobile="logos/sle-logo.png"
       >
+        {/* Buttons only needed during recruitment phase */}
         {/* <Button
           variant="yellow"
           text="Application"
           href="https://form.jotform.com/210416532268047"
           isExternalLink
         /> */}
-        {/* Button only needed during recruitment phase */}
         {/* <Button
           variant="yellow"
           text="Application"
@@ -110,7 +112,9 @@ export default function USU() {
           class="mr-4"
           isExternalLink
         /> */}
-        <Button
+
+        {/* Buttons for vote phase only */}
+        {/* <Button
           variant="yellow"
           text="Vote Here"
           href="https://calstatela.presence.io/form/2026-student-leader-elections-voting"
@@ -121,7 +125,22 @@ export default function USU() {
           text="Candidates"
           href="#candidates-section"
           class="mr-4"
+        /> */}
+
+        {/* Button only for results phase */}
+        <Button
+          variant="yellow"
+          text="Winners"
+          href="#candidates-section"
+          class="mr-4"
         />
+        {/* <Button
+          variant="grey"
+          text="Vote Totals"
+          href="#votes-section"
+          class="mr-4"
+        /> */}
+
         {/* <Button variant="grey" text="Eligibility" href="#eligibility-section" /> */}
       </HeroHeader>
       <FluidContainer>
@@ -136,9 +155,9 @@ export default function USU() {
           imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/pages/governance/bod/2026/BOD-Roster.webp"
           theme="light"
         />
-      </FluidContainer>
-      {/* Election Events Section */}
-      {/* <FluidContainer>
+
+        {/* Election Events Section */}
+        {/* <FluidContainer>
         <Typography variant="sectionHeader">Election Events</Typography>
         <Divider />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
@@ -154,25 +173,32 @@ export default function USU() {
         </div>
       </FluidContainer> */}
 
-      {/* Meet the Candidates Section comment out during marketing phase*/}
-      {/* <FluidContainer id="candidates-section">
+        {/* OLD Meet the Candidates Section comment out during marketing phase*/}
+        {/*<FluidContainer id="candidates-section">
         <Typography variant="sectionHeader">Meet the Candidates</Typography>
         <Divider margin="lg" />
         <PositionDescriptions data={bodCandidatesData?.data} />
-      </FluidContainer> */}
+      </FluidContainer>*/}
 
-      <FluidContainer id="candidates-section">
-        <Typography variant="sectionHeader">Meet the Candidates</Typography>
-        <Divider margin="lg" />
-        <Typography variant="informational">
-          Click on a candidate to learn more about their platform and why they
-          deserve your vote.
-        </Typography>
-        <CandidateGrid data={bodCandidatesData?.data} />
-      </FluidContainer>
+        {/* Meet the Candidates Section */}
+        <FluidContainer id="candidates-section" padding="0">
+          {/* Show this title only in vote phase */}
+          {/*<Typography variant="sectionHeader">Meet the Candidates</Typography>*/}
 
-      {/* Position Descriptions Section commented out during voting phase  */}
-      {/* <FluidContainer id="position-descriptions">
+          {/* Show this title only in results phase */}
+          <Typography variant="sectionHeader">Meet the Winners</Typography>
+
+          <Divider margin="lg" />
+          {/* Voting section only */}
+          {/* <Typography variant="informational">
+            Click on a candidate to learn more about their platform and why they
+            deserve your vote.
+          </Typography> */}
+          <CandidateGrid data={bodCandidatesData?.data} />
+        </FluidContainer>
+
+        {/* Position Descriptions Section commented out during voting phase  */}
+        {/* <FluidContainer id="position-descriptions">
         <Typography variant="sectionHeader" as="h2">
           Position Descriptions
         </Typography>
@@ -180,8 +206,8 @@ export default function USU() {
         <PositionDescriptions data={typedUsuData?.data} />
       </FluidContainer> */}
 
-      {/* Responsibilities and Requirements Section. Hide for voting phase? */}
-      {/* <FluidContainer>
+        {/* Responsibilities and Requirements Section. Hide for voting phase? */}
+        {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
           Responsibilities and Requirements
         </Typography>
@@ -210,8 +236,8 @@ export default function USU() {
           />
         </div>
       </FluidContainer> */}
-      {/* Section for recruitment phase */}
-      {/* <FluidContainer>
+        {/* Section for recruitment phase */}
+        {/* <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
           Benefits of Serving
         </Typography>
@@ -232,7 +258,7 @@ export default function USU() {
           />
         </div>
       </FluidContainer> */}
-      {/* <FluidContainer padding="py-8 px-16 max-xl:px-9 max-sm:px-4">
+        {/* <FluidContainer padding="py-8 px-16 max-xl:px-9 max-sm:px-4">
         <CTA
           title="Elevate your Journey!"
           description="Ready to elevate your college journey? Apply now to uncover the amazing things your FULL potential can bring to you and your peers!"
@@ -248,8 +274,8 @@ export default function USU() {
         </CTA>
       </FluidContainer> */}
 
-      {/* For recruitment phase */}
-      {/* <FluidContainer id="eligibility-section">
+        {/* For recruitment phase */}
+        {/* <FluidContainer id="eligibility-section">
         <Typography variant="sectionHeader" as="h2">
           Eligibility
         </Typography>
@@ -271,6 +297,32 @@ export default function USU() {
           </Typography>
         </div>
       </FluidContainer> */}
+
+        {/* Results Section */}
+        {/* U-SU Vote total shown only in results phase */}
+        {/* <FluidContainer id="votes-section" padding="0">
+          <ElectionResults
+            sectionTitle="U–SU Board Chair"
+            description="The results for the 2026 Board Chair position."
+            candidates={usuData.boardChair}
+            totalVotes={1173}
+          />
+
+          <ElectionResults
+            sectionTitle="U–SU Board Vice Chair"
+            description="The results for the 2026 Vice Chair position."
+            candidates={usuData.viceChair}
+            totalVotes={1170}
+          />
+
+          <ElectionResults
+            sectionTitle="U–SU Board of Directors"
+            description="The top 6 candidates elected to the Board."
+            candidates={usuData.boardOfDirectors}
+            totalVotes={1159}
+          />
+        </FluidContainer> */}
+      </FluidContainer>
     </div>
   );
 }

@@ -116,7 +116,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
           </Typography>
         </Link>
         {/* only render during voting phase */}
-        <Link
+        {/* <Link
           href="/vote"
           onClick={onClose}
           aria-current={activeLink === "/vote" ? "page" : undefined}
@@ -130,7 +130,7 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
           >
             Vote
           </Typography>
-        </Link>
+        </Link> */}
         <Link
           href="/asi"
           onClick={onClose}

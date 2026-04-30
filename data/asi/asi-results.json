@@ -1,0 +1,32 @@
+{
+  "president": [{ "name": "Ashley Bellorin", "votes": 911, "winner": true }],
+  "vicePresidentForExternalAffairs": [
+    { "name": "Natalie Torres", "votes": 615, "winner": true }
+  ],
+  "vicePresidentforCommunityEngagement": [
+    { "name": "Jesus Anthony Corona", "votes": 708, "winner": true }
+  ],
+  "vicePresidentforFinance": [
+    { "name": "Bryan Alvarado Chavez", "votes": 747, "winner": true }
+  ],
+  "collegeofEthnicStudiesRepresentative": [
+    { "name": "Ekiria Magala", "votes": 12, "winner": true }
+  ],
+  "collegeofArtsandLettersRepresentative": [
+    { "name": "Cinnamon “La Canela” Leggett", "votes": 179, "winner": true }
+  ],
+  "collegeofHealthandHumanServicesRepresentative": [
+    { "name": "Hermione Farrah Hsu", "votes": 293, "winner": true }
+  ],
+  "collegeofNaturalandSocialSciencesRepresentative": [
+    { "name": "Maria Garcia Marroquin", "votes": 101, "winner": true }
+  ],
+  "undergraduateAcademicSenator": [
+    { "name": "Lesley A Duarte", "votes": 683, "winner": true },
+    { "name": "Brandon Torres", "votes": 530, "winner": true },
+    { "name": "Mark Raspopovo", "votes": 470, "winner": true }
+  ],
+  "graduateAcademicSenator": [
+    { "name": "Julia Ryen Johnston", "votes": 106, "winner": true }
+  ]
+}

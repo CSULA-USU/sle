@@ -20,6 +20,8 @@ import {
 } from "@/data/util/election-events-helper";
 import electionEventsData from "@/data/asi/asi-election-events.json";
 import rsodata from "@/data/index/rso.json";
+import { ElectionResults } from "@/modules/ElectionResults/ElectionResults";
+import rsoData from "@/data/rso/rso-results.json";
 
 export const metadata: Metadata = {
   creator:
@@ -99,7 +101,7 @@ export default function Home() {
           </InfoPanel>
         </div> */}
         {/* section for voting phase */}
-        <div>
+        {/* <div>
           <Typography variant="sectionHeader" color="white">
             Your Vote Matters
           </Typography>
@@ -117,8 +119,26 @@ export default function Home() {
               isExternalLink
             />
           </InfoPanel>
-        </div>
+        </div> */}
         <div>
+          <Typography variant="sectionHeader" color="white">
+            2026 Election Results
+          </Typography>
+          <Divider />
+          <InfoPanel
+            title="The results are in!"
+            description="Thank you for participating in the student leader elections. In total, there have been 1,348 votes cast in support of your fellow student leaders. Your vote helps empower representatives to shape campus policies and create meaningful change. Click below to view the official results and meet your new ASI and U–SU leaders."
+            imgAlt="Students celebrating"
+            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-crowd.webp"
+          >
+            <div className="flex flex-wrap gap-4">
+              <Button variant="yellow" text="ASI Winners" href="/asi" />
+              <Button variant="grey" text="U–SU Winners" href="/usu" />
+            </div>
+          </InfoPanel>
+        </div>
+        {/* Leadership Opportunities voting phase */}
+        {/* <div>
           <Typography variant="sectionHeader" color="white">
             Leadership Opportunities
           </Typography>
@@ -131,10 +151,10 @@ export default function Home() {
             <Button variant="yellow" text="ASI Candidates" href="/asi" />
             <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
           </InfoPanel>
-        </div>
+        </div> */}
 
         {/* CTA section for voting phase */}
-        <CTA
+        {/* <CTA
           theme="gold"
           title="Vote Here!"
           description="Click the link below and make a positive impact at Cal State LA"
@@ -145,10 +165,10 @@ export default function Home() {
             text="Cast Your Ballot"
             href="https://calstatela.presence.io/form/2025-student-leader-elections-voting"
           />
-        </CTA>
+        </CTA> */}
 
-        {/* section always available regardless of phase */}
-        <div>
+        {/* election events for voting phase */}
+        {/* <div>
           <Typography variant="sectionHeader" color="white">
             Election Events
           </Typography>
@@ -165,6 +185,18 @@ export default function Home() {
             )}
           </div>
         </div>
+        */}
+
+        {/* RSO Fundraising Winners for results phase */}
+        <ElectionResults
+          sectionTitle="RSO Fundraising Winners"
+          description="Top 3 vote getters for RSO funding."
+          candidates={rsoData.rsoOpportunities}
+          totalVotes={774}
+          dark
+        />
+
+        {/* RSO Opportunities always shown regardless of phase */}
         <div className="text-white">
           <Typography variant="sectionHeader" color="white">
             Recognized Student Organizations Opportunities

@@ -1,0 +1,11 @@
+{
+  "rsoOpportunities": [
+    { "name": "Student Nurses Association", "votes": 70, "winner": true },
+    {
+      "name": "Afro Latin Music-Salsa Club at Cal State LA",
+      "votes": 34,
+      "winner": true
+    },
+    { "name": "ABSN Honor Society", "votes": 32, "winner": true }
+  ]
+}
