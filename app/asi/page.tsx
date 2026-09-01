@@ -146,7 +146,7 @@ export default function ASI() {
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
-          Associated Students, Inc. &mdash; Student Government
+          Associated Students, Inc. Student Government
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
