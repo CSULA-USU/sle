@@ -53,8 +53,8 @@ export default function Home() {
       <h1>
         <HeroHeader
           imgAlt="Cal State LA Student Leader Elections Header that says own it together we can!"
-          imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/Ownit-Slider%203.webp"
-          imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/Own-800x1200.webp"
+          imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/Ownit-Slider%203.webp"
+          imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/Own-800x1200.webp"
         />
       </h1>
       <FluidContainer>
@@ -68,7 +68,7 @@ export default function Home() {
           <InfoPanel
             description="Get to know the candidates, their vision, and how they plan to represent you. Be informed, be involved, and be ready to vote! Click here to learn more about your future student leaders."
             imgAlt="Students leading other students"
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-pages.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/own-it-pages.webp"
           >
             <Button variant="yellow" text="ASI Candidates" href="/asi" />
             <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
@@ -84,7 +84,7 @@ export default function Home() {
           <InfoPanel
             description="Welcome to the most exciting opportunity on campus! Your college adventure is already awesome, but we believe you're ready to take it to the next level with us at Associated Students, Inc., the University-Student Union and Academic Senate! This is your chance to gain invaluable skills and experience while making a positive impact that resonates across campus. You already have what it takes... Own it!"
             imgAlt="Students leader election voting"
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-crowd.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/own-it-crowd.webp"
           >
             <Button
               variant="yellow"
@@ -110,7 +110,7 @@ export default function Home() {
             title="Make your voice heard. Get involved. Vote."
             description="Your vote helps decide who will shape campus policies, organize student programs, and ensure that student voices are heard on key issues. These elected representatives work to improve the student experience and create meaningful change. Opens 4/13 to 4/17 at 8:00 AM for submissions."
             imgAlt="Students voting"
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-crowd.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/own-it-crowd.webp:800w"
           >
             <Button
               variant="yellow"
@@ -129,7 +129,7 @@ export default function Home() {
             title="The results are in!"
             description="Thank you for participating in the student leader elections. In total, there have been 1,348 votes cast in support of your fellow student leaders. Your vote helps empower representatives to shape campus policies and create meaningful change. Click below to view the official results and meet your new ASI and U–SU leaders."
             imgAlt="Students celebrating"
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-crowd.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/own-it-crowd.webp"
           >
             <div className="flex flex-wrap gap-4">
               <Button variant="yellow" text="ASI Winners" href="/asi" />
