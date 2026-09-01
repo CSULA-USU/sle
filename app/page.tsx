@@ -146,7 +146,7 @@ export default function Home() {
           <InfoPanel
             description="Discover how you can boost your campus experience, develop leadership skills, and represent your fellow students! Learn more about Student Leader Election positions and help shape your college’s future. Make your voice count!"
             imgAlt="Students leading other students"
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/hero/own-it-pages.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/own-it-pages.webp"
           >
             <Button variant="yellow" text="ASI Candidates" href="/asi" />
             <Button variant="grey" text="U&ndash;SU Candidates" href="/usu" />
