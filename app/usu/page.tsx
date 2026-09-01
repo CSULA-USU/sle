@@ -145,14 +145,14 @@ export default function USU() {
       </HeroHeader>
       <FluidContainer>
         <Typography variant="sectionHeader" as="h2">
-          University&ndash;Student Union &mdash; Board of Directors
+          University&ndash;Student Union: Board of Directors
         </Typography>
         <Divider margin="lg" />
         <InfoPanel
           title="With open doors and minds, we provide space and opportunities enabling Golden Eagles to soar"
           description="The Board of Directors is the oversight board for the U-SU comprised of student leaders who interact with campus faculty and staff to help provide direction for the U-SU and advocacy for students at Cal State LA. There are 8 positions in total: 6 student directors, 1 vice-chair, and 1 chair."
-          imgAlt="Students leading other students"
-          imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/pages/governance/bod/2026/BOD-Roster.webp"
+          imgAlt="U-SU Board of Directors 2026-2027 Academic Year"
+          imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/supabase-files/bod-2026-retouched.webp"
           theme="light"
         />
 

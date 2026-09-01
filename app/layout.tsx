@@ -4,8 +4,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Bitter, Montserrat } from "next/font/google";
 import { Nav, Footer } from "../modules";
-import "./globals.css";
 import { BackToTop } from "@/components";
+import "./globals.css";
 
 const bitter = Bitter({
   style: ["normal", "italic"],
