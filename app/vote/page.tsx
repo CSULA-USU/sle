@@ -54,8 +54,8 @@ export default function Vote() {
             title="April 13 to 17"
             description="Click the link above to access the voting form on Presence. You can vote from any device with an internet connection. Please note that you will be prompted to login with Cal State LA credentials."
             imgAlt="Screenshot of the hero header section of the Presence voting form."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/00--Voting-Header-Desktop.webp"
-            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/00--Voting-Header-Mobile.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/desktop/00--Voting-Header-Desktop.webp"
+            imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/mobile/00--Voting-Header-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -73,8 +73,8 @@ export default function Vote() {
           <InfoPanel
             title="View ASI Candidates"
             imgAlt="Toggle shows a radio section to view candidates or hide the options."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/01--View-ASI-Candidates-Desktop.webp"
-            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/01--View-ASI-Candidates-Mobile.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/desktop/01--View-ASI-Candidates-Desktop.webp"
+            imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/mobile/01--View-ASI-Candidates-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -93,8 +93,8 @@ export default function Vote() {
             title="Cast Your Vote"
             description="Select the candidate you feel will make the most positive impact on your campus."
             imgAlt="Radio button of candidate names."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/02--Cast-Your-Vote-Desktop.webp"
-            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/02--Cast-Your-Vote-Mobile.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/desktop/02--Cast-Your-Vote-Desktop.webp"
+            imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/mobile/02--Cast-Your-Vote-Mobile.webp"
             theme="light"
           />
 
@@ -105,8 +105,8 @@ export default function Vote() {
           <InfoPanel
             title="View College Representatives"
             imgAlt="Radio button of colleges."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/03--View-College-Representatives-Desktop.webp"
-            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/03--View-College-Representatives-Mobile.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/desktop/03--View-College-Representatives-Desktop.webp"
+            imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/mobile/03--View-College-Representatives-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -133,8 +133,8 @@ export default function Vote() {
           <InfoPanel
             title="Voting for the U-SU Board of Directors"
             imgAlt="checkbox input. Select up to 8 candidates for the U-SU Board of Directors."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/04--Voting-for-the%20U-SU%20Board-of-Directors-Desktop.webp"
-            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/04--Voting-for-the%20U-SU%20Board-of-Directors-Mobile.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/desktop/04--Voting-for-the%20U-SU%20Board-of-Directors-Desktop.webp"
+            imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/mobile/04--Voting-for-the%20U-SU%20Board-of-Directors-Mobile.webp"
             theme="light"
           >
             <Typography variant="informational" color="black">
@@ -153,8 +153,8 @@ export default function Vote() {
           <InfoPanel
             title="Your Vote = Real Support"
             imgAlt="Screenshot of the RSO voting section. Select one RSO at a time from the dropdown menu."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/desktop/05--RSO-Voting-Desktop.webp"
-            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/05--RSO-Voting-Mobile.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/desktop/05--RSO-Voting-Desktop.webp"
+            imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/mobile/05--RSO-Voting-Mobile.webp"
             theme="light"
             list={[
               "You don't need to be a member to vote! Just show love for a group that's doing great work on campus",
@@ -179,8 +179,8 @@ export default function Vote() {
             title="Submit your Vote"
             description="When you're finished, return to the top and click the green submit button. All done! Thank you for making the campus a better place!"
             imgAlt="Green submit button at the top right corner of the page is available upon completion."
-            imgSrc="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/06--Submit-your-Vote-Mobile.webp"
-            imgSrcMobile="https://svskmbmsunldqkjomhhm.supabase.co/storage/v1/object/public/vote/instructions/mobile/06--Submit-your-Vote-Mobile.webp"
+            imgSrc="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/desktop/06--Submit-your-Vote-Desktop.webp"
+            imgSrcMobile="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/sle/instructions/mobile/06--Submit-your-Vote-Mobile.webp"
             theme="light"
           />
         </div>
