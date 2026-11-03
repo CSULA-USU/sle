@@ -99,12 +99,12 @@ export default function USU() {
         imgSrcMobile="logos/sle-logo.png"
       >
         {/* Buttons only needed during recruitment phase */}
-        {/* <Button
+        <Button
           variant="yellow"
-          text="Application"
-          href="https://form.jotform.com/210416532268047"
+          text="Apply for Spring 2027"
+          href="https://form.jotform.com/263026714107147"
           isExternalLink
-        /> */}
+        />
         {/* <Button
           variant="yellow"
           text="Application"
@@ -128,12 +128,12 @@ export default function USU() {
         /> */}
 
         {/* Button only for results phase */}
-        <Button
+        {/* <Button
           variant="yellow"
           text="Winners"
           href="#candidates-section"
           class="mr-4"
-        />
+        /> */}
         {/* <Button
           variant="grey"
           text="Vote Totals"
@@ -186,7 +186,9 @@ export default function USU() {
           {/*<Typography variant="sectionHeader">Meet the Candidates</Typography>*/}
 
           {/* Show this title only in results phase */}
-          <Typography variant="sectionHeader">Meet the Winners</Typography>
+          <Typography variant="sectionHeader">
+            Meet the Board of Directors
+          </Typography>
 
           <Divider margin="lg" />
           {/* Voting section only */}
